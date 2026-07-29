@@ -4,6 +4,9 @@ node_modules/
 .pnpm-store/
 .vendor-build/
 
+# Reference materials (large, not needed for running)
+参考资料/
+
 # Build artifacts
 dist/
 tmp/
