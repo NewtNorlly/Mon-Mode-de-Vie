@@ -1,0 +1,35 @@
+{
+  "date": "2025-06-20",
+  "locales": {
+    "en": {
+      "location": "Qingchichuan Bistro, Guanshan Avenue, Hongshan District, Wuhan, Hubei",
+      "blocks": [
+        "Undergraduate list +1: four years of study, two places in River City; Optics Valley, Yujia; think of a way, squeeze out (make up) a story, cadge a meal at a (Fang) banquet.",
+        "A lot was going on at the time. I had meant to find an excuse and decline politely, but Director Fang was far too kind—so sincere and friendly! So I went to the dinner."
+      ],
+      "imageCaptions": [
+        "2025/06/20 · Dinner hosted by Director Fang"
+      ]
+    },
+    "fr": {
+      "location": "Petit restaurant Qingchichuan, avenue Guanshan, district de Hongshan, Wuhan, Hubei",
+      "blocks": [
+        "Liste des étudiants de licence +1 : quatre années d’études, deux coins de la Ville-Fleuve ; Optics Valley, Yujia ; trouver une idée, arracher (inventer) une histoire, grappiller un repas au banquet (de Fang).",
+        "J’avais énormément de choses à faire à ce moment-là. Je comptais trouver un prétexte et décliner avec tact, mais le directeur Fang était bien trop gentil, vraiment sincère et chaleureux ! Alors je suis allé au dîner."
+      ],
+      "imageCaptions": [
+        "2025/06/20 · Dîner offert par le directeur Fang"
+      ]
+    },
+    "de": {
+      "location": "Bistro Qingchichuan, Guanshan-Allee, Stadtbezirk Hongshan, Wuhan, Hubei",
+      "blocks": [
+        "Bachelorstudenten-Liste +1: vier Jahre Studium, zwei Orte in der Flussstadt; Optics Valley, Yujia; sich etwas einfallen lassen, eine Geschichte herausquetschen (erfinden), eine Mahlzeit beim (Fang-)Bankett abstauben.",
+        "Damals war sehr viel los. Eigentlich wollte ich mir eine Ausrede einfallen lassen und höflich absagen, aber Direktor Fang war einfach viel zu nett, so aufrichtig und freundlich! Also ging ich zum Essen."
+      ],
+      "imageCaptions": [
+        "2025/06/20 · Von Direktor Fang spendiertes Essen"
+      ]
+    }
+  }
+}

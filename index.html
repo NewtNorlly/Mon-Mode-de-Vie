@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="neko" data-mode="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="theme-color" content="#eaf5e8" />
+  <meta name="description" content="Mon Mode de Vie — 一间关于生活、时间、故事与珍藏的数字会客厅。" />
+  <title>Mon Mode de Vie</title>
+  <link rel="stylesheet" href="./third_party/tui-calendar/tui-calendar.min.css" />
+  <link rel="stylesheet" href="./styles.css?v=20260729-rebuild" />
+  <link rel="stylesheet" href="./calendar.css?v=20260729-rebuild" />
+  <link rel="stylesheet" href="./journal-module.css?v=20260729-rebuild" />
+  <link rel="stylesheet" href="./album-gallery.css?v=20260729-rebuild" />
+</head>
+<body>
+
+<svg class="icon-sprite" aria-hidden="true">
+  <symbol id="icon-panel-left" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16M6.5 9.5 4 12l2.5 2.5"/></symbol>
+  <symbol id="icon-panel-right" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M15 4v16m2.5-10.5L20 12l-2.5 2.5"/></symbol>
+  <symbol id="icon-sofa" viewBox="0 0 24 24"><path d="M6.5 11V8.5A3.5 3.5 0 0 1 10 5h4a3.5 3.5 0 0 1 3.5 3.5V11"/><path d="M5 10.5a2 2 0 0 0-2 2V17h18v-4.5a2 2 0 1 0-4 0V14H7v-1.5a2 2 0 0 0-2-2Z"/><path d="M5 17v2m14-2v2"/></symbol>
+  <symbol id="icon-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 10h18M7 14h2m3 0h2m3 0h1M7 17h2m3 0h2"/></symbol>
+  <symbol id="icon-journal" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11a3 3 0 0 1 3 3v15a3 3 0 0 0-3-3H6.5A2.5 2.5 0 0 0 4 20.5Z"/><path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H14v18a3 3 0 0 1 3-3h.5a2.5 2.5 0 0 1 2.5 2.5Z"/></symbol>
+  <symbol id="icon-album" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="2"/><circle cx="9" cy="10" r="1.5"/><path d="m6.5 17 4-4 2.5 2 2.5-3 2 2.5"/></symbol>
+  <symbol id="icon-cloud" viewBox="0 0 24 24"><path d="M7.5 18.5h10a4 4 0 0 0 .5-8 6.3 6.3 0 0 0-12-1.5 4.8 4.8 0 0 0 1.5 9.5Z"/></symbol>
+  <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+  <symbol id="icon-game" viewBox="0 0 24 24"><path d="M8 8h8a5 5 0 0 1 4.7 3.3l1.1 3.2a3 3 0 0 1-5.1 3l-1.2-1.4h-7l-1.2 1.4a3 3 0 0 1-5.1-3l1.1-3.2A5 5 0 0 1 8 8Z"/><path d="M7 11v4m-2-2h4m7-1h.01m2 2h.01"/></symbol>
+  <symbol id="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></symbol>
+  <symbol id="icon-moon" viewBox="0 0 24 24"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5Z"/></symbol>
+  <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+  <symbol id="icon-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+</svg>
+
+<div class="app-shell" id="appShell" data-module="home">
+
+  <!-- ═══ 顶部导航 ═══ -->
+  <header class="topbar" id="topbar">
+    <div class="topbar-edge topbar-edge--left">
+      <button class="icon-button" id="leftToggle" type="button" aria-controls="leftPanel" aria-expanded="true" data-tooltip="作者精选">
+        <svg><use href="#icon-panel-left"/></svg>
+      </button>
+    </div>
+
+    <nav class="primary-nav">
+      <button class="nav-item is-active" data-module="home" aria-current="page" aria-label="Home">
+        <svg><use href="#icon-sofa"/></svg>
+      </button>
+      <button class="nav-item" data-module="now" aria-label="Now">
+        <svg><use href="#icon-calendar"/></svg>
+      </button>
+      <button class="nav-item" data-module="journal" aria-label="Journal">
+        <svg><use href="#icon-journal"/></svg>
+      </button>
+      <button class="nav-item" data-module="album" aria-label="Album">
+        <svg><use href="#icon-album"/></svg>
+      </button>
+      <button class="nav-item" id="cloudToggle" type="button" aria-controls="cloudMenu" aria-expanded="false" aria-label="Cloud">
+        <svg><use href="#icon-cloud"/></svg>
+      </button>
+    </nav>
+
+    <div class="topbar-edge topbar-edge--right">
+      <button class="icon-button" id="rightToggle" type="button" aria-controls="rightPanel" aria-expanded="true" data-tooltip="小巧思">
+        <svg><use href="#icon-panel-right"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══ 云菜单 ═══ -->
+  <div class="cloud-menu" id="cloudMenu" hidden>
+    <div class="cloud-menu__header">
+      <div><p class="cloud-kicker">Le petit nuage</p><h2>那朵小云</h2></div>
+      <button class="icon-button" id="cloudClose" type="button"><svg><use href="#icon-close"/></svg></button>
+    </div>
+
+    <section class="cloud-section">
+      <div class="cloud-section__heading">
+        <h3>明暗</h3>
+        <div class="segmented-control">
+          <button type="button" data-mode-choice="light" class="is-selected"><svg><use href="#icon-sun"/></svg><span>明亮</span></button>
+          <button type="button" data-mode-choice="dark"><svg><use href="#icon-moon"/></svg><span>夜间</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="cloud-section">
+      <h3>主题</h3>
+      <div class="theme-grid" id="themeGrid"></div>
+    </section>
+
+    <section class="cloud-section">
+      <h3>语言</h3>
+      <div class="language-row">
+        <button type="button" data-language="zh" class="is-selected">中文</button>
+        <button type="button" data-language="en">EN</button>
+        <button type="button" data-language="fr">FR</button>
+        <button type="button" data-language="de">DE</button>
+      </div>
+    </section>
+
+    <div class="cloud-links">
+      <button type="button" id="contactToggle"><span>联系方式</span><small>有事请联系</small></button>
+      <a href="https://github.com/NewtNorlly" target="_blank" rel="noopener noreferrer" class="cloud-link-button"><span>友情链接</span><small>github.com/NewtNorlly</small></a>
+    </div>
+  </div>
+
+  <!-- ═══ 三栏工作区 ═══ -->
+  <div class="workspace" id="workspace">
+
+    <!-- 左栏 -->
+    <aside class="side-panel side-panel--left" id="leftPanel">
+      <div class="panel-heading"><h2>作者精选</h2></div>
+      <div class="picks-list">
+        <article class="pick-media-card">
+          <div class="embed-frame" data-embed-provider="bilibili">
+            <button class="embed-consent" type="button"
+              data-embed-src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=382415897&amp;bvid=BV1aZ4y167bp&amp;cid=555406606&amp;p=1&amp;autoplay=0"
+              data-embed-title="Book selection">
+              <img class="pick-cover" src="./assets/picks/book-pencil-garden.png" alt="" width="720" height="720" decoding="async" />
+              <span class="pick-category">书</span>
+              <span class="pick-play-mark" aria-hidden="true"><svg><use href="#icon-chevron"/></svg></span>
+            </button>
+          </div>
+        </article>
+        <article class="pick-media-card">
+          <div class="embed-frame" data-embed-provider="bilibili">
+            <button class="embed-consent" type="button"
+              data-embed-src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115230768105995&amp;bvid=BV1kZWVzWEfC&amp;cid=32489736991&amp;p=1"
+              data-embed-title="Film selection">
+              <img class="pick-cover" src="./assets/picks/film-pencil-rainlight.png" alt="" width="720" height="720" decoding="async" />
+              <span class="pick-category">影</span>
+              <span class="pick-play-mark" aria-hidden="true"><svg><use href="#icon-chevron"/></svg></span>
+            </button>
+          </div>
+        </article>
+        <article class="pick-media-card">
+          <div class="embed-frame" data-embed-provider="bilibili">
+            <button class="embed-consent" type="button"
+              data-embed-src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=888306970&amp;bvid=BV1DK4y1G7uX&amp;cid=352497928&amp;p=1&amp;autoplay=0"
+              data-embed-title="Music selection">
+              <img class="pick-cover" src="./assets/picks/music-pencil-jasmine.png" alt="" width="720" height="720" decoding="async" />
+              <span class="pick-category">音</span>
+              <span class="pick-play-mark" aria-hidden="true"><svg><use href="#icon-chevron"/></svg></span>
+            </button>
+          </div>
+        </article>
+      </div>
+    </aside>
+
+    <div class="resize-handle resize-handle--left" id="leftResize" role="separator" aria-orientation="vertical" tabindex="0"></div>
+
+    <!-- 中央主模块 -->
+    <main class="main-stage" id="mainStage">
+      <section class="module-view is-active" data-view="home">
+        <div class="home-chat" id="homeChat">
+          <p class="chat-day">你已经来到了NewtNorlly的MMDV</p>
+          <div class="chat-thread" id="chatThread">
+            <div class="chat-opening" id="chatOpening">
+              <article class="chat-message chat-message--host">
+                <img class="chat-avatar" src="./assets/avatars/host-mooncat.png" alt="" width="96" height="96" decoding="async" />
+                <div class="chat-message__content">
+                  <span class="chat-name">NewtNorlly</span>
+                  <div class="chat-bubble"><p>如果你愿意，我们就从这里慢慢认识。</p></div>
+                </div>
+              </article>
+            </div>
+            <div class="chat-choices" id="guideOptions">
+              <button type="button" class="chat-choice" data-guide="recent">最近在忙什么？</button>
+              <button type="button" class="chat-choice" data-guide="living">你平时怎么生活？</button>
+              <button type="button" class="chat-choice" data-guide="treasures">带我看看你珍藏的东西</button>
+              <button type="button" class="chat-choice" data-guide="wander">我先随便逛逛</button>
+              <button type="button" class="chat-choice chat-choice--anniversary" id="anniversaryOption" data-guide="anniversary">
+                <span class="chat-choice__date"><b id="todayDay">29</b><small id="todayMonth">JUL</small></span>
+                <span>我想听听今天的纪念日茶话</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="module-view" data-view="now" hidden>
+        <div class="module-sheet calendar-sheet">
+          <div class="calendar-toolbar">
+            <label class="calendar-date-jump"><input id="calendarDateJump" type="date" /></label>
+            <strong id="calendarPeriod">2026年7月</strong>
+            <div class="view-switch">
+              <button type="button" data-calendar-view="year">年</button>
+              <button type="button" data-calendar-view="month" class="is-selected">月</button>
+              <button type="button" data-calendar-view="week">周</button>
+              <button type="button" data-calendar-view="day">日</button>
+            </div>
+          </div>
+          <div class="calendar-frame">
+            <div class="tui-calendar-viewport" id="calendarViewport"><div class="mmv-calendar" id="calendarRoot"></div></div>
+            <div class="calendar-year-view" id="calendarYearView" hidden></div>
+            <p class="calendar-fallback" id="calendarFallback" hidden>日历组件暂时没有加载成功。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="module-view" data-view="journal" hidden>
+        <div class="module-sheet journal-sheet">
+          <div class="journal-ledger" id="journalLedger"></div>
+        </div>
+      </section>
+
+      <section class="module-view" data-view="album" hidden>
+        <div class="module-sheet album-sheet">
+          <div class="album-tabs-wrap"><div class="album-tabs" id="albumTabs" role="tablist"></div></div>
+          <div class="album-grid" id="albumGrid" role="tabpanel"></div>
+        </div>
+      </section>
+    </main>
+
+    <div class="resize-handle resize-handle--right" id="rightResize" role="separator" aria-orientation="vertical" tabindex="0"></div>
+
+    <!-- 右栏 -->
+    <aside class="side-panel side-panel--right" id="rightPanel">
+      <div class="panel-heading"><h2>小巧思</h2></div>
+
+      <button class="envelope-card" id="envelopeToggle" type="button" aria-expanded="false" aria-controls="authorLetter">
+        <span class="envelope-illustration" aria-hidden="true">
+          <i class="envelope-flap"></i>
+          <svg><use href="#icon-mail"/></svg>
+        </span>
+        <span><small>一封信</small><strong>看看作者的留言</strong></span>
+      </button>
+
+      <div class="author-letter" id="authorLetter" hidden>
+        <div class="letter-paper">
+          <p>多做一些朝花夕拾的事，少做一些半途而废的事。</p>
+          <button type="button" id="letterClose">折好这封信</button>
+        </div>
+      </div>
+
+      <section class="game-card">
+        <header>
+          <svg><use href="#icon-game"/></svg>
+          <div><h3>玩玩小游戏</h3></div>
+        </header>
+        <iframe class="game-frame" id="paperRunFrame" src="./game/index.html" sandbox="allow-scripts" loading="lazy" referrerpolicy="no-referrer" title="纸上漫游小游戏"></iframe>
+      </section>
+    </aside>
+
+  </div>
+</div>
+
+<button class="mobile-scrim" id="mobileScrim" type="button" aria-label="Close panels" hidden></button>
+
+<script src="./third_party/tui-calendar/vendor/tui-code-snippet.min.js"></script>
+<script src="./third_party/tui-calendar/tui-calendar.min.js"></script>
+<script src="./journals/data/journals.js"></script>
+<script src="./journal-data.js"></script>
+<script src="./calendar-data.js"></script>
+<script src="./script.js?v=20260729-rebuild"></script>
+<script src="./journal-module.js"></script>
+<script src="./album-data.js"></script>
+<script src="./album-module.js"></script>
+</body>
+</html>

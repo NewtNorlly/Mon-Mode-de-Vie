@@ -1,0 +1,208 @@
+:root {
+  color-scheme: light;
+  --game-background: hsl(43 19% 93%);
+  --game-foreground: hsl(220 16% 16%);
+  --game-card: hsl(40 28% 98%);
+  --game-secondary: hsl(42 18% 89%);
+  --game-muted: hsl(220 7% 42%);
+  --game-accent: hsl(204 28% 88%);
+  --game-accent-foreground: hsl(202 37% 25%);
+  --game-border: hsl(39 13% 80%);
+  --game-story: hsl(18 48% 54%);
+  --game-font: var(--font-serif);
+}
+
+:root[data-mode="dark"] {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  min-width: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+  color: var(--game-foreground);
+  background: transparent;
+  font-family: var(--game-font);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+button {
+  color: inherit;
+  font: inherit;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--game-accent-foreground);
+  outline-offset: 3px;
+}
+
+.runner-shell {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100dvh;
+  padding: 10px;
+  border: 1px solid color-mix(in srgb, var(--game-border), transparent 8%);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--game-card), transparent 4%), color-mix(in srgb, var(--game-accent), transparent 64%));
+}
+
+.runner-meta {
+  margin-bottom: 8px;
+}
+
+.runner-meta p {
+  margin: 0;
+  font-size: clamp(14px, 5vw, 16px);
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+.score-line {
+  position: absolute;
+  z-index: 2;
+  top: 7px;
+  right: 7px;
+  display: flex;
+  align-items: baseline;
+  margin: 0;
+  padding: 3px 6px;
+  gap: 4px;
+  border: 1px solid color-mix(in srgb, var(--game-border), transparent 22%);
+  border-radius: 999px;
+  color: var(--game-muted);
+  background: color-mix(in srgb, var(--game-card), transparent 10%);
+  font-size: clamp(12px, 4.6vw, 14px);
+  line-height: 1.2;
+  pointer-events: none;
+}
+
+.score-line output {
+  color: var(--game-foreground);
+  font-variant-numeric: tabular-nums;
+}
+
+.game-stage {
+  position: relative;
+  width: 100%;
+  height: clamp(166px, min(78vw, 42dvh), 202px);
+  flex: 0 0 auto;
+  overflow: hidden;
+  border: 1px solid var(--game-border);
+  border-radius: 6px;
+  background: var(--game-card);
+  cursor: pointer;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: manipulation;
+}
+
+canvas:focus-visible {
+  outline: 2px solid var(--game-accent-foreground);
+  outline-offset: -3px;
+}
+
+.game-overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  padding: 18px;
+  place-items: center;
+  color: var(--game-foreground);
+  background: color-mix(in srgb, var(--game-card), transparent 22%);
+  text-align: center;
+  pointer-events: none;
+}
+
+.game-overlay strong {
+  max-width: 15ch;
+  padding: 7px 9px;
+  border: 1px solid color-mix(in srgb, var(--game-border), transparent 24%);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--game-card), transparent 8%);
+  font-size: clamp(15px, 6vw, 18px);
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+#gameAction {
+  width: 100%;
+  min-height: 46px;
+  margin-top: 8px;
+  padding: 8px 14px;
+  border: 1px solid var(--game-border);
+  border-radius: 6px;
+  color: var(--game-accent-foreground);
+  background: var(--game-accent);
+  font-size: clamp(15px, 6vw, 17px);
+  font-weight: 600;
+  transition: transform 110ms ease, filter 150ms ease;
+}
+
+#gameAction:hover {
+  filter: brightness(1.035);
+}
+
+#gameAction:active {
+  transform: translateY(1px);
+}
+
+.license-note {
+  margin: auto 0 0;
+  padding-top: 8px;
+  color: var(--game-muted);
+  font-size: clamp(12px, 4vw, 13px);
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+@media (max-width: 210px) {
+  .runner-shell {
+    padding: 8px;
+  }
+
+  .runner-meta {
+    margin-bottom: 6px;
+  }
+
+  .score-line span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  #gameAction {
+    min-height: 44px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #gameAction {
+    transition: none;
+  }
+}

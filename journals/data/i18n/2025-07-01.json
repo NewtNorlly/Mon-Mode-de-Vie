@@ -1,0 +1,32 @@
+{
+  "date": "2025-07-01",
+  "locales": {
+    "en": {
+      "location": "Third Floor, Baihuiyuan, Huazhong University of Science and Technology",
+      "blocks": [
+        "On July 1, Zisong Student Apartments organised a dorm-room move because some of the residence buildings were going to be renovated over the summer. I moved the clothes and other things I would not need during the holiday to the third floor of Baihuiyuan Cafeteria. Sorting, packing and hauling everything took me an entire day. It was brutal—I was so tired I could barely walk."
+      ],
+      "imageCaptions": [
+        "Luggage stored on the third floor of Baihuiyuan"
+      ]
+    },
+    "fr": {
+      "location": "Troisième étage de Baihuiyuan, Université des sciences et technologies de Huazhong",
+      "blocks": [
+        "Le 1er juillet, la résidence étudiante Zisong a organisé un déménagement des chambres, car certains bâtiments devaient être rénovés pendant les vacances d’été. J’ai donc transporté au troisième étage du restaurant universitaire Baihuiyuan les vêtements et les autres affaires dont je n’aurais pas besoin cet été. Rien que trier, emballer et déplacer le tout m’a pris une journée entière. Une vraie tuerie : j’étais si épuisé que je n’arrivais presque plus à marcher."
+      ],
+      "imageCaptions": [
+        "Bagages entreposés au troisième étage de Baihuiyuan"
+      ]
+    },
+    "de": {
+      "location": "Dritter Stock des Baihuiyuan, Huazhong-Universität für Wissenschaft und Technik",
+      "blocks": [
+        "Am 1. Juli organisierte das Studierendenwohnheim Zisong einen Umzug zwischen den Zimmern, weil einige Wohngebäude in den Sommerferien renoviert werden sollten. Also brachte ich die Kleidung und die anderen Sachen, die ich im Sommer nicht brauchen würde, in den dritten Stock der Baihuiyuan-Mensa. Allein das Sortieren, Einpacken und Schleppen kostete mich einen ganzen Tag. Es war mörderisch—ich war so erschöpft, dass ich kaum noch laufen konnte."
+      ],
+      "imageCaptions": [
+        "Im dritten Stock des Baihuiyuan gelagertes Gepäck"
+      ]
+    }
+  }
+}

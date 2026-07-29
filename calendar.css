@@ -1,0 +1,110 @@
+/* ═══════════════════════════════════════════════
+   Mon Mode de Vie — calendar.css (rebuild 2026-07-29)
+   ═══════════════════════════════════════════════ */
+
+.calendar-sheet {
+  --cal-font: var(--font-serif);
+  --cal-ink: #1a2744;
+  --cal-ink-muted: #3d5270;
+  --cal-surface: hsl(var(--card));
+  --cal-grid: hsl(var(--border) / 0.78);
+  --cal-accent: hsl(var(--accent-foreground));
+  --cal-hover: hsl(var(--accent) / 0.34);
+
+  width: min(1220px, calc(100% - 48px));
+  padding: 20px 32px 36px;
+  color: var(--cal-ink);
+  font-family: var(--cal-font);
+  font-size: 15px;
+}
+
+/* ── Toolbar ── */
+.calendar-toolbar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 16px;
+  padding: 0 0 14px;
+}
+.calendar-toolbar input[type="date"] {
+  min-height: 40px; padding: 6px 10px;
+  border: 1px solid var(--cal-grid); border-radius: var(--radius-sm);
+  background: hsl(var(--card) / 0.82); color: var(--cal-ink);
+  font-size: var(--text-sm);
+}
+#calendarPeriod {
+  text-align: center;
+  font-family: var(--cal-font);
+  font-size: clamp(22px, 2.4vw, 30px);
+  font-weight: 500;
+}
+.view-switch { display: flex; gap: 2px; padding: 3px; border-radius: var(--radius-md); background: hsl(var(--secondary)); }
+.view-switch button {
+  min-width: 44px; min-height: 36px; padding: 5px 10px;
+  border-radius: var(--radius-sm); background: transparent;
+  font-size: var(--text-sm);
+}
+.view-switch button.is-selected { background: hsl(var(--card)); box-shadow: 0 1px 4px hsl(var(--foreground) / 0.06); }
+
+/* ── Calendar Frame ── */
+.calendar-frame {
+  overflow: hidden;
+  border: 1px solid var(--cal-grid); border-radius: var(--radius-md);
+  background: hsl(var(--card) / 0.9);
+}
+.tui-calendar-viewport { overflow: hidden; background: var(--cal-surface); }
+#calendarRoot {
+  width: 100%; height: clamp(680px, 75vh, 860px);
+  color: var(--cal-ink); background: var(--cal-surface);
+  font-family: var(--cal-font); font-size: 14px;
+}
+
+/* ── Schedule cards ── */
+#calendarRoot .mmv-tui-schedule {
+  border-radius: 10px;
+  padding: 4px 8px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 1px 4px hsl(var(--foreground) / 0.08);
+}
+#calendarRoot .mmv-tui-schedule__title {
+  font-family: var(--font-serif);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+#calendarRoot :where(.mmv-tui-schedule__time, .mmv-tui-schedule__location) {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 0.03em;
+}
+
+/* ── TUI overrides (essential) ── */
+#calendarRoot .tui-full-calendar-layout { background: var(--cal-surface) !important; }
+#calendarRoot :where(.tui-full-calendar-month-dayname-item, .tui-full-calendar-weekday-grid-line) {
+  border-color: hsl(var(--border) / 0.78) !important;
+  color: var(--cal-ink) !important;
+  background: transparent !important;
+}
+#calendarRoot .tui-full-calendar-today { background-color: hsl(var(--accent) / 0.34) !important; }
+#calendarRoot .mmv-tui-date-button, #calendarRoot .mmv-tui-dayname-button {
+  min-width: 40px; min-height: 40px;
+  border-radius: var(--radius-sm);
+  color: var(--cal-ink); background: transparent;
+  font-family: var(--cal-font); font-size: 14px;
+}
+#calendarRoot .mmv-tui-date-button:hover { background: var(--cal-hover); }
+#calendarRoot .tui-full-calendar-today .mmv-tui-date-button {
+  color: hsl(var(--card)); background: var(--cal-accent); font-weight: 600;
+}
+
+/* ── Fallback ── */
+.calendar-fallback {
+  display: grid; place-items: center; min-height: 300px;
+  color: var(--cal-ink-muted); font-size: 15px; text-align: center;
+}
+
+@media (max-width: 840px) {
+  .calendar-sheet { width: calc(100% - 24px); padding: 18px 18px 28px; }
+  .calendar-toolbar { grid-template-columns: 1fr 1fr; }
+  #calendarPeriod { grid-column: 1/3; }
+}

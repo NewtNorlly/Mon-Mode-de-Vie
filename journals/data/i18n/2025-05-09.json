@@ -1,0 +1,53 @@
+{
+  "date": "2025-05-09",
+  "locales": {
+    "en": {
+      "location": "Front desk of Building 8, Zisong Student Apartments, Huazhong University of Science and Technology",
+      "blocks": [
+        "I do not feel like staying up late tonight…",
+        "I have plenty of thoughts and stories, but I do not dare post them on a public platform, so I am sending them out en masse to my teachers and friends.",
+        "Last night I was on duty in Zisong Building 8 when a friend of the dorm supervisor auntie came by for a visit.",
+        "When that middle-aged auntie walked up to the front desk, I was still scratching my head and gazing idly at the sparrows in the flowerbed outside. I did not realize that she was looking at me and saying to herself, ‘So young…’",
+        "Startled, I looked at the auntie. She explained: ‘I was thinking you look so young. How old are you?’",
+        "Playing along, I said: ‘I’m eighteen, a first-year student…’",
+        "The auntie asked: ‘Can even first-year students work as residential assistants?’",
+        "I thought for a moment and said: ‘Starting this year, yes.’",
+        "I now realize that, judging by our ‘faces’ alone, there is an ‘age gap’ between me and most of my fellow students!",
+        "When Xia Gong heard about this, he told me without the slightest attempt at tact: ‘Yeah, you look as if you were just born.’"
+      ],
+      "imageCaptions": []
+    },
+    "fr": {
+      "location": "Accueil du bâtiment 8, résidence étudiante Zisong, Université des sciences et technologies de Huazhong",
+      "blocks": [
+        "Ce soir, je n’ai pas envie de veiller tard…",
+        "J’ai quantité d’idées et d’histoires, mais je n’ose pas les publier sur une plateforme publique ; alors je les envoie en masse à mes professeurs et à mes amis.",
+        "Hier soir, j’étais de permanence au bâtiment 8 de Zisong lorsqu’une amie de la tante responsable du dortoir est passée lui rendre visite.",
+        "Quand cette tante d’âge mûr est arrivée à l’accueil, je me grattais encore la tête, le regard perdu vers les moineaux dans le parterre de fleurs, sans rien avoir à faire. Je ne m’étais pas rendu compte qu’elle me regardait et disait toute seule : ‘Qu’il est jeune…’",
+        "Surpris, je me suis tourné vers elle. Elle a expliqué : ‘Je me disais que tu avais l’air vraiment jeune. Tu as quel âge ?’",
+        "Entrant dans son jeu, j’ai répondu : ‘J’ai dix-huit ans, je suis en première année…’",
+        "La tante a demandé : ‘Même les étudiants de première année peuvent travailler comme assistants de résidence ?’",
+        "J’ai réfléchi un instant avant de répondre : ‘À partir de cette année, oui.’",
+        "Je m’aperçois maintenant que, rien qu’à en juger par le ‘visage’, il y a un ‘écart d’âge’ entre moi et la plupart de mes camarades de l’université !",
+        "Lorsque Xia Gong a appris l’histoire, il m’a dit sans prendre la moindre pincette : ‘Mais oui, on dirait que tu viens juste de naître.’"
+      ],
+      "imageCaptions": []
+    },
+    "de": {
+      "location": "Empfang von Gebäude 8, Zisong-Studentenwohnheim, Huazhong-Universität für Wissenschaft und Technik",
+      "blocks": [
+        "Heute Abend habe ich keine Lust, lange aufzubleiben…",
+        "Ich habe viele Gedanken und Geschichten, traue mich aber nicht, sie auf einer öffentlichen Plattform zu posten. Deshalb schicke ich sie als Rundnachricht an meine Lehrer und Freunde.",
+        "Gestern Abend hatte ich in Gebäude 8 von Zisong Dienst, als eine Freundin der Wohnheimtante zu Besuch kam.",
+        "Als diese ältere Dame mittleren Alters zum Empfang kam, kratzte ich mich noch am Kopf und starrte untätig auf die Spatzen im Blumenbeet draußen. Mir war nicht aufgefallen, dass sie mich ansah und vor sich hin sagte: ‘So jung…’",
+        "Erschrocken blickte ich zu ihr. Sie erklärte: ‘Ich fand nur, dass du so jung aussiehst. Wie alt bist du?’",
+        "Ich ging darauf ein und sagte: ‘Ich bin achtzehn, im ersten Studienjahr…’",
+        "Die Tante fragte: ‘Können denn sogar Erstsemester als Wohnheimassistenten arbeiten?’",
+        "Ich überlegte kurz und sagte: ‘Seit diesem Jahr schon.’",
+        "Jetzt stelle ich fest, dass zwischen mir und den meisten meiner Kommilitonen – rein vom ‘Gesicht’ her – ein ‘Altersunterschied’ besteht!",
+        "Als Xia Gong davon erfuhr, sagte er mir ohne jede Umschweife: ‘Ja, du siehst aus, als wärst du gerade erst auf die Welt gekommen.’"
+      ],
+      "imageCaptions": []
+    }
+  }
+}
