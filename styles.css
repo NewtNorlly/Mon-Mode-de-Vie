@@ -1,8 +1,7 @@
-/* ═══════════════════════════════════════════════
-   Mon Mode de Vie — styles.css (rebuild 2026-07-29)
-   ═══════════════════════════════════════════════ */
+﻿/* 鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺?   Mon Mode de Vie 鈥?styles.css (rebuild 2026-07-29)
+   鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺?*/
 
-/* ── Design Tokens ── */
+/* 鈹€鈹€ Design Tokens 鈹€鈹€ */
 :root {
   color-scheme: light;
   --background: 70 49% 92%;
@@ -73,7 +72,7 @@
   --shadow-panel: 0 24px 60px rgb(0 0 0 / 0.24);
 }
 
-/* ── Reset ── */
+/* 鈹€鈹€ Reset 鈹€鈹€ */
 *, *::before, *::after { box-sizing: border-box; }
 html, body { width: 100%; min-width: 320px; height: 100%; margin: 0; }
 body {
@@ -95,13 +94,13 @@ svg { width: 1.25rem; height: 1.25rem; fill: none; stroke: currentColor; stroke-
 a { color: inherit; text-decoration: none; }
 .icon-sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
 
-/* ── App Shell ── */
+/* 鈹€鈹€ App Shell 鈹€鈹€ */
 .app-shell {
   width: 100%; height: 100dvh; overflow: hidden;
   background: radial-gradient(circle at 50% -18%, hsl(var(--card) / 0.92), transparent 42%), hsl(var(--background));
 }
 
-/* ── Top Bar ── */
+/* 鈹€鈹€ Top Bar 鈹€鈹€ */
 .topbar {
   position: relative; z-index: 30;
   display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
@@ -139,7 +138,7 @@ a { color: inherit; text-decoration: none; }
   border-radius: 2px 2px 0 0; background: hsl(var(--accent-foreground));
 }
 
-/* ── Workspace ── */
+/* 鈹€鈹€ Workspace 鈹€鈹€ */
 .workspace {
   display: grid;
   grid-template-columns: var(--left-width) 4px minmax(0, 1fr) 4px var(--right-width);
@@ -150,7 +149,7 @@ a { color: inherit; text-decoration: none; }
 .app-shell[data-left-open="false"] { --left-width: 0px !important; }
 .app-shell[data-right-open="false"] { --right-width: 0px !important; }
 
-/* ── Side Panels ── */
+/* 鈹€鈹€ Side Panels 鈹€鈹€ */
 .side-panel {
   min-width: 0; overflow: auto;
   color: hsl(var(--sidebar-foreground));
@@ -173,7 +172,7 @@ a { color: inherit; text-decoration: none; }
 .panel-heading { margin-bottom: 22px; }
 .panel-heading h2 { margin: 0; font-family: var(--font-display); font-size: var(--text-xl); font-weight: 600; }
 
-/* ── Left Panel: Picks ── */
+/* 鈹€鈹€ Left Panel: Picks 鈹€鈹€ */
 .picks-list { display: grid; gap: 18px; }
 .pick-media-card { border-radius: var(--radius-md); overflow: hidden; background: hsl(var(--card) / 0.38); }
 .embed-frame {
@@ -203,7 +202,7 @@ a { color: inherit; text-decoration: none; }
 }
 .pick-play-mark svg { width: 16px; height: 16px; color: white; }
 
-/* ── Main Stage ── */
+/* 鈹€鈹€ Main Stage 鈹€鈹€ */
 .main-stage {
   position: relative; min-width: 0; overflow: auto;
   background: radial-gradient(circle at 0 0, hsl(var(--card) / 0.55), transparent 32%), hsl(var(--background));
@@ -218,7 +217,7 @@ a { color: inherit; text-decoration: none; }
   box-shadow: 0 22px 70px hsl(var(--foreground) / 0.045);
 }
 
-/* ── Home Chat ── */
+/* 鈹€鈹€ Home Chat 鈹€鈹€ */
 .home-chat {
   width: min(760px, calc(100% - 64px));
   margin: clamp(28px, 6vh, 58px) auto 84px;
@@ -264,7 +263,7 @@ a { color: inherit; text-decoration: none; }
 
 @keyframes msg-enter { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
 
-/* ── Right Panel: Envelope ── */
+/* 鈹€鈹€ Right Panel: Envelope 鈹€鈹€ */
 .envelope-card {
   display: grid; grid-template-columns: 58px minmax(0, 1fr); align-items: center;
   width: 100%; min-height: 92px; padding: 12px 4px; gap: 14px;
@@ -301,14 +300,14 @@ a { color: inherit; text-decoration: none; }
 
 @keyframes letter-in { from { opacity: 0; transform: translateY(-12px) scaleY(0.92); } to { opacity: 1; transform: translateY(0) scaleY(1); } }
 
-/* ── Right Panel: Game ── */
+/* 鈹€鈹€ Right Panel: Game 鈹€鈹€ */
 .game-card { margin-top: 28px; }
 .game-card header { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
 .game-card header svg { width: 24px; height: 24px; color: hsl(var(--accent-foreground)); }
 .game-card h3 { margin: 0; font-family: var(--font-display); font-size: var(--text-xl); font-weight: 600; }
 .game-frame { width: 100%; height: 420px; border: 0; border-radius: var(--radius-sm); }
 
-/* ── Cloud Menu ── */
+/* 鈹€鈹€ Cloud Menu 鈹€鈹€ */
 .cloud-menu {
   position: fixed; z-index: 40; top: calc(var(--header-height) + 6px); right: 10px;
   width: min(340px, 92vw); max-height: calc(100dvh - var(--header-height) - 20px);
@@ -360,11 +359,11 @@ a { color: inherit; text-decoration: none; }
 .cloud-links button:hover, .cloud-link-button:hover { background: hsl(var(--secondary) / 0.9); }
 .cloud-links small, .cloud-link-button small { margin-top: 2px; color: hsl(var(--muted-foreground)); font-size: var(--text-xs); }
 
-/* ── Mobile Scrim ── */
+/* 鈹€鈹€ Mobile Scrim 鈹€鈹€ */
 .mobile-scrim { position: fixed; z-index: 25; inset: var(--header-height) 0 0; background: rgb(0 0 0 / 0.26); backdrop-filter: blur(2px); }
 .mobile-scrim[hidden] { display: none !important; }
 
-/* ── Responsive ── */
+/* 鈹€鈹€ Responsive 鈹€鈹€ */
 @media (max-width: 840px) {
   .workspace { display: block; }
   .main-stage { width: 100%; height: 100%; }
@@ -390,4 +389,19 @@ a { color: inherit; text-decoration: none; }
     animation-duration: 0.01ms !important; animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important; scroll-behavior: auto !important;
   }
+}
+
+.chat-continue {
+  display: flex; justify-content: center; padding: 12px 0;
+}
+.chat-continue .chat-choice {
+  min-width: 120px; justify-content: center;
+  border-color: hsl(var(--accent-foreground) / 0.4);
+  color: hsl(var(--accent-foreground));
+  background: hsl(var(--accent) / 0.3);
+  font-size: var(--text-md);
+}
+.chat-continue .chat-choice:hover {
+  background: hsl(var(--accent) / 0.5);
+  transform: translateY(-1px);
 }
