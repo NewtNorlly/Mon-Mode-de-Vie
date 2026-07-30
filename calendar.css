@@ -14,7 +14,7 @@
   padding: 20px 32px 36px;
   color: var(--cal-ink);
   font-family: var(--font-serif);
-  font-size: 0.938rem;
+  font-size: 1rem;
 }
 
 /* ── Toolbar ── */
@@ -35,7 +35,7 @@
   text-align: center;
   font-family: var(--font-serif);
   font-size: var(--text-2xl);
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: var(--tracking-heading);
 }
 .view-switch { display: flex; gap: 2px; padding: 3px; border-radius: var(--radius-md); background: hsl(var(--secondary)); }
@@ -65,7 +65,7 @@
 #calendarRoot {
   width: 100%; height: clamp(680px, 75vh, 860px);
   color: var(--cal-ink); background: var(--cal-surface);
-  font-family: var(--font-serif); font-size: 0.875rem;
+  font-family: var(--font-serif); font-size: 0.938rem;
 }
 
 /* ── Schedule cards ── */
@@ -77,14 +77,14 @@
 }
 #calendarRoot .mmv-tui-schedule__title {
   font-family: var(--font-serif);
-  font-size: var(--text-xs);
-  font-weight: 600;
+  font-size: var(--text-sm);
+  font-weight: 500;
   letter-spacing: 0.02em;
   line-height: var(--leading-tight);
 }
 #calendarRoot :where(.mmv-tui-schedule__time, .mmv-tui-schedule__location) {
   font-family: var(--font-sans);
-  font-size: 0.688rem;
+  font-size: 0.75rem;
   letter-spacing: var(--tracking-label);
 }
 
@@ -96,12 +96,13 @@
   border-color: hsl(var(--border) / 0.78) !important;
   color: var(--cal-ink) !important;
   background: transparent !important;
+  font-size: 0.938rem !important;
 }
-#calendarRoot .tui-full-calendar-month-dayname-item { color: var(--cal-ink-muted) !important; font-weight: 600; }
+#calendarRoot .tui-full-calendar-month-dayname-item { color: var(--cal-ink-muted) !important; font-weight: 400 !important; font-size: 0.875rem !important; }
 #calendarRoot .tui-full-calendar-extra-date { color: var(--cal-ink-muted) !important; opacity: 0.6; }
-#calendarRoot .tui-full-calendar-weekday-grid-date { color: var(--cal-ink-muted) !important; font-weight: 600; font-size: 0.75rem; }
+#calendarRoot .tui-full-calendar-weekday-grid-date { color: var(--cal-ink-muted) !important; font-weight: 400; font-size: 0.875rem; }
 #calendarRoot .tui-full-calendar-dayname { color: var(--cal-ink-muted) !important; }
-#calendarRoot .tui-full-calendar-dayname-date { color: var(--cal-ink) !important; font-weight: 700; }
+#calendarRoot .tui-full-calendar-dayname-date { color: var(--cal-ink) !important; font-weight: 500; font-size: 1.05rem; }
 #calendarRoot .tui-full-calendar-month { cursor: pointer; }
 #calendarRoot .tui-full-calendar-month:hover { background: var(--cal-hover); }
 #calendarRoot .tui-full-calendar-day { cursor: pointer; }
@@ -109,7 +110,7 @@
 #calendarRoot .tui-full-calendar-weekday-grid-line { cursor: pointer; }
 #calendarRoot .tui-full-calendar-weekday-grid-line:hover { background: var(--cal-hover) !important; }
 #calendarRoot .tui-full-calendar-today { background-color: hsl(var(--accent) / 0.34) !important; }
-#calendarRoot .tui-full-calendar-today .tui-full-calendar-weekday-grid-date { color: var(--cal-accent) !important; font-weight: 700; }
+#calendarRoot .tui-full-calendar-today .tui-full-calendar-weekday-grid-date { color: var(--cal-accent) !important; font-weight: 500; }
 #calendarRoot .tui-full-calendar-weekday-schedule-time { color: var(--cal-ink-muted); }
 #calendarRoot .tui-full-calendar-timegrid-hour { color: var(--cal-ink-muted) !important; }
 #calendarRoot .mmv-tui-date-button, #calendarRoot .mmv-tui-dayname-button {
@@ -159,16 +160,16 @@
   box-shadow: 0 4px 14px hsl(var(--foreground) / 0.10);
 }
 .year-cell__name {
-  font-family: var(--font-serif); font-weight: 700; font-size: var(--text-sm);
+  font-family: var(--font-serif); font-weight: 500; font-size: var(--text-md);
   color: var(--cal-accent);
 }
 .year-cell__grid {
-  display: grid; grid-template-columns: repeat(7, 1fr); gap: 1px;
-  font-size: 10px; line-height: 1.7; color: var(--cal-ink-muted);
+  display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px;
+  font-size: 11px; line-height: 1.75; color: var(--cal-ink-muted);
 }
-.year-cell__grid i { font-style: normal; text-align: center; border-radius: 3px; min-height: 14px; }
-.year-cell__grid i.is-dow { opacity: .5; font-weight: 600; }
-.year-cell__grid i.is-today { background: var(--cal-accent); color: hsl(var(--card)); font-weight: 700; }
+.year-cell__grid i { font-style: normal; text-align: center; border-radius: 3px; min-height: 16px; }
+.year-cell__grid i.is-dow { opacity: .45; font-weight: 400; }
+.year-cell__grid i.is-today { background: var(--cal-accent); color: hsl(var(--card)); font-weight: 500; }
 @media (max-width: 720px) {
   .year-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
