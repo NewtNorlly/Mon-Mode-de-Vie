@@ -530,14 +530,14 @@ a { color: inherit; text-decoration: none; }
 /* ═══ Panda Special Theme ═══ */
 [data-theme="panda"] .app-shell {
   background: 
-    url("./assets/green-mountain.svg") right bottom / 320px auto no-repeat,
+    url("./assets/mountain-icon.png") right bottom / 320px auto no-repeat,
     radial-gradient(ellipse at 50% 0%, hsl(var(--accent-foreground)/0.06), transparent 55%),
     radial-gradient(circle at 15% 80%, hsl(var(--accent)/0.06), transparent 40%),
     hsl(var(--background));
 }
 [data-theme="panda"][data-mode="dark"] .app-shell {
   background: 
-    url("./assets/green-mountain.svg") right bottom / 280px auto no-repeat,
+    url("./assets/mountain-icon.png") right bottom / 280px auto no-repeat,
     radial-gradient(ellipse at 50% 0%, hsl(170 87% 54% / 0.05), transparent 55%),
     hsl(var(--background));
 }
@@ -654,7 +654,7 @@ a { color: inherit; text-decoration: none; }
   right: 12px;
   width: 48px;
   height: 48px;
-  background: url("./assets/bamboo-leaf.svg") center/contain no-repeat;
+  background: url("./assets/bamboo-leaf-icon.png") center/contain no-repeat;
   opacity: 0.18;
   pointer-events: none;
 }
@@ -665,7 +665,7 @@ a { color: inherit; text-decoration: none; }
   left: 10px;
   width: 40px;
   height: 100px;
-  background: url("./assets/bamboo-branch.svg") center/contain no-repeat;
+  background: url("./assets/bamboo-branch-icon.png") center/contain no-repeat;
   opacity: 0.16;
   pointer-events: none;
 }
@@ -677,7 +677,7 @@ a { color: inherit; text-decoration: none; }
   content: "";
   position: absolute; left: 0; top: 50%; transform: translateY(-50%);
   width: 20px; height: 20px;
-  background: url("./assets/panda-full.svg") center/contain no-repeat;
+  background: url("./assets/panda-icon.png") center/contain no-repeat;
 }
 /* ── Music Box ── */
 [data-theme="panda"] .music-box__play {
@@ -691,6 +691,17 @@ a { color: inherit; text-decoration: none; }
 [data-theme="panda"] .cloud-menu {
   border-color: hsl(170 87% 54% / 0.2);
   box-shadow: 0 24px 64px hsl(0 0% 0% / 0.25), 0 0 0 1px hsl(340 72% 68% / 0.15);
+}
+[data-theme="panda"] .cloud-menu__header::after {
+  content: "";
+  position: absolute;
+  top: -16px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+  background: url("./assets/bamboo-shoot-icon.png") center/contain no-repeat;
+  opacity: 0.55;
+  pointer-events: none;
 }
 [data-theme="panda"] .theme-choice:hover {
   border-color: hsl(340 72% 68% / 0.5);
@@ -724,3 +735,30 @@ a { color: inherit; text-decoration: none; }
 [data-theme="panda"] .album-tab[aria-selected="true"] {
   background: linear-gradient(180deg, hsl(340 72% 68% / 0.15), hsl(170 87% 54% / 0.15));
 }
+[data-theme="panda"] .main-stage::after {
+  content: "";
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  background: url("./assets/panda-icon.png") center/contain no-repeat;
+  opacity: 0.06;
+  pointer-events: none;
+  z-index: 0;
+}
+[data-theme="panda"] .main-stage::after {
+  content: "";
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  background: url("./assets/panda-icon.png") center/contain no-repeat;
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 0;
+}
+
