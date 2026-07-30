@@ -82,7 +82,20 @@
   letter-spacing: 0.02em;
   line-height: var(--leading-tight);
 }
-#calendarRoot :where(.mmv-tui-schedule__time, .mmv-tui-schedule__location) {
+#calendarRoot .mmv-tui-schedule__location {
+  display: inline-block;
+  margin-top: 3px;
+  padding: 1px 7px;
+  border-radius: 5px;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: var(--tracking-label);
+  color: hsl(var(--muted-foreground));
+  background: hsl(var(--card) / 0.7);
+  line-height: 1.5;
+}
+#calendarRoot :where(.mmv-tui-schedule__time) {
   font-family: var(--font-sans);
   font-size: var(--text-sm);
   letter-spacing: var(--tracking-label);
