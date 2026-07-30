@@ -526,3 +526,37 @@ a { color: inherit; text-decoration: none; }
     transition-duration: 0.01ms !important; scroll-behavior: auto !important;
   }
 }
+
+/* ═══ Panda Special Theme ═══ */
+[data-theme="panda"] .app-shell {
+  background: radial-gradient(circle at 50% -18%, hsl(var(--card) / 0.92), transparent 42%), hsl(var(--background));
+}
+[data-theme="panda"] .theme-swatch[data-theme-choice="panda"] {
+  background: #242526 !important;
+  border: 2px solid #FF75B5;
+  position: relative;
+  overflow: visible;
+}
+[data-theme="panda"] .theme-swatch[data-theme-choice="panda"]::after {
+  content: "🐼";
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 16px;
+}
+[data-theme="panda"] .primary-nav {
+  box-shadow: 0 2px 16px hsl(340 80% 72% / 0.12), 0 0 0 0.5px hsl(165 85% 54% / 0.3);
+}
+[data-theme="panda"] .nav-item.is-active {
+  color: hsl(var(--accent-foreground));
+}
+[data-theme="panda"] .nav-item.is-active::after {
+  background: hsl(165 85% 54%);
+}
+[data-theme="panda"] .module-sheet {
+  border-color: hsl(165 85% 54% / 0.2);
+}
+[data-theme="panda"] .chat-bubble {
+  border-color: hsl(340 80% 72% / 0.2);
+}
