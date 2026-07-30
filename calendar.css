@@ -77,14 +77,14 @@
 }
 #calendarRoot .mmv-tui-schedule__title {
   font-family: var(--font-serif);
-  font-size: var(--text-sm);
+  font-size: var(--text-lead);
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: var(--leading-tight);
 }
 #calendarRoot :where(.mmv-tui-schedule__time, .mmv-tui-schedule__location) {
   font-family: var(--font-sans);
-  font-size: 0.75rem;
+  font-size: var(--text-sm);
   letter-spacing: var(--tracking-label);
 }
 
