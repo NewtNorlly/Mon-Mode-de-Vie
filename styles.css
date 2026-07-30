@@ -471,6 +471,21 @@ a { color: inherit; text-decoration: none; }
   border: 1px solid hsl(var(--border) / 0.4);
   flex-shrink: 0;
 }
+
+/* ── Panda Theme Swatch (always distinctive) ── */
+.theme-swatch--panda {
+  border-radius: 14px !important;
+  width: 34px !important;
+  height: 34px !important;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2e 100%) !important;
+  border: 2px solid #FF75B5 !important;
+  box-shadow: 0 0 12px hsl(340 72% 68% / 0.25), inset 0 0 0 1px hsl(340 72% 68% / 0.15) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.theme-swatch--panda:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0 18px hsl(340 72% 68% / 0.4), inset 0 0 0 1px hsl(340 72% 68% / 0.25) !important;
+}
 .theme-swatch i { display: none; }
 
 .language-row { display: flex; width: 100%; }
