@@ -101,6 +101,21 @@
   letter-spacing: var(--tracking-label);
 }
 
+/* ── Prevent time-grid clipping of location labels (week/day views) ── */
+#calendarRoot .tui-full-calendar-time-schedule {
+  overflow: visible !important;
+}
+#calendarRoot .tui-full-calendar-time-schedule .mmv-tui-schedule {
+  overflow: visible;
+  min-height: 44px;
+}
+#calendarRoot .mmv-tui-schedule__location {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
 /* ── TUI overrides (essential) ── */
 #calendarRoot,
 #calendarRoot * { color: var(--cal-ink); }
