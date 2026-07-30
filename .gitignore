@@ -1,5 +1,4 @@
 ﻿# Dependencies
-third_party/
 node_modules/
 .pnpm-store/
 .vendor-build/
