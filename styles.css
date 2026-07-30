@@ -315,7 +315,9 @@ a { color: inherit; text-decoration: none; }
   opacity: 0; transform: translateY(10px); pointer-events: none;
   transition: opacity var(--motion-base) var(--ease-out), transform var(--motion-base) var(--ease-spring);
   position: absolute; inset: 0; overflow: auto; scroll-behavior: smooth;
+  scrollbar-width: none;
 }
+.module-view::-webkit-scrollbar { display: none; }
 .module-view.is-active {
   opacity: 1; transform: translateY(0); pointer-events: auto;
   position: relative;
