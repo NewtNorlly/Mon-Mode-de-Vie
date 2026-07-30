@@ -376,15 +376,9 @@ a { color: inherit; text-decoration: none; }
 
 .chat-typing { display: flex; align-items: center; gap: 10px; padding: 8px 0; color: hsl(var(--muted-foreground)); font-size: var(--text-sm); }
 .chat-hint {
-  text-align: center; padding: 14px 0;
+  text-align: center; padding: 0 0 8px;
   color: hsl(var(--muted-foreground)); font-size: var(--text-xs);
-  opacity: 0.7; cursor: pointer; user-select: none;
-  animation: hint-pulse 2s ease-in-out infinite;
-}
-.chat-hint:hover { opacity: 1; }
-@keyframes hint-pulse {
-  0%, 100% { opacity: 0.5; }
-  50% { opacity: 0.85; }
+  opacity: 0.55; user-select: none;
 }
 
 @keyframes msg-enter { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
