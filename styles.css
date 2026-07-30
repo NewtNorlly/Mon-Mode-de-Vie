@@ -529,34 +529,122 @@ a { color: inherit; text-decoration: none; }
 
 /* ═══ Panda Special Theme ═══ */
 [data-theme="panda"] .app-shell {
-  background: radial-gradient(circle at 50% -18%, hsl(var(--card) / 0.92), transparent 42%), hsl(var(--background));
+  background: radial-gradient(ellipse at 50% 0%, hsl(var(--accent-foreground)/0.06), transparent 55%),
+              radial-gradient(circle at 15% 80%, hsl(var(--accent)/0.06), transparent 40%),
+              hsl(var(--background));
 }
-[data-theme="panda"] .theme-swatch[data-theme-choice="panda"] {
-  background: #242526 !important;
+/* ── Theme Swatch: panda face SVG ── */
+.theme-swatch[data-theme-choice="panda"] {
+  background: #1a1a1a !important;
   border: 2px solid #FF75B5;
-  position: relative;
   overflow: visible;
 }
-[data-theme="panda"] .theme-swatch[data-theme-choice="panda"]::after {
-  content: "🐼";
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-items: center;
-  font-size: 16px;
-}
+/* ── Navigation ── */
 [data-theme="panda"] .primary-nav {
-  box-shadow: 0 2px 16px hsl(340 80% 72% / 0.12), 0 0 0 0.5px hsl(165 85% 54% / 0.3);
+  box-shadow: 0 2px 20px hsl(340 72% 68% / 0.12), 0 0 0 0.5px hsl(170 87% 54% / 0.25);
+  border-radius: 28px;
 }
 [data-theme="panda"] .nav-item.is-active {
   color: hsl(var(--accent-foreground));
 }
 [data-theme="panda"] .nav-item.is-active::after {
-  background: hsl(165 85% 54%);
+  background: hsl(170 87% 54%); width: 5px; height: 5px; bottom: 6px;
 }
+[data-theme="panda"] .nav-item:hover {
+  background: hsl(340 72% 68% / 0.1);
+}
+/* ── Icon buttons ── */
+[data-theme="panda"] .icon-button {
+  border-radius: 14px;
+  box-shadow: 0 2px 10px hsl(0 0% 0% / 0.08), 0 0 0 0.5px hsl(170 87% 54% / 0.15);
+}
+[data-theme="panda"] .icon-button:hover {
+  background: hsl(340 72% 68% / 0.12);
+}
+/* ── Module sheets ── */
 [data-theme="panda"] .module-sheet {
-  border-color: hsl(165 85% 54% / 0.2);
+  border-color: hsl(170 87% 54% / 0.16);
+  border-radius: 22px;
+  box-shadow: 0 18px 60px hsl(0 0% 0% / 0.06);
 }
+/* ── Chat ── */
 [data-theme="panda"] .chat-bubble {
-  border-color: hsl(340 80% 72% / 0.2);
+  border-color: hsl(340 72% 68% / 0.18);
+  border-radius: 22px 22px 22px 6px;
+}
+[data-theme="panda"] .chat-choice {
+  border-color: hsl(170 87% 54% / 0.25);
+  border-radius: 24px;
+}
+[data-theme="panda"] .chat-choice:hover {
+  border-color: hsl(340 72% 68% / 0.5);
+  background: hsl(340 72% 68% / 0.08);
+}
+[data-theme="panda"] .chat-continue .chat-choice {
+  background: linear-gradient(135deg, hsl(340 72% 68% / 0.15), hsl(170 87% 54% / 0.1));
+  border-color: hsl(340 72% 68% / 0.35);
+  color: hsl(var(--accent-foreground));
+}
+/* ── Side panels ── */
+[data-theme="panda"] .side-panel {
+  border-radius: 0 18px 18px 0;
+}
+[data-theme="panda"] .side-panel--right {
+  border-radius: 18px 0 0 18px;
+}
+[data-theme="panda"] .panel-heading h2 {
+  position: relative;
+  padding-left: 28px;
+}
+[data-theme="panda"] .panel-heading h2::before {
+  content: "";
+  position: absolute; left: 0; top: 50%; transform: translateY(-50%);
+  width: 18px; height: 18px;
+  background: url("./assets/panda-face.svg") center/contain no-repeat;
+  opacity: 0.7;
+}
+/* ── Music Box ── */
+[data-theme="panda"] .music-box__play {
+  background: linear-gradient(135deg, hsl(340 72% 68%), hsl(170 87% 54%));
+  box-shadow: 0 3px 14px hsl(340 72% 68% / 0.35);
+}
+[data-theme="panda"] .music-box__disc {
+  background: conic-gradient(hsl(0 0% 30%) 0deg, hsl(340 72% 68% / 0.4) 90deg, hsl(0 0% 30%) 180deg, hsl(170 87% 54% / 0.4) 270deg, hsl(0 0% 30%) 360deg);
+}
+/* ── Cloud menu ── */
+[data-theme="panda"] .cloud-menu {
+  border-color: hsl(170 87% 54% / 0.2);
+  box-shadow: 0 24px 64px hsl(0 0% 0% / 0.25), 0 0 0 1px hsl(340 72% 68% / 0.15);
+}
+[data-theme="panda"] .theme-choice:hover {
+  border-color: hsl(340 72% 68% / 0.5);
+}
+/* ── Calendar ── */
+[data-theme="panda"] .calendar-frame {
+  border-color: hsl(170 87% 54% / 0.2);
+  border-radius: 20px;
+}
+[data-theme="panda"] .calendar-toolbar input[type="date"] {
+  border-color: hsl(170 87% 54% / 0.3);
+}
+[data-theme="panda"] .view-switch {
+  background: hsl(170 87% 54% / 0.08);
+}
+[data-theme="panda"] .year-cell {
+  border-color: hsl(170 87% 54% / 0.2);
+}
+[data-theme="panda"] .year-cell:hover {
+  border-color: hsl(340 72% 68%);
+  box-shadow: 0 4px 18px hsl(340 72% 68% / 0.18);
+}
+/* ── Journal ── */
+[data-theme="panda"] .journal-entry:hover {
+  background: hsl(340 72% 68% / 0.08);
+}
+[data-theme="panda"] .journal-year__heading {
+  color: hsl(var(--accent-foreground));
+}
+/* ── Album ── */
+[data-theme="panda"] .album-tab[aria-selected="true"] {
+  background: linear-gradient(180deg, hsl(340 72% 68% / 0.15), hsl(170 87% 54% / 0.15));
 }

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Left ear -->
+  <circle cx="12" cy="10" r="8" fill="#1a1a1a"/>
+  <!-- Right ear -->
+  <circle cx="36" cy="10" r="8" fill="#1a1a1a"/>
+  <!-- Face -->
+  <circle cx="24" cy="26" r="18" fill="#F5F5F0"/>
+  <circle cx="24" cy="26" r="18" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- Left eye patch -->
+  <ellipse cx="16" cy="23" rx="5.5" ry="7" fill="#1a1a1a" transform="rotate(-8,16,23)"/>
+  <!-- Right eye patch -->
+  <ellipse cx="32" cy="23" rx="5.5" ry="7" fill="#1a1a1a" transform="rotate(8,32,23)"/>
+  <!-- Left eye white -->
+  <circle cx="17" cy="21" r="2.5" fill="#F5F5F0"/>
+  <!-- Right eye white -->
+  <circle cx="31" cy="21" r="2.5" fill="#F5F5F0"/>
+  <!-- Left eye pupil -->
+  <circle cx="18" cy="21.5" r="1.2" fill="#1a1a1a"/>
+  <!-- Right eye pupil -->
+  <circle cx="30" cy="21.5" r="1.2" fill="#1a1a1a"/>
+  <!-- Nose -->
+  <ellipse cx="24" cy="29" rx="3" ry="2" fill="#FF8FAB"/>
+  <!-- Mouth -->
+  <path d="M21 32 Q24 35 27 32" stroke="#1a1a1a" stroke-width="1" stroke-linecap="round" fill="none"/>
+</svg>
