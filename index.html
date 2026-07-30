@@ -33,63 +33,62 @@
 
 <div class="app-shell" id="appShell" data-module="home">
 
-  <!-- ═══ 顶部导航 ═══ -->
-  <header class="topbar" id="topbar">
+  <!-- ═══ 导航栏 — 悬浮 ═══ -->
+  <div class="topbar" id="topbar">
     <div class="topbar-edge topbar-edge--left">
-      <button class="icon-button" id="leftToggle" type="button" aria-controls="leftPanel" aria-expanded="true" data-tooltip="作者精选">
+      <button class="icon-button" id="leftToggle" type="button" aria-controls="leftPanel" aria-expanded="true" title="去年今日">
         <svg><use href="#icon-panel-left"/></svg>
       </button>
     </div>
 
     <nav class="primary-nav">
-      <button class="nav-item is-active" data-module="home" aria-current="page" aria-label="Home">
+      <button class="nav-item is-active" data-module="home" aria-current="page" aria-label="Home" title="会客厅">
         <svg><use href="#icon-sofa"/></svg>
       </button>
-      <button class="nav-item" data-module="now" aria-label="Now">
+      <button class="nav-item" data-module="now" aria-label="Now" title="日历">
         <svg><use href="#icon-calendar"/></svg>
       </button>
-      <button class="nav-item" data-module="journal" aria-label="Journal">
+      <button class="nav-item" data-module="journal" aria-label="Journal" title="日记">
         <svg><use href="#icon-journal"/></svg>
       </button>
-      <button class="nav-item" data-module="album" aria-label="Album">
+      <button class="nav-item" data-module="album" aria-label="Album" title="相册">
         <svg><use href="#icon-album"/></svg>
       </button>
-      <button class="nav-item" id="cloudToggle" type="button" aria-controls="cloudMenu" aria-expanded="false" aria-label="Cloud">
+      <button class="nav-item" id="cloudToggle" type="button" aria-controls="cloudMenu" aria-expanded="false" aria-label="Cloud" title="那朵小云 · 设置">
         <svg><use href="#icon-cloud"/></svg>
       </button>
     </nav>
 
     <div class="topbar-edge topbar-edge--right">
-      <button class="icon-button" id="rightToggle" type="button" aria-controls="rightPanel" aria-expanded="true" data-tooltip="小巧思">
+      <button class="icon-button" id="rightToggle" type="button" aria-controls="rightPanel" aria-expanded="true" title="留言">
         <svg><use href="#icon-panel-right"/></svg>
       </button>
     </div>
-  </header>
+  </div>
 
   <!-- ═══ 云菜单 ═══ -->
   <div class="cloud-menu" id="cloudMenu" hidden>
     <div class="cloud-menu__header">
-      <div><p class="cloud-kicker">Le petit nuage</p><h2>那朵小云</h2></div>
       <button class="icon-button" id="cloudClose" type="button"><svg><use href="#icon-close"/></svg></button>
     </div>
 
     <section class="cloud-section">
       <div class="cloud-section__heading">
-        <h3>明暗</h3>
+        <h3 data-i18n="brightness">明暗</h3>
         <div class="segmented-control">
-          <button type="button" data-mode-choice="light" class="is-selected"><svg><use href="#icon-sun"/></svg><span>明亮</span></button>
-          <button type="button" data-mode-choice="dark"><svg><use href="#icon-moon"/></svg><span>夜间</span></button>
+          <button type="button" data-mode-choice="light" class="is-selected"><svg><use href="#icon-sun"/></svg><span data-i18n="light">明亮</span></button>
+          <button type="button" data-mode-choice="dark"><svg><use href="#icon-moon"/></svg><span data-i18n="dark">夜间</span></button>
         </div>
       </div>
     </section>
 
     <section class="cloud-section">
-      <h3>主题</h3>
+      <h3 data-i18n="theme">主题</h3>
       <div class="theme-grid" id="themeGrid"></div>
     </section>
 
     <section class="cloud-section">
-      <h3>语言</h3>
+      <h3 data-i18n="language">语言</h3>
       <div class="language-row">
         <button type="button" data-language="zh" class="is-selected">中文</button>
         <button type="button" data-language="en">EN</button>
@@ -99,8 +98,8 @@
     </section>
 
     <div class="cloud-links">
-      <button type="button" id="contactToggle"><span>联系方式</span><small>有事请联系</small></button>
-      <a href="https://github.com/NewtNorlly" target="_blank" rel="noopener noreferrer" class="cloud-link-button"><span>友情链接</span><small>github.com/NewtNorlly</small></a>
+      <button type="button" id="contactToggle"><span data-i18n="contact">联系方式</span><small data-i18n="contactHint">有事请联系</small></button>
+      <a href="https://github.com/NewtNorlly" target="_blank" rel="noopener noreferrer" class="cloud-link-button"><span data-i18n="friends">友情链接</span><small>github.com/NewtNorlly</small></a>
     </div>
   </div>
 
@@ -109,41 +108,37 @@
 
     <!-- 左栏 -->
     <aside class="side-panel side-panel--left" id="leftPanel">
-      <div class="panel-heading"><h2>作者精选</h2></div>
-      <div class="picks-list">
-        <article class="pick-media-card">
-          <div class="embed-frame" data-embed-provider="bilibili">
-            <button class="embed-consent" type="button"
-              data-embed-src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=382415897&amp;bvid=BV1aZ4y167bp&amp;cid=555406606&amp;p=1&amp;autoplay=0"
-              data-embed-title="Book selection">
-              <img class="pick-cover" src="./assets/picks/book-pencil-garden.png" alt="" width="720" height="720" decoding="async" />
-              <span class="pick-category">书</span>
-              <span class="pick-play-mark" aria-hidden="true"><svg><use href="#icon-chevron"/></svg></span>
-            </button>
+      <div class="panel-heading"><h2 data-i18n="leftPanel">去年今日</h2></div>
+      <div class="on-this-day">
+        <a href="#" class="otd-card" id="otdCard" data-journal-date="2026-07-29">
+          <div class="otd-cover">
+            <img src="./journals/assets/images/2026-07-29-illustration.jpg" alt="7月29日" width="800" height="600" decoding="async" />
           </div>
-        </article>
-        <article class="pick-media-card">
-          <div class="embed-frame" data-embed-provider="bilibili">
-            <button class="embed-consent" type="button"
-              data-embed-src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115230768105995&amp;bvid=BV1kZWVzWEfC&amp;cid=32489736991&amp;p=1"
-              data-embed-title="Film selection">
-              <img class="pick-cover" src="./assets/picks/film-pencil-rainlight.png" alt="" width="720" height="720" decoding="async" />
-              <span class="pick-category">影</span>
-              <span class="pick-play-mark" aria-hidden="true"><svg><use href="#icon-chevron"/></svg></span>
-            </button>
+          <div class="otd-body">
+            <time class="otd-date">7月29日</time>
+            <p class="otd-excerpt">七月的倒数第三天，濂溪区的蝉鸣从早响到晚。在三舅家吃完午饭后，我坐在窗边翻德语变位表，阳光把百叶窗的影子切成整齐的条纹。橘猫四在旁边的椅子上。</p>
           </div>
-        </article>
-        <article class="pick-media-card">
-          <div class="embed-frame" data-embed-provider="bilibili">
-            <button class="embed-consent" type="button"
-              data-embed-src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=888306970&amp;bvid=BV1DK4y1G7uX&amp;cid=352497928&amp;p=1&amp;autoplay=0"
-              data-embed-title="Music selection">
-              <img class="pick-cover" src="./assets/picks/music-pencil-jasmine.png" alt="" width="720" height="720" decoding="async" />
-              <span class="pick-category">音</span>
-              <span class="pick-play-mark" aria-hidden="true"><svg><use href="#icon-chevron"/></svg></span>
-            </button>
+        </a>
+      </div>
+
+      <div class="music-box" id="musicBox">
+        <div class="music-box__heading">
+          <svg class="music-box__note" viewBox="0 0 24 24" width="18" height="18"><circle cx="8" cy="18" r="3"/><circle cx="18" cy="16" r="3"/><path d="M11 18V5l10-2v11"/></svg>
+          <span data-i18n="musicBox">音乐盒</span>
+        </div>
+        <div class="music-box__player">
+          <button class="music-box__play" id="musicPlayBtn" type="button" aria-label="播放">
+            <svg class="icon-play" viewBox="0 0 24 24" width="24" height="24"><polygon points="7,4 20,12 7,20"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" width="24" height="24" hidden><rect x="5" y="4" width="5" height="16"/><rect x="14" y="4" width="5" height="16"/></svg>
+          </button>
+          <div class="music-box__info">
+            <span class="music-box__title">Белая кошка</span>
           </div>
-        </article>
+          <div class="music-box__progress">
+            <div class="music-box__progress-bar" id="musicProgressBar"></div>
+          </div>
+        </div>
+        <audio id="musicAudio" preload="none" src="./assets/music/white-cat.mp3"></audio>
       </div>
     </aside>
 
@@ -201,6 +196,10 @@
       <section class="module-view" data-view="journal" hidden>
         <div class="module-sheet journal-sheet">
           <div class="journal-ledger" id="journalLedger"></div>
+          <div class="journal-reader" id="journalReader" hidden>
+            <button class="journal-reader__back" id="journalBackBtn" type="button" data-i18n-title="backLabel">← 返回日志主页</button>
+            <div class="journal-reader__content" id="journalReaderContent"></div>
+          </div>
         </div>
       </section>
 
@@ -216,27 +215,25 @@
 
     <!-- 右栏 -->
     <aside class="side-panel side-panel--right" id="rightPanel">
-      <div class="panel-heading"><h2>小巧思</h2></div>
-
       <button class="envelope-card" id="envelopeToggle" type="button" aria-expanded="false" aria-controls="authorLetter">
         <span class="envelope-illustration" aria-hidden="true">
           <i class="envelope-flap"></i>
           <svg><use href="#icon-mail"/></svg>
         </span>
-        <span><small>一封信</small><strong>看看作者的留言</strong></span>
+        <span><small data-i18n="letter">一封信</small><br><strong data-i18n="letterSub">看看作者的留言</strong></span>
       </button>
 
       <div class="author-letter" id="authorLetter" hidden>
         <div class="letter-paper">
           <p>多做一些朝花夕拾的事，少做一些半途而废的事。</p>
-          <button type="button" id="letterClose">折好这封信</button>
+          <button type="button" id="letterClose" data-i18n="foldLetter">折好这封信</button>
         </div>
       </div>
 
       <section class="game-card">
         <header>
           <svg><use href="#icon-game"/></svg>
-          <div><h3>玩玩小游戏</h3></div>
+          <div><h3 data-i18n="game">玩玩小游戏</h3></div>
         </header>
         <iframe class="game-frame" id="paperRunFrame" src="./game/index.html" sandbox="allow-scripts" loading="lazy" referrerpolicy="no-referrer" title="纸上漫游小游戏"></iframe>
       </section>

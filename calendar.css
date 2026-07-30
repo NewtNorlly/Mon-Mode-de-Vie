@@ -3,7 +3,6 @@
    ═══════════════════════════════════════════════ */
 
 .calendar-sheet {
-  --cal-font: var(--font-serif);
   --cal-ink: #1a2744;
   --cal-ink-muted: #3d5270;
   --cal-surface: hsl(var(--card));
@@ -14,8 +13,8 @@
   width: min(1220px, calc(100% - 48px));
   padding: 20px 32px 36px;
   color: var(--cal-ink);
-  font-family: var(--cal-font);
-  font-size: 15px;
+  font-family: var(--font-serif);
+  font-size: 0.938rem;
 }
 
 /* ── Toolbar ── */
@@ -34,9 +33,10 @@
 }
 #calendarPeriod {
   text-align: center;
-  font-family: var(--cal-font);
-  font-size: clamp(22px, 2.4vw, 30px);
+  font-family: var(--font-serif);
+  font-size: var(--text-2xl);
   font-weight: 500;
+  letter-spacing: var(--tracking-heading);
 }
 .view-switch { display: flex; gap: 2px; padding: 3px; border-radius: var(--radius-md); background: hsl(var(--secondary)); }
 .view-switch button {
@@ -56,7 +56,7 @@
 #calendarRoot {
   width: 100%; height: clamp(680px, 75vh, 860px);
   color: var(--cal-ink); background: var(--cal-surface);
-  font-family: var(--cal-font); font-size: 14px;
+  font-family: var(--font-serif); font-size: 0.875rem;
 }
 
 /* ── Schedule cards ── */
@@ -68,14 +68,15 @@
 }
 #calendarRoot .mmv-tui-schedule__title {
   font-family: var(--font-serif);
-  font-size: 13px;
+  font-size: var(--text-xs);
   font-weight: 600;
   letter-spacing: 0.02em;
+  line-height: var(--leading-tight);
 }
 #calendarRoot :where(.mmv-tui-schedule__time, .mmv-tui-schedule__location) {
   font-family: var(--font-sans);
-  font-size: 11px;
-  letter-spacing: 0.03em;
+  font-size: 0.688rem;
+  letter-spacing: var(--tracking-label);
 }
 
 /* ── TUI overrides (essential) ── */
@@ -85,12 +86,18 @@
   color: var(--cal-ink) !important;
   background: transparent !important;
 }
+#calendarRoot .tui-full-calendar-month { cursor: pointer; }
+#calendarRoot .tui-full-calendar-month:hover { background: var(--cal-hover); }
+#calendarRoot .tui-full-calendar-day { cursor: pointer; }
+#calendarRoot .tui-full-calendar-day:hover { background: var(--cal-hover); }
+#calendarRoot .tui-full-calendar-weekday { cursor: pointer; }
+#calendarRoot .tui-full-calendar-weekday:hover { background: var(--cal-hover); }
 #calendarRoot .tui-full-calendar-today { background-color: hsl(var(--accent) / 0.34) !important; }
 #calendarRoot .mmv-tui-date-button, #calendarRoot .mmv-tui-dayname-button {
   min-width: 40px; min-height: 40px;
   border-radius: var(--radius-sm);
   color: var(--cal-ink); background: transparent;
-  font-family: var(--cal-font); font-size: 14px;
+  font-family: var(--font-serif); font-size: var(--text-sm);
 }
 #calendarRoot .mmv-tui-date-button:hover { background: var(--cal-hover); }
 #calendarRoot .tui-full-calendar-today .mmv-tui-date-button {
@@ -100,7 +107,7 @@
 /* ── Fallback ── */
 .calendar-fallback {
   display: grid; place-items: center; min-height: 300px;
-  color: var(--cal-ink-muted); font-size: 15px; text-align: center;
+  color: var(--cal-ink-muted); font-family: var(--font-serif); font-size: var(--text-sm); text-align: center;
 }
 
 @media (max-width: 840px) {
