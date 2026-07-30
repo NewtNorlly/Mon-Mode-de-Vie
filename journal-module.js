@@ -82,6 +82,10 @@
         detailContent.innerHTML = "";
         detailContent.appendChild(article);
 
+        /* switch prose sections to current language */
+        var proseSections = detailContent.querySelectorAll(".prose");
+        proseSections.forEach(function(sec){ sec.hidden = sec.getAttribute("lang") !== l && !sec.getAttribute("lang").startsWith(l); });
+
         /* update back button text */
         if (backBtn) backBtn.textContent = c.back;
       })

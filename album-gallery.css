@@ -11,9 +11,10 @@
 }
 .album-tabs::-webkit-scrollbar { display: none; }
 .album-tab {
-  flex: 1 0 max-content; min-width: 100px; min-height: 52px; padding: 10px 16px;
-  border: 0; color: hsl(var(--muted-foreground)); background: transparent;
-  font-family: var(--font-sans); font-size: var(--text-sm); font-weight: 700; letter-spacing: var(--tracking-label); cursor: pointer; scroll-snap-align: center;
+  flex: 1 0 max-content; min-width: 100px; min-height: 56px; padding: 12px 20px;
+  border: 0; color: hsl(var(--foreground)); background: transparent;
+  font-family: var(--font-serif); font-size: var(--text-md); font-weight: 500; letter-spacing: var(--tracking-heading); cursor: pointer; scroll-snap-align: center;
+  transition: color var(--motion-fast) ease, background var(--motion-fast) ease;
 }
 .album-tab:hover { color: hsl(var(--foreground)); background: hsl(var(--accent) / 0.2); }
 .album-tab[aria-selected="true"] { color: hsl(var(--accent-foreground)); background: linear-gradient(180deg, hsl(var(--accent)/0.16), hsl(var(--accent)/0.46)); }
