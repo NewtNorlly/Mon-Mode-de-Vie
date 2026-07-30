@@ -93,4 +93,5 @@
 
   renderTabs();
   renderGrid();
+  window.renderAlbums = function() { renderTabs(); renderGrid(); };
 })();

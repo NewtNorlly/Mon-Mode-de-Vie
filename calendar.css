@@ -111,6 +111,12 @@
 #calendarRoot .tui-full-calendar-weekday-grid-line:hover { background: var(--cal-hover) !important; }
 #calendarRoot .tui-full-calendar-today { background-color: hsl(var(--accent) / 0.34) !important; }
 #calendarRoot .tui-full-calendar-today .tui-full-calendar-weekday-grid-date { color: var(--cal-accent) !important; font-weight: 500; }
+#calendarRoot .tui-full-calendar-holiday-sun,
+#calendarRoot .tui-full-calendar-holiday-sat { color: var(--cal-ink-muted) !important; }
+#calendarRoot .tui-full-calendar-holiday-sun .tui-full-calendar-weekday-grid-date,
+#calendarRoot .tui-full-calendar-holiday-sat .tui-full-calendar-weekday-grid-date,
+#calendarRoot .tui-full-calendar-holiday-sun.tui-full-calendar-dayname-date,
+#calendarRoot .tui-full-calendar-holiday-sat.tui-full-calendar-dayname-date { color: var(--cal-ink-muted) !important; }
 #calendarRoot .tui-full-calendar-weekday-schedule-time { color: var(--cal-ink-muted); }
 #calendarRoot .tui-full-calendar-timegrid-hour { color: var(--cal-ink-muted) !important; }
 #calendarRoot .mmv-tui-date-button, #calendarRoot .mmv-tui-dayname-button {
