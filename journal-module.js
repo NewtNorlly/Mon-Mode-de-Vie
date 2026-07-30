@@ -19,7 +19,7 @@
     return copy[l] ? l : "zh";
   }
 
-  function assetUrl(p) {
+  function fmtDate(dateStr,l){var d=new Date(dateStr+'T00:00:00');if(isNaN(d.getTime())){var m=parseInt(dateStr.slice(5,7)),day=parseInt(dateStr.slice(8,10));if(l==='zh')return m+'月'+day+'日';if(l==='fr')return day+'/'+m;if(l==='de')return day+'.'+m+'.';return m+'/'+day;}if(l==='zh')return (d.getMonth()+1)+'月'+d.getDate()+'日';if(l==='fr')return d.getDate()+'/'+(d.getMonth()+1);if(l==='de')return d.getDate()+'.'+(d.getMonth()+1)+'.';return (d.getMonth()+1)+'/'+d.getDate();}
     try { return new URL(p, new URL("./journals/", window.location.href)).href; }
     catch(_) { return "./journals/" + p; }
   }
@@ -118,7 +118,7 @@
           btn.addEventListener("click", function(ev) { ev.preventDefault(); openJournal(e); });
 
           const time = document.createElement("time"); time.className = "journal-entry__date"; time.dateTime = e.date;
-          time.innerHTML = `<span>${parseInt(e.date.slice(5,7))}月${parseInt(e.date.slice(8,10))}日</span>`;
+          time.innerHTML = '<span>'+fmtDate(e.date,l)+'</span>';
 
           const body = document.createElement("span"); body.className = "journal-entry__body";
           const tl = document.createElement("span"); tl.className = "journal-entry__topline";
@@ -131,11 +131,11 @@
           const vis = document.createElement("span"); vis.className = "journal-entry__visual";
           if (e.images.length) {
             const img = document.createElement("img"); img.src = assetUrl(e.images[0].file); img.alt = ""; img.loading = "lazy"; img.decoding = "async";
-            img.onerror = () => { vis.className += " is-text-preview"; vis.innerHTML = `<span class="journal-entry__paper-preview"><small>${e.date.slice(5,7)}.${e.date.slice(8,10)}</small></span>`; };
+            img.onerror = () => { vis.className += " is-text-preview"; vis.innerHTML = `<span class="journal-entry__paper-preview"><small>${fmtDate(e.date,l)}</small></span>`; };
             vis.append(img);
           } else {
             vis.className += " is-text-preview";
-            vis.innerHTML = `<span class="journal-entry__paper-preview"><small class="journal-entry__paper-date">${e.date.slice(5,7)}.${e.date.slice(8,10)}</small><span class="journal-entry__paper-snippet">${(loc.excerpt||e.excerpt||"").slice(0,60)}</span></span>`;
+            vis.innerHTML = `<span class="journal-entry__paper-preview"><small>${fmtDate(e.date,l)}</small></span>`;
           }
 
           btn.append(time, body, meta, vis);
