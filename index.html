@@ -8,10 +8,10 @@
   <meta name="description" content="Mon Mode de Vie — 一间关于生活、时间、故事与珍藏的数字会客厅。" />
   <title>Mon Mode de Vie</title>
   <link rel="stylesheet" href="./third_party/tui-calendar/tui-calendar.min.css" />
-  <link rel="stylesheet" href="./styles.css?v=20260730-v10" />
-  <link rel="stylesheet" href="./calendar.css?v=20260730-v10" />
-  <link rel="stylesheet" href="./journal-module.css?v=20260730-v10" />
-  <link rel="stylesheet" href="./album-gallery.css?v=20260730-v10" />
+  <link rel="stylesheet" href="./styles.css?v=20260730-v11" />
+  <link rel="stylesheet" href="./calendar.css?v=20260730-v11" />
+  <link rel="stylesheet" href="./journal-module.css?v=20260730-v11" />
+  <link rel="stylesheet" href="./album-gallery.css?v=20260730-v11" />
 </head>
 <body>
 
@@ -122,21 +122,28 @@
       </div>
 
       <div class="music-box" id="musicBox">
-        <div class="music-box__heading">
-          <svg class="music-box__note" viewBox="0 0 24 24" width="18" height="18"><circle cx="8" cy="18" r="3"/><circle cx="18" cy="16" r="3"/><path d="M11 18V5l10-2v11"/></svg>
-          <span data-i18n="musicBox">音乐盒</span>
+        <div class="music-box__header">
+          <div class="music-box__disc">
+            <div class="music-box__disc-inner"></div>
+          </div>
+          <div class="music-box__meta">
+            <span class="music-box__label" data-i18n="musicBox">音乐盒</span>
+            <span class="music-box__song">Белая кошка</span>
+            <span class="music-box__artist">Мельница</span>
+          </div>
         </div>
         <div class="music-box__player">
-          <button class="music-box__play" id="musicPlayBtn" type="button" aria-label="播放">
-            <svg class="icon-play" viewBox="0 0 24 24" width="24" height="24"><polygon points="7,4 20,12 7,20"/></svg>
-            <svg class="icon-pause" viewBox="0 0 24 24" width="24" height="24" hidden><rect x="5" y="4" width="5" height="16"/><rect x="14" y="4" width="5" height="16"/></svg>
+          <button class="music-box__play" id="musicPlayBtn" type="button">
+            <svg class="icon-play" viewBox="0 0 24 24" width="20" height="20"><polygon points="7,4 20,12 7,20"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" width="20" height="20" hidden><rect x="5" y="4" width="5" height="16"/><rect x="14" y="4" width="5" height="16"/></svg>
+            <span class="music-box__play-label" data-i18n="play">播放</span>
           </button>
-          <div class="music-box__info">
-            <span class="music-box__title">Белая кошка</span>
+          <div class="music-box__wave">
+            <i class="music-box__wave-bar" style="--d:0"></i><i class="music-box__wave-bar" style="--d:1"></i><i class="music-box__wave-bar" style="--d:2"></i><i class="music-box__wave-bar" style="--d:3"></i><i class="music-box__wave-bar" style="--d:4"></i>
           </div>
-          <div class="music-box__progress">
-            <div class="music-box__progress-bar" id="musicProgressBar"></div>
-          </div>
+        </div>
+        <div class="music-box__progress">
+          <div class="music-box__progress-fill" id="musicProgressBar"></div>
         </div>
         <audio id="musicAudio" preload="none" src="./assets/music/white-cat.mp3"></audio>
       </div>
@@ -249,8 +256,8 @@
 <script src="./journals/data/journals.js"></script>
 <script src="./journal-data.js"></script>
 <script src="./calendar-data.js"></script>
-<script src="./script.js?v=20260730-v10"></script>
-<script src="./journal-module.js?v=20260730-v10"></script>
+<script src="./script.js?v=20260730-v11"></script>
+<script src="./journal-module.js?v=20260730-v11"></script>
 <script src="./album-data.js"></script>
 <script src="./album-module.js"></script>
 </body>
