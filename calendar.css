@@ -4,7 +4,7 @@
 
 .calendar-sheet {
   --cal-ink: #1a2744;
-  --cal-ink-muted: #3d5270;
+  --cal-ink-muted: #253a52;
   --cal-surface: hsl(var(--card));
   --cal-grid: hsl(var(--border) / 0.78);
   --cal-accent: hsl(var(--accent-foreground));
@@ -51,8 +51,17 @@
   overflow: hidden;
   border: 1px solid var(--cal-grid); border-radius: var(--radius-md);
   background: hsl(var(--card) / 0.9);
+  position: relative; min-height: 340px;
 }
-.tui-calendar-viewport { overflow: hidden; background: var(--cal-surface); }
+.tui-calendar-viewport {
+  overflow: hidden; background: var(--cal-surface);
+  opacity: 1; transform: translateY(0);
+  transition: opacity 0.3s var(--ease-out), transform 0.35s var(--ease-spring);
+}
+.tui-calendar-viewport.is-hidden {
+  opacity: 0; transform: translateY(8px); pointer-events: none;
+  position: absolute; inset: 0; z-index: 0;
+}
 #calendarRoot {
   width: 100%; height: clamp(680px, 75vh, 860px);
   color: var(--cal-ink); background: var(--cal-surface);
@@ -80,19 +89,29 @@
 }
 
 /* ── TUI overrides (essential) ── */
+#calendarRoot,
+#calendarRoot * { color: var(--cal-ink); }
 #calendarRoot .tui-full-calendar-layout { background: var(--cal-surface) !important; }
 #calendarRoot :where(.tui-full-calendar-month-dayname-item, .tui-full-calendar-weekday-grid-line) {
   border-color: hsl(var(--border) / 0.78) !important;
   color: var(--cal-ink) !important;
   background: transparent !important;
 }
+#calendarRoot .tui-full-calendar-month-dayname-item { color: var(--cal-ink-muted) !important; font-weight: 600; }
+#calendarRoot .tui-full-calendar-extra-date { color: var(--cal-ink-muted) !important; opacity: 0.6; }
+#calendarRoot .tui-full-calendar-weekday-grid-date { color: var(--cal-ink-muted) !important; font-weight: 600; font-size: 0.75rem; }
+#calendarRoot .tui-full-calendar-dayname { color: var(--cal-ink-muted) !important; }
+#calendarRoot .tui-full-calendar-dayname-date { color: var(--cal-ink) !important; font-weight: 700; }
 #calendarRoot .tui-full-calendar-month { cursor: pointer; }
 #calendarRoot .tui-full-calendar-month:hover { background: var(--cal-hover); }
 #calendarRoot .tui-full-calendar-day { cursor: pointer; }
 #calendarRoot .tui-full-calendar-day:hover { background: var(--cal-hover); }
-#calendarRoot .tui-full-calendar-weekday { cursor: pointer; }
-#calendarRoot .tui-full-calendar-weekday:hover { background: var(--cal-hover); }
+#calendarRoot .tui-full-calendar-weekday-grid-line { cursor: pointer; }
+#calendarRoot .tui-full-calendar-weekday-grid-line:hover { background: var(--cal-hover) !important; }
 #calendarRoot .tui-full-calendar-today { background-color: hsl(var(--accent) / 0.34) !important; }
+#calendarRoot .tui-full-calendar-today .tui-full-calendar-weekday-grid-date { color: var(--cal-accent) !important; font-weight: 700; }
+#calendarRoot .tui-full-calendar-weekday-schedule-time { color: var(--cal-ink-muted); }
+#calendarRoot .tui-full-calendar-timegrid-hour { color: var(--cal-ink-muted) !important; }
 #calendarRoot .mmv-tui-date-button, #calendarRoot .mmv-tui-dayname-button {
   min-width: 40px; min-height: 40px;
   border-radius: var(--radius-sm);
@@ -114,4 +133,42 @@
   .calendar-sheet { width: calc(100% - 24px); padding: 18px 18px 28px; }
   .calendar-toolbar { grid-template-columns: 1fr 1fr; }
   #calendarPeriod { grid-column: 1/3; }
+}
+
+/* ── Year view ── */
+.calendar-year-view {
+  height: 100%; min-height: 340px; overflow: auto; padding: 14px;
+  background: var(--cal-surface); border-radius: var(--radius-lg, 12px);
+  opacity: 1; transform: translateY(0);
+  transition: opacity 0.3s var(--ease-out), transform 0.35s var(--ease-spring);
+}
+.calendar-year-view.is-hidden {
+  opacity: 0; transform: translateY(8px); pointer-events: none;
+  position: absolute; inset: 0; z-index: 0;
+}
+.year-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.year-cell {
+  display: flex; flex-direction: column; gap: 8px;
+  padding: 12px 14px; border: 1px solid var(--cal-grid); border-radius: var(--radius-md);
+  background: hsl(var(--card) / 0.82); color: var(--cal-ink);
+  cursor: pointer; text-align: left; font: inherit;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.year-cell:hover {
+  transform: translateY(-2px); border-color: var(--cal-accent);
+  box-shadow: 0 4px 14px hsl(var(--foreground) / 0.10);
+}
+.year-cell__name {
+  font-family: var(--font-serif); font-weight: 700; font-size: var(--text-sm);
+  color: var(--cal-accent);
+}
+.year-cell__grid {
+  display: grid; grid-template-columns: repeat(7, 1fr); gap: 1px;
+  font-size: 10px; line-height: 1.7; color: var(--cal-ink-muted);
+}
+.year-cell__grid i { font-style: normal; text-align: center; border-radius: 3px; min-height: 14px; }
+.year-cell__grid i.is-dow { opacity: .5; font-weight: 600; }
+.year-cell__grid i.is-today { background: var(--cal-accent); color: hsl(var(--card)); font-weight: 700; }
+@media (max-width: 720px) {
+  .year-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
