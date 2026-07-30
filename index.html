@@ -8,10 +8,10 @@
   <meta name="description" content="Mon Mode de Vie — 一间关于生活、时间、故事与珍藏的数字会客厅。" />
   <title>Mon Mode de Vie</title>
   <link rel="stylesheet" href="./third_party/tui-calendar/tui-calendar.min.css" />
-  <link rel="stylesheet" href="./styles.css?v=20260730-v17" />
-  <link rel="stylesheet" href="./calendar.css?v=20260730-v17" />
-  <link rel="stylesheet" href="./journal-module.css?v=20260730-v17" />
-  <link rel="stylesheet" href="./album-gallery.css?v=20260730-v17" />
+  <link rel="stylesheet" href="./styles.css?v=20260730-v18" />
+  <link rel="stylesheet" href="./calendar.css?v=20260730-v18" />
+  <link rel="stylesheet" href="./journal-module.css?v=20260730-v18" />
+  <link rel="stylesheet" href="./album-gallery.css?v=20260730-v18" />
 </head>
 <body>
 
@@ -43,19 +43,24 @@
 
     <nav class="primary-nav">
       <button class="nav-item is-active" data-module="home" aria-current="page" aria-label="会客厅" data-i18n-title="navHome">
-        <svg><use href="#icon-sofa"/></svg>
+        <svg class="nav-icon-svg"><use href="#icon-sofa"/></svg>
+        <span class="panda-emoji">🐼</span>
       </button>
       <button class="nav-item" data-module="now" aria-label="日历" data-i18n-title="navCalendar">
-        <svg><use href="#icon-calendar"/></svg>
+        <svg class="nav-icon-svg"><use href="#icon-calendar"/></svg>
+        <span class="panda-emoji">🗓️</span>
       </button>
       <button class="nav-item" data-module="journal" aria-label="日记" data-i18n-title="navJournal">
-        <svg><use href="#icon-journal"/></svg>
+        <svg class="nav-icon-svg"><use href="#icon-journal"/></svg>
+        <span class="panda-emoji">📝</span>
       </button>
       <button class="nav-item" data-module="album" aria-label="相册" data-i18n-title="navAlbum">
-        <svg><use href="#icon-album"/></svg>
+        <svg class="nav-icon-svg"><use href="#icon-album"/></svg>
+        <span class="panda-emoji">🏔️</span>
       </button>
       <button class="nav-item" id="cloudToggle" type="button" aria-controls="cloudMenu" aria-expanded="false" aria-label="那朵小云·设置" data-i18n-title="navCloud">
-        <svg><use href="#icon-cloud"/></svg>
+        <svg class="nav-icon-svg"><use href="#icon-cloud"/></svg>
+        <span class="panda-emoji">🍃</span>
       </button>
     </nav>
 
@@ -256,8 +261,8 @@
 <script src="./journals/data/journals.js"></script>
 <script src="./journal-data.js"></script>
 <script src="./calendar-data.js"></script>
-<script src="./script.js?v=20260730-v17"></script>
-<script src="./journal-module.js?v=20260730-v17"></script>
+<script src="./script.js?v=20260730-v18"></script>
+<script src="./journal-module.js?v=20260730-v18"></script>
 <script src="./album-data.js"></script>
 <script src="./album-module.js"></script>
 </body>
