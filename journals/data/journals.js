@@ -5,7 +5,35 @@ window.MMV_JOURNALS = [
     "location": "江西省九江市濂溪区",
     "sourcePages": [],
     "source": { "kind": "original", "label": "原创" },
-    "images": [{ "file": "assets/images/2026-07-29-illustration.jpg", "caption": "夏日午后书房：阳光、茉莉、橘猫和德语笔记" }],
+    "images": [{
+  "date": "2026-07-30",
+  "file": "2026-07-30.html",
+  "location": "江西省九江市濂溪区",
+  "excerpt": "今天把熊猫主题从头到尾打磨了一遍。黑胶唱片转起来的时候，整个左栏都有了生命。还修了一个幽灵Bug，熊猫色块终于不是黑糊糊的一坨了。",
+  "images": [
+    {
+      "file": "assets/images/2026-07-30-illustration.jpg"
+    }
+  ],
+  "source": {
+    "label": "原创"
+  },
+  "locales": {
+    "en": {
+      "location": "Lianxi District, Jiujiang, Jiangxi",
+      "excerpt": "Polished the panda theme from top to bottom. When the vinyl record spins, the whole left panel comes alive. Also fixed a ghost bug."
+    },
+    "fr": {
+      "location": "District de Lianxi, Jiujiang, Jiangxi",
+      "excerpt": "Peaufiné le thème panda de fond en comble. Quand le disque vinyle tourne, tout le panneau de gauche prend vie."
+    },
+    "de": {
+      "location": "Lianxi, Jiujiang, Jiangxi",
+      "excerpt": "Das Panda-Thema von Grund auf poliert. Wenn die Schallplatte sich dreht, erwacht das linke Panel zum Leben."
+    }
+  }
+},
+ { "file": "assets/images/2026-07-29-illustration.jpg", "caption": "夏日午后书房：阳光、茉莉、橘猫和德语笔记" }],
     "excerpt": "在三舅家吃完午饭，我坐在窗边翻德语变位表。阳光把百叶窗的影子切成整齐的条纹。橘猫蜷在椅边打盹。",
     "locales": {
       "en": {

@@ -544,12 +544,6 @@ a { color: inherit; text-decoration: none; }
   background: 
     none;
 }
-/* ── Theme Swatch: panda face SVG ── */
-.theme-swatch[data-theme-choice="panda"] {
-  background: #1a1a1a !important;
-  border: 2px solid #FF75B5;
-  overflow: visible;
-}
 /* ── Navigation ── */
 [data-theme="panda"] .primary-nav {
   box-shadow: 0 2px 20px hsl(340 72% 68% / 0.12), 0 0 0 0.5px hsl(170 87% 54% / 0.25);
