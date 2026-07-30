@@ -20,6 +20,8 @@
   }
 
   function fmtDate(dateStr,l){var d=new Date(dateStr+'T00:00:00');if(isNaN(d.getTime())){var m=parseInt(dateStr.slice(5,7)),day=parseInt(dateStr.slice(8,10));if(l==='zh')return m+'月'+day+'日';if(l==='fr')return day+'/'+m;if(l==='de')return day+'.'+m+'.';return m+'/'+day;}if(l==='zh')return (d.getMonth()+1)+'月'+d.getDate()+'日';if(l==='fr')return d.getDate()+'/'+(d.getMonth()+1);if(l==='de')return d.getDate()+'.'+(d.getMonth()+1)+'.';return (d.getMonth()+1)+'/'+d.getDate();}
+
+  function assetUrl(p) {
     try { return new URL(p, new URL("./journals/", window.location.href)).href; }
     catch(_) { return "./journals/" + p; }
   }
