@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Main stalk -->
+  <rect x="55" y="15" width="10" height="100" rx="3" fill="#7BAA6E"/>
+  <!-- Stalk highlight -->
+  <rect x="57" y="15" width="3" height="100" rx="1.5" fill="#A8D8A0" opacity="0.6"/>
+  <!-- Node 1 -->
+  <rect x="52" y="40" width="16" height="4" rx="2" fill="#5B8C5A"/>
+  <!-- Node 2 -->
+  <rect x="52" y="70" width="16" height="4" rx="2" fill="#5B8C5A"/>
+  <!-- Node 3 -->
+  <rect x="52" y="95" width="16" height="4" rx="2" fill="#5B8C5A"/>
+  <!-- Leaf 1 -->
+  <path d="M65 42 Q95 18 108 20 Q95 40 65 55 Z" fill="#8FD8B6" stroke="#5B8C5A" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M68 40 Q90 24 102 25" stroke="#5B8C5A" stroke-width="0.8" stroke-linecap="round" opacity="0.5"/>
+  <!-- Leaf 2 -->
+  <path d="M65 72 Q88 58 105 48 Q90 70 65 82 Z" fill="#6FC1A0" stroke="#5B8C5A" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Leaf 3 small -->
+  <path d="M52 60 Q35 50 25 55 Q38 58 52 65 Z" fill="#A0E0C0" stroke="#5B8C5A" stroke-width="1" stroke-linejoin="round"/>
+</svg>

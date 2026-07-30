@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Stem -->
+  <path d="M10 115 Q30 90 55 50 Q60 38 65 25" stroke="#5B8C5A" stroke-width="3" stroke-linecap="round"/>
+  <!-- Leaf body -->
+  <path d="M55 60 Q90 30 115 25 Q100 55 65 70 Z" fill="#6FC1A0" stroke="#5B8C5A" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Leaf vein -->
+  <path d="M58 55 Q82 42 105 30" stroke="#5B8C5A" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+  <!-- Small leaf -->
+  <path d="M40 85 Q55 75 65 70 Q50 80 35 80 Z" fill="#8FD8B6" stroke="#5B8C5A" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

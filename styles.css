@@ -529,9 +529,17 @@ a { color: inherit; text-decoration: none; }
 
 /* ═══ Panda Special Theme ═══ */
 [data-theme="panda"] .app-shell {
-  background: radial-gradient(ellipse at 50% 0%, hsl(var(--accent-foreground)/0.06), transparent 55%),
-              radial-gradient(circle at 15% 80%, hsl(var(--accent)/0.06), transparent 40%),
-              hsl(var(--background));
+  background: 
+    url("./assets/green-mountain.svg") right bottom / 320px auto no-repeat,
+    radial-gradient(ellipse at 50% 0%, hsl(var(--accent-foreground)/0.06), transparent 55%),
+    radial-gradient(circle at 15% 80%, hsl(var(--accent)/0.06), transparent 40%),
+    hsl(var(--background));
+}
+[data-theme="panda"][data-mode="dark"] .app-shell {
+  background: 
+    url("./assets/green-mountain.svg") right bottom / 280px auto no-repeat,
+    radial-gradient(ellipse at 50% 0%, hsl(170 87% 54% / 0.05), transparent 55%),
+    hsl(var(--background));
 }
 /* ── Theme Swatch: panda face SVG ── */
 .theme-swatch[data-theme-choice="panda"] {
@@ -634,18 +642,42 @@ a { color: inherit; text-decoration: none; }
 /* ── Side panels ── */
 [data-theme="panda"] .side-panel {
   border-radius: 0 18px 18px 0;
+  position: relative;
 }
 [data-theme="panda"] .side-panel--right {
   border-radius: 18px 0 0 18px;
+}
+[data-theme="panda"] .side-panel--left::after {
+  content: "";
+  position: absolute;
+  bottom: 16px;
+  right: 12px;
+  width: 48px;
+  height: 48px;
+  background: url("./assets/bamboo-leaf.svg") center/contain no-repeat;
+  opacity: 0.18;
+  pointer-events: none;
+}
+[data-theme="panda"] .side-panel--right::after {
+  content: "";
+  position: absolute;
+  bottom: 60px;
+  left: 10px;
+  width: 40px;
+  height: 100px;
+  background: url("./assets/bamboo-branch.svg") center/contain no-repeat;
+  opacity: 0.16;
+  pointer-events: none;
 }
 [data-theme="panda"] .panel-heading h2 {
   position: relative;
   padding-left: 26px;
 }
 [data-theme="panda"] .panel-heading h2::before {
-  content: "🐼";
+  content: "";
   position: absolute; left: 0; top: 50%; transform: translateY(-50%);
-  font-size: 16px; line-height: 1;
+  width: 20px; height: 20px;
+  background: url("./assets/panda-full.svg") center/contain no-repeat;
 }
 /* ── Music Box ── */
 [data-theme="panda"] .music-box__play {
