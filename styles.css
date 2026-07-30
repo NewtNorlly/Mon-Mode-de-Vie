@@ -528,6 +528,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ═══ Panda Special Theme ═══ */
+.panda-emoji { display: none; }
 [data-theme="panda"] .app-shell {
   background: 
     none;
