@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="description" content="今天把熊猫主题打磨好了，黑胶唱片转起来的时候，整个左栏都有了生命。">
+  <title>2026 年 7 月 30 日 · Journal · Mon Mode de Vie</title>
+  <link rel="stylesheet" href="./assets/journal.css?v=20260720-i18n-v1">
+  <script src="./assets/journal-themes.js?v=20260720-i18n-v1"></script>
+  <script src="./assets/journal.js?v=20260720-i18n-v1" defer></script>
+</head>
+<body>
+  <nav class="site-bar" aria-label="日志导航">
+    <a href="../index.html#journal">返回 Journal</a>
+    <div class="journal-controls">
+      <div class="language-switcher" role="group" aria-label="正文语言">
+        <button type="button" data-language-choice="zh" lang="zh-CN" aria-pressed="true">中</button>
+        <button type="button" data-language-choice="en" lang="en" aria-pressed="false">EN</button>
+        <button type="button" data-language-choice="fr" lang="fr" aria-pressed="false">FR</button>
+        <button type="button" data-language-choice="de" lang="de" aria-pressed="false">DE</button>
+      </div>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">深色</button>
+    </div>
+  </nav>
+  <main class="reading-shell">
+    <article class="journal-article">
+      <header class="journal-header">
+        <p class="kicker">Journal · 2026-07-30</p>
+        <h1><time datetime="2026-07-30">2026 年 7 月 30 日</time></h1>
+        <p class="subtitle">江西省九江市濂溪区</p>
+      </header>
+
+      <section class="prose" lang="zh-CN" data-journal-lang="zh">
+        <p>今天把熊猫主题从头到尾打磨了一遍。不是那种"改个配色就完事"的打磨——是真的坐在屏幕前，一个个像素地调。</p>
+        <p>最满意的是左栏的黑胶唱片。播放音乐的时候它会慢慢转起来，旁边的五根波形条也跟着上下弹跳。明明只是几行 CSS animation，但配上那张小小的唱片圆盘，整个左栏突然就有了生命。像小时候趴在收音机前看磁带转动的感觉。</p>
+        <p>熊猫主题的导航也终于定了。用 Emoji 替代 SVG 图标这个想法，一开始觉得太儿戏，但真做出来之后发现意外地可爱。🐼 代表首页，🗓️ 日历，📝 日记，🏔️ 相册，🍃 那朵小云。切主题的时候瞬间切换，没有任何闪烁。这不是"偷懒"，是"刚刚好"。</p>
+        <p>还修了一个幽灵 Bug。熊猫主题的色块在云菜单里一直是黑糊糊的一坨，因为 shell 和 sidebar 两个颜色都是深灰，放在 conic-gradient 里根本分不出层次。改成粉、绿、黑三色之后，终于像一朵三色花了。</p>
+        <p>日记模块的四语切换也通了。原来每篇文章的 HTML 里本来就藏着四套语言的段落，只是 journal-module.js 注入之后没按当前语言切换显示。加了四行代码就解决了。这种感觉很奇妙——明明功能一直在那里，只是缺了一根线把它接上。</p>
+        <p>晚饭后靠在椅子上听《Белая кошка》。Мельница 的声音像从很远的地方飘过来，俄语的音节在夏天的空气里慢慢融化。橘猫四不知道什么时候跳上了我的膝盖，爪子轻轻踩着，像在打拍子。</p>
+        <p>今天的插图是 AI 帮我画的：窗边的工作台，竹林远山，一杯茶，一只猫。我给了很长的提示词，它还给了一个让我意外的细节——阳光透过百叶窗洒在桌上的条纹光影。这个细节我并没有在提示词里明确写，但它画出来了。也许 AI 也读过类似的夏天。</p>
+        <figure class="journal-illustration">
+          <img src="./assets/images/2026-07-30-illustration.jpg" alt="夏日窗边的工作台，竹林远山，一杯茶，一只橘猫" width="800" height="600" decoding="async" />
+          <figcaption>2026 年 7 月 30 日，濂溪区的下午。</figcaption>
+        </figure>
+        <p>网站项目做到今天，已经有 277 篇内容、9 个主题色卡、4 种语言、25 篇日记、7 个相册。它不再是一个"练习项目"了。它是我在濂溪区这个夏天里，每天打开电脑最想看到的东西。</p>
+      </section>
+
+      <section class="prose" lang="en" data-journal-lang="en" hidden>
+        <p>Today I polished the panda theme from top to bottom. Not the kind of "change a few colors and call it done" polish — I sat in front of the screen and adjusted pixel by pixel.</p>
+        <p>My favorite part is the vinyl record in the left panel. When music plays, it spins slowly while five waveform bars bounce beside it. Just a few lines of CSS animation, but with that tiny disc, the whole panel suddenly feels alive. Reminds me of lying in front of the radio as a kid, watching cassette tapes spin.</p>
+        <p>The panda theme navigation is finally settled. Replacing SVG icons with emoji felt silly at first, but the result is unexpectedly charming. 🐼 for Home, 🗓️ Calendar, 📝 Journal, 🏔️ Album, 🍃 Cloud. Instant switch, zero flicker. Not laziness — just right.</p>
+        <p>Also fixed a ghost bug. The panda swatch in the cloud menu was a dark blob because both shell and sidebar colors were dark grays, indistinguishable in a conic-gradient. Changed to pink, green, and dark — now it blooms like a tricolor flower.</p>
+        <p>Got the journal module's four-language switching working too. Turns out each article's HTML already contained all four language sections — the journal-module.js just wasn't toggling them based on the current language. Four lines of code. Strange feeling — the functionality was always there, just missing one wire.</p>
+        <p>After dinner, leaned back and listened to Белая кошка. Мельница's voice drifted in from somewhere far away, Russian syllables melting slowly in the summer air. The orange cat had somehow appeared on my lap, paws kneading gently, as if keeping time.</p>
+        <p>Today's illustration was drawn by AI: a desk by the window, bamboo forest and distant mountains, a cup of tea, a cat. I gave it a long prompt, and it surprised me with a detail — sunlight through blinds casting striped shadows on the desk. I didn't explicitly ask for that. Maybe AI has read similar summers too.</p>
+        <p>The website project now has 277 pieces of content, 9 theme palettes, 4 languages, 25 journal entries, 7 albums. It's no longer a "practice project." It's what I most want to see when I open my laptop each day in Lianxi this summer.</p>
+      </section>
+
+      <section class="prose" lang="fr" data-journal-lang="fr" hidden>
+        <p>Aujourd'hui, j'ai peaufiné le thème panda de fond en comble. Pas le genre de finition « changer quelques couleurs et c'est bon » — je suis resté devant l'écran à ajuster pixel par pixel.</p>
+        <p>Ce que je préfère, c'est le disque vinyle dans le panneau de gauche. Quand la musique joue, il tourne lentement pendant que cinq barres d'onde rebondissent à côté. Quelques lignes d'animation CSS, mais avec ce petit disque, tout le panneau prend vie.</p>
+        <p>La navigation du thème panda est enfin réglée. Remplacer les icônes SVG par des emoji semblait idiot au début, mais le résultat est étonnamment charmant. 🐼 Accueil, 🗓️ Calendrier, 📝 Journal, 🏔️ Album, 🍃 Nuage. Changement instantané, zéro scintillement.</p>
+        <p>J'ai aussi corrigé un bug fantôme. L'échantillon panda dans le menu nuage était une tache sombre parce que les couleurs shell et sidebar étaient des gris foncés. Changé pour rose, vert et noir — maintenant il fleurit comme une fleur tricolore.</p>
+        <p>Le soir, je me suis calé dans le fauteuil en écoutant Белая кошка. La voix de Мельница flottait de loin, les syllabes russes fondant doucement dans l'air d'été. Le chat roux avait surgi sur mes genoux.</p>
+        <p>L'illustration d'aujourd'hui a été dessinée par l'IA : un bureau près de la fenêtre, une forêt de bambous, une tasse de thé, un chat. Elle a ajouté un détail que je n'avais pas demandé — la lumière à travers les stores.</p>
+      </section>
+
+      <section class="prose" lang="de" data-journal-lang="de" hidden>
+        <p>Heute habe ich das Panda-Thema von Grund auf poliert. Nicht die Art von "ein paar Farben ändern und fertig" — ich saß vor dem Bildschirm und passte Pixel für Pixel an.</p>
+        <p>Mein Lieblingsteil ist die Schallplatte im linken Panel. Wenn Musik spielt, dreht sie sich langsam, während fünf Wellenbalken daneben hüpfen. Nur ein paar Zeilen CSS-Animation, aber mit dieser kleinen Scheibe erwacht das ganze Panel zum Leben.</p>
+        <p>Die Panda-Navigation ist endlich fertig. SVG-Icons durch Emoji zu ersetzen fühlte sich zuerst albern an, aber das Ergebnis ist unerwartet charmant. 🐼 Start, 🗓️ Kalender, 📝 Tagebuch, 🏔️ Album, 🍃 Wolke. Sofortiger Wechsel, kein Flackern.</p>
+        <p>Abends lehnte ich mich zurück und hörte Белая кошка. Мельницаs Stimme schwebte von weit her, russische Silben schmolzen langsam in der Sommerluft. Der orangefarbene Kater war auf meinem Schoß erschienen.</p>
+        <p>Die heutige Illustration wurde von KI gezeichnet: ein Schreibtisch am Fenster, Bambuswald und ferne Berge, eine Tasse Tee, eine Katze. Sie fügte ein Detail hinzu, das ich nicht verlangt hatte — Sonnenlicht durch Jalousien.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
