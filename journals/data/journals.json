@@ -1,5 +1,33 @@
 [
   {
+    "date": "2026-07-31",
+    "file": "2026-07-31.html",
+    "location": "江西省九江市濂溪区",
+    "excerpt": "11点多才起床，表弟半夜偷玩手机被他妈妈抓了个正着，今天被他老爹带去工地干活了。学了德语、法语、英语，维护了两个网站项目。感觉应该把身边的资源当复利品去用，而不是消耗品。",
+    "images": [
+      {
+        "file": "assets/images/2026-07-31-illustration.jpg"
+      }
+    ],
+    "source": {
+      "label": "原创"
+    },
+    "locales": {
+      "en": {
+        "location": "Lianxi District, Jiujiang, Jiangxi",
+        "excerpt": "Got up past 11. My cousin got caught playing on his phone at midnight by his mom and was punished to work at the construction site with his dad. Studied German, French, and English, maintained two website projects. I feel I should treat my resources as compound interest, not consumables."
+      },
+      "fr": {
+        "location": "District de Lianxi, Jiujiang, Jiangxi",
+        "excerpt": "Levée passée 11h. Mon cousin s'est fait prendre à jouer sur son téléphone en pleine nuit par sa maman et a été puni à travailler sur le chantier avec son père. Étudié l'allemand, le français et l'anglais, maintenu deux projets web. Je devrais traiter mes ressources comme des intérêts composés, pas des consommables."
+      },
+      "de": {
+        "location": "Lianxi, Jiujiang, Jiangxi",
+        "excerpt": "Erst nach 11 Uhr aufgestanden. Mein Cousin wurde mitten in der Nacht beim Handyspielen von seiner Mutter erwischt und zur Strafe mit seinem Vater auf die Baustelle geschickt. Deutsch, Französisch und Englisch gelernt, zwei Webprojekte gepflegt. Ich sollte meine Ressourcen wie Zinseszins behandeln, nicht wie Verbrauchsgüter."
+      }
+    }
+  },
+  {
     "date": "2026-07-30",
     "file": "2026-07-30.html",
     "location": "江西省九江市濂溪区",
