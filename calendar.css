@@ -189,12 +189,24 @@
 .year-section:last-child { margin-bottom: 0; }
 .year-section__heading {
   margin: 0 0 14px 4px;
+  display: flex; align-items: center; gap: 12px;
   font-family: var(--font-serif); font-size: var(--text-xl); font-weight: 500;
   color: hsl(var(--accent-foreground));
   position: sticky; top: 0; z-index: 1;
   padding: 6px 0;
   background: var(--cal-surface);
 }
+.year-section__title { min-width: 3.2em; text-align: center; }
+.year-nav {
+  appearance: none; border: 1px solid var(--cal-grid); border-radius: 999px;
+  background: transparent; color: var(--cal-accent);
+  width: 28px; height: 28px; padding: 0; flex: none;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-family: var(--font-serif); font-size: var(--text-md); line-height: 1;
+  cursor: pointer; opacity: .55;
+  transition: opacity .15s ease, border-color .15s ease, background .15s ease;
+}
+.year-nav:hover { opacity: 1; border-color: var(--cal-accent); background: hsl(var(--foreground) / 0.05); }
 .year-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
 .year-cell {
   display: flex; flex-direction: column; gap: 8px;
