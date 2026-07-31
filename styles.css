@@ -537,6 +537,7 @@ a { color: inherit; text-decoration: none; }
 /* ── Navigation ── */
 [data-theme="panda"] .panda-emoji { display: inline; }
 [data-theme="panda"] .nav-icon-svg { display: none; }
+[data-theme="panda"] .icon-button > svg { display: none; }
 [data-theme="panda"] .app-shell {
   background: 
     none;
