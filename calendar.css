@@ -172,7 +172,7 @@
 
 /* ── Year view ── */
 .calendar-year-view {
-  height: 100%; min-height: 340px; overflow: auto; padding: 14px;
+  height: 100%; min-height: 340px; overflow: auto; padding: 0;
   background: var(--cal-surface); border-radius: var(--radius-lg, 12px);
   opacity: 1; transform: translateY(0);
   transition: opacity 0.3s var(--ease-out), transform 0.35s var(--ease-spring);
@@ -180,6 +180,17 @@
 .calendar-year-view.is-hidden {
   opacity: 0; transform: translateY(8px); pointer-events: none;
   position: absolute; inset: 0; z-index: 0;
+}
+.year-view__scroll {
+  padding: 14px; overflow-y: auto; height: 100%;
+  scroll-behavior: smooth;
+}
+.year-section { margin-bottom: 24px; }
+.year-section:last-child { margin-bottom: 0; }
+.year-section__heading {
+  margin: 0 0 14px 4px;
+  font-family: var(--font-serif); font-size: var(--text-xl); font-weight: 500;
+  color: hsl(var(--accent-foreground));
 }
 .year-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
 .year-cell {
