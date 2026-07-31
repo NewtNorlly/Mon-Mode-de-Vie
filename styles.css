@@ -362,8 +362,8 @@ a { color: inherit; text-decoration: none; }
 
 .chat-message--guest { grid-template-columns: minmax(0, 1fr) 36px; animation-name: msg-enter-guest; }
 .chat-message--guest .chat-avatar { order: 2; }
-.chat-message--guest .chat-message__content { order: 1; }
-.chat-message--guest .chat-bubble { border-radius: 16px 16px 4px 16px; background: hsl(var(--accent) / 0.10); margin-left: auto; }
+.chat-message--guest .chat-message__content { order: 1; display: flex; flex-direction: column; align-items: flex-end; }
+.chat-message--guest .chat-bubble { border-radius: 16px 16px 4px 16px; background: hsl(var(--accent) / 0.10); }
 .chat-message--guest .chat-name { text-align: right; }
 
 .chat-choices {
