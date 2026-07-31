@@ -525,6 +525,9 @@ a { color: inherit; text-decoration: none; }
   .app-shell[data-right-open="false"] .side-panel--right { transform: translateX(105%); opacity: 0; }
   .resize-handle { display: none; }
   .module-sheet { width: calc(100% - 28px); margin: 14px auto; padding: 24px 20px; }
+  [data-theme="panda"] .primary-nav::before,
+  [data-theme="panda"] .primary-nav::after { display: none; }
+  [data-theme="panda"] .primary-nav { padding: 4px 6px; gap: 0; }
 }
 
 @media (max-width: 520px) {

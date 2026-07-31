@@ -17,6 +17,9 @@
   font-size: 1rem;
 }
 
+[data-mode="dark"] .calendar-sheet { --cal-ink: #c8d6e5; --cal-ink-muted: #8395a7; }
+[data-mode="dark"] .calendar-sheet .year-cell { background: hsl(var(--card) / 0.35); }
+
 /* ── Toolbar ── */
 .calendar-toolbar {
   display: grid;
