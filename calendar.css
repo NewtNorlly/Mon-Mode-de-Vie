@@ -185,12 +185,15 @@
   padding: 14px; overflow-y: auto; height: 100%;
   scroll-behavior: smooth;
 }
-.year-section { margin-bottom: 24px; }
+.year-section { margin-bottom: 28px; }
 .year-section:last-child { margin-bottom: 0; }
 .year-section__heading {
   margin: 0 0 14px 4px;
   font-family: var(--font-serif); font-size: var(--text-xl); font-weight: 500;
   color: hsl(var(--accent-foreground));
+  position: sticky; top: 0; z-index: 1;
+  padding: 6px 0;
+  background: var(--cal-surface);
 }
 .year-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
 .year-cell {
