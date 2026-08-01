@@ -489,7 +489,7 @@
         ),
         work(
           "pencil-garden",
-          "./assets/album/comics/book-pencil-garden.webp",
+          "./assets/picks/book-pencil-garden.png",
           text("铅笔花园", "Pencil Garden", "Le jardin au crayon", "Der Bleistiftgarten"),
           text(
             "铅笔、书本和枝叶安静地躺在旧木桌上，像一段没有开始也不需要结束的午后。",
@@ -501,7 +501,7 @@
         ),
         work(
           "rain-light",
-          "./assets/album/comics/film-pencil-rainlight.webp",
+          "./assets/picks/film-pencil-rainlight.png",
           text("雨光", "Rain Light", "Lumière de pluie", "Regenlicht"),
           text(
             "雨滴把窗外的灯晕成一片暖金色，镜头恰好停在这一帧。",
@@ -513,7 +513,7 @@
         ),
         work(
           "jasmine",
-          "./assets/album/comics/music-pencil-jasmine.webp",
+          "./assets/picks/music-pencil-jasmine.png",
           text("茉莉", "Jasmine", "Jasmin", "Jasmin"),
           text(
             "一朵茉莉安静地开在旧乐谱旁边，像一首没有声音的歌。",
