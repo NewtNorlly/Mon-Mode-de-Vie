@@ -5,7 +5,7 @@
 <h1 align="center">Mon Mode de Vie</h1>
 
 <p align="center">
-  <em>「盈缩之期，不但在天；养怡之福，可得永年。」</em>
+  「盈缩之期，不但在天；养怡之福，可得永年。」
 </p>
 
 <p align="center">
@@ -141,7 +141,7 @@ MIT License
 
 <p align="center">
   <br />
-  <em>「多做一些朝花夕拾的事，少做一些半途而废的事。」</em>
+  「多做一些朝花夕拾的事，少做一些半途而废的事。」
   <br /><br />
   Made with ☕ in Lianxi, Jiujiang
 </p>

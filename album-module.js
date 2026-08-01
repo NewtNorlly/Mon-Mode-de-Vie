@@ -68,7 +68,7 @@
     const frag = document.createDocumentFragment();
     a.items.forEach((item, i) => {
       const btn = document.createElement("button"); btn.className = "album-card"; btn.type = "button";
-      const img = document.createElement("img"); img.src = item.file; img.alt = loc(item.caption); img.loading = i < 3 ? "eager" : "lazy"; img.decoding = "async";
+      const img = document.createElement("img"); img.src = item.file.replace(/(\.\w+)$/, '_thumb$1'); img.alt = loc(item.caption); img.loading = i < 3 ? "eager" : "lazy"; img.decoding = "async";
       img.onload = () => btn.classList.add("is-loaded");
       if (img.complete && img.naturalWidth) btn.classList.add("is-loaded");
       btn.innerHTML += `<span class="album-card__folio">${String(i+1).padStart(2,"0")}</span><span class="album-card__label"><strong>${loc(item.title)}</strong><small>${loc(item.scene)}</small></span>`;
