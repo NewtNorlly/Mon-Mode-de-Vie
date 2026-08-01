@@ -1,16 +1,16 @@
-window.MMV_JOURNALS = [
+ï»¿window.MMV_JOURNALS = [
   {
     "date": "2026-07-31",
     "file": "2026-07-31.html",
-    "location": "½­Î÷Ê¡¾Å½­ÊĞå¥ÏªÇø",
-    "excerpt": "11µã¶à²ÅÆğ´²£¬±íµÜ°ëÒ¹ÍµÍæÊÖ»ú±»ËûÂèÂè×¥ÁË¸öÕı×Å£¬½ñÌì±»ËûÀÏµù´øÈ¥¹¤µØ¸É»îÁË¡£Ñ§ÁËµÂÓï¡¢·¨Óï¡¢Ó¢Óï£¬Î¬»¤ÁËÁ½¸öÍøÕ¾ÏîÄ¿¡£¸Ğ¾õÓ¦¸Ã°ÑÉí±ßµÄ×ÊÔ´µ±¸´ÀûÆ·È¥ÓÃ£¬¶ø²»ÊÇÏûºÄÆ·¡£",
+    "location": "æ±Ÿè¥¿çœä¹æ±Ÿå¸‚æ¿‚æºªåŒº",
+    "excerpt": "11ç‚¹å¤šæ‰èµ·åºŠï¼Œè¡¨å¼ŸåŠå¤œå·ç©æ‰‹æœºè¢«ä»–å¦ˆå¦ˆæŠ“äº†ä¸ªæ­£ç€ï¼Œä»Šå¤©è¢«ä»–è€çˆ¹å¸¦å»å·¥åœ°å¹²æ´»äº†ã€‚å­¦äº†å¾·è¯­ã€æ³•è¯­ã€è‹±è¯­ï¼Œç»´æŠ¤äº†ä¸¤ä¸ªç½‘ç«™é¡¹ç›®ã€‚æ„Ÿè§‰åº”è¯¥æŠŠèº«è¾¹çš„èµ„æºå½“å¤åˆ©å“å»ç”¨ï¼Œè€Œä¸æ˜¯æ¶ˆè€—å“ã€‚",
     "images": [
       {
         "file": "assets/images/2026-07-31-illustration.jpg"
       }
     ],
     "source": {
-      "label": "Ô­´´"
+      "label": "åŸåˆ›"
     },
     "locales": {
       "en": {
@@ -19,35 +19,35 @@ window.MMV_JOURNALS = [
       },
       "fr": {
         "location": "District de Lianxi, Jiujiang, Jiangxi",
-        "excerpt": "Lev¨¦e pass¨¦e 11h. Mon cousin s'est fait prendre ¨¤ jouer sur son t¨¦l¨¦phone en pleine nuit par sa maman et a ¨¦t¨¦ puni ¨¤ travailler sur le chantier avec son p¨¨re. ¨¦tudi¨¦ l'allemand, le fran?ais et l'anglais, maintenu deux projets web. Je devrais traiter mes ressources comme des int¨¦r¨ºts compos¨¦s, pas des consommables."
+        "excerpt": "LevÃ©e passÃ©e 11h. Mon cousin s'est fait prendre Ã  jouer sur son tÃ©lÃ©phone en pleine nuit par sa maman et a Ã©tÃ© puni Ã  travailler sur le chantier avec son pÃ¨re. Ã‰tudiÃ© l'allemand, le franÃ§ais et l'anglais, maintenu deux projets web. Je devrais traiter mes ressources comme des intÃ©rÃªts composÃ©s, pas des consommables."
       },
       "de": {
         "location": "Lianxi, Jiujiang, Jiangxi",
-        "excerpt": "Erst nach 11 Uhr aufgestanden. Mein Cousin wurde mitten in der Nacht beim Handyspielen von seiner Mutter erwischt und zur Strafe mit seinem Vater auf die Baustelle geschickt. Deutsch, Franz?sisch und Englisch gelernt, zwei Webprojekte gepflegt. Ich sollte meine Ressourcen wie Zinseszins behandeln, nicht wie Verbrauchsg¨¹ter."
+        "excerpt": "Erst nach 11 Uhr aufgestanden. Mein Cousin wurde mitten in der Nacht beim Handyspielen von seiner Mutter erwischt und zur Strafe mit seinem Vater auf die Baustelle geschickt. Deutsch, FranzÃ¶sisch und Englisch gelernt, zwei Webprojekte gepflegt. Ich sollte meine Ressourcen wie Zinseszins behandeln, nicht wie VerbrauchsgÃ¼ter."
       }
     }
   },
   {
     "date": "2026-07-30",
     "file": "2026-07-30.html",
-    "location": "½­Î÷Ê¡¾Å½­ÊĞå¥ÏªÇø",
-    "excerpt": "½ñÌì°ÑĞÜÃ¨Ö÷Ìâ´ÓÍ·µ½Î²´òÄ¥ÁËÒ»±é¡£ºÚ½º³ªÆ¬×ªÆğÀ´µÄÊ±ºò£¬Õû¸ö×óÀ¸¶¼ÓĞÁËÉúÃü¡£»¹ĞŞÁËÒ»¸öÓÄÁéBug£¬ĞÜÃ¨É«¿éÖÕÓÚ²»ÊÇºÚºıºıµÄÒ»ÛçÁË¡£",
+    "location": "æ±Ÿè¥¿çœä¹æ±Ÿå¸‚æ¿‚æºªåŒº",
+    "excerpt": "ä»Šå¤©æŠŠç†ŠçŒ«ä¸»é¢˜ä»å¤´åˆ°å°¾æ‰“ç£¨äº†ä¸€éã€‚é»‘èƒ¶å”±ç‰‡è½¬èµ·æ¥çš„æ—¶å€™ï¼Œæ•´ä¸ªå·¦æ éƒ½æœ‰äº†ç”Ÿå‘½ã€‚è¿˜ä¿®äº†ä¸€ä¸ªå¹½çµBugï¼Œç†ŠçŒ«è‰²å—ç»ˆäºä¸æ˜¯é»‘ç³Šç³Šçš„ä¸€å¨äº†ã€‚",
     "images": [
       {
         "file": "assets/images/2026-07-30-illustration.jpg"
       }
     ],
     "source": {
-      "label": "Ô­´´"
+      "label": "åŸåˆ›"
     },
     "locales": {
       "en": {
         "location": "Lianxi District, Jiujiang, Jiangxi",
-        "excerpt": "Polished the panda theme from top to bottom. When the vinyl record spins, the whole left panel comes alive. Also fixed a ghost bug ¡ª the panda swatch is no longer a dark blob."
+        "excerpt": "Polished the panda theme from top to bottom. When the vinyl record spins, the whole left panel comes alive. Also fixed a ghost bug â€” the panda swatch is no longer a dark blob."
       },
       "fr": {
         "location": "District de Lianxi, Jiujiang, Jiangxi",
-        "excerpt": "Peaufin¨¦ le th¨¨me panda de fond en comble. Quand le disque vinyle tourne, tout le panneau de gauche prend vie."
+        "excerpt": "PeaufinÃ© le thÃ¨me panda de fond en comble. Quand le disque vinyle tourne, tout le panneau de gauche prend vie."
       },
       "de": {
         "location": "Lianxi, Jiujiang, Jiangxi",
@@ -58,15 +58,15 @@ window.MMV_JOURNALS = [
   {
     "date": "2026-07-29",
     "file": "2026-07-29.html",
-    "location": "½­Î÷Ê¡¾Å½­ÊĞå¥ÏªÇø",
-    "excerpt": "ÔÚÈı¾Ë¼Ò³ÔÍêÎç·¹£¬ÎÒ×øÔÚ´°±ß·­µÂÓï±äÎ»±í¡£Ñô¹â°Ñ°ÙÒ¶´°µÄÓ°×ÓÇĞ³ÉÕûÆëµÄÌõÎÆ¡£éÙÃ¨òéÔÚÒÎ±ß´òíï¡£",
+    "location": "æ±Ÿè¥¿çœä¹æ±Ÿå¸‚æ¿‚æºªåŒº",
+    "excerpt": "åœ¨ä¸‰èˆ…å®¶åƒå®Œåˆé¥­ï¼Œæˆ‘ååœ¨çª—è¾¹ç¿»å¾·è¯­å˜ä½è¡¨ã€‚é˜³å…‰æŠŠç™¾å¶çª—çš„å½±å­åˆ‡æˆæ•´é½çš„æ¡çº¹ã€‚æ©˜çŒ«èœ·åœ¨æ¤…è¾¹æ‰“ç›¹ã€‚",
     "images": [
       {
         "file": "assets/images/2026-07-29-illustration.jpg"
       }
     ],
     "source": {
-      "label": "Ô­´´"
+      "label": "åŸåˆ›"
     },
     "locales": {
       "en": {
@@ -75,70 +75,70 @@ window.MMV_JOURNALS = [
       },
       "fr": {
         "location": "District de Lianxi, Jiujiang, Jiangxi",
-        "excerpt": "Apr¨¨s le d¨¦jeuner chez le Troisi¨¨me Oncle, je me suis assis pr¨¨s de la fen¨ºtre pour feuilleter mes tableaux de conjugaison allemande. Le soleil d¨¦coupait des rayures nettes ¨¤ travers les stores."
+        "excerpt": "AprÃ¨s le dÃ©jeuner chez le TroisiÃ¨me Oncle, je me suis assis prÃ¨s de la fenÃªtre pour feuilleter mes tableaux de conjugaison allemande. Le soleil dÃ©coupait des rayures nettes Ã  travers les stores."
       },
       "de": {
         "location": "Lianxi, Jiujiang, Jiangxi",
-        "excerpt": "Nach dem Mittagessen bei Dritt-Onkel sa? ich am Fenster und bl?tterte durch deutsche Konjugationstabellen. Das Sonnenlicht schnitt saubere Streifen durch die Jalousien."
+        "excerpt": "Nach dem Mittagessen bei Dritt-Onkel saÃŸ ich am Fenster und blÃ¤tterte durch deutsche Konjugationstabellen. Das Sonnenlicht schnitt saubere Streifen durch die Jalousien."
       }
     }
   },
   {
     "date": "2026-07-18",
     "file": "2026-07-18.html",
-    "location": "Mon Mode de Vie ¡¤ ±¾µØ¹¤×÷Ì¨",
+    "location": "Mon Mode de Vie Â· æœ¬åœ°å·¥ä½œå°",
     "sourcePages": [],
     "source": {
       "kind": "site-session",
-      "label": "2026-07-18 Codex »á»°ÕûÀí"
+      "label": "2026-07-18 Codex ä¼šè¯æ•´ç†"
     },
     "images": [
       {
         "file": "../assets/images/book-moonlit-pages.webp",
-        "caption": "×òÈÕÉú³É ¡¤ ÔÂ¹âÏÂ×Ô¶¯·­Ò³µÄÊé",
-        "sourceLabel": "2026-07-18 »á»°Éú³É"
+        "caption": "æ˜¨æ—¥ç”Ÿæˆ Â· æœˆå…‰ä¸‹è‡ªåŠ¨ç¿»é¡µçš„ä¹¦",
+        "sourceLabel": "2026-07-18 ä¼šè¯ç”Ÿæˆ"
       },
       {
         "file": "../assets/images/film-rain-window.webp",
-        "caption": "×òÈÕÉú³É ¡¤ ÓêÒ¹´°±ßµÄ½ºÆ¬",
-        "sourceLabel": "2026-07-18 »á»°Éú³É"
+        "caption": "æ˜¨æ—¥ç”Ÿæˆ Â· é›¨å¤œçª—è¾¹çš„èƒ¶ç‰‡",
+        "sourceLabel": "2026-07-18 ä¼šè¯ç”Ÿæˆ"
       },
       {
         "file": "../assets/images/music-jasmine-vinyl.webp",
-        "caption": "×òÈÕÉú³É ¡¤ ³¿¹â¡¢ÜÔÀòÓë³ªÆ¬",
-        "sourceLabel": "2026-07-18 »á»°Éú³É"
+        "caption": "æ˜¨æ—¥ç”Ÿæˆ Â· æ™¨å…‰ã€èŒ‰è‰ä¸å”±ç‰‡",
+        "sourceLabel": "2026-07-18 ä¼šè¯ç”Ÿæˆ"
       }
     ],
-    "excerpt": "½ñÌìµÄ¶Ô»°´ÓÒ»¾ä¡°³öÊÂÁË¡±¿ªÊ¼¡£C ÅÌ¼¸ºõÃ»ÓĞÓàµØ£¬Mon Mode de Vie ÏñÒ»¼äÈûÂúÖ½ÏäµÄÎİ×Ó£¬ÖÕÓÚµ½ÁË±ØĞë°á¼ÒµÄÊ±ºò¡£ÓÚÊÇÎÒÃÇ°ÑÏîÄ¿Å²µ½ D ÅÌ£¬ÖØĞÂÈ·ÈÏÎÄ¼ş¡¢Í¼Æ¬ºÍ´ò¿ª·½Ê½¡­¡­",
+    "excerpt": "ä»Šå¤©çš„å¯¹è¯ä»ä¸€å¥â€œå‡ºäº‹äº†â€å¼€å§‹ã€‚C ç›˜å‡ ä¹æ²¡æœ‰ä½™åœ°ï¼ŒMon Mode de Vie åƒä¸€é—´å¡æ»¡çº¸ç®±çš„å±‹å­ï¼Œç»ˆäºåˆ°äº†å¿…é¡»æ¬å®¶çš„æ—¶å€™ã€‚äºæ˜¯æˆ‘ä»¬æŠŠé¡¹ç›®æŒªåˆ° D ç›˜ï¼Œé‡æ–°ç¡®è®¤æ–‡ä»¶ã€å›¾ç‰‡å’Œæ‰“å¼€æ–¹å¼â€¦â€¦",
     "locales": {
       "en": {
-        "location": "Mon Mode de Vie ¡¤ Local workspace",
-        "excerpt": "Today¡¯s conversation began with the words, ¡®Something happened.¡¯ The C drive had almost no¡­",
-        "sourceLabel": "2026-07-18 ¡¤ Curated from a Codex session",
+        "location": "Mon Mode de Vie Â· Local workspace",
+        "excerpt": "Todayâ€™s conversation began with the words, â€˜Something happened.â€™ The C drive had almost noâ€¦",
+        "sourceLabel": "2026-07-18 Â· Curated from a Codex session",
         "imageCaptions": [
-          "Generated yesterday ¡¤ A book turning its own pages in moonlight",
-          "Generated yesterday ¡¤ Film curled beside a rainy-night window",
-          "Generated yesterday ¡¤ Morning light, jasmine, and a record"
+          "Generated yesterday Â· A book turning its own pages in moonlight",
+          "Generated yesterday Â· Film curled beside a rainy-night window",
+          "Generated yesterday Â· Morning light, jasmine, and a record"
         ]
       },
       "fr": {
-        "location": "Mon Mode de Vie ¡¤ Espace de travail local",
-        "excerpt": "La conversation d¡¯aujourd¡¯hui a commenc¨¦ par ces mots : ? Il y a eu un probl¨¨me. ? Le disque¡­",
-        "sourceLabel": "2026-07-18 ¡¤ Mise en forme d¡¯une session Codex",
+        "location": "Mon Mode de Vie Â· Espace de travail local",
+        "excerpt": "La conversation dâ€™aujourdâ€™hui a commencÃ© par ces mots : Â« Il y a eu un problÃ¨me. Â» Le disqueâ€¦",
+        "sourceLabel": "2026-07-18 Â· Mise en forme dâ€™une session Codex",
         "imageCaptions": [
-          "G¨¦n¨¦r¨¦e hier ¡¤ Un livre dont les pages se tournent au clair de lune",
-          "G¨¦n¨¦r¨¦e hier ¡¤ Une pellicule recroquevill¨¦e pr¨¨s d¡¯une fen¨ºtre un soir de pluie",
-          "G¨¦n¨¦r¨¦e hier ¡¤ Lumi¨¨re du matin, jasmin et disque"
+          "GÃ©nÃ©rÃ©e hier Â· Un livre dont les pages se tournent au clair de lune",
+          "GÃ©nÃ©rÃ©e hier Â· Une pellicule recroquevillÃ©e prÃ¨s dâ€™une fenÃªtre un soir de pluie",
+          "GÃ©nÃ©rÃ©e hier Â· LumiÃ¨re du matin, jasmin et disque"
         ]
       },
       "de": {
-        "location": "Mon Mode de Vie ¡¤ Lokaler Arbeitsbereich",
-        "excerpt": "Das heutige Gespr?ch begann mit den Worten: ?Es ist etwas passiert.¡° Auf Laufwerk C war¡­",
-        "sourceLabel": "2026-07-18 ¡¤ Aus einer Codex-Sitzung aufbereitet",
+        "location": "Mon Mode de Vie Â· Lokaler Arbeitsbereich",
+        "excerpt": "Das heutige GesprÃ¤ch begann mit den Worten: â€Es ist etwas passiert.â€œ Auf Laufwerk C warâ€¦",
+        "sourceLabel": "2026-07-18 Â· Aus einer Codex-Sitzung aufbereitet",
         "imageCaptions": [
-          "Gestern erzeugt ¡¤ Ein Buch, dessen Seiten sich im Mondlicht von selbst umbl?ttern",
-          "Gestern erzeugt ¡¤ Ein Filmstreifen am Fenster in einer Regennacht",
-          "Gestern erzeugt ¡¤ Morgenlicht, Jasmin und eine Schallplatte"
+          "Gestern erzeugt Â· Ein Buch, dessen Seiten sich im Mondlicht von selbst umblÃ¤ttern",
+          "Gestern erzeugt Â· Ein Filmstreifen am Fenster in einer Regennacht",
+          "Gestern erzeugt Â· Morgenlicht, Jasmin und eine Schallplatte"
         ]
       }
     },
@@ -147,33 +147,33 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-07-19",
     "file": "2025-07-19.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§×Ïİ¿Ñ§Éú¹«Ô¢10¶°106",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦ç´«è˜å­¦ç”Ÿå…¬å¯“10æ ‹106",
     "sourcePages": [
       25,
       26
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 25¡¢26 Ò³"
+      "label": "PDF ç¬¬ 25ã€26 é¡µ"
     },
     "images": [],
-    "excerpt": "ÄãËµºÃ²»ºÃĞ¦£¿ÕâÊÇ985´óÑ§µÄ¾­¼ÃÑ§×¨ÒµµÄ°Ù»§Ç§´åÏç´åµ÷ÑĞ»î¶¯¡¢Ïç´åÕñĞË´óÈü¡¢ÊîÆÚË¼ÕşÉç»áÊµ¼ù¡£ÎÒ»¨ÁË540¶à¿é£¬ÔÚ»ÆÃ·ÕòµÄ½¼Çø×¡ÁË¸ö±ö¹İ£¬×¡ÁËÒ»¸öĞÇÆÚ£¬×é³¤Ò»º°ÎÒ£¬ÎÒ¾ÍµÃÈ¥±©É¹£¬Ó¦¸¶ÄÇÊº¡­¡­",
+    "excerpt": "ä½ è¯´å¥½ä¸å¥½ç¬‘ï¼Ÿè¿™æ˜¯985å¤§å­¦çš„ç»æµå­¦ä¸“ä¸šçš„ç™¾æˆ·åƒæ‘ä¹¡æ‘è°ƒç ”æ´»åŠ¨ã€ä¹¡æ‘æŒ¯å…´å¤§èµ›ã€æš‘æœŸæ€æ”¿ç¤¾ä¼šå®è·µã€‚æˆ‘èŠ±äº†540å¤šå—ï¼Œåœ¨é»„æ¢…é•‡çš„éƒŠåŒºä½äº†ä¸ªå®¾é¦†ï¼Œä½äº†ä¸€ä¸ªæ˜ŸæœŸï¼Œç»„é•¿ä¸€å–Šæˆ‘ï¼Œæˆ‘å°±å¾—å»æš´æ™’ï¼Œåº”ä»˜é‚£å±â€¦â€¦",
     "locales": {
       "en": {
         "location": "Room 106, Building 10, Zisong Student Apartments, Huazhong University of Science and Technology",
-        "excerpt": "Tell me this is not ridiculous. This was the Hundred Households, Thousand Villages rural¡­",
+        "excerpt": "Tell me this is not ridiculous. This was the Hundred Households, Thousand Villages ruralâ€¦",
         "sourceLabel": "PDF pages 25 / 26",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Chambre 106, batiment 10, r¨¦sidence ¨¦tudiante Zisong, Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "Vous trouvez ?a dr?le, vous ? C¡¯¨¦tait ¨¤ la fois l¡¯enqu¨ºte rurale ? Cent foyers, mille¡­",
-        "sourceLabel": "PDF ¡¤ pages 25 / 26",
+        "location": "Chambre 106, bÃ¢timent 10, rÃ©sidence Ã©tudiante Zisong, UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "Vous trouvez Ã§a drÃ´le, vous ? Câ€™Ã©tait Ã  la fois lâ€™enquÃªte rurale Â« Cent foyers, milleâ€¦",
+        "sourceLabel": "PDF Â· pages 25 / 26",
         "imageCaptions": []
       },
       "de": {
-        "location": "Zimmer 106, Geb?ude 10, Zisong-Studentenwohnheim, Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
-        "excerpt": "Ist das nicht zum Lachen? Das hier war gleichzeitig die l?ndliche Untersuchung ?Hundert¡­",
+        "location": "Zimmer 106, GebÃ¤ude 10, Zisong-Studentenwohnheim, Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
+        "excerpt": "Ist das nicht zum Lachen? Das hier war gleichzeitig die lÃ¤ndliche Untersuchung â€Hundertâ€¦",
         "sourceLabel": "PDF-Seiten 25 / 26",
         "imageCaptions": []
       }
@@ -183,33 +183,33 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-07-08",
     "file": "2025-07-08.html",
-    "location": "ºş±±Ê¡»Æ¸ÔÊĞ»ÆÃ·ÏØ»ÆÃ·ÕòÅËºşÂ·",
+    "location": "æ¹–åŒ—çœé»„å†ˆå¸‚é»„æ¢…å¿é»„æ¢…é•‡æ½˜æ¹–è·¯",
     "sourcePages": [
       24,
       25
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 24¡¢25 Ò³"
+      "label": "PDF ç¬¬ 24ã€25 é¡µ"
     },
     "images": [],
-    "excerpt": "×òÌìÏÂÎçÔÚÍâÃæ±©É¹£¬ÍíÉÏ»ØÀ´µÃºÜÍí£¬Ö»ÌıÁË×îºó°ë¸öĞ¡Ê±µÄ¿ÚÓï¿Î¡£",
+    "excerpt": "æ˜¨å¤©ä¸‹åˆåœ¨å¤–é¢æš´æ™’ï¼Œæ™šä¸Šå›æ¥å¾—å¾ˆæ™šï¼Œåªå¬äº†æœ€ååŠä¸ªå°æ—¶çš„å£è¯­è¯¾ã€‚",
     "locales": {
       "en": {
         "location": "Panhu Road, Huangmei Town, Huangmei County, Huanggang, Hubei Province",
-        "excerpt": "Yesterday afternoon I was baking outside in the sun. I came back very late in the evening¡­",
+        "excerpt": "Yesterday afternoon I was baking outside in the sun. I came back very late in the eveningâ€¦",
         "sourceLabel": "PDF pages 24 / 25",
         "imageCaptions": []
       },
       "fr": {
         "location": "Route Panhu, bourg de Huangmei, district de Huangmei, Huanggang, province du Hubei",
-        "excerpt": "Hier apr¨¨s-midi, j¡¯ai cuit dehors en plein soleil. Je suis rentr¨¦ tr¨¨s tard le soir et n¡¯ai¡­",
-        "sourceLabel": "PDF ¡¤ pages 24 / 25",
+        "excerpt": "Hier aprÃ¨s-midi, jâ€™ai cuit dehors en plein soleil. Je suis rentrÃ© trÃ¨s tard le soir et nâ€™aiâ€¦",
+        "sourceLabel": "PDF Â· pages 24 / 25",
         "imageCaptions": []
       },
       "de": {
-        "location": "Panhu-Stra?e, Gro?gemeinde Huangmei, Kreis Huangmei, Huanggang, Provinz Hubei",
-        "excerpt": "Gestern Nachmittag briet ich drau?en in der prallen Sonne. Abends kam ich sehr sp?t zur¨¹ck¡­",
+        "location": "Panhu-StraÃŸe, GroÃŸgemeinde Huangmei, Kreis Huangmei, Huanggang, Provinz Hubei",
+        "excerpt": "Gestern Nachmittag briet ich drauÃŸen in der prallen Sonne. Abends kam ich sehr spÃ¤t zurÃ¼ckâ€¦",
         "sourceLabel": "PDF-Seiten 24 / 25",
         "imageCaptions": []
       }
@@ -219,32 +219,32 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-07-04",
     "file": "2025-07-04.html",
-    "location": "ºş±±Ê¡»ÆÃ·ÏØµÚÒ»ÖĞÑ§",
+    "location": "æ¹–åŒ—çœé»„æ¢…å¿ç¬¬ä¸€ä¸­å­¦",
     "sourcePages": [
       24
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 24 Ò³"
+      "label": "PDF ç¬¬ 24 é¡µ"
     },
     "images": [],
-    "excerpt": "»ÆÃ·Ò»ÖĞÈÃ²»ÈÃÓÎ¿Í½øÈ¥²Î¹Û£¿Èç¹û²»ÈÃµÄ»°£¬ÎÒ·­Ç½Ò²Òª½øÈ¥¿´¿´£¬±Ï¾¹×ßÁË5.4km¡£",
+    "excerpt": "é»„æ¢…ä¸€ä¸­è®©ä¸è®©æ¸¸å®¢è¿›å»å‚è§‚ï¼Ÿå¦‚æœä¸è®©çš„è¯ï¼Œæˆ‘ç¿»å¢™ä¹Ÿè¦è¿›å»çœ‹çœ‹ï¼Œæ¯•ç«Ÿèµ°äº†5.4kmã€‚",
     "locales": {
       "en": {
         "location": "Huangmei County No. 1 High School, Hubei Province",
-        "excerpt": "Does Huangmei No. 1 High School let visitors go in and look around? If not, I will climb¡­",
+        "excerpt": "Does Huangmei No. 1 High School let visitors go in and look around? If not, I will climbâ€¦",
         "sourceLabel": "PDF page 24",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Lyc¨¦e no 1 du district de Huangmei, province du Hubei",
-        "excerpt": "Le lyc¨¦e no 1 de Huangmei laisse-t-il entrer les visiteurs pour le d¨¦couvrir ? Sinon¡­",
-        "sourceLabel": "PDF ¡¤ page 24",
+        "location": "LycÃ©e no 1 du district de Huangmei, province du Hubei",
+        "excerpt": "Le lycÃ©e no 1 de Huangmei laisse-t-il entrer les visiteurs pour le dÃ©couvrir ? Sinonâ€¦",
+        "sourceLabel": "PDF Â· page 24",
         "imageCaptions": []
       },
       "de": {
         "location": "Erste Oberschule des Kreises Huangmei, Provinz Hubei",
-        "excerpt": "L?sst die Erste Oberschule von Huangmei Besucher hinein, damit sie sich umsehen k?nnen¡­",
+        "excerpt": "LÃ¤sst die Erste Oberschule von Huangmei Besucher hinein, damit sie sich umsehen kÃ¶nnenâ€¦",
         "sourceLabel": "PDF-Seite 24",
         "imageCaptions": []
       }
@@ -254,33 +254,33 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-07-03",
     "file": "2025-07-03.html",
-    "location": "»ÆÃ·¶«Õ¾£¬²Ì·ãÊ÷ÉçÇø£¬ÅËºşÂ·£¬ĞÂÀö¶¼ÉÌÎñ±ö¹İ",
+    "location": "é»„æ¢…ä¸œç«™ï¼Œè”¡æ«æ ‘ç¤¾åŒºï¼Œæ½˜æ¹–è·¯ï¼Œæ–°ä¸½éƒ½å•†åŠ¡å®¾é¦†",
     "sourcePages": [
       23,
       24
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 23¡¢24 Ò³"
+      "label": "PDF ç¬¬ 23ã€24 é¡µ"
     },
     "images": [],
-    "excerpt": "7ÔÂ³õ£¬ÎÒµÄ×é³¤£¬Òª´ø×ÅÎÒÈ¥»ÆÃ·ÏØÏÂĞÂÕò¸ãÏç´åµ÷ÑĞ£¬ËùÒÔÎÒÔÚ»ÆÃ·ÕòÕÒÁËÒ»¸öÂÃ¹İ£¬¾Í×¡ÏÂÁË¡£",
+    "excerpt": "7æœˆåˆï¼Œæˆ‘çš„ç»„é•¿ï¼Œè¦å¸¦ç€æˆ‘å»é»„æ¢…å¿ä¸‹æ–°é•‡æä¹¡æ‘è°ƒç ”ï¼Œæ‰€ä»¥æˆ‘åœ¨é»„æ¢…é•‡æ‰¾äº†ä¸€ä¸ªæ—…é¦†ï¼Œå°±ä½ä¸‹äº†ã€‚",
     "locales": {
       "en": {
         "location": "Huangmei East Railway Station; Caifengshu Community; Panhu Road; Xinlidu Business Hotel",
-        "excerpt": "In early July, my group leader was taking me to Xiaxin Town in Huangmei County for rural¡­",
+        "excerpt": "In early July, my group leader was taking me to Xiaxin Town in Huangmei County for ruralâ€¦",
         "sourceLabel": "PDF pages 23 / 24",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Gare de Huangmei-Est ; quartier de Caifengshu ; route de Panhu ; h?tel d¡¯affaires Xinlidu",
-        "excerpt": "Au d¨¦but de juillet, mon chef de groupe devait m¡¯emmener ¨¤ Xiaxin, dans le district de¡­",
-        "sourceLabel": "PDF ¡¤ pages 23 / 24",
+        "location": "Gare de Huangmei-Est ; quartier de Caifengshu ; route de Panhu ; hÃ´tel dâ€™affaires Xinlidu",
+        "excerpt": "Au dÃ©but de juillet, mon chef de groupe devait mâ€™emmener Ã  Xiaxin, dans le district deâ€¦",
+        "sourceLabel": "PDF Â· pages 23 / 24",
         "imageCaptions": []
       },
       "de": {
-        "location": "Bahnhof Huangmei Ost; Wohnviertel Caifengshu; Panhu-Stra?e; Business-Hotel Xinlidu",
-        "excerpt": "Anfang Juli wollte mich mein Gruppenleiter f¨¹r eine l?ndliche Feldstudie nach Xiaxin in den¡­",
+        "location": "Bahnhof Huangmei Ost; Wohnviertel Caifengshu; Panhu-StraÃŸe; Business-Hotel Xinlidu",
+        "excerpt": "Anfang Juli wollte mich mein Gruppenleiter fÃ¼r eine lÃ¤ndliche Feldstudie nach Xiaxin in denâ€¦",
         "sourceLabel": "PDF-Seiten 23 / 24",
         "imageCaptions": []
       }
@@ -290,32 +290,32 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-07-02",
     "file": "2025-07-02.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§×Ïİ¿Ñ§Éú¹«Ô¢10¶°106",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦ç´«è˜å­¦ç”Ÿå…¬å¯“10æ ‹106",
     "sourcePages": [
       23
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 23 Ò³"
+      "label": "PDF ç¬¬ 23 é¡µ"
     },
     "images": [],
-    "excerpt": "7ÔÂ2ºÅ£¬ÎÒ¸Ğµ½ºÜĞÒÔË£¬¾Å½­Í¬Ñ§Ô¸ÒâÈÃÎÒÔÚÊî¼ÙË¯ËûµÄ´²Î»£¡Ö®ºóÓÖ¸Ğµ½¸üĞÒÔË£¬ÎÒÕÒµ½Ò»¸ö³É¹¦ÉêÇëÈ´¸ù±¾²»×¡¡°ÁÙÊ±ÇŞÊÒ¡±µÄÍ¬Ñ§£¡ÕæÊÇÌìÎŞ¾øÈËÖ®Â·£¡Å·Ò®£¡ÎÒºÎÆäÓĞĞÒ£¡Ì«¸ĞĞ»ÁõÀÖÖÛÍ¬Ñ§ÁË£¡",
+    "excerpt": "7æœˆ2å·ï¼Œæˆ‘æ„Ÿåˆ°å¾ˆå¹¸è¿ï¼Œä¹æ±ŸåŒå­¦æ„¿æ„è®©æˆ‘åœ¨æš‘å‡ç¡ä»–çš„åºŠä½ï¼ä¹‹ååˆæ„Ÿåˆ°æ›´å¹¸è¿ï¼Œæˆ‘æ‰¾åˆ°ä¸€ä¸ªæˆåŠŸç”³è¯·å´æ ¹æœ¬ä¸ä½â€œä¸´æ—¶å¯å®¤â€çš„åŒå­¦ï¼çœŸæ˜¯å¤©æ— ç»äººä¹‹è·¯ï¼æ¬§è€¶ï¼æˆ‘ä½•å…¶æœ‰å¹¸ï¼å¤ªæ„Ÿè°¢åˆ˜ä¹èˆŸåŒå­¦äº†ï¼",
     "locales": {
       "en": {
         "location": "Room 106, Building 10, Zisong Student Apartments, Huazhong University of Science and Technology",
-        "excerpt": "On July 2, I felt incredibly lucky: a classmate from Jiujiang was willing to let me sleep in¡­",
+        "excerpt": "On July 2, I felt incredibly lucky: a classmate from Jiujiang was willing to let me sleep inâ€¦",
         "sourceLabel": "PDF page 23",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Chambre 106, batiment 10 de la r¨¦sidence ¨¦tudiante Zisong, Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "Le 2 juillet, je me suis senti incroyablement chanceux : un camarade de Jiujiang acceptait¡­",
-        "sourceLabel": "PDF ¡¤ page 23",
+        "location": "Chambre 106, bÃ¢timent 10 de la rÃ©sidence Ã©tudiante Zisong, UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "Le 2 juillet, je me suis senti incroyablement chanceux : un camarade de Jiujiang acceptaitâ€¦",
+        "sourceLabel": "PDF Â· page 23",
         "imageCaptions": []
       },
       "de": {
-        "location": "Zimmer 106, Geb?ude 10 des Studierendenwohnheims Zisong, Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
-        "excerpt": "Am 2. Juli f¨¹hlte ich mich unglaublich gl¨¹cklich: Ein Kommilitone aus Jiujiang war bereit¡­",
+        "location": "Zimmer 106, GebÃ¤ude 10 des Studierendenwohnheims Zisong, Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
+        "excerpt": "Am 2. Juli fÃ¼hlte ich mich unglaublich glÃ¼cklich: Ein Kommilitone aus Jiujiang war bereitâ€¦",
         "sourceLabel": "PDF-Seite 23",
         "imageCaptions": []
       }
@@ -325,45 +325,45 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-07-01",
     "file": "2025-07-01.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§°Ù»İÔ°ÈıÂ¥",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦ç™¾æƒ å›­ä¸‰æ¥¼",
     "sourcePages": [
       23
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 23 Ò³"
+      "label": "PDF ç¬¬ 23 é¡µ"
     },
     "images": [
       {
         "file": "assets/images/2025-07-01/p23-image-01.jpg",
-        "caption": "°Ù»İÔ°ÈıÂ¥´æĞĞÀî",
+        "caption": "ç™¾æƒ å›­ä¸‰æ¥¼å­˜è¡Œæ",
         "sourcePage": 23
       }
     ],
-    "excerpt": "7ÔÂ1ºÅ£¬×Ïİ¿¹«Ô¢×éÖ¯°áÇŞÊÒ£¬ÒòÎª²¿·Ö¹«Ô¢Â¥Êî¼Ù»á·­ĞŞ¡£ÎÒ¾Í°ÑÊîÆÚ²»ĞèÒªµÄÒÂÎïºÍÆäËûÓÃÆ·£¬°áµ½ÁË°Ù»İÔ°Ê³ÌÃ3Â¥£¬¹âÊÇÕûÀí¡¢´ò°ü¡¢°áÔË£¬¾Í»¨ÁËÎÒÒ»¸ö°×ÌìµÄÊ±¼ä£¬ÒªÃü°¡£¬ÀÛµÃ×ß²»¶¯ÁË¶¼¡£",
+    "excerpt": "7æœˆ1å·ï¼Œç´«è˜å…¬å¯“ç»„ç»‡æ¬å¯å®¤ï¼Œå› ä¸ºéƒ¨åˆ†å…¬å¯“æ¥¼æš‘å‡ä¼šç¿»ä¿®ã€‚æˆ‘å°±æŠŠæš‘æœŸä¸éœ€è¦çš„è¡£ç‰©å’Œå…¶ä»–ç”¨å“ï¼Œæ¬åˆ°äº†ç™¾æƒ å›­é£Ÿå ‚3æ¥¼ï¼Œå…‰æ˜¯æ•´ç†ã€æ‰“åŒ…ã€æ¬è¿ï¼Œå°±èŠ±äº†æˆ‘ä¸€ä¸ªç™½å¤©çš„æ—¶é—´ï¼Œè¦å‘½å•Šï¼Œç´¯å¾—èµ°ä¸åŠ¨äº†éƒ½ã€‚",
     "locales": {
       "en": {
         "location": "Third Floor, Baihuiyuan, Huazhong University of Science and Technology",
-        "excerpt": "On July 1, Zisong Student Apartments organised a dorm-room move because some of the¡­",
+        "excerpt": "On July 1, Zisong Student Apartments organised a dorm-room move because some of theâ€¦",
         "sourceLabel": "PDF page 23",
         "imageCaptions": [
           "Luggage stored on the third floor of Baihuiyuan"
         ]
       },
       "fr": {
-        "location": "Troisi¨¨me ¨¦tage de Baihuiyuan, Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "Le 1er juillet, la r¨¦sidence ¨¦tudiante Zisong a organis¨¦ un d¨¦m¨¦nagement des chambres, car¡­",
-        "sourceLabel": "PDF ¡¤ page 23",
+        "location": "TroisiÃ¨me Ã©tage de Baihuiyuan, UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "Le 1er juillet, la rÃ©sidence Ã©tudiante Zisong a organisÃ© un dÃ©mÃ©nagement des chambres, carâ€¦",
+        "sourceLabel": "PDF Â· page 23",
         "imageCaptions": [
-          "Bagages entrepos¨¦s au troisi¨¨me ¨¦tage de Baihuiyuan"
+          "Bagages entreposÃ©s au troisiÃ¨me Ã©tage de Baihuiyuan"
         ]
       },
       "de": {
-        "location": "Dritter Stock des Baihuiyuan, Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
-        "excerpt": "Am 1. Juli organisierte das Studierendenwohnheim Zisong einen Umzug zwischen den Zimmern¡­",
+        "location": "Dritter Stock des Baihuiyuan, Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
+        "excerpt": "Am 1. Juli organisierte das Studierendenwohnheim Zisong einen Umzug zwischen den Zimmernâ€¦",
         "sourceLabel": "PDF-Seite 23",
         "imageCaptions": [
-          "Im dritten Stock des Baihuiyuan gelagertes Gep?ck"
+          "Im dritten Stock des Baihuiyuan gelagertes GepÃ¤ck"
         ]
       }
     },
@@ -372,33 +372,33 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-06-30",
     "file": "2025-06-30.html",
-    "location": "ÎäººÊĞºéÉ½ÇøçóĞÛÂ·µØÌúÕ¾",
+    "location": "æ­¦æ±‰å¸‚æ´ªå±±åŒºçé›„è·¯åœ°é“ç«™",
     "sourcePages": [
       22,
       23
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 22¡¢23 Ò³"
+      "label": "PDF ç¬¬ 22ã€23 é¡µ"
     },
     "images": [],
-    "excerpt": "6ÔÂ30ºÅ£¬²ñĞ¡É£»Ø¾Å½­¿´ÑÀÒ½£¬ÔÚ¾Å½­Õ¾×â½èÁË¡°¹ÖÊŞ¡±ÅÆ×ÓµÄ³äµç±¦£¬ÍíÉÏ»Øµ½ÎäººÕ¾£¬Ò»Ö±ÕÒ¡°¹ÖÊŞ¡±ÅÆµÄ³äµç×®£¬·¢ÏÖÁË¹ú¼Ò·´Õ©APPµÄ¡°½Öµç/³äµç/Ò»Õ¾Ê½¹é»¹¡±³äµç×®£¬¾Í°ëĞÅ°ëÒÉµØ°Ñ¡°¹ÖÊŞ¡±¡­¡­",
+    "excerpt": "6æœˆ30å·ï¼ŒæŸ´å°æ¡‘å›ä¹æ±Ÿçœ‹ç‰™åŒ»ï¼Œåœ¨ä¹æ±Ÿç«™ç§Ÿå€Ÿäº†â€œæ€ªå…½â€ç‰Œå­çš„å……ç”µå®ï¼Œæ™šä¸Šå›åˆ°æ­¦æ±‰ç«™ï¼Œä¸€ç›´æ‰¾â€œæ€ªå…½â€ç‰Œçš„å……ç”µæ¡©ï¼Œå‘ç°äº†å›½å®¶åè¯ˆAPPçš„â€œè¡—ç”µ/å……ç”µ/ä¸€ç«™å¼å½’è¿˜â€å……ç”µæ¡©ï¼Œå°±åŠä¿¡åŠç–‘åœ°æŠŠâ€œæ€ªå…½â€â€¦â€¦",
     "locales": {
       "en": {
         "location": "Luoxiong Road Metro Station, Hongshan District, Wuhan",
-        "excerpt": "On June 30, Chai Xiaosang went back to Jiujiang to see the dentist. At Jiujiang Railway¡­",
+        "excerpt": "On June 30, Chai Xiaosang went back to Jiujiang to see the dentist. At Jiujiang Railwayâ€¦",
         "sourceLabel": "PDF pages 22 / 23",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Station de m¨¦tro Luoxiong Road, district de Hongshan, Wuhan",
-        "excerpt": "Le 30 juin, Chai Xiaosang est retourn¨¦ ¨¤ Jiujiang pour aller chez le dentiste. ¨¤ la gare de¡­",
-        "sourceLabel": "PDF ¡¤ pages 22 / 23",
+        "location": "Station de mÃ©tro Luoxiong Road, district de Hongshan, Wuhan",
+        "excerpt": "Le 30 juin, Chai Xiaosang est retournÃ© Ã  Jiujiang pour aller chez le dentiste. Ã€ la gare deâ€¦",
+        "sourceLabel": "PDF Â· pages 22 / 23",
         "imageCaptions": []
       },
       "de": {
         "location": "U-Bahn-Station Luoxiong Road, Bezirk Hongshan, Wuhan",
-        "excerpt": "Am 30. Juni fuhr Chai Xiaosang zur¨¹ck nach Jiujiang, um zum Zahnarzt zu gehen. Am Bahnhof¡­",
+        "excerpt": "Am 30. Juni fuhr Chai Xiaosang zurÃ¼ck nach Jiujiang, um zum Zahnarzt zu gehen. Am Bahnhofâ€¦",
         "sourceLabel": "PDF-Seiten 22 / 23",
         "imageCaptions": []
       }
@@ -408,32 +408,32 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-06-29",
     "file": "2025-06-29.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§×Ïİ¿Ñ§Éú¹«Ô¢5¶°532",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦ç´«è˜å­¦ç”Ÿå…¬å¯“5æ ‹532",
     "sourcePages": [
       22
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 22 Ò³"
+      "label": "PDF ç¬¬ 22 é¡µ"
     },
     "images": [],
-    "excerpt": "ÔÚ²»¾ÃµÄ×òÌìÏÂÎç£¬ÍôÀÏÊ¦¸æËßÎÒÒ»¸öÏûÏ¢£ºÊ±¸ô27Äê£¬Ä¸Ğ£ÎÄ¿Æ£¬ÔÙ¶È¶áµÃ£¬ºş±±Ê¡¸ß¿¼×´Ôª£¡",
+    "excerpt": "åœ¨ä¸ä¹…çš„æ˜¨å¤©ä¸‹åˆï¼Œæ±ªè€å¸ˆå‘Šè¯‰æˆ‘ä¸€ä¸ªæ¶ˆæ¯ï¼šæ—¶éš”27å¹´ï¼Œæ¯æ ¡æ–‡ç§‘ï¼Œå†åº¦å¤ºå¾—ï¼Œæ¹–åŒ—çœé«˜è€ƒçŠ¶å…ƒï¼",
     "locales": {
       "en": {
         "location": "Room 532, Zisong Student Apartments Building 5, Huazhong University of Science and Technology",
-        "excerpt": "Just yesterday afternoon, Teacher Wang told me some news: after twenty-seven years, my old¡­",
+        "excerpt": "Just yesterday afternoon, Teacher Wang told me some news: after twenty-seven years, my oldâ€¦",
         "sourceLabel": "PDF page 22",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Chambre 532, batiment 5 de la r¨¦sidence ¨¦tudiante Zisong, Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "Pas plus tard qu¡¯hier apr¨¨s-midi, le professeur Wang m¡¯a annonc¨¦ une nouvelle : vingt-sept¡­",
-        "sourceLabel": "PDF ¡¤ page 22",
+        "location": "Chambre 532, bÃ¢timent 5 de la rÃ©sidence Ã©tudiante Zisong, UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "Pas plus tard quâ€™hier aprÃ¨s-midi, le professeur Wang mâ€™a annoncÃ© une nouvelle : vingt-septâ€¦",
+        "sourceLabel": "PDF Â· page 22",
         "imageCaptions": []
       },
       "de": {
-        "location": "Zimmer 532, Geb?ude 5 des Studierendenwohnheims Zisong, Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
-        "excerpt": "Erst gestern Nachmittag erz?hlte mir Lehrer Wang eine Neuigkeit: Nach 27 Jahren hatte der¡­",
+        "location": "Zimmer 532, GebÃ¤ude 5 des Studierendenwohnheims Zisong, Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
+        "excerpt": "Erst gestern Nachmittag erzÃ¤hlte mir Lehrer Wang eine Neuigkeit: Nach 27 Jahren hatte derâ€¦",
         "sourceLabel": "PDF-Seite 22",
         "imageCaptions": []
       }
@@ -443,33 +443,33 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-06-28",
     "file": "2025-06-28.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§×Ïİ¿Ñ§Éú¹«Ô¢10¶°",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦ç´«è˜å­¦ç”Ÿå…¬å¯“10æ ‹",
     "sourcePages": [
       21,
       22
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 21¡¢22 Ò³"
+      "label": "PDF ç¬¬ 21ã€22 é¡µ"
     },
     "images": [],
-    "excerpt": "£¨²é¿´´óÓ¢¾ºÈü×ÊÁÏ¡­¡­£©",
+    "excerpt": "ï¼ˆæŸ¥çœ‹å¤§è‹±ç«èµ›èµ„æ–™â€¦â€¦ï¼‰",
     "locales": {
       "en": {
         "location": "Zisong Student Apartments Building 10, Huazhong University of Science and Technology",
-        "excerpt": "(Looking through College English Competition materials¡­)",
+        "excerpt": "(Looking through College English Competition materialsâ€¦)",
         "sourceLabel": "PDF pages 21 / 22",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Batiment 10 de la r¨¦sidence ¨¦tudiante Zisong, Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "(En train de consulter les documents du concours d¡¯anglais universitaire¡­)",
-        "sourceLabel": "PDF ¡¤ pages 21 / 22",
+        "location": "BÃ¢timent 10 de la rÃ©sidence Ã©tudiante Zisong, UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "(En train de consulter les documents du concours dâ€™anglais universitaireâ€¦)",
+        "sourceLabel": "PDF Â· pages 21 / 22",
         "imageCaptions": []
       },
       "de": {
-        "location": "Geb?ude 10 des Studierendenwohnheims Zisong, Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
-        "excerpt": "(Unterlagen f¨¹r den Hochschulenglisch-Wettbewerb ansehen ¡­)",
+        "location": "GebÃ¤ude 10 des Studierendenwohnheims Zisong, Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
+        "excerpt": "(Unterlagen fÃ¼r den Hochschulenglisch-Wettbewerb ansehen â€¦)",
         "sourceLabel": "PDF-Seiten 21 / 22",
         "imageCaptions": []
       }
@@ -479,45 +479,45 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-06-20",
     "file": "2025-06-20.html",
-    "location": "ºş±±Ê¡ÎäººÊĞºéÉ½Çø¹ØÉ½´óµÀÇå³Ø´¨Ğ¡¹İ",
+    "location": "æ¹–åŒ—çœæ­¦æ±‰å¸‚æ´ªå±±åŒºå…³å±±å¤§é“æ¸…æ± å·å°é¦†",
     "sourcePages": [
       21
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 21 Ò³"
+      "label": "PDF ç¬¬ 21 é¡µ"
     },
     "images": [
       {
         "file": "assets/images/2025-06-20/p21-image-01.jpg",
-        "caption": "2025/06/20 ·½²¿³¤Çë¿Í",
+        "caption": "2025/06/20 æ–¹éƒ¨é•¿è¯·å®¢",
         "sourcePage": 21
       }
     ],
-    "excerpt": "±¾¿ÆÉúlist+1£º¶ÁÊéËÄÄê£¬½­³ÇÁ½µØ£¬¹â¹ÈÓ÷¼Ò£¬Ïëµã¶ù°ì·¨£¬±ï£¨±à£©¸ö¹ÊÊÂ£¬²ä¶Ù·¹£¨·½£©Ñç",
+    "excerpt": "æœ¬ç§‘ç”Ÿlist+1ï¼šè¯»ä¹¦å››å¹´ï¼Œæ±ŸåŸä¸¤åœ°ï¼Œå…‰è°·å–»å®¶ï¼Œæƒ³ç‚¹å„¿åŠæ³•ï¼Œæ†‹ï¼ˆç¼–ï¼‰ä¸ªæ•…äº‹ï¼Œè¹­é¡¿é¥­ï¼ˆæ–¹ï¼‰å®´",
     "locales": {
       "en": {
         "location": "Qingchichuan Bistro, Guanshan Avenue, Hongshan District, Wuhan, Hubei",
-        "excerpt": "Undergraduate list +1: four years of study, two places in River City; Optics Valley, Yujia¡­",
+        "excerpt": "Undergraduate list +1: four years of study, two places in River City; Optics Valley, Yujiaâ€¦",
         "sourceLabel": "PDF page 21",
         "imageCaptions": [
-          "2025/06/20 ¡¤ Dinner hosted by Director Fang"
+          "2025/06/20 Â· Dinner hosted by Director Fang"
         ]
       },
       "fr": {
         "location": "Petit restaurant Qingchichuan, avenue Guanshan, district de Hongshan, Wuhan, Hubei",
-        "excerpt": "Liste des ¨¦tudiants de licence +1 : quatre ann¨¦es d¡¯¨¦tudes, deux coins de la Ville-Fleuve¡­",
-        "sourceLabel": "PDF ¡¤ page 21",
+        "excerpt": "Liste des Ã©tudiants de licence +1 : quatre annÃ©es dâ€™Ã©tudes, deux coins de la Ville-Fleuveâ€¦",
+        "sourceLabel": "PDF Â· page 21",
         "imageCaptions": [
-          "2025/06/20 ¡¤ D?ner offert par le directeur Fang"
+          "2025/06/20 Â· DÃ®ner offert par le directeur Fang"
         ]
       },
       "de": {
         "location": "Bistro Qingchichuan, Guanshan-Allee, Stadtbezirk Hongshan, Wuhan, Hubei",
-        "excerpt": "Bachelorstudenten-Liste +1: vier Jahre Studium, zwei Orte in der Flussstadt; Optics Valley¡­",
+        "excerpt": "Bachelorstudenten-Liste +1: vier Jahre Studium, zwei Orte in der Flussstadt; Optics Valleyâ€¦",
         "sourceLabel": "PDF-Seite 21",
         "imageCaptions": [
-          "2025/06/20 ¡¤ Von Direktor Fang spendiertes Essen"
+          "2025/06/20 Â· Von Direktor Fang spendiertes Essen"
         ]
       }
     },
@@ -526,33 +526,33 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-06-16",
     "file": "2025-06-16.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§×Ïİ¿Ñ§Éú¹«Ô¢5¶°532",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦ç´«è˜å­¦ç”Ÿå…¬å¯“5æ ‹532",
     "sourcePages": [
       20,
       21
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 20¡¢21 Ò³"
+      "label": "PDF ç¬¬ 20ã€21 é¡µ"
     },
     "images": [],
-    "excerpt": "¼Ç´íÁË£¬Õâ¸öºÚÏ»×Ó£¬406¿é¡£ÎÒÏÖÔÚËùÓĞµÄÉè±¸£¬±¾µØ´æ´¢¿Õ¼ä£¬¹²¼Æ2TB.256GB£¬¿ÉÒÔ½¨¸ö¡°Êı×ÖÓ÷¼ÒÉ½¡±ÁË¡£ĞÒÔËµÄÊÇ£¬ÎÒ¾¹È»Ã»È¥ÌøÂ¥¡£",
+    "excerpt": "è®°é”™äº†ï¼Œè¿™ä¸ªé»‘åŒ£å­ï¼Œ406å—ã€‚æˆ‘ç°åœ¨æ‰€æœ‰çš„è®¾å¤‡ï¼Œæœ¬åœ°å­˜å‚¨ç©ºé—´ï¼Œå…±è®¡2TB.256GBï¼Œå¯ä»¥å»ºä¸ªâ€œæ•°å­—å–»å®¶å±±â€äº†ã€‚å¹¸è¿çš„æ˜¯ï¼Œæˆ‘ç«Ÿç„¶æ²¡å»è·³æ¥¼ã€‚",
     "locales": {
       "en": {
         "location": "Room 532, Zisong Student Apartments Building 5, Huazhong University of Science and Technology",
-        "excerpt": "I remembered it wrong: that black box cost 406 yuan. The local storage on all my devices now¡­",
+        "excerpt": "I remembered it wrong: that black box cost 406 yuan. The local storage on all my devices nowâ€¦",
         "sourceLabel": "PDF pages 20 / 21",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Chambre 532, batiment 5 de la r¨¦sidence ¨¦tudiante Zisong, Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "Je me suis tromp¨¦ : cette bo?te noire co?tait 406 yuans. L¡¯espace de stockage local de tous¡­",
-        "sourceLabel": "PDF ¡¤ pages 20 / 21",
+        "location": "Chambre 532, bÃ¢timent 5 de la rÃ©sidence Ã©tudiante Zisong, UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "Je me suis trompÃ© : cette boÃ®te noire coÃ»tait 406 yuans. Lâ€™espace de stockage local de tousâ€¦",
+        "sourceLabel": "PDF Â· pages 20 / 21",
         "imageCaptions": []
       },
       "de": {
-        "location": "Zimmer 532, Geb?ude 5 des Studierendenwohnheims Zisong, Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
-        "excerpt": "Ich hatte es falsch in Erinnerung: Diese schwarze Box kostete 406 Yuan. Der lokale Speicher¡­",
+        "location": "Zimmer 532, GebÃ¤ude 5 des Studierendenwohnheims Zisong, Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
+        "excerpt": "Ich hatte es falsch in Erinnerung: Diese schwarze Box kostete 406 Yuan. Der lokale Speicherâ€¦",
         "sourceLabel": "PDF-Seiten 20 / 21",
         "imageCaptions": []
       }
@@ -562,32 +562,32 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-06-15",
     "file": "2025-06-15.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§×Ïİ¿Ñ§Éú¹«Ô¢5¶°532",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦ç´«è˜å­¦ç”Ÿå…¬å¯“5æ ‹532",
     "sourcePages": [
       19,
       20
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 19¡¢20 Ò³"
+      "label": "PDF ç¬¬ 19ã€20 é¡µ"
     },
     "images": [
       {
         "file": "assets/images/2025-06-15/p20-image-01.jpg",
-        "caption": "ÔÏÔ·Ìì¹âÒ¹É« 1",
+        "caption": "éŸµè‹‘å¤©å…‰å¤œè‰² 1",
         "sourcePage": 20
       },
       {
         "file": "assets/images/2025-06-15/p20-image-02.jpg",
-        "caption": "ÔÏÔ·Ìì¹âÒ¹É« 2",
+        "caption": "éŸµè‹‘å¤©å…‰å¤œè‰² 2",
         "sourcePage": 20
       }
     ],
-    "excerpt": "ÀÏÊ¦ÃÇ£¬¿ì¾È¾ÈÎÒ£¡ÎÒ¸Õ²ÅÉ¾³ıÁËJupiterlabÄ¿Â¼ÖĞ²»ĞèÒªµÄÎÄ¼ş¼Ğ£¬Ò»²»Ğ¡ĞÄ°ÑµçÄÔÀïµÄÎÄ¼şÈ«É¾Ã»ÁË£¡TMD£¬ÎÒ¸ÃÔõÃ´»Ö¸´£¿»ØÊÕÕ¾ÖĞÒ²ÕÒ²»µ½ÁË£¬Éµ±Æ¶¹°ü£¡¸æËßÎÒÍ¨¹ıJupyterLabÖÕ¡­¡­",
+    "excerpt": "è€å¸ˆä»¬ï¼Œå¿«æ•‘æ•‘æˆ‘ï¼æˆ‘åˆšæ‰åˆ é™¤äº†Jupiterlabç›®å½•ä¸­ä¸éœ€è¦çš„æ–‡ä»¶å¤¹ï¼Œä¸€ä¸å°å¿ƒæŠŠç”µè„‘é‡Œçš„æ–‡ä»¶å…¨åˆ æ²¡äº†ï¼TMDï¼Œæˆ‘è¯¥æ€ä¹ˆæ¢å¤ï¼Ÿå›æ”¶ç«™ä¸­ä¹Ÿæ‰¾ä¸åˆ°äº†ï¼Œå‚»é€¼è±†åŒ…ï¼å‘Šè¯‰æˆ‘é€šè¿‡JupyterLabç»ˆâ€¦â€¦",
     "locales": {
       "en": {
         "location": "Room 532, Zisong Student Apartments Building 5, Huazhong University of Science and Technology",
-        "excerpt": "Teachers, please save me! I just deleted some folders I did not need from the Jupiterlab¡­",
+        "excerpt": "Teachers, please save me! I just deleted some folders I did not need from the Jupiterlabâ€¦",
         "sourceLabel": "PDF pages 19 / 20",
         "imageCaptions": [
           "Yunyuan in daylight and at night 1",
@@ -595,17 +595,17 @@ window.MMV_JOURNALS = [
         ]
       },
       "fr": {
-        "location": "Chambre 532, batiment 5 de la r¨¦sidence ¨¦tudiante Zisong, Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "Les profs, sauvez-moi vite ! Je viens de supprimer des dossiers inutiles du r¨¦pertoire¡­",
-        "sourceLabel": "PDF ¡¤ pages 19 / 20",
+        "location": "Chambre 532, bÃ¢timent 5 de la rÃ©sidence Ã©tudiante Zisong, UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "Les profs, sauvez-moi vite ! Je viens de supprimer des dossiers inutiles du rÃ©pertoireâ€¦",
+        "sourceLabel": "PDF Â· pages 19 / 20",
         "imageCaptions": [
-          "Yunyuan dans la lumi¨¨re du jour et de la nuit 1",
-          "Yunyuan dans la lumi¨¨re du jour et de la nuit 2"
+          "Yunyuan dans la lumiÃ¨re du jour et de la nuit 1",
+          "Yunyuan dans la lumiÃ¨re du jour et de la nuit 2"
         ]
       },
       "de": {
-        "location": "Zimmer 532, Geb?ude 5 des Studierendenwohnheims Zisong, Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
-        "excerpt": "Leute, rettet mich, schnell! Ich habe gerade im Jupiterlab-Verzeichnis ein paar Ordner¡­",
+        "location": "Zimmer 532, GebÃ¤ude 5 des Studierendenwohnheims Zisong, Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
+        "excerpt": "Leute, rettet mich, schnell! Ich habe gerade im Jupiterlab-Verzeichnis ein paar Ordnerâ€¦",
         "sourceLabel": "PDF-Seiten 19 / 20",
         "imageCaptions": [
           "Yunyuan im Tageslicht und bei Nacht 1",
@@ -618,32 +618,32 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-05-27",
     "file": "2025-05-27.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§×Ïİ¿Ñ§Éú¹«Ô¢8¶°Ç°Ì¨",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦ç´«è˜å­¦ç”Ÿå…¬å¯“8æ ‹å‰å°",
     "sourcePages": [
       19
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 19 Ò³"
+      "label": "PDF ç¬¬ 19 é¡µ"
     },
     "images": [],
-    "excerpt": "£¨¶«»ªÔ°ºÈÌÀ¡­¡­£©",
+    "excerpt": "ï¼ˆä¸œåå›­å–æ±¤â€¦â€¦ï¼‰",
     "locales": {
       "en": {
         "location": "Front desk of Zisong Student Apartments Building 8, Huazhong University of Science and Technology",
-        "excerpt": "(Drinking soup at Donghuayuan¡­)",
+        "excerpt": "(Drinking soup at Donghuayuanâ€¦)",
         "sourceLabel": "PDF page 19",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Accueil du batiment 8 de la r¨¦sidence ¨¦tudiante Zisong, Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "(¨¤ boire de la soupe ¨¤ Donghuayuan¡­)",
-        "sourceLabel": "PDF ¡¤ page 19",
+        "location": "Accueil du bÃ¢timent 8 de la rÃ©sidence Ã©tudiante Zisong, UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "(Ã€ boire de la soupe Ã  Donghuayuanâ€¦)",
+        "sourceLabel": "PDF Â· page 19",
         "imageCaptions": []
       },
       "de": {
-        "location": "Empfang von Geb?ude 8 des Studierendenwohnheims Zisong, Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
-        "excerpt": "(In Donghuayuan Suppe trinken ¡­)",
+        "location": "Empfang von GebÃ¤ude 8 des Studierendenwohnheims Zisong, Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
+        "excerpt": "(In Donghuayuan Suppe trinken â€¦)",
         "sourceLabel": "PDF-Seite 19",
         "imageCaptions": []
       }
@@ -653,33 +653,33 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-05-16",
     "file": "2025-05-16.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§Î÷»ªÔ°ÎÄ»¯²Í°É",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦è¥¿åå›­æ–‡åŒ–é¤å§",
     "sourcePages": [
       18,
       19
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 18¡¢19 Ò³"
+      "label": "PDF ç¬¬ 18ã€19 é¡µ"
     },
     "images": [],
-    "excerpt": "Õâ¸öÔÂ£¬¾ÍÊÇÎåÔÂ£¬ÌìÆøºÃµÄÃÎÃÂÒÔÇó¡£",
+    "excerpt": "è¿™ä¸ªæœˆï¼Œå°±æ˜¯äº”æœˆï¼Œå¤©æ°”å¥½çš„æ¢¦å¯ä»¥æ±‚ã€‚",
     "locales": {
       "en": {
         "location": "Xihuayuan Culture Restaurant, Huazhong University of Science and Technology",
-        "excerpt": "This month¡ªMay¡ªthe weather has been as beautiful as I could ever dream of.",
+        "excerpt": "This monthâ€”Mayâ€”the weather has been as beautiful as I could ever dream of.",
         "sourceLabel": "PDF pages 18 / 19",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Restaurant culturel Xihuayuan, Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "Ce mois-ci ¡ª le mois de mai ¡ª le temps est aussi beau que dans mes r¨ºves.",
-        "sourceLabel": "PDF ¡¤ pages 18 / 19",
+        "location": "Restaurant culturel Xihuayuan, UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "Ce mois-ci â€” le mois de mai â€” le temps est aussi beau que dans mes rÃªves.",
+        "sourceLabel": "PDF Â· pages 18 / 19",
         "imageCaptions": []
       },
       "de": {
-        "location": "Kulturrestaurant Xihuayuan, Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
-        "excerpt": "In diesem Monat ¨C im Mai ¨C ist das Wetter so sch?n, wie man es sich nur ertr?umen kann.",
+        "location": "Kulturrestaurant Xihuayuan, Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
+        "excerpt": "In diesem Monat â€“ im Mai â€“ ist das Wetter so schÃ¶n, wie man es sich nur ertrÃ¤umen kann.",
         "sourceLabel": "PDF-Seiten 18 / 19",
         "imageCaptions": []
       }
@@ -689,16 +689,16 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-05-12",
     "file": "2025-05-12.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§×Ïİ¿Ñ§Éú¹«Ô¢",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦ç´«è˜å­¦ç”Ÿå…¬å¯“",
     "sourcePages": [
       18
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 18 Ò³"
+      "label": "PDF ç¬¬ 18 é¡µ"
     },
     "images": [],
-    "excerpt": "£¨½ñÍíÓĞµãàËÆ¤£©",
+    "excerpt": "ï¼ˆä»Šæ™šæœ‰ç‚¹å—¨çš®ï¼‰",
     "locales": {
       "en": {
         "location": "Zisong Student Apartments, Huazhong University of Science and Technology",
@@ -707,13 +707,13 @@ window.MMV_JOURNALS = [
         "imageCaptions": []
       },
       "fr": {
-        "location": "R¨¦sidence ¨¦tudiante Zisong, Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "(Un peu surexcit¨¦ ce soir)",
-        "sourceLabel": "PDF ¡¤ page 18",
+        "location": "RÃ©sidence Ã©tudiante Zisong, UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "(Un peu surexcitÃ© ce soir)",
+        "sourceLabel": "PDF Â· page 18",
         "imageCaptions": []
       },
       "de": {
-        "location": "Studierendenwohnheim Zisong, Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
+        "location": "Studierendenwohnheim Zisong, Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
         "excerpt": "(Heute Abend ein bisschen aufgedreht)",
         "sourceLabel": "PDF-Seite 18",
         "imageCaptions": []
@@ -724,32 +724,32 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-05-09",
     "file": "2025-05-09.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§×Ïİ¿Ñ§Éú¹«Ô¢8¶°Ç°Ì¨",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦ç´«è˜å­¦ç”Ÿå…¬å¯“8æ ‹å‰å°",
     "sourcePages": [
       18
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 18 Ò³"
+      "label": "PDF ç¬¬ 18 é¡µ"
     },
     "images": [],
-    "excerpt": "½ñÏ¦²»Ïë°¾Ò¹¡­¡­",
+    "excerpt": "ä»Šå¤•ä¸æƒ³ç†¬å¤œâ€¦â€¦",
     "locales": {
       "en": {
         "location": "Front desk of Building 8, Zisong Student Apartments, Huazhong University of Science and Technology",
-        "excerpt": "I do not feel like staying up late tonight¡­",
+        "excerpt": "I do not feel like staying up late tonightâ€¦",
         "sourceLabel": "PDF page 18",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Accueil du batiment 8, r¨¦sidence ¨¦tudiante Zisong, Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "Ce soir, je n¡¯ai pas envie de veiller tard¡­",
-        "sourceLabel": "PDF ¡¤ page 18",
+        "location": "Accueil du bÃ¢timent 8, rÃ©sidence Ã©tudiante Zisong, UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "Ce soir, je nâ€™ai pas envie de veiller tardâ€¦",
+        "sourceLabel": "PDF Â· page 18",
         "imageCaptions": []
       },
       "de": {
-        "location": "Empfang von Geb?ude 8, Zisong-Studentenwohnheim, Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
-        "excerpt": "Heute Abend habe ich keine Lust, lange aufzubleiben¡­",
+        "location": "Empfang von GebÃ¤ude 8, Zisong-Studentenwohnheim, Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
+        "excerpt": "Heute Abend habe ich keine Lust, lange aufzubleibenâ€¦",
         "sourceLabel": "PDF-Seite 18",
         "imageCaptions": []
       }
@@ -759,33 +759,33 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-05-01",
     "file": "2025-05-01.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§×Ïİ¿Ñ§Éú¹«Ô¢5¶°532",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦ç´«è˜å­¦ç”Ÿå…¬å¯“5æ ‹532",
     "sourcePages": [
       17,
       18
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 17¡¢18 Ò³"
+      "label": "PDF ç¬¬ 17ã€18 é¡µ"
     },
     "images": [],
-    "excerpt": "Ò»¸öÅ¼È»µÄ»ú»á£¬ÄãÒªµ½ÁË²ñĞ¡É£Ñ§³¤µÄQQ£¬±ã±¾ÄÜµØ·ÃÎÊÈË¼ÒµÄQQ¿Õ¼ä¡£Äã¾ªÏ²µØ·¢ÏÖ£¬Ñ§³¤µÄ¿Õ¼ä¡°¶ÔËùÓĞÈË¿ª·Å¡±£¬ÀïÃæµÄËµËµºÜÓĞÒâË¼£¬ÕÕÆ¬·á¸»¶à²Ê£¬×ÔÅÄ¸üÊÇÃ»µÄËµÁË¡£Ñ§³¤¾¹ÊÇÈç´Ë×ÔÈ»ËæĞÔ¡¢ÀÃ¡­¡­",
+    "excerpt": "ä¸€ä¸ªå¶ç„¶çš„æœºä¼šï¼Œä½ è¦åˆ°äº†æŸ´å°æ¡‘å­¦é•¿çš„QQï¼Œä¾¿æœ¬èƒ½åœ°è®¿é—®äººå®¶çš„QQç©ºé—´ã€‚ä½ æƒŠå–œåœ°å‘ç°ï¼Œå­¦é•¿çš„ç©ºé—´â€œå¯¹æ‰€æœ‰äººå¼€æ”¾â€ï¼Œé‡Œé¢çš„è¯´è¯´å¾ˆæœ‰æ„æ€ï¼Œç…§ç‰‡ä¸°å¯Œå¤šå½©ï¼Œè‡ªæ‹æ›´æ˜¯æ²¡çš„è¯´äº†ã€‚å­¦é•¿ç«Ÿæ˜¯å¦‚æ­¤è‡ªç„¶éšæ€§ã€çƒ‚â€¦â€¦",
     "locales": {
       "en": {
         "location": "Room 532, Building 5, Zisong Student Dormitory, Huazhong University of Science and Technology",
-        "excerpt": "By chance, you got Senior Chai Xiaosang¡¯s QQ number, so you instinctively visited his Qzone¡­",
+        "excerpt": "By chance, you got Senior Chai Xiaosangâ€™s QQ number, so you instinctively visited his Qzoneâ€¦",
         "sourceLabel": "PDF pages 17 / 18",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Chambre 532, batiment 5, r¨¦sidence ¨¦tudiante Zisong, Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "Par un heureux hasard, tu as obtenu le num¨¦ro QQ de ton a?n¨¦ Chai Xiaosang et¡­",
-        "sourceLabel": "PDF ¡¤ pages 17 / 18",
+        "location": "Chambre 532, bÃ¢timent 5, rÃ©sidence Ã©tudiante Zisong, UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "Par un heureux hasard, tu as obtenu le numÃ©ro QQ de ton aÃ®nÃ© Chai Xiaosang etâ€¦",
+        "sourceLabel": "PDF Â· pages 17 / 18",
         "imageCaptions": []
       },
       "de": {
-        "location": "Zimmer 532, Geb?ude 5, Studentenwohnheim Zisong, Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
-        "excerpt": "Durch einen Zufall kamst du an die QQ-Nummer deines ?lteren Kommilitonen Chai Xiaosang und¡­",
+        "location": "Zimmer 532, GebÃ¤ude 5, Studentenwohnheim Zisong, Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
+        "excerpt": "Durch einen Zufall kamst du an die QQ-Nummer deines Ã¤lteren Kommilitonen Chai Xiaosang undâ€¦",
         "sourceLabel": "PDF-Seiten 17 / 18",
         "imageCaptions": []
       }
@@ -795,32 +795,32 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-04-26",
     "file": "2025-04-26.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§×Ïİ¿Ñ§Éú¹«Ô¢8¶°Ç°Ì¨",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦ç´«è˜å­¦ç”Ÿå…¬å¯“8æ ‹å‰å°",
     "sourcePages": [
       17
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 17 Ò³"
+      "label": "PDF ç¬¬ 17 é¡µ"
     },
     "images": [],
-    "excerpt": "¡°´óµÖÊÇÒ»Á½¸öÔÂÇ°£¬Ò²ºÍÁôÑÔ±¾ÓĞÒ»Ë¿¹ØÏµµÄÊÂ¡£µ±Ê±ÔÚÕâÀïåâåËÁËÒ»Î»Ñ§½ã£¬¾Ã¾Ã²»ÄÜÍü»³£¬»Øµ½ËŞÉáË¼À´ÏëÈ¥£¬ÖÕÓÚÏÂ¶¨ÁË¾öĞÄ£¬Õû¶ÙÒÇÈİºó£¬ÓÖµ½ÁËÒ»Â¥¡£ÓÌÔ¥ÁË°ëÌì»¹ÊÇÉÏÈ¥´îÁË»°£¬ÎÊÁËÑ§½ãºÍÖµ°àÓĞ¹Ø¡­¡­",
+    "excerpt": "â€œå¤§æŠµæ˜¯ä¸€ä¸¤ä¸ªæœˆå‰ï¼Œä¹Ÿå’Œç•™è¨€æœ¬æœ‰ä¸€ä¸å…³ç³»çš„äº‹ã€‚å½“æ—¶åœ¨è¿™é‡Œé‚‚é€…äº†ä¸€ä½å­¦å§ï¼Œä¹…ä¹…ä¸èƒ½å¿˜æ€€ï¼Œå›åˆ°å®¿èˆæ€æ¥æƒ³å»ï¼Œç»ˆäºä¸‹å®šäº†å†³å¿ƒï¼Œæ•´é¡¿ä»ªå®¹åï¼Œåˆåˆ°äº†ä¸€æ¥¼ã€‚çŠ¹è±«äº†åŠå¤©è¿˜æ˜¯ä¸Šå»æ­äº†è¯ï¼Œé—®äº†å­¦å§å’Œå€¼ç­æœ‰å…³â€¦â€¦",
     "locales": {
       "en": {
         "location": "Front desk of Building 8, Zisong Student Apartments, Huazhong University of Science and Technology",
-        "excerpt": "¡®It was probably a month or two ago, and it had something to do with the message book too¡­",
+        "excerpt": "â€˜It was probably a month or two ago, and it had something to do with the message book tooâ€¦",
         "sourceLabel": "PDF page 17",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Accueil du batiment 8, r¨¦sidence ¨¦tudiante Zisong, Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "¡®C¡¯¨¦tait sans doute il y a un mois ou deux, et cette histoire avait elle aussi un petit¡­",
-        "sourceLabel": "PDF ¡¤ page 17",
+        "location": "Accueil du bÃ¢timent 8, rÃ©sidence Ã©tudiante Zisong, UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "â€˜Câ€™Ã©tait sans doute il y a un mois ou deux, et cette histoire avait elle aussi un petitâ€¦",
+        "sourceLabel": "PDF Â· page 17",
         "imageCaptions": []
       },
       "de": {
-        "location": "Empfang von Geb?ude 8, Zisong-Studentenwohnheim, Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
-        "excerpt": "¡®Es war wohl vor ein oder zwei Monaten und hatte ebenfalls ein wenig mit dem Mitteilungsbuch¡­",
+        "location": "Empfang von GebÃ¤ude 8, Zisong-Studentenwohnheim, Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
+        "excerpt": "â€˜Es war wohl vor ein oder zwei Monaten und hatte ebenfalls ein wenig mit dem Mitteilungsbuchâ€¦",
         "sourceLabel": "PDF-Seite 17",
         "imageCaptions": []
       }
@@ -830,33 +830,33 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-04-01",
     "file": "2025-04-01.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§×Ïİ¿Ñ§Éú¹«Ô¢5¶°532",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦ç´«è˜å­¦ç”Ÿå…¬å¯“5æ ‹532",
     "sourcePages": [
       15,
       17
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 15¡¢17 Ò³"
+      "label": "PDF ç¬¬ 15ã€17 é¡µ"
     },
     "images": [],
-    "excerpt": "ğ©ÔÂµ±¿Õ£¬Íí·çÎ¢Á¹£¬ÓÖÊÇ¸ö²»ÃßÖ®Ò¹¡£",
+    "excerpt": "çš“æœˆå½“ç©ºï¼Œæ™šé£å¾®å‡‰ï¼Œåˆæ˜¯ä¸ªä¸çœ ä¹‹å¤œã€‚",
     "locales": {
       "en": {
         "location": "Room 532, Building 5, Zisong Student Apartments, Huazhong University of Science and Technology",
-        "excerpt": "A bright moon hangs in the sky, the evening breeze is slightly cool¡ªanother sleepless night.",
+        "excerpt": "A bright moon hangs in the sky, the evening breeze is slightly coolâ€”another sleepless night.",
         "sourceLabel": "PDF pages 15 / 17",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Chambre 532, batiment 5, r¨¦sidence ¨¦tudiante Zisong, Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "La lune ¨¦clatante est haut dans le ciel, la brise du soir un peu fra?che : encore une nuit¡­",
-        "sourceLabel": "PDF ¡¤ pages 15 / 17",
+        "location": "Chambre 532, bÃ¢timent 5, rÃ©sidence Ã©tudiante Zisong, UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "La lune Ã©clatante est haut dans le ciel, la brise du soir un peu fraÃ®che : encore une nuitâ€¦",
+        "sourceLabel": "PDF Â· pages 15 / 17",
         "imageCaptions": []
       },
       "de": {
-        "location": "Zimmer 532, Geb?ude 5, Zisong-Studentenwohnheim, Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
-        "excerpt": "Der helle Mond steht hoch am Himmel, der Abendwind ist leicht k¨¹hl ¨C wieder eine schlaflose¡­",
+        "location": "Zimmer 532, GebÃ¤ude 5, Zisong-Studentenwohnheim, Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
+        "excerpt": "Der helle Mond steht hoch am Himmel, der Abendwind ist leicht kÃ¼hl â€“ wieder eine schlafloseâ€¦",
         "sourceLabel": "PDF-Seiten 15 / 17",
         "imageCaptions": []
       }
@@ -866,32 +866,32 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-03-28",
     "file": "2025-03-28.html",
-    "location": "»ªÖĞ¿Æ¼¼´óÑ§ÄÏ´óÃÅ£¬½ÖµÀ¿ÚµØÌúÕ¾£¬Îäºº´óÑ§ÄÏ¶şÃÅ£¬Îäºº´óÑ§ÎÄÑ§Ôº£¬»ªÖĞ¿Æ¼¼´óÑ§×Ïİ¿Ñ§Éú¹«Ô¢8 ¶°Ç°Ì¨¡¢5¶°532",
+    "location": "åä¸­ç§‘æŠ€å¤§å­¦å—å¤§é—¨ï¼Œè¡—é“å£åœ°é“ç«™ï¼Œæ­¦æ±‰å¤§å­¦å—äºŒé—¨ï¼Œæ­¦æ±‰å¤§å­¦æ–‡å­¦é™¢ï¼Œåä¸­ç§‘æŠ€å¤§å­¦ç´«è˜å­¦ç”Ÿå…¬å¯“8 æ ‹å‰å°ã€5æ ‹532",
     "sourcePages": [
       15
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 15 Ò³"
+      "label": "PDF ç¬¬ 15 é¡µ"
     },
     "images": [],
-    "excerpt": "»°ËµÈıÔÂ·İµÄÒ»¸öÍíÉÏ£¬Ììº®µØ¶³£¬ĞÇÔÂÎŞ¹â¡£²¼À³¶÷ºÍ¹ê·àÕıÔÚ¿´¡¶¶ñ¸ãÖ®¼Ò¡·£¬²ñĞ¡É£ÕıÔÚÕûÀí°×Ìì¹äçóçìÉ½Ê±ÅÄµÄ·ç¾°ÕÕ¡£",
+    "excerpt": "è¯è¯´ä¸‰æœˆä»½çš„ä¸€ä¸ªæ™šä¸Šï¼Œå¤©å¯’åœ°å†»ï¼Œæ˜Ÿæœˆæ— å…‰ã€‚å¸ƒè±æ©å’Œé¾Ÿç²ªæ­£åœ¨çœ‹ã€Šæ¶æä¹‹å®¶ã€‹ï¼ŒæŸ´å°æ¡‘æ­£åœ¨æ•´ç†ç™½å¤©é€›ççˆå±±æ—¶æ‹çš„é£æ™¯ç…§ã€‚",
     "locales": {
       "en": {
         "location": "South Gate of Huazhong University of Science and Technology; Jiedaokou metro station; South Gate 2 and the School of Chinese Language and Literature, Wuhan University; front desk of Building 8 and Room 532, Building 5, Zisong Student Apartments, Huazhong University of Science and Technology",
-        "excerpt": "So it happened that, one night in March, the weather was bitterly cold and neither stars nor¡­",
+        "excerpt": "So it happened that, one night in March, the weather was bitterly cold and neither stars norâ€¦",
         "sourceLabel": "PDF page 15",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Porte sud de l¡¯Universit¨¦ des sciences et technologies de Huazhong ; station de m¨¦tro Jiedaokou ; porte sud no 2 et facult¨¦ des lettres chinoises de l¡¯Universit¨¦ de Wuhan ; accueil du batiment 8 et chambre 532 du batiment 5, r¨¦sidences ¨¦tudiantes Zisong de l¡¯Universit¨¦ des sciences et technologies de Huazhong",
-        "excerpt": "Or donc, un soir de mars, il faisait un froid glacial, et ni les ¨¦toiles ni la lune ne¡­",
-        "sourceLabel": "PDF ¡¤ page 15",
+        "location": "Porte sud de lâ€™UniversitÃ© des sciences et technologies de Huazhong ; station de mÃ©tro Jiedaokou ; porte sud no 2 et facultÃ© des lettres chinoises de lâ€™UniversitÃ© de Wuhan ; accueil du bÃ¢timent 8 et chambre 532 du bÃ¢timent 5, rÃ©sidences Ã©tudiantes Zisong de lâ€™UniversitÃ© des sciences et technologies de Huazhong",
+        "excerpt": "Or donc, un soir de mars, il faisait un froid glacial, et ni les Ã©toiles ni la lune neâ€¦",
+        "sourceLabel": "PDF Â· page 15",
         "imageCaptions": []
       },
       "de": {
-        "location": "S¨¹dtor der Huazhong-Universit?t f¨¹r Wissenschaft und Technik; U-Bahn-Station Jiedaokou; S¨¹dtor 2 und Fakult?t f¨¹r chinesische Sprache und Literatur der Wuhan-Universit?t; Empfang von Geb?ude 8 und Zimmer 532 in Geb?ude 5 der Zisong-Studentenwohnheime der Huazhong-Universit?t f¨¹r Wissenschaft und Technik",
-        "excerpt": "Es begab sich also eines Abends im M?rz: Es war bitterkalt, und weder Sterne noch Mond¡­",
+        "location": "SÃ¼dtor der Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik; U-Bahn-Station Jiedaokou; SÃ¼dtor 2 und FakultÃ¤t fÃ¼r chinesische Sprache und Literatur der Wuhan-UniversitÃ¤t; Empfang von GebÃ¤ude 8 und Zimmer 532 in GebÃ¤ude 5 der Zisong-Studentenwohnheime der Huazhong-UniversitÃ¤t fÃ¼r Wissenschaft und Technik",
+        "excerpt": "Es begab sich also eines Abends im MÃ¤rz: Es war bitterkalt, und weder Sterne noch Mondâ€¦",
         "sourceLabel": "PDF-Seite 15",
         "imageCaptions": []
       }
@@ -901,31 +901,31 @@ window.MMV_JOURNALS = [
   {
     "date": "2025-01-19",
     "file": "2025-01-19.html",
-    "location": "ºş±±Éñ»Æ¸ÔÊĞ»ÆÖİÇø¹ÅÌ¶Â·ÓëÎÊ½òÂ·½»²æ¿Ú",
+    "location": "æ¹–åŒ—ç¥é»„å†ˆå¸‚é»„å·åŒºå¤æ½­è·¯ä¸é—®æ´¥è·¯äº¤å‰å£",
     "sourcePages": [
       15
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 15 Ò³"
+      "label": "PDF ç¬¬ 15 é¡µ"
     },
     "images": [
       {
         "file": "assets/images/2025-01-19/p16-image-01.jpg",
-        "caption": "Î÷±¨¸æÌüÕĞÉúĞû½²",
+        "caption": "è¥¿æŠ¥å‘Šå…æ‹›ç”Ÿå®£è®²",
         "sourcePage": 16
       },
       {
         "file": "assets/images/2025-01-19/p16-image-02.jpg",
-        "caption": "²ñĞ¡É£Ñ§³¤",
+        "caption": "æŸ´å°æ¡‘å­¦é•¿",
         "sourcePage": 16
       }
     ],
-    "excerpt": "È¥Äê½ñÈÕ£¬ÎÒÀ´µ½»ª¿ÆÕĞÉúĞû½²»á³¡£¬ÓÃµç»°ÊÖ±íÅÄÏÂ¼¸Ò³ºÃ¿´µÄPPT£¬¾ÍÅÜÈ¥Îä´óµÄ»á³¡ÁË¡£",
+    "excerpt": "å»å¹´ä»Šæ—¥ï¼Œæˆ‘æ¥åˆ°åç§‘æ‹›ç”Ÿå®£è®²ä¼šåœºï¼Œç”¨ç”µè¯æ‰‹è¡¨æ‹ä¸‹å‡ é¡µå¥½çœ‹çš„PPTï¼Œå°±è·‘å»æ­¦å¤§çš„ä¼šåœºäº†ã€‚",
     "locales": {
       "en": {
         "location": "Intersection of Gutan Road and Wenjin Road, Huangzhou District, Huanggang, Hubei",
-        "excerpt": "On this day last year, I came to HUST¡¯s admissions presentation, used my smartwatch to¡­",
+        "excerpt": "On this day last year, I came to HUSTâ€™s admissions presentation, used my smartwatch toâ€¦",
         "sourceLabel": "PDF page 15",
         "imageCaptions": [
           "Admissions presentation in the West Lecture Hall",
@@ -934,20 +934,20 @@ window.MMV_JOURNALS = [
       },
       "fr": {
         "location": "Carrefour de la rue Gutan et de la rue Wenjin, district de Huangzhou, Huanggang, Hubei",
-        "excerpt": "¨¤ cette m¨ºme date l¡¯an dernier, je suis venu ¨¤ la r¨¦union de pr¨¦sentation des admissions de¡­",
-        "sourceLabel": "PDF ¡¤ page 15",
+        "excerpt": "Ã€ cette mÃªme date lâ€™an dernier, je suis venu Ã  la rÃ©union de prÃ©sentation des admissions deâ€¦",
+        "sourceLabel": "PDF Â· page 15",
         "imageCaptions": [
-          "Pr¨¦sentation des admissions dans l¡¯amphith¨¦atre Ouest",
-          "Chai Xiaosang, ¨¦tudiant d¡¯une promotion sup¨¦rieure"
+          "PrÃ©sentation des admissions dans lâ€™amphithÃ©Ã¢tre Ouest",
+          "Chai Xiaosang, Ã©tudiant dâ€™une promotion supÃ©rieure"
         ]
       },
       "de": {
-        "location": "Kreuzung Gutan-Stra?e/Wenjin-Stra?e, Stadtbezirk Huangzhou, Huanggang, Hubei",
-        "excerpt": "Heute vor einem Jahr kam ich zur Informationsveranstaltung ¨¹ber die Zulassung an der HUST¡­",
+        "location": "Kreuzung Gutan-StraÃŸe/Wenjin-StraÃŸe, Stadtbezirk Huangzhou, Huanggang, Hubei",
+        "excerpt": "Heute vor einem Jahr kam ich zur Informationsveranstaltung Ã¼ber die Zulassung an der HUSTâ€¦",
         "sourceLabel": "PDF-Seite 15",
         "imageCaptions": [
-          "Informationsveranstaltung zur Zulassung im Westlichen H?rsaal",
-          "Chai Xiaosang, ein Student aus einem h?heren Jahrgang"
+          "Informationsveranstaltung zur Zulassung im Westlichen HÃ¶rsaal",
+          "Chai Xiaosang, ein Student aus einem hÃ¶heren Jahrgang"
         ]
       }
     },
@@ -956,33 +956,33 @@ window.MMV_JOURNALS = [
   {
     "date": "2024-08-21",
     "file": "2024-08-21.html",
-    "location": "ÉÂÎ÷Ê¡Î÷°²ÊĞ±®ÁÖÇøÈı¸ùµç¸ËÉÂ²Ë¹İ",
+    "location": "é™•è¥¿çœè¥¿å®‰å¸‚ç¢‘æ—åŒºä¸‰æ ¹ç”µæ†é™•èœé¦†",
     "sourcePages": [
       14,
       15
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 14¡¢15 Ò³"
+      "label": "PDF ç¬¬ 14ã€15 é¡µ"
     },
     "images": [],
-    "excerpt": "ÎÒ½ã´ø×ÅÎÒ£¬ÔÚÒ»¸öÍøºì¡°³¤°²¡±Ç½ÏÂ£¬ÅÅ¶ÓÅÄÕÕ£¬ÅÅÁË°ë¸ö¶àĞ¡Ê±£¡¾ÍÊÇ¡°Èı¸ùµçÏß¸Ë¡±ÅÔ±ßµÄ¡°³¤°²¡±Ç½£¡",
+    "excerpt": "æˆ‘å§å¸¦ç€æˆ‘ï¼Œåœ¨ä¸€ä¸ªç½‘çº¢â€œé•¿å®‰â€å¢™ä¸‹ï¼Œæ’é˜Ÿæ‹ç…§ï¼Œæ’äº†åŠä¸ªå¤šå°æ—¶ï¼å°±æ˜¯â€œä¸‰æ ¹ç”µçº¿æ†â€æ—è¾¹çš„â€œé•¿å®‰â€å¢™ï¼",
     "locales": {
       "en": {
-        "location": "Sangen Diangan Shaanxi Cuisine Restaurant, Beilin District, Xi¡¯an, Shaanxi",
-        "excerpt": "My sister took me to queue for photos beneath an internet-famous ¡®Chang¡¯an¡¯ wall¡ªfor more¡­",
+        "location": "Sangen Diangan Shaanxi Cuisine Restaurant, Beilin District, Xiâ€™an, Shaanxi",
+        "excerpt": "My sister took me to queue for photos beneath an internet-famous â€˜Changâ€™anâ€™ wallâ€”for moreâ€¦",
         "sourceLabel": "PDF pages 14 / 15",
         "imageCaptions": []
       },
       "fr": {
-        "location": "Restaurant de cuisine du Shaanxi Sangen Diangan, district de Beilin, Xi¡¯an, Shaanxi",
-        "excerpt": "Ma s?ur m¡¯a emmen¨¦ faire la queue sous un mur ? Chang¡¯an ? c¨¦l¨¨bre sur Internet pour prendre¡­",
-        "sourceLabel": "PDF ¡¤ pages 14 / 15",
+        "location": "Restaurant de cuisine du Shaanxi Sangen Diangan, district de Beilin, Xiâ€™an, Shaanxi",
+        "excerpt": "Ma sÅ“ur mâ€™a emmenÃ© faire la queue sous un mur Â« Changâ€™an Â» cÃ©lÃ¨bre sur Internet pour prendreâ€¦",
+        "sourceLabel": "PDF Â· pages 14 / 15",
         "imageCaptions": []
       },
       "de": {
-        "location": "Sangen-Diangan-Restaurant f¨¹r Shaanxi-K¨¹che, Bezirk Beilin, Xi¡¯an, Shaanxi",
-        "excerpt": "Meine Schwester nahm mich mit zu einer im Netz ber¨¹hmten ?Chang¡¯an¡°-Mauer, wo wir uns f¨¹r¡­",
+        "location": "Sangen-Diangan-Restaurant fÃ¼r Shaanxi-KÃ¼che, Bezirk Beilin, Xiâ€™an, Shaanxi",
+        "excerpt": "Meine Schwester nahm mich mit zu einer im Netz berÃ¼hmten â€Changâ€™anâ€œ-Mauer, wo wir uns fÃ¼râ€¦",
         "sourceLabel": "PDF-Seiten 14 / 15",
         "imageCaptions": []
       }
@@ -992,32 +992,32 @@ window.MMV_JOURNALS = [
   {
     "date": "2024-08-20",
     "file": "2024-08-20.html",
-    "location": "½­Î÷Ê¡¾Å½­ÊĞ²ñÉ£ÇøÂ®É½»ú³¡£¬ÉÂÎ÷Ê¡Î÷°²ÊĞĞÂ³ÇÇø£¬êÉÂåÆÜ¾Æµê",
+    "location": "æ±Ÿè¥¿çœä¹æ±Ÿå¸‚æŸ´æ¡‘åŒºåºå±±æœºåœºï¼Œé™•è¥¿çœè¥¿å®‰å¸‚æ–°åŸåŒºï¼Œæ™Ÿæ´›æ –é…’åº—",
     "sourcePages": [
       14
     ],
     "source": {
       "kind": "pdf",
-      "label": "PDF µÚ 14 Ò³"
+      "label": "PDF ç¬¬ 14 é¡µ"
     },
     "images": [],
-    "excerpt": "ÎÒÃÇÔÚÂ®É½»ú³¡×ø·É»ú£¬ÎÒÒ»×ß³ö¼ìÆ±¿Ú¾ÍÈÌ²»×¡ÅÄÕÕ£¬°ÑÂ®É½ÉÏµÄ·ç¹â±£´æÎªÎÒµÄ×ÀÃæ±ÚÖ½¡£¿Éµ±ÎÒµ÷Õû½¹¾àÊ±£¬±£°²´óÊå¾¯¸æÎÒ²»ÄÜÅÄÕÕ£¡",
+    "excerpt": "æˆ‘ä»¬åœ¨åºå±±æœºåœºåé£æœºï¼Œæˆ‘ä¸€èµ°å‡ºæ£€ç¥¨å£å°±å¿ä¸ä½æ‹ç…§ï¼ŒæŠŠåºå±±ä¸Šçš„é£å…‰ä¿å­˜ä¸ºæˆ‘çš„æ¡Œé¢å£çº¸ã€‚å¯å½“æˆ‘è°ƒæ•´ç„¦è·æ—¶ï¼Œä¿å®‰å¤§å”è­¦å‘Šæˆ‘ä¸èƒ½æ‹ç…§ï¼",
     "locales": {
       "en": {
-        "location": "Lushan Airport, Chaisang District, Jiujiang, Jiangxi; Xincheng District, Xi¡¯an, Shaanxi; Shengluoqi Hotel",
-        "excerpt": "We were catching a flight at Lushan Airport. The moment I walked out of the ticket¡­",
+        "location": "Lushan Airport, Chaisang District, Jiujiang, Jiangxi; Xincheng District, Xiâ€™an, Shaanxi; Shengluoqi Hotel",
+        "excerpt": "We were catching a flight at Lushan Airport. The moment I walked out of the ticketâ€¦",
         "sourceLabel": "PDF page 14",
         "imageCaptions": []
       },
       "fr": {
-        "location": "A¨¦roport de Lushan, district de Chaisang, Jiujiang, Jiangxi ; district de Xincheng, Xi¡¯an, Shaanxi ; h?tel Shengluoqi",
-        "excerpt": "Nous prenions l¡¯avion ¨¤ l¡¯a¨¦roport de Lushan. D¨¨s que je suis sorti du contr?le des billets¡­",
-        "sourceLabel": "PDF ¡¤ page 14",
+        "location": "AÃ©roport de Lushan, district de Chaisang, Jiujiang, Jiangxi ; district de Xincheng, Xiâ€™an, Shaanxi ; hÃ´tel Shengluoqi",
+        "excerpt": "Nous prenions lâ€™avion Ã  lâ€™aÃ©roport de Lushan. DÃ¨s que je suis sorti du contrÃ´le des billetsâ€¦",
+        "sourceLabel": "PDF Â· page 14",
         "imageCaptions": []
       },
       "de": {
-        "location": "Flughafen Lushan, Bezirk Chaisang, Jiujiang, Jiangxi; Bezirk Xincheng, Xi¡¯an, Shaanxi; Shengluoqi Hotel",
-        "excerpt": "Wir wollten vom Flughafen Lushan abfliegen. Kaum war ich aus der Ticketkontrolle heraus¡­",
+        "location": "Flughafen Lushan, Bezirk Chaisang, Jiujiang, Jiangxi; Bezirk Xincheng, Xiâ€™an, Shaanxi; Shengluoqi Hotel",
+        "excerpt": "Wir wollten vom Flughafen Lushan abfliegen. Kaum war ich aus der Ticketkontrolle herausâ€¦",
         "sourceLabel": "PDF-Seite 14",
         "imageCaptions": []
       }

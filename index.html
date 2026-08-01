@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN" data-theme="neko" data-mode="light">
 <head>
   <meta charset="UTF-8" />
@@ -7,7 +7,7 @@
   <link rel="apple-touch-icon" href="./assets/avatars/host-mooncat.png" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <meta name="theme-color" content="#eaf5e8" />
-  <meta name="description" content="Mon Mode de Vie �?一间关于生活、时间、故事与珍藏的数字会客厅�? />
+  <meta name="description" content="Mon Mode de Vie — 一间关于生活、时间、故事与珍藏的数字会客厅。" />
   <title>Mon Mode de Vie</title>
   <link rel="stylesheet" href="./third_party/tui-calendar/tui-calendar.min.css" />
   <link rel="stylesheet" href="./styles.css?v=20260801-v33" />
@@ -35,7 +35,7 @@
 
 <div class="app-shell" id="appShell" data-module="home">
 
-  <!-- ══�?导航�?�?悬浮 ══�?-->
+  <!-- ═══ 导航栏 — 悬浮 ═══ -->
   <div class="topbar" id="topbar">
     <div class="topbar-edge topbar-edge--left">
       <button class="icon-button" id="leftToggle" type="button" aria-controls="leftPanel" aria-expanded="true" data-i18n-title="leftPanel">
@@ -45,13 +45,13 @@
     </div>
 
     <nav class="primary-nav">
-      <button class="nav-item is-active" data-module="home" aria-current="page" aria-label="会客�? data-i18n-title="navHome">
+      <button class="nav-item is-active" data-module="home" aria-current="page" aria-label="会客厅" data-i18n-title="navHome">
         <svg class="nav-icon-svg"><use href="#icon-sofa"/></svg>
         <span class="panda-emoji">🐼</span>
       </button>
       <button class="nav-item" data-module="now" aria-label="日历" data-i18n-title="navCalendar">
         <svg class="nav-icon-svg"><use href="#icon-calendar"/></svg>
-        <span class="panda-emoji">🗓�?/span>
+        <span class="panda-emoji">🗓️</span>
       </button>
       <button class="nav-item" data-module="journal" aria-label="日记" data-i18n-title="navJournal">
         <svg class="nav-icon-svg"><use href="#icon-journal"/></svg>
@@ -59,7 +59,7 @@
       </button>
       <button class="nav-item" data-module="album" aria-label="相册" data-i18n-title="navAlbum">
         <svg class="nav-icon-svg"><use href="#icon-album"/></svg>
-        <span class="panda-emoji">🏔�?/span>
+        <span class="panda-emoji">🏔️</span>
       </button>
       <button class="nav-item" id="cloudToggle" type="button" aria-controls="cloudMenu" aria-expanded="false" aria-label="那朵小云·设置" data-i18n-title="navCloud">
         <svg class="nav-icon-svg"><use href="#icon-cloud"/></svg>
@@ -75,7 +75,7 @@
     </div>
   </div>
 
-  <!-- ══�?云菜�?══�?-->
+  <!-- ═══ 云菜单 ═══ -->
   <div class="cloud-menu" id="cloudMenu" hidden>
     <div class="cloud-menu__header">
       <button class="icon-button" id="cloudClose" type="button"><svg><use href="#icon-close"/></svg></button>
@@ -107,12 +107,12 @@
     </section>
 
     <div class="cloud-links">
-      <button type="button" id="contactToggle"><span data-i18n="contact">联系方式</span><small data-i18n="contactHint">有事请联�?/small></button>
+      <button type="button" id="contactToggle"><span data-i18n="contact">联系方式</span><small data-i18n="contactHint">有事请联系</small></button>
       <a href="https://github.com/NewtNorlly" target="_blank" rel="noopener noreferrer" class="cloud-link-button"><span data-i18n="friends">友情链接</span><small>我的Github</small></a>
     </div>
   </div>
 
-  <!-- ══�?三栏工作�?══�?-->
+  <!-- ═══ 三栏工作区 ═══ -->
   <div class="workspace" id="workspace">
 
     <!-- 左栏 -->
@@ -121,11 +121,11 @@
       <div class="on-this-day">
         <a href="#" class="otd-card" id="otdCard" data-journal-date="2026-07-31">
           <div class="otd-cover">
-            <img src="./journals/assets/images/2026-07-31-illustration.jpg" alt="7�?1�? width="800" height="600" decoding="async" />
+            <img src="./journals/assets/images/2026-07-31-illustration.jpg" alt="7月31日" width="800" height="600" decoding="async" />
           </div>
           <div class="otd-body">
-            <time class="otd-date">7�?1�?/time>
-            <p class="otd-excerpt">11点多才起床，表弟半夜偷玩手机被他妈妈抓了个正着，今天被他老爹带去工地干活了。学了德语、法语、英语，维护了两个网站项目。感觉应该把身边的资源当复利品去用，而不是消耗品�?/p>
+            <time class="otd-date">7月31日</time>
+            <p class="otd-excerpt">11点多才起床，表弟半夜偷玩手机被他妈妈抓了个正着，今天被他老爹带去工地干活了。学了德语、法语、英语，维护了两个网站项目。感觉应该把身边的资源当复利品去用，而不是消耗品。</p>
           </div>
         </a>
       </div>
@@ -136,7 +136,7 @@
             <div class="music-box__disc-inner"></div>
           </div>
           <div class="music-box__meta">
-            <span class="music-box__label" data-i18n="musicBox">音乐�?/span>
+            <span class="music-box__label" data-i18n="musicBox">音乐盒</span>
             <span class="music-box__song">Белая кошка</span>
           </div>
         </div>
@@ -160,7 +160,7 @@
 
     <div class="resize-handle resize-handle--left" id="leftResize" role="separator" aria-orientation="vertical" tabindex="0"></div>
 
-    <!-- 中央主模�?-->
+    <!-- 中央主模块 -->
     <main class="main-stage" id="mainStage">
       <section class="module-view is-active" data-view="home">
         <div class="home-chat" id="homeChat">
@@ -172,15 +172,15 @@
                 <img class="chat-avatar" src="./assets/avatars/host-mooncat.png" alt="" width="96" height="96" decoding="async" />
                 <div class="chat-message__content">
                   <span class="chat-name">NewtNorlly</span>
-                  <div class="chat-bubble"><p>如果你愿意，我们就从这里慢慢认识�?/p></div>
+                  <div class="chat-bubble"><p>如果你愿意，我们就从这里慢慢认识。</p></div>
                 </div>
               </article>
             </div>
             <div class="chat-choices" id="guideOptions" hidden>
               <button type="button" class="chat-choice" data-guide="recent">最近在忙什么？</button>
-              <button type="button" class="chat-choice" data-guide="living">你平时怎么生活�?/button>
+              <button type="button" class="chat-choice" data-guide="living">你平时怎么生活？</button>
               <button type="button" class="chat-choice" data-guide="treasures">带我看看你珍藏的东西</button>
-              <button type="button" class="chat-choice" data-guide="wander">我先随便逛�?/button>
+              <button type="button" class="chat-choice" data-guide="wander">我先随便逛逛</button>
               <button type="button" class="chat-choice chat-choice--anniversary" id="anniversaryOption" data-guide="anniversary">
                 <span class="chat-choice__date"><b id="todayDay">29</b><small id="todayMonth">JUL</small></span>
                 <span>我想听听今天的纪念日茶话</span>
@@ -194,18 +194,18 @@
         <div class="module-sheet calendar-sheet">
           <div class="calendar-toolbar">
             <label class="calendar-date-jump"><input id="calendarDateJump" type="date" /></label>
-            <strong id="calendarPeriod">2026�?�?/strong>
+            <strong id="calendarPeriod">2026年7月</strong>
             <div class="view-switch">
-              <button type="button" data-calendar-view="year" data-i18n="calendarViewYear">�?/button>
-              <button type="button" data-calendar-view="month" class="is-selected" data-i18n="calendarViewMonth">�?/button>
-              <button type="button" data-calendar-view="week" data-i18n="calendarViewWeek">�?/button>
-              <button type="button" data-calendar-view="day" data-i18n="calendarViewDay">�?/button>
+              <button type="button" data-calendar-view="year" data-i18n="calendarViewYear">年</button>
+              <button type="button" data-calendar-view="month" class="is-selected" data-i18n="calendarViewMonth">月</button>
+              <button type="button" data-calendar-view="week" data-i18n="calendarViewWeek">周</button>
+              <button type="button" data-calendar-view="day" data-i18n="calendarViewDay">日</button>
             </div>
           </div>
           <div class="calendar-frame">
             <div class="tui-calendar-viewport" id="calendarViewport"><div class="mmv-calendar" id="calendarRoot"></div></div>
             <div class="calendar-year-view" id="calendarYearView" hidden></div>
-            <p class="calendar-fallback" id="calendarFallback" hidden data-i18n="calendarFallback">日历组件暂时没有加载成功�?/p>
+            <p class="calendar-fallback" id="calendarFallback" hidden data-i18n="calendarFallback">日历组件暂时没有加载成功。</p>
           </div>
         </div>
       </section>
@@ -214,7 +214,7 @@
         <div class="module-sheet journal-sheet">
           <div class="journal-ledger" id="journalLedger"></div>
           <div class="journal-reader" id="journalReader" hidden>
-            <button class="journal-reader__back" id="journalBackBtn" type="button" data-i18n-title="backLabel">�?返回日志主页</button>
+            <button class="journal-reader__back" id="journalBackBtn" type="button" data-i18n-title="backLabel">← 返回日志主页</button>
             <div class="journal-reader__content" id="journalReaderContent"></div>
           </div>
         </div>
@@ -242,17 +242,17 @@
 
       <div class="author-letter" id="authorLetter" hidden>
         <div class="letter-paper">
-          <p data-i18n="letterContent">多做一些朝花夕拾的事，少做一些半途而废的事�?/p>
-          <button type="button" id="letterClose" data-i18n="foldLetter">折好这封�?/button>
+          <p data-i18n="letterContent">多做一些朝花夕拾的事，少做一些半途而废的事。</p>
+          <button type="button" id="letterClose" data-i18n="foldLetter">折好这封信</button>
         </div>
       </div>
 
       <section class="game-card">
         <header>
           <svg><use href="#icon-game"/></svg>
-          <div><h3 data-i18n="game">玩玩小游�?/h3></div>
+          <div><h3 data-i18n="game">玩玩小游戏</h3></div>
         </header>
-        <iframe class="game-frame" id="paperRunFrame" src="./game/index.html" sandbox="allow-scripts" loading="lazy" referrerpolicy="no-referrer" data-i18n-title="gameTitle" title="纸上漫游小游�?></iframe>
+        <iframe class="game-frame" id="paperRunFrame" src="./game/index.html" sandbox="allow-scripts" loading="lazy" referrerpolicy="no-referrer" data-i18n-title="gameTitle" title="纸上漫游小游戏"></iframe>
       </section>
     </aside>
 
