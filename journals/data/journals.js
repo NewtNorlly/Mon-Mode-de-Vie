@@ -1,5 +1,53 @@
 ﻿window.MMV_JOURNALS = [
   {
+    "date": "2026-08-02",
+    "file": "2026-08-02.html",
+    "location": "江西省九江市濂溪区",
+    "excerpt": "早上煮了泡面和挂面一起吃，下午绑定了自己的专属域名 newtnorlly.xyz。跟表姐和外甥去打电动，外甥赛车得了第一名。晚上吃了玉林串串香，舅舅从苏格里岛带了鸡翅根回来，傍晚又看了瑞克和莫蒂解说。",
+    "images": [],
+    "source": {
+      "label": "原创"
+    },
+    "locales": {
+      "en": {
+        "location": "Lianxi District, Jiujiang, Jiangxi",
+        "excerpt": "Boiled instant noodles and dried noodles together in the morning. Bound my own domain newtnorlly.xyz in the afternoon. Played video games with my cousin's son—he got 1st place in a race. Had Yulin Chuanchuanxiang for dinner, uncle brought chicken drumettes from Sugeli Island, watched another Rick and Morty commentary."
+      },
+      "fr": {
+        "location": "District de Lianxi, Jiujiang, Jiangxi",
+        "excerpt": "Nouilles instantanées et sèches bouillies ensemble le matin. Lié mon propre nom de domaine newtnorlly.xyz l'après-midi. Joué aux jeux vidéo avec le fils de ma cousine—il a fini 1er en course. Chuanchuanxiang de Yulin le soir, mon oncle a ramené des pilons de poulet de Sugeli, regardé une autre analyse de Rick and Morty."
+      },
+      "de": {
+        "location": "Lianxi, Jiujiang, Jiangxi",
+        "excerpt": "Morgens Instantnudeln und getrocknete Nudeln zusammen gekocht. Nachmittags meine eigene Domain newtnorlly.xyz gebunden. Mit dem Sohn meiner Cousine Videospiele gespielt—er wurde Erster im Rennen. Abends Yulin Chuanchuanxiang, Onkel brachte Hähnchenunterkeulen von der Insel Sugeli mit, noch ein Rick and Morty Erklärvideo geschaut."
+      }
+    }
+  },
+  {
+    "date": "2026-08-01",
+    "file": "2026-08-01.html",
+    "location": "江西省九江市濂溪区",
+    "excerpt": "维护好了自己的网站，更新了一些小细节。看了瑞克和莫蒂的解说，感觉很有意思。",
+    "images": [],
+    "source": {
+      "label": "原创"
+    },
+    "locales": {
+      "en": {
+        "location": "Lianxi District, Jiujiang, Jiangxi",
+        "excerpt": "Maintained my own website and updated some little details. Watched some Rick and Morty commentary videos, found them really interesting."
+      },
+      "fr": {
+        "location": "District de Lianxi, Jiujiang, Jiangxi",
+        "excerpt": "Maintenu mon site web et mis à jour quelques petits détails. Regardé des vidéos d'analyse de Rick and Morty, les ai trouvées très intéressantes."
+      },
+      "de": {
+        "location": "Lianxi, Jiujiang, Jiangxi",
+        "excerpt": "Meine eigene Website gewartet und ein paar kleine Details aktualisiert. Ein paar Rick and Morty Erklärvideos geschaut, fand sie sehr interessant."
+      }
+    }
+  },
+  {
     "date": "2026-07-31",
     "file": "2026-07-31.html",
     "location": "江西省九江市濂溪区",
