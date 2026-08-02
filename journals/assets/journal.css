@@ -301,32 +301,6 @@ h1 {
   white-space: nowrap;
 }
 
-.entry-nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
-  margin-top: clamp(42px, 8vw, 80px);
-  padding-top: 26px;
-  border-top: 1px solid var(--line);
-  font-family: var(--sans);
-}
-
-.entry-nav a {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  min-height: 82px;
-  padding: 15px 16px;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  text-decoration: none;
-}
-
-.entry-nav a:last-child { text-align: right; }
-.entry-nav a:hover, .entry-nav a:focus-visible { border-color: var(--accent); outline: none; }
-.entry-nav small { color: var(--faint); font-size: 12px; letter-spacing: 0.08em; }
-.entry-nav strong { color: var(--accent); font-size: 14px; }
-
 .archive-shell { padding: clamp(28px, 6vw, 68px); }
 
 .archive-header {
@@ -425,12 +399,10 @@ h1 {
   .archive-count { text-align: left; }
   .archive-card { grid-template-columns: 1fr auto; gap: 10px 14px; }
   .card-copy { grid-column: 1 / -1; grid-row: 2; }
-  .entry-nav { grid-template-columns: 1fr; }
-  .entry-nav a:last-child { text-align: left; }
 }
 
 @media print {
-  .site-bar, .entry-nav { display: none; }
+  .site-bar { display: none; }
   body { background: #fff; color: #111; }
   .reading-shell { width: auto; margin: 0; border: 0; box-shadow: none; }
   .journal-article { padding: 0; }
