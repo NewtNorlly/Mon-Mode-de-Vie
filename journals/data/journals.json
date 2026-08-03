@@ -3,23 +3,30 @@
     "date": "2026-08-02",
     "file": "2026-08-02.html",
     "location": "江西省九江市濂溪区",
-    "excerpt": "早上煮了泡面和挂面一起吃，下午绑定了自己的专属域名 newtnorlly.xyz。跟表姐和外甥去打电动，外甥赛车得了第一名。晚上吃了玉林串串香，舅舅从苏格里岛带了鸡翅根回来，傍晚又看了瑞克和莫蒂解说。",
-    "images": [],
+    "excerpt": "早上煮了泡面和挂面一起吃，下午绑定了自己的专属域名 newtnorlly.xyz。带外甥去电玩城，他赛车得了第一名。外甥一直喊我舅舅要我答应去他家玩，我情难自已，泪由心生。晚上吃了玉林串串香，舅舅从苏格里岛带了鸡翅根，看了瑞克和莫蒂凤凰计划解说。",
+    "images": [
+      {
+        "file": "assets/images/2026-08-02-illustration-01.jpg"
+      },
+      {
+        "file": "assets/images/2026-08-02-illustration-02.jpg"
+      }
+    ],
     "source": {
       "label": "原创"
     },
     "locales": {
       "en": {
         "location": "Lianxi District, Jiujiang, Jiangxi",
-        "excerpt": "Boiled instant noodles and dried noodles together in the morning. Bound my own domain newtnorlly.xyz in the afternoon. Played video games with my cousin's son—he got 1st place in a race. Had Yulin Chuanchuanxiang for dinner, uncle brought chicken drumettes from Sugeli Island, watched another Rick and Morty commentary."
+        "excerpt": "Boiled instant noodles and dried noodles together in the morning. Bound my own domain newtnorlly.xyz. Took my nephew to the arcade—he got 1st place on the racing cabinet. My nephew kept calling me 'Uncle,' wanting me to come to his place. I couldn't hold back the tears. Had Yulin Chuanchuanxiang for dinner, uncle brought chicken drumettes from Sugeli Island, watched Rick and Morty Phoenix Protocol commentary."
       },
       "fr": {
         "location": "District de Lianxi, Jiujiang, Jiangxi",
-        "excerpt": "Nouilles instantanées et sèches bouillies ensemble le matin. Lié mon propre nom de domaine newtnorlly.xyz l'après-midi. Joué aux jeux vidéo avec le fils de ma cousine—il a fini 1er en course. Chuanchuanxiang de Yulin le soir, mon oncle a ramené des pilons de poulet de Sugeli, regardé une autre analyse de Rick and Morty."
+        "excerpt": "Nouilles instantanées et sèches bouillies ensemble le matin. Lié mon propre domaine newtnorlly.xyz. Emmmené mon neveu à la salle d'arcade—il a fini 1er sur la borne de course. Mon neveu n'arrêtait pas de m'appeler 'Tonton', voulant que je vienne chez lui. Je n'ai pas pu retenir mes larmes. Chuanchuanxiang de Yulin le soir, mon oncle a ramené des pilons de poulet de Sugeli, regardé une analyse du Protocole Phénix de Rick and Morty."
       },
       "de": {
         "location": "Lianxi, Jiujiang, Jiangxi",
-        "excerpt": "Morgens Instantnudeln und getrocknete Nudeln zusammen gekocht. Nachmittags meine eigene Domain newtnorlly.xyz gebunden. Mit dem Sohn meiner Cousine Videospiele gespielt—er wurde Erster im Rennen. Abends Yulin Chuanchuanxiang, Onkel brachte Hähnchenunterkeulen von der Insel Sugeli mit, noch ein Rick and Morty Erklärvideo geschaut."
+        "excerpt": "Morgens Instantnudeln und getrocknete Nudeln zusammen gekocht. Meine eigene Domain newtnorlly.xyz gebunden. Meinen Neffen in die Spielhalle gebracht—er wurde Erster am Rennautomaten. Mein Neffe rief immer wieder 'Onkel', wollte dass ich zu ihm komme. Konnte die Tränen nicht zurückhalten. Abends Yulin Chuanchuanxiang, Onkel brachte Hähnchenunterkeulen von der Insel Sugeli mit, Rick and Morty Phönix-Protokoll Erklärvideo geschaut."
       }
     }
   },
@@ -27,7 +34,7 @@
     "date": "2026-08-01",
     "file": "2026-08-01.html",
     "location": "江西省九江市濂溪区",
-    "excerpt": "维护好了自己的网站，更新了一些小细节。看了瑞克和莫蒂的解说，感觉很有意思。",
+    "excerpt": "维护好了自己的网站，更新了一些小细节。看了瑞克和莫蒂的解说。三舅带我们去万达吃牛蛙和基围虾，龙虾鳞片卡在扁桃体上差点呛死。表弟挨了老爹的骂还哭了，表妹却不小心对着老爹的头放了个屁。",
     "images": [],
     "source": {
       "label": "原创"
@@ -35,15 +42,15 @@
     "locales": {
       "en": {
         "location": "Lianxi District, Jiujiang, Jiangxi",
-        "excerpt": "Maintained my own website and updated some little details. Watched some Rick and Morty commentary videos, found them really interesting."
+        "excerpt": "Maintained my website and updated some details. Watched Rick and Morty commentaries. Third Uncle took us to Wanda for bullfrog and shrimp—a lobster scale got stuck on my tonsil, nearly choked. My younger cousin got yelled at by his dad and cried. My girl cousin accidentally farted at her dad's head."
       },
       "fr": {
         "location": "District de Lianxi, Jiujiang, Jiangxi",
-        "excerpt": "Maintenu mon site web et mis à jour quelques petits détails. Regardé des vidéos d'analyse de Rick and Morty, les ai trouvées très intéressantes."
+        "excerpt": "Maintenu mon site web et mis à jour quelques détails. Regardé des analyses de Rick and Morty. Troisième Oncle nous a emmenés au Wanda pour manger de la grenouille et des crevettes—une écaille de langoustine coincée sur l'amygdale, j'ai failli m'étouffer. Mon petit cousin s'est fait gronder par son père et a pleuré. Ma petite cousine a accidentellement pété sur la tête de son père."
       },
       "de": {
         "location": "Lianxi, Jiujiang, Jiangxi",
-        "excerpt": "Meine eigene Website gewartet und ein paar kleine Details aktualisiert. Ein paar Rick and Morty Erklärvideos geschaut, fand sie sehr interessant."
+        "excerpt": "Meine Website gewartet und Details aktualisiert. Rick and Morty Erklärvideos geschaut. Dritt-Onkel nahm uns ins Wanda für Frosch und Garnelen mit—eine Hummerschuppe blieb an der Mandel kleben, fast erstickt. Mein jüngerer Cousin wurde von seinem Vater runtergeputzt und weinte. Meine kleine Cousine furzte aus Versehen auf den Kopf ihres Vaters."
       }
     }
   },
