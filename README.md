@@ -124,7 +124,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "tools\serve-local.ps1" -Por
 ### 📊 数字
 
 ```
-日记  25+ 篇（四语 + 插图）
+日记  每天更新（四语 + 插图）
 相册   7 个分册
 主题   9 套色卡
 语言   4 种
