@@ -17,9 +17,9 @@
   function lang() { const l = document.documentElement.lang.split("-")[0]; return copy[l] ? l : "zh"; }
   function loc(v) { return v && typeof v === "object" ? (v[lang()] || v.zh || v.en || "") : String(v||""); }
 
-  let activeAlbum = 0, activePhoto = 0;
+  let activeAlbum = 0, activePhoto = 0, lightboxAlbum = -1;
 
-  function current() { return data[activeAlbum]; }
+  function current() { return data[lightboxAlbum >= 0 ? lightboxAlbum : activeAlbum]; }
 
   function buildLightbox() {
     const d = document.createElement("dialog"); d.className = "album-lightbox"; d.id = "albumLightbox";
@@ -41,7 +41,7 @@
       if (e.key === "ArrowLeft") { e.preventDefault(); showPhoto(activePhoto - 1); }
       else if (e.key === "ArrowRight") { e.preventDefault(); showPhoto(activePhoto + 1); }
     });
-    d.addEventListener("close", () => document.documentElement.removeAttribute("data-album-lightbox"));
+    d.addEventListener("close", () => { document.documentElement.removeAttribute("data-album-lightbox"); lightboxAlbum = -1; });
     return d;
   }
 
@@ -75,7 +75,7 @@
       if (img.complete && img.naturalWidth) btn.classList.add("is-loaded");
       btn.innerHTML += `<span class="album-card__folio">${String(i+1).padStart(2,"0")}</span><span class="album-card__label"><strong>${loc(item.title)}</strong><small>${loc(item.scene)}</small></span>`;
       btn.prepend(img);
-      btn.onclick = () => { activePhoto = i; showPhoto(i); const dlg = document.getElementById("albumLightbox"); if (dlg && !dlg.open) { document.documentElement.dataset.albumLightbox = "open"; dlg.showModal(); } };
+      btn.onclick = () => { activePhoto = i; lightboxAlbum = activeAlbum; showPhoto(i); const dlg = document.getElementById("albumLightbox"); if (dlg && !dlg.open) { document.documentElement.dataset.albumLightbox = "open"; dlg.showModal(); } };
       frag.append(btn);
     });
     gridRoot.replaceChildren(frag);
@@ -86,7 +86,7 @@
     data.forEach((a, i) => {
       const t = document.createElement("button"); t.className = "album-tab"; t.type = "button";
       t.setAttribute("role","tab"); t.textContent = loc(a.name);
-      t.onclick = () => { activeAlbum = i; renderTabs(); renderGrid(); };
+      t.onclick = () => { activeAlbum = i; lightboxAlbum = -1; renderTabs(); renderGrid(); };
       if (i === activeAlbum) { t.setAttribute("aria-selected","true"); t.tabIndex = 0; }
       else { t.setAttribute("aria-selected","false"); t.tabIndex = -1; }
       tabsRoot.append(t);
