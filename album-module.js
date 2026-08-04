@@ -59,7 +59,9 @@
     document.getElementById("albumLightboxCaption").textContent = loc(item.caption);
     document.getElementById("albumLightboxMeta").textContent = `${loc(a.medium)} / ${loc(item.scene)}`;
     document.getElementById("albumLightboxPosition").textContent = c.pos(activePhoto + 1, a.items.length);
-    if (!lightbox.open) { document.documentElement.dataset.albumLightbox = "open"; lightbox.showModal(); }
+    const dlg = document.getElementById("albumLightbox");
+    if (!dlg) return;
+    if (!dlg.open) { document.documentElement.dataset.albumLightbox = "open"; dlg.showModal(); }
   }
 
   function renderGrid() {
@@ -73,7 +75,7 @@
       if (img.complete && img.naturalWidth) btn.classList.add("is-loaded");
       btn.innerHTML += `<span class="album-card__folio">${String(i+1).padStart(2,"0")}</span><span class="album-card__label"><strong>${loc(item.title)}</strong><small>${loc(item.scene)}</small></span>`;
       btn.prepend(img);
-      btn.onclick = () => { activePhoto = i; showPhoto(i); };
+      btn.onclick = () => { activePhoto = i; showPhoto(i); const dlg = document.getElementById("albumLightbox"); if (dlg && !dlg.open) { document.documentElement.dataset.albumLightbox = "open"; dlg.showModal(); } };
       frag.append(btn);
     });
     gridRoot.replaceChildren(frag);
