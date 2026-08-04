@@ -49,22 +49,19 @@
   background: linear-gradient(145deg, rgb(var(--glass-rgb)/0.92), rgb(var(--glass-rgb)/0.72));
   backdrop-filter: blur(30px);
 }
-.album-lightbox__media { display: grid; place-items: center; padding: 18px 64px 0; }
+.album-lightbox__media { display: grid; place-items: center; padding: 18px 24px 0; }
 .album-lightbox__media img { max-width: 100%; max-height: min(60dvh, 680px); border-radius: var(--radius-md); object-fit: contain; }
-.album-lightbox__caption { padding: 18px 64px 24px; text-align: center; }
+.album-lightbox__caption { padding: 18px 24px 24px; text-align: center; }
 .album-lightbox__caption h2 { font-family: var(--font-display); font-size: clamp(22px, 3vw, 34px); font-weight: 500; letter-spacing: var(--tracking-heading); margin: 6px 0 0; }
 .album-lightbox__caption p { color: hsl(var(--muted-foreground)); font-family: var(--font-serif); font-size: var(--text-sm); line-height: 1.75; margin-top: 8px; }
-.album-lightbox__close, .album-lightbox__nav {
-  position: absolute; z-index: 3; display: grid; place-items: center;
+.album-lightbox__close {
+  position: absolute; z-index: 3; top: 12px; right: 12px;
+  display: grid; place-items: center;
+  width: 44px; height: 44px;
   border: 1px solid hsl(var(--border)/0.8); background: rgb(var(--glass-rgb)/0.76);
   backdrop-filter: blur(12px); border-radius: 50%;
 }
-.album-lightbox__close { top: 12px; right: 12px; width: 44px; height: 44px; }
-.album-lightbox__nav { top: 45%; width: 44px; height: 52px; transform: translateY(-50%); border-radius: var(--radius-sm); }
-.album-lightbox__nav--previous { left: 12px; }
-.album-lightbox__nav--previous svg { transform: rotate(180deg); }
-.album-lightbox__nav--next { right: 12px; }
-.album-lightbox__close:hover, .album-lightbox__nav:hover { border-color: hsl(var(--accent-foreground)); color: hsl(var(--accent-foreground)); }
+.album-lightbox__close:hover { border-color: hsl(var(--accent-foreground)); color: hsl(var(--accent-foreground)); }
 
 @container (max-width: 720px) { .album-grid { grid-template-columns: repeat(2, 1fr); } }
 @container (max-width: 440px) { .album-grid { grid-template-columns: 1fr; } }

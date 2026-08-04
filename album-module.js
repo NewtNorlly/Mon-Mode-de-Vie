@@ -9,15 +9,15 @@
   if (!data.length || !tabsRoot || !gridRoot) return;
 
   const copy = {
-    zh: { open:v=>`打开《${v}》`, close:"关闭", prev:"上一张", next:"下一张", pos:(c,t)=>`${c} / ${t}` },
-    en: { open:v=>`Open "${v}"`, close:"Close", prev:"Previous", next:"Next", pos:(c,t)=>`${c} of ${t}` },
-    fr: { open:v=>`Ouvrir « ${v} »`, close:"Fermer", prev:"Précédente", next:"Suivante", pos:(c,t)=>`${c} sur ${t}` },
-    de: { open:v=>`"${v}" öffnen`, close:"Schließen", prev:"Zurück", next:"Weiter", pos:(c,t)=>`${c} von ${t}` },
+    zh: { close:"关闭" },
+    en: { close:"Close" },
+    fr: { close:"Fermer" },
+    de: { close:"Schließen" },
   };
   function lang() { const l = document.documentElement.lang.split("-")[0]; return copy[l] ? l : "zh"; }
   function loc(v) { return v && typeof v === "object" ? (v[lang()] || v.zh || v.en || "") : String(v||""); }
 
-  let activeAlbum = 0, activePhoto = 0;
+  let activeAlbum = 0;
 
   function current() { return data[activeAlbum]; }
 
@@ -26,40 +26,42 @@
     d.innerHTML = `<div class="album-lightbox__panel">
       <button class="album-lightbox__close" type="button"><svg><use href="#icon-close"/></svg></button>
       <div class="album-lightbox__media"><img id="albumLightboxImage" decoding="async" /></div>
-      <button class="album-lightbox__nav album-lightbox__nav--previous" type="button"><svg><use href="#icon-chevron"/></svg></button>
-      <button class="album-lightbox__nav album-lightbox__nav--next" type="button"><svg><use href="#icon-chevron"/></svg></button>
       <div class="album-lightbox__caption">
-        <div class="album-lightbox__caption-top"><span id="albumLightboxMeta"></span><span id="albumLightboxPosition"></span></div>
+        <div class="album-lightbox__caption-top"><span id="albumLightboxMeta"></span></div>
         <h2 id="albumLightboxTitle"></h2><p id="albumLightboxCaption"></p>
       </div></div>`;
     document.body.append(d);
     d.querySelector(".album-lightbox__close").onclick = () => d.close();
-    d.querySelector(".album-lightbox__nav--previous").onclick = () => showPhoto(activePhoto - 1);
-    d.querySelector(".album-lightbox__nav--next").onclick = () => showPhoto(activePhoto + 1);
     d.addEventListener("click", e => { if (e.target === d) d.close(); });
-    d.addEventListener("keydown", e => {
-      if (e.key === "ArrowLeft") { e.preventDefault(); showPhoto(activePhoto - 1); }
-      else if (e.key === "ArrowRight") { e.preventDefault(); showPhoto(activePhoto + 1); }
-    });
     d.addEventListener("close", () => { document.documentElement.removeAttribute("data-album-lightbox"); });
     return d;
   }
 
   const lightbox = buildLightbox();
 
+  /* ── 预加载：切换分册时后台加载该分册所有大图 ── */
+  const preloaded = new Set();
+  function preloadAlbum(a) {
+    if (!a || !a.items) return;
+    a.items.forEach(item => {
+      if (preloaded.has(item.file)) return;
+      preloaded.add(item.file);
+      const img = new Image();
+      img.src = item.file;
+    });
+  }
+
   function showPhoto(idx) {
     var albumId = document.getElementById("albumLightbox").dataset.albumId;
     var a = albumId ? data.find(function(ab){return ab.id === albumId}) : current();
     if (!a || !a.items.length) return;
-    activePhoto = ((idx % a.items.length) + a.items.length) % a.items.length;
-    const item = a.items[activePhoto];
-    const c = copy[lang()];
+    const item = a.items[idx];
+    if (!item) return;
     document.getElementById("albumLightboxImage").src = item.file;
     document.getElementById("albumLightboxImage").alt = loc(item.caption);
     document.getElementById("albumLightboxTitle").textContent = loc(item.title);
     document.getElementById("albumLightboxCaption").textContent = loc(item.caption);
     document.getElementById("albumLightboxMeta").textContent = `${loc(a.medium)} / ${loc(item.scene)}`;
-    document.getElementById("albumLightboxPosition").textContent = c.pos(activePhoto + 1, a.items.length);
     const dlg = document.getElementById("albumLightbox");
     if (!dlg) return;
     if (!dlg.open) { document.documentElement.dataset.albumLightbox = "open"; dlg.showModal(); }
@@ -76,7 +78,7 @@
       if (img.complete && img.naturalWidth) btn.classList.add("is-loaded");
       btn.innerHTML += `<span class="album-card__folio">${String(i+1).padStart(2,"0")}</span><span class="album-card__label"><strong>${loc(item.title)}</strong><small>${loc(item.scene)}</small></span>`;
       btn.prepend(img);
-      btn.onclick = () => { activePhoto = i; document.getElementById("albumLightbox").dataset.albumId = a.id; showPhoto(i); };
+      btn.onclick = () => { document.getElementById("albumLightbox").dataset.albumId = a.id; showPhoto(i); };
       frag.append(btn);
     });
     gridRoot.replaceChildren(frag);
@@ -87,7 +89,7 @@
     data.forEach((a, i) => {
       const t = document.createElement("button"); t.className = "album-tab"; t.type = "button";
       t.setAttribute("role","tab"); t.textContent = loc(a.name);
-      t.onclick = () => { activeAlbum = i; renderTabs(); renderGrid(); };
+      t.onclick = () => { activeAlbum = i; renderTabs(); renderGrid(); preloadAlbum(data[i]); };
       if (i === activeAlbum) { t.setAttribute("aria-selected","true"); t.tabIndex = 0; }
       else { t.setAttribute("aria-selected","false"); t.tabIndex = -1; }
       tabsRoot.append(t);
