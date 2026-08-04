@@ -3,15 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/png" href="./assets/avatars/host-mooncat.png" />
-  <link rel="apple-touch-icon" href="./assets/avatars/host-mooncat.png" />
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./favicon-192x192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/avatars/apple-touch-icon.png" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <meta name="theme-color" content="#eaf5e8" />
   <meta name="description" content="Mon Mode de Vie — 一间关于生活、时间、故事与珍藏的数字会客厅。" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="image" href="./assets/avatars/host-mooncat.webp" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap" />
   <title>Mon Mode de Vie</title>
+  <style>/* critical */:root{color-scheme:light;--background:70 49% 92%;--foreground:184 23% 26%;--card:66 60% 98%;--card-foreground:184 23% 26%;--secondary:56 52% 88%;--muted:128 31% 89%;--muted-foreground:184 14% 34%;--accent:162 55% 86%;--accent-foreground:173 58% 36%;--border:110 18% 83%;--sidebar-background:132 35% 90%;--sidebar-foreground:184 23% 26%;--sidebar-accent:66 58% 96%;--sidebar-accent-foreground:173 58% 36%;--sidebar-border:126 18% 78%;--story-accent:173 58% 36%;--font-serif:"LXGW WenKai TC","Songti SC","STSong",serif;--font-sans:"PingFang SC","Microsoft YaHei",sans-serif;--font-display:var(--font-serif);--font-body:var(--font-serif);--tracking-heading:-0.02em;--tracking-label:0.08em;--text-xs:0.75rem;--text-sm:0.875rem;--text-md:1rem;--text-lead:1.125rem;--leading-body:1.75;--leading-prose:2;--left-width:252px;--right-width:268px;--radius-sm:10px;--radius-md:18px;--radius-lg:28px;--radius-pill:999px;--glass-rgb:255 255 255;--motion-base:0.25s;--motion-slow:0.4s;--ease-spring:cubic-bezier(.16,1,.3,1);--ease-out:cubic-bezier(0,0,.2,1);--shadow-float:0 8px 26px hsl(170 32% 28%/.1)}:root[data-mode="dark"]{color-scheme:dark;--glass-rgb:17 29 31}*,*::before,*::after{box-sizing:border-box}html,body{width:100%;min-width:320px;height:100%;margin:0}body{overflow:hidden;color:hsl(var(--foreground));background:hsl(var(--background));font-family:var(--font-body);font-size:var(--text-md);line-height:var(--leading-body);-webkit-font-smoothing:antialiased}button,input{color:inherit;font:inherit}button{border:0;background:0}button:not(:disabled){cursor:pointer}[hidden]{display:none!important}.icon-sprite{position:absolute;width:0;height:0;overflow:hidden}a{color:inherit;text-decoration:none}svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.app-shell{width:100%;height:100dvh;overflow:hidden;background:radial-gradient(circle at 50% -18%,hsl(var(--card)/.92),transparent 42%),hsl(var(--background))}.topbar{position:static}.topbar-edge--left{position:fixed;z-index:50;top:14px;left:14px}.topbar-edge--right{position:fixed;z-index:50;top:14px;right:14px}.icon-button{display:grid;place-items:center;width:36px;height:36px;padding:0;border-radius:50%;color:hsl(var(--muted-foreground));background:hsl(var(--card)/.76);backdrop-filter:blur(22px) saturate(1.5);box-shadow:0 2px 10px hsl(var(--foreground)/.06),0 0 0 .5px hsl(var(--border)/.5)}.primary-nav{position:fixed;z-index:50;top:14px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:2px;padding:5px 7px;border-radius:var(--radius-pill);background:hsl(var(--card)/.76);backdrop-filter:blur(22px) saturate(1.5);box-shadow:0 2px 16px hsl(var(--foreground)/.07),0 0 0 .5px hsl(var(--border)/.55)}.nav-item{display:grid;place-items:center;width:38px;height:38px;padding:0;border-radius:50%;color:hsl(var(--muted-foreground));background:transparent;position:relative}.nav-item svg{width:19px;height:19px}.nav-item.is-active{color:hsl(var(--accent-foreground))}.nav-item.is-active::after{content:"";position:absolute;bottom:5px;left:50%;transform:translateX(-50%);width:4px;height:4px;border-radius:50%;background:hsl(var(--accent-foreground))}.workspace{display:grid;grid-template-columns:var(--left-width) 4px minmax(0,1fr) 4px var(--right-width);height:100dvh;overflow:hidden}.side-panel{min-width:0;overflow:auto;color:hsl(var(--sidebar-foreground));background:linear-gradient(180deg,hsl(var(--sidebar-accent)/.34),transparent 28%),hsl(var(--sidebar-background)/.76)}.side-panel--left{padding:70px 22px 24px}.side-panel--right{padding:70px 20px 24px}.resize-handle{background:hsl(var(--sidebar-border)/.35);cursor:col-resize}.panel-heading{margin-bottom:12px}.panel-heading h2{margin:0;font-family:var(--font-display);font-size:var(--text-sm);font-weight:500;letter-spacing:var(--tracking-heading)}.main-stage{position:relative;min-width:0;overflow:auto;background:radial-gradient(circle at 0 0,hsl(var(--card)/.55),transparent 32%),hsl(var(--background));padding-top:64px}.module-view{opacity:0;transform:translateY(10px);pointer-events:none;position:absolute;inset:0;overflow:auto}.module-view.is-active{opacity:1;transform:translateY(0);pointer-events:auto;position:relative}.home-chat{width:min(680px,calc(100% - 48px));margin:clamp(24px,5vh,48px) auto 0;padding:0 4px}.chat-day{margin:0 0 12px;color:hsl(var(--muted-foreground));font-family:var(--font-serif);font-size:var(--text-lead);text-align:center}.chat-thread{display:flex;flex-direction:column;gap:16px;padding-bottom:33vh}.chat-opening{display:contents}.chat-message{display:grid;grid-template-columns:42px minmax(0,1fr);align-items:start;gap:10px}.chat-message--guest{grid-template-columns:minmax(0,1fr) 42px}.chat-message--guest .chat-avatar{order:2}.chat-message--guest .chat-message__content{order:1;display:flex;flex-direction:column;align-items:flex-end}.chat-avatar{width:42px;height:42px;border-radius:50%}.chat-name{display:block;margin-bottom:4px;font-size:var(--text-sm);font-weight:600;color:hsl(var(--muted-foreground))}.chat-bubble{padding:12px 18px;border-radius:4px 16px 16px 16px;background:hsl(var(--card)/.65);border:1px solid hsl(var(--border)/.35);font-size:var(--text-lead);line-height:var(--leading-prose);display:inline-block;max-width:72%}.chat-bubble p{margin:0}.chat-message--guest .chat-bubble{border-radius:16px 4px 16px 16px;background:hsl(var(--accent)/.10)}.chat-hint{margin:0 0 20px;color:hsl(var(--muted-foreground));font-family:var(--font-serif);font-size:var(--text-lead);text-align:center;opacity:.55;user-select:none}.chat-choices{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}.chat-choice{display:inline-flex;align-items:center;gap:8px;min-height:46px;padding:10px 18px;border:1px solid hsl(var(--border)/.7);border-radius:var(--radius-pill);background:hsl(var(--card)/.7);font-size:var(--text-md)}.chat-choice__date{display:flex;flex-direction:column;align-items:center;line-height:1}.chat-choice__date b{font-size:var(--text-lead);color:hsl(var(--story-accent))}.chat-choice__date small{font-size:10px;color:hsl(var(--muted-foreground))}.envelope-card{display:grid;grid-template-columns:58px minmax(0,1fr);align-items:center;width:100%;min-height:92px;padding:12px 4px;gap:14px;color:hsl(var(--sidebar-foreground));background:transparent;text-align:left}.game-card{margin-top:24px}.game-card h3{margin:0;font-family:var(--font-display);font-size:var(--text-md);font-weight:500}.music-box{margin-top:24px}</style>
   <link rel="stylesheet" href="./styles.css?v=20260804-v34" />
   <link rel="stylesheet" href="./third_party/tui-calendar/tui-calendar.min.css" media="print" onload="this.media='all'" />
   <link rel="stylesheet" href="./calendar.css?v=20260804-v34" media="print" onload="this.media='all'" />
@@ -178,7 +182,7 @@
           <div class="chat-thread" id="chatThread">
             <div class="chat-opening" id="chatOpening">
               <article class="chat-message chat-message--host">
-                <img class="chat-avatar" src="./assets/avatars/host-mooncat.png" alt="" width="96" height="96" decoding="async" />
+                <img class="chat-avatar" src="./assets/avatars/host-mooncat.webp" alt="" width="96" height="96" decoding="async" />
                 <div class="chat-message__content">
                   <span class="chat-name">NewtNorlly</span>
                   <div class="chat-bubble"><p>如果你愿意，我们就从这里慢慢认识。</p></div>
@@ -270,14 +274,19 @@
 
 <button class="mobile-scrim" id="mobileScrim" type="button" aria-label="Close panels" hidden></button>
 
-<script src="./third_party/tui-calendar/vendor/tui-code-snippet.min.js" defer></script>
-<script src="./third_party/tui-calendar/tui-calendar.min.js" defer></script>
+<script>
+var _loaded={};
+function _ls(src,cb){
+  if(_loaded[src]){if(cb)cb();return;}
+  var s=document.createElement('script');
+  s.src=src;s.defer=true;
+  s.onload=function(){_loaded[src]=true;if(cb)cb();};
+  document.head.appendChild(s);
+}
+</script>
 <script src="./journals/data/journals.js?v=20260804-v34" defer></script>
 <script src="./journal-data.js?v=20260804-v34" defer></script>
 <script src="./calendar-data.js" defer></script>
 <script src="./script.js?v=20260804-v34" defer></script>
-<script src="./journal-module.js?v=20260804-v34" defer></script>
-<script src="./album-data.js" defer></script>
-<script src="./album-module.js" defer></script>
 </body>
 </html>

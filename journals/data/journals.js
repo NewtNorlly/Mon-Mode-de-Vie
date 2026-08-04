@@ -1,15 +1,67 @@
 ﻿window.MMV_JOURNALS = [
   {
+    "date": "2026-08-04",
+    "file": "2026-08-04.html",
+    "location": "江西省九江市濂溪区",
+    "excerpt": "7点多就下楼吃早饭，睡了个回笼觉。发现表妹拿我平板玩蛋仔派对跟网友聊了一上午，我问她怕不怕爸妈知道，她一句「这是你的平板」把我怼得无言以对。怕她被狐朋狗友带坏，把她在平板上的账号注销了。下午学德语，顺便教表弟知识点，表妹默默在楼下看电视。提醒自己晚上要复盘。",
+    "images": [
+      {
+        "file": "assets/images/2026-08-04-illustration.webp"
+      }
+    ],
+    "source": {
+      "label": "原创"
+    },
+    "locales": {
+      "en": {
+        "location": "Lianxi District, Jiujiang, Jiangxi",
+        "excerpt": "Woke early for breakfast, then napped. Caught my girl cousin playing Eggy Party on my tablet, chatting with online friends all morning. When I asked her what her parents would think, she shot back: 'How would they know? It's your tablet!' Worried about bad influences, I deleted her account. Studied German in the afternoon, taught my boy cousin a few things. Reminded myself to review and reflect tonight."
+      },
+      "fr": {
+        "location": "District de Lianxi, Jiujiang, Jiangxi",
+        "excerpt": "Levée tôt pour le petit-déjeuner, puis recouchée. Surpris ma petite cousine jouant à Eggy Party sur ma tablette, papotant avec des amis en ligne. Quand je l'ai questionnée, elle a répliqué : « Comment ils le sauraient ? C'est ta tablette ! » Inquiet des mauvaises fréquentations, j'ai supprimé son compte. Allemand l'après-midi, ai enseigné à mon cousin. Me suis rappelé de réviser et réfléchir ce soir."
+      },
+      "de": {
+        "location": "Lianxi, Jiujiang, Jiangxi",
+        "excerpt": "Früh aufgestanden zum Frühstück, dann nochmal hingelegt. Meine kleine Cousine mit Eggy Party auf meinem Tablet erwischt—den ganzen Vormittag mit Online-Freunden gechattet. Auf meine Frage konterte sie: 'Woher sollen die das wissen? Ist doch dein Tablet!' Aus Sorge vor schlechtem Umgang ihren Account gelöscht. Nachmittags Deutsch gelernt, meinem Cousin etwas beigebracht. Abends ans Wiederholen und Reflektieren erinnert."
+      }
+    }
+  },
+  {
+    "date": "2026-08-03",
+    "file": "2026-08-03.html",
+    "location": "江西省九江市濂溪区",
+    "excerpt": "学习了德语第二虚拟式。甘凳的小舅和小姨玩得特别嗨，舅妈很生气，下午打电话远程把表弟骂了一顿。表妹用平板自学，不会就问豆包，一题一题地把四年级上册一整本书学完了，表弟说她是「超值怪」。傍晚肚子胀得难受，出门散步半路呕了几遭。看了周扒片的瑞克和莫蒂解说，觉得哲学家最该去当动漫编剧。舅舅让表弟讲学了什么，强调要提纲挈领、纲举目张。放《小白猫》又想哭了。",
+    "images": [],
+    "source": {
+      "label": "原创"
+    },
+    "locales": {
+      "en": {
+        "location": "Lianxi District, Jiujiang, Jiangxi",
+        "excerpt": "Studied German Konjunktiv II. Gan Deng's little uncle and aunt played wildly; my aunt got mad and scolded my cousin over the phone. My girl cousin self-studied the entire 4th-grade textbook on her tablet, asking Doubao whenever she got stuck—my boy cousin calls her a 'value monster.' Felt bloated in the evening, went for a walk and threw up on the way. Watched Zhou Bapian's Rick and Morty analysis; philosophers should totally become anime screenwriters. Uncle made my cousin explain what he learned, stressing structure before details. The song 'Little White Cat' made me teary again."
+      },
+      "fr": {
+        "location": "District de Lianxi, Jiujiang, Jiangxi",
+        "excerpt": "Étudié le Konjunktiv II allemand. Le petit oncle et la petite tante de Gan Deng se sont éclatés ; ma tante, furieuse, a grondé mon cousin au téléphone. Ma petite cousine a fini tout le manuel de CM1 sur sa tablette, demandant à Doubao dès qu'elle bloquait—mon cousin l'appelle « monstre de valeur ». Ballonné le soir, promenade et vomissements. Analyse de Rick and Morty par Zhou Bapian : les philosophes devraient être scénaristes d'anime. Mon oncle a fait expliquer à mon cousin ce qu'il a appris. La chanson « Petit Chat Blanc » m'a encore serré le cœur."
+      },
+      "de": {
+        "location": "Lianxi, Jiujiang, Jiangxi",
+        "excerpt": "Deutschen Konjunktiv II gelernt. Gan Dengs kleiner Onkel und kleine Tante spielten wild; meine Tante schimpfte meinen Cousin per Telefon. Meine kleine Cousine lernte das ganze Schulbuch der 4. Klasse auf dem Tablet—fragte Doubao, wenn sie nicht weiterkam. Mein Cousin nennt sie 'Value-Monster'. Abends aufgebläht, spazieren gegangen und unterwegs erbrochen. Zhou Bapians Rick and Morty Analyse geschaut: Philosophen sollten Anime-Drehbuchautoren werden. Onkel ließ Cousin Gelerntes erklären. Das Lied 'Kleine weiße Katze' hat mich wieder zu Tränen gerührt."
+      }
+    }
+  },
+  {
     "date": "2026-08-02",
     "file": "2026-08-02.html",
     "location": "江西省九江市濂溪区",
     "excerpt": "早上煮了泡面和挂面一起吃，下午绑定了自己的专属域名 newtnorlly.xyz。带外甥去电玩城，他赛车得了第一名。在车上外甥盯着我的嘴巴问为什么有蓝色，原来是舌苔下面的静脉，这小朋友观察力太强了。外甥一直喊我舅舅要我答应去他家玩，我情难自已，泪由心生。晚上吃了玉林串串香，舅舅从苏格里岛带了鸡翅根，看了瑞克和莫蒂凤凰计划解说。",
     "images": [
       {
-        "file": "assets/images/2026-08-02-illustration-01.jpg"
+        "file": "assets/images/2026-08-02-illustration-01.webp"
       },
       {
-        "file": "assets/images/2026-08-02-illustration-02.jpg"
+        "file": "assets/images/2026-08-02-illustration-02.webp"
       }
     ],
     "source": {
@@ -61,7 +113,7 @@
     "excerpt": "11点多才起床，表弟半夜偷玩手机被他妈妈抓了个正着，今天被他老爹带去工地干活了。学了德语、法语、英语，维护了两个网站项目。感觉应该把身边的资源当复利品去用，而不是消耗品。",
     "images": [
       {
-        "file": "assets/images/2026-07-31-illustration.jpg"
+        "file": "assets/images/2026-07-31-illustration.webp"
       }
     ],
     "source": {
@@ -89,7 +141,7 @@
     "excerpt": "今天把熊猫主题从头到尾打磨了一遍。黑胶唱片转起来的时候，整个左栏都有了生命。还修了一个幽灵Bug，熊猫色块终于不是黑糊糊的一坨了。",
     "images": [
       {
-        "file": "assets/images/2026-07-30-illustration.jpg"
+        "file": "assets/images/2026-07-30-illustration.webp"
       }
     ],
     "source": {
@@ -117,7 +169,7 @@
     "excerpt": "在三舅家吃完午饭，我坐在窗边翻德语变位表。阳光把百叶窗的影子切成整齐的条纹。橘猫蜷在椅边打盹。",
     "images": [
       {
-        "file": "assets/images/2026-07-29-illustration.jpg"
+        "file": "assets/images/2026-07-29-illustration.webp"
       }
     ],
     "source": {
@@ -390,7 +442,7 @@
     },
     "images": [
       {
-        "file": "assets/images/2025-07-01/p23-image-01.jpg",
+        "file": "assets/images/2025-07-01/p23-image-01.webp",
         "caption": "百惠园三楼存行李",
         "sourcePage": 23
       }
@@ -544,7 +596,7 @@
     },
     "images": [
       {
-        "file": "assets/images/2025-06-20/p21-image-01.jpg",
+        "file": "assets/images/2025-06-20/p21-image-01.webp",
         "caption": "2025/06/20 方部长请客",
         "sourcePage": 21
       }
@@ -628,12 +680,12 @@
     },
     "images": [
       {
-        "file": "assets/images/2025-06-15/p20-image-01.jpg",
+        "file": "assets/images/2025-06-15/p20-image-01.webp",
         "caption": "韵苑天光夜色 1",
         "sourcePage": 20
       },
       {
-        "file": "assets/images/2025-06-15/p20-image-02.jpg",
+        "file": "assets/images/2025-06-15/p20-image-02.webp",
         "caption": "韵苑天光夜色 2",
         "sourcePage": 20
       }
@@ -966,12 +1018,12 @@
     },
     "images": [
       {
-        "file": "assets/images/2025-01-19/p16-image-01.jpg",
+        "file": "assets/images/2025-01-19/p16-image-01.webp",
         "caption": "西报告厅招生宣讲",
         "sourcePage": 16
       },
       {
-        "file": "assets/images/2025-01-19/p16-image-02.jpg",
+        "file": "assets/images/2025-01-19/p16-image-02.webp",
         "caption": "柴小桑学长",
         "sourcePage": 16
       }
