@@ -17,9 +17,9 @@
   function lang() { const l = document.documentElement.lang.split("-")[0]; return copy[l] ? l : "zh"; }
   function loc(v) { return v && typeof v === "object" ? (v[lang()] || v.zh || v.en || "") : String(v||""); }
 
-  let activeAlbum = 0, activePhoto = 0, lightboxAlbum = -1;
+  let activeAlbum = 0, activePhoto = 0;
 
-  function current() { return data[lightboxAlbum >= 0 ? lightboxAlbum : activeAlbum]; }
+  function current() { return data[activeAlbum]; }
 
   function buildLightbox() {
     const d = document.createElement("dialog"); d.className = "album-lightbox"; d.id = "albumLightbox";
@@ -41,15 +41,16 @@
       if (e.key === "ArrowLeft") { e.preventDefault(); showPhoto(activePhoto - 1); }
       else if (e.key === "ArrowRight") { e.preventDefault(); showPhoto(activePhoto + 1); }
     });
-    d.addEventListener("close", () => { document.documentElement.removeAttribute("data-album-lightbox"); lightboxAlbum = -1; });
+    d.addEventListener("close", () => { document.documentElement.removeAttribute("data-album-lightbox"); });
     return d;
   }
 
   const lightbox = buildLightbox();
 
   function showPhoto(idx) {
-    const a = current();
-    if (!a.items.length) return;
+    var albumId = document.getElementById("albumLightbox").dataset.albumId;
+    var a = albumId ? data.find(function(ab){return ab.id === albumId}) : current();
+    if (!a || !a.items.length) return;
     activePhoto = ((idx % a.items.length) + a.items.length) % a.items.length;
     const item = a.items[activePhoto];
     const c = copy[lang()];
@@ -75,7 +76,7 @@
       if (img.complete && img.naturalWidth) btn.classList.add("is-loaded");
       btn.innerHTML += `<span class="album-card__folio">${String(i+1).padStart(2,"0")}</span><span class="album-card__label"><strong>${loc(item.title)}</strong><small>${loc(item.scene)}</small></span>`;
       btn.prepend(img);
-      btn.onclick = () => { activePhoto = i; lightboxAlbum = activeAlbum; showPhoto(i); const dlg = document.getElementById("albumLightbox"); if (dlg && !dlg.open) { document.documentElement.dataset.albumLightbox = "open"; dlg.showModal(); } };
+      btn.onclick = () => { activePhoto = i; var dlg = document.getElementById("albumLightbox"); dlg.dataset.albumId = a.id; showPhoto(i); if (!dlg.open) { document.documentElement.dataset.albumLightbox = "open"; dlg.showModal(); } };
       frag.append(btn);
     });
     gridRoot.replaceChildren(frag);
