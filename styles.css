@@ -1,13 +1,7 @@
 /* Mon Mode de Vie — styles.css (2026-07-29 v4) */
 
-/* ═══ @font-face ═══ */
-@font-face {
-  font-family: "LXGW WenKai TC";
-  src: url("./assets/fonts/LXGWWenKaiTC-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+/* ═══ @font-face — Google Fonts CDN ═══ */
+/* LXGW WenKai TC loaded via Google Fonts to avoid blocking FCP with 14MB local TTF */
 
 /* ═══ Design Tokens ═══ */
 :root {
