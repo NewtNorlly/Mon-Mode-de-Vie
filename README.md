@@ -128,7 +128,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "tools\serve-local.ps1" -Por
 相册   7 个分册
 主题   9 套色卡
 语言   4 种
-内容 277+ 项
+内容量 有一点点多啦
 ```
 
 ---
