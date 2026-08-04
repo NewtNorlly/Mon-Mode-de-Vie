@@ -76,7 +76,7 @@
       if (img.complete && img.naturalWidth) btn.classList.add("is-loaded");
       btn.innerHTML += `<span class="album-card__folio">${String(i+1).padStart(2,"0")}</span><span class="album-card__label"><strong>${loc(item.title)}</strong><small>${loc(item.scene)}</small></span>`;
       btn.prepend(img);
-      btn.onclick = () => { activePhoto = i; var dlg = document.getElementById("albumLightbox"); dlg.dataset.albumId = a.id; showPhoto(i); if (!dlg.open) { document.documentElement.dataset.albumLightbox = "open"; dlg.showModal(); } };
+      btn.onclick = () => { activePhoto = i; document.getElementById("albumLightbox").dataset.albumId = a.id; showPhoto(i); };
       frag.append(btn);
     });
     gridRoot.replaceChildren(frag);
@@ -87,7 +87,7 @@
     data.forEach((a, i) => {
       const t = document.createElement("button"); t.className = "album-tab"; t.type = "button";
       t.setAttribute("role","tab"); t.textContent = loc(a.name);
-      t.onclick = () => { activeAlbum = i; lightboxAlbum = -1; renderTabs(); renderGrid(); };
+      t.onclick = () => { activeAlbum = i; renderTabs(); renderGrid(); };
       if (i === activeAlbum) { t.setAttribute("aria-selected","true"); t.tabIndex = 0; }
       else { t.setAttribute("aria-selected","false"); t.tabIndex = -1; }
       tabsRoot.append(t);
