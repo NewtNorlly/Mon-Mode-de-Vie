@@ -7,78 +7,7 @@
   <meta name="description" content="11点多才起床，表弟煮了饺子。学了德语Redemittel和咖啡馆场景单词。表弟表妹昨晚因为手机和平板争执闹起来了，我把密码都改了，结果表妹试错太多把SIM卡锁了。想办法解锁的一波三折，最后想到用APP查PUK码。晚上在B站看成龙电影解说，心情才好了一点。">
   <title>2026 年 8 月 5 日 · Journal · Mon Mode de Vie</title>
   <link rel="stylesheet" href="./assets/journal.css?v=20260720-i18n-v1">
-  <style>
-    :root {
-      --vocab-title: #6d59b8;
-      --vocab-word: #4c3d91;
-      --vocab-divider: #ede9fe;
-      --vocab-row-line: #f3f0fc;
-      --vocab-shadow: rgba(109,89,184,0.08);
-    }
-    :root[data-mode="dark"] {
-      --vocab-title: #b39ddb;
-      --vocab-word: #9c8ad4;
-      --vocab-divider: #3a3050;
-      --vocab-row-line: #2a2540;
-      --vocab-shadow: rgba(0,0,0,0.18);
-    }
-    .vocab-card {
-      max-width: 1100px;
-      margin: 28px auto;
-      background: var(--paper);
-      border-radius: 16px;
-      padding: 24px 28px;
-      box-shadow: 0 4px 16px var(--vocab-shadow);
-      border: 1px solid var(--line);
-    }
-    .vocab-card h2 {
-      text-align: center;
-      color: var(--vocab-title);
-      font-size: 1.15em;
-      font-weight: 600;
-      margin: 0 0 28px;
-      font-family: var(--sans);
-    }
-    .vocab-card h3 {
-      font-size: 0.95em;
-      color: var(--vocab-title);
-      font-weight: 600;
-      margin: 0 0 12px;
-      padding-bottom: 10px;
-      border-bottom: 2px solid var(--vocab-divider);
-      font-family: var(--sans);
-    }
-    .vocab-cols {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 24px;
-    }
-    .vocab-col {
-    }
-    .vocab-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-family: var(--sans);
-      font-size: 0.9em;
-    }
-    .vocab-table td {
-      padding: 9px 0;
-    }
-    .vocab-table tr {
-      border-bottom: 1px solid var(--vocab-row-line);
-    }
-    .vocab-table tr:last-child {
-      border-bottom: none;
-    }
-    .vocab-de {
-      font-weight: 600;
-      color: var(--vocab-word);
-    }
-    .vocab-zh {
-      color: var(--muted);
-      text-align: right;
-    }
-  </style>
+  <link rel="stylesheet" href="./assets/vocab-card.css">
   <script src="./assets/journal-themes.js?v=20260720-i18n-v1"></script>
   <script src="./assets/journal.js?v=20260720-i18n-v1" defer></script>
 </head>
@@ -109,47 +38,47 @@
 
         <div class="vocab-card">
           <h2>德语 A1 · 咖啡馆场景单词</h2>
-          <div class="vocab-cols">
-            <div class="vocab-col">
+          <div class="vc-grid">
+            <div class="vc-col">
               <h3>基础词汇 &amp; 食物</h3>
-              <table class="vocab-table">
-                <tr><td class="vocab-de" lang="de">Gut</td><td class="vocab-zh">好的</td></tr>
-                <tr><td class="vocab-de" lang="de">also</td><td class="vocab-zh">那么，所以</td></tr>
-                <tr><td class="vocab-de" lang="de">dann</td><td class="vocab-zh">然后，那么</td></tr>
-                <tr><td class="vocab-de" lang="de">nehmen</td><td class="vocab-zh">点（餐），拿</td></tr>
-                <tr><td class="vocab-de" lang="de">wir</td><td class="vocab-zh">我们</td></tr>
-                <tr><td class="vocab-de" lang="de">ein Stück</td><td class="vocab-zh">一块，一片</td></tr>
-                <tr><td class="vocab-de" lang="de">Marmorkuchen</td><td class="vocab-zh">大理石花纹蛋糕</td></tr>
-                <tr><td class="vocab-de" lang="de">und</td><td class="vocab-zh">和，与</td></tr>
-                <tr><td class="vocab-de" lang="de">Erdbeersahnetorte</td><td class="vocab-zh">草莓奶油蛋糕</td></tr>
-                <tr><td class="vocab-de" lang="de">Kellner</td><td class="vocab-zh">（男）服务员</td></tr>
-                <tr><td class="vocab-de" lang="de">zahlen</td><td class="vocab-zh">付款，结账</td></tr>
-                <tr><td class="vocab-de" lang="de">zusammen</td><td class="vocab-zh">一起，共同</td></tr>
-                <tr><td class="vocab-de" lang="de">oder</td><td class="vocab-zh">或者，还是</td></tr>
-                <tr><td class="vocab-de" lang="de">getrennt</td><td class="vocab-zh">分开的，分别地</td></tr>
-                <tr><td class="vocab-de" lang="de">Entschuldigung</td><td class="vocab-zh">打扰一下，抱歉</td></tr>
-                <tr><td class="vocab-de" lang="de">Platz</td><td class="vocab-zh">座位，位子</td></tr>
+              <table class="vc-table">
+                <tr><td class="vc-de" lang="de">Gut</td><td class="vc-zh">好的</td></tr>
+                <tr><td class="vc-de" lang="de">also</td><td class="vc-zh">那么，所以</td></tr>
+                <tr><td class="vc-de" lang="de">dann</td><td class="vc-zh">然后，那么</td></tr>
+                <tr><td class="vc-de" lang="de">nehmen</td><td class="vc-zh">点（餐），拿</td></tr>
+                <tr><td class="vc-de" lang="de">wir</td><td class="vc-zh">我们</td></tr>
+                <tr><td class="vc-de" lang="de">ein Stück</td><td class="vc-zh">一块，一片</td></tr>
+                <tr><td class="vc-de" lang="de">Marmorkuchen</td><td class="vc-zh">大理石花纹蛋糕</td></tr>
+                <tr><td class="vc-de" lang="de">und</td><td class="vc-zh">和，与</td></tr>
+                <tr><td class="vc-de" lang="de">Erdbeersahnetorte</td><td class="vc-zh">草莓奶油蛋糕</td></tr>
+                <tr><td class="vc-de" lang="de">Kellner</td><td class="vc-zh">（男）服务员</td></tr>
+                <tr><td class="vc-de" lang="de">zahlen</td><td class="vc-zh">付款，结账</td></tr>
+                <tr><td class="vc-de" lang="de">zusammen</td><td class="vc-zh">一起，共同</td></tr>
+                <tr><td class="vc-de" lang="de">oder</td><td class="vc-zh">或者，还是</td></tr>
+                <tr><td class="vc-de" lang="de">getrennt</td><td class="vc-zh">分开的，分别地</td></tr>
+                <tr><td class="vc-de" lang="de">Entschuldigung</td><td class="vc-zh">打扰一下，抱歉</td></tr>
+                <tr><td class="vc-de" lang="de">Platz</td><td class="vc-zh">座位，位子</td></tr>
               </table>
             </div>
-            <div class="vocab-col">
+            <div class="vc-col">
               <h3>场景词汇 &amp; 动词</h3>
-              <table class="vocab-table">
-                <tr><td class="vocab-de" lang="de">noch</td><td class="vocab-zh">还，仍然</td></tr>
-                <tr><td class="vocab-de" lang="de">bezahlen</td><td class="vocab-zh">付款</td></tr>
-                <tr><td class="vocab-de" lang="de">die Rechnung</td><td class="vocab-zh">账单</td></tr>
-                <tr><td class="vocab-de" lang="de">bestellen</td><td class="vocab-zh">点单</td></tr>
-                <tr><td class="vocab-de" lang="de">möchten</td><td class="vocab-zh">想要</td></tr>
-                <tr><td class="vocab-de" lang="de">gern</td><td class="vocab-zh">喜欢，乐意</td></tr>
-                <tr><td class="vocab-de" lang="de">das Trinkgeld</td><td class="vocab-zh">小费</td></tr>
-                <tr><td class="vocab-de" lang="de">die Speisekarte</td><td class="vocab-zh">菜单</td></tr>
-                <tr><td class="vocab-de" lang="de">bringen</td><td class="vocab-zh">带来</td></tr>
-                <tr><td class="vocab-de" lang="de">der Kaffee</td><td class="vocab-zh">咖啡</td></tr>
-                <tr><td class="vocab-de" lang="de">der Tee</td><td class="vocab-zh">茶</td></tr>
-                <tr><td class="vocab-de" lang="de">das Glas</td><td class="vocab-zh">玻璃杯</td></tr>
-                <tr><td class="vocab-de" lang="de">die Tasse</td><td class="vocab-zh">杯子</td></tr>
-                <tr><td class="vocab-de" lang="de">das Wasser</td><td class="vocab-zh">水</td></tr>
-                <tr><td class="vocab-de" lang="de">der Saft</td><td class="vocab-zh">果汁</td></tr>
-                <tr><td class="vocab-de" lang="de">das Eis</td><td class="vocab-zh">冰淇淋</td></tr>
+              <table class="vc-table">
+                <tr><td class="vc-de" lang="de">noch</td><td class="vc-zh">还，仍然</td></tr>
+                <tr><td class="vc-de" lang="de">bezahlen</td><td class="vc-zh">付款</td></tr>
+                <tr><td class="vc-de" lang="de">die Rechnung</td><td class="vc-zh">账单</td></tr>
+                <tr><td class="vc-de" lang="de">bestellen</td><td class="vc-zh">点单</td></tr>
+                <tr><td class="vc-de" lang="de">möchten</td><td class="vc-zh">想要</td></tr>
+                <tr><td class="vc-de" lang="de">gern</td><td class="vc-zh">喜欢，乐意</td></tr>
+                <tr><td class="vc-de" lang="de">das Trinkgeld</td><td class="vc-zh">小费</td></tr>
+                <tr><td class="vc-de" lang="de">die Speisekarte</td><td class="vc-zh">菜单</td></tr>
+                <tr><td class="vc-de" lang="de">bringen</td><td class="vc-zh">带来</td></tr>
+                <tr><td class="vc-de" lang="de">der Kaffee</td><td class="vc-zh">咖啡</td></tr>
+                <tr><td class="vc-de" lang="de">der Tee</td><td class="vc-zh">茶</td></tr>
+                <tr><td class="vc-de" lang="de">das Glas</td><td class="vc-zh">玻璃杯</td></tr>
+                <tr><td class="vc-de" lang="de">die Tasse</td><td class="vc-zh">杯子</td></tr>
+                <tr><td class="vc-de" lang="de">das Wasser</td><td class="vc-zh">水</td></tr>
+                <tr><td class="vc-de" lang="de">der Saft</td><td class="vc-zh">果汁</td></tr>
+                <tr><td class="vc-de" lang="de">das Eis</td><td class="vc-zh">冰淇淋</td></tr>
               </table>
             </div>
           </div>
@@ -185,47 +114,47 @@
 
         <div class="vocab-card">
           <h2>German A1 · Café Vocabulary</h2>
-          <div class="vocab-cols">
-            <div class="vocab-col">
+          <div class="vc-grid">
+            <div class="vc-col">
               <h3>Basic Words &amp; Food</h3>
-              <table class="vocab-table">
-                <tr><td class="vocab-de" lang="de">Gut</td><td class="vocab-zh">好的</td></tr>
-                <tr><td class="vocab-de" lang="de">also</td><td class="vocab-zh">那么，所以</td></tr>
-                <tr><td class="vocab-de" lang="de">dann</td><td class="vocab-zh">然后，那么</td></tr>
-                <tr><td class="vocab-de" lang="de">nehmen</td><td class="vocab-zh">点（餐），拿</td></tr>
-                <tr><td class="vocab-de" lang="de">wir</td><td class="vocab-zh">我们</td></tr>
-                <tr><td class="vocab-de" lang="de">ein Stück</td><td class="vocab-zh">一块，一片</td></tr>
-                <tr><td class="vocab-de" lang="de">Marmorkuchen</td><td class="vocab-zh">大理石花纹蛋糕</td></tr>
-                <tr><td class="vocab-de" lang="de">und</td><td class="vocab-zh">和，与</td></tr>
-                <tr><td class="vocab-de" lang="de">Erdbeersahnetorte</td><td class="vocab-zh">草莓奶油蛋糕</td></tr>
-                <tr><td class="vocab-de" lang="de">Kellner</td><td class="vocab-zh">（男）服务员</td></tr>
-                <tr><td class="vocab-de" lang="de">zahlen</td><td class="vocab-zh">付款，结账</td></tr>
-                <tr><td class="vocab-de" lang="de">zusammen</td><td class="vocab-zh">一起，共同</td></tr>
-                <tr><td class="vocab-de" lang="de">oder</td><td class="vocab-zh">或者，还是</td></tr>
-                <tr><td class="vocab-de" lang="de">getrennt</td><td class="vocab-zh">分开的，分别地</td></tr>
-                <tr><td class="vocab-de" lang="de">Entschuldigung</td><td class="vocab-zh">打扰一下，抱歉</td></tr>
-                <tr><td class="vocab-de" lang="de">Platz</td><td class="vocab-zh">座位，位子</td></tr>
+              <table class="vc-table">
+                <tr><td class="vc-de" lang="de">Gut</td><td class="vc-zh">好的</td></tr>
+                <tr><td class="vc-de" lang="de">also</td><td class="vc-zh">那么，所以</td></tr>
+                <tr><td class="vc-de" lang="de">dann</td><td class="vc-zh">然后，那么</td></tr>
+                <tr><td class="vc-de" lang="de">nehmen</td><td class="vc-zh">点（餐），拿</td></tr>
+                <tr><td class="vc-de" lang="de">wir</td><td class="vc-zh">我们</td></tr>
+                <tr><td class="vc-de" lang="de">ein Stück</td><td class="vc-zh">一块，一片</td></tr>
+                <tr><td class="vc-de" lang="de">Marmorkuchen</td><td class="vc-zh">大理石花纹蛋糕</td></tr>
+                <tr><td class="vc-de" lang="de">und</td><td class="vc-zh">和，与</td></tr>
+                <tr><td class="vc-de" lang="de">Erdbeersahnetorte</td><td class="vc-zh">草莓奶油蛋糕</td></tr>
+                <tr><td class="vc-de" lang="de">Kellner</td><td class="vc-zh">（男）服务员</td></tr>
+                <tr><td class="vc-de" lang="de">zahlen</td><td class="vc-zh">付款，结账</td></tr>
+                <tr><td class="vc-de" lang="de">zusammen</td><td class="vc-zh">一起，共同</td></tr>
+                <tr><td class="vc-de" lang="de">oder</td><td class="vc-zh">或者，还是</td></tr>
+                <tr><td class="vc-de" lang="de">getrennt</td><td class="vc-zh">分开的，分别地</td></tr>
+                <tr><td class="vc-de" lang="de">Entschuldigung</td><td class="vc-zh">打扰一下，抱歉</td></tr>
+                <tr><td class="vc-de" lang="de">Platz</td><td class="vc-zh">座位，位子</td></tr>
               </table>
             </div>
-            <div class="vocab-col">
+            <div class="vc-col">
               <h3>Scene Words &amp; Verbs</h3>
-              <table class="vocab-table">
-                <tr><td class="vocab-de" lang="de">noch</td><td class="vocab-zh">还，仍然</td></tr>
-                <tr><td class="vocab-de" lang="de">bezahlen</td><td class="vocab-zh">付款</td></tr>
-                <tr><td class="vocab-de" lang="de">die Rechnung</td><td class="vocab-zh">账单</td></tr>
-                <tr><td class="vocab-de" lang="de">bestellen</td><td class="vocab-zh">点单</td></tr>
-                <tr><td class="vocab-de" lang="de">möchten</td><td class="vocab-zh">想要</td></tr>
-                <tr><td class="vocab-de" lang="de">gern</td><td class="vocab-zh">喜欢，乐意</td></tr>
-                <tr><td class="vocab-de" lang="de">das Trinkgeld</td><td class="vocab-zh">小费</td></tr>
-                <tr><td class="vocab-de" lang="de">die Speisekarte</td><td class="vocab-zh">菜单</td></tr>
-                <tr><td class="vocab-de" lang="de">bringen</td><td class="vocab-zh">带来</td></tr>
-                <tr><td class="vocab-de" lang="de">der Kaffee</td><td class="vocab-zh">咖啡</td></tr>
-                <tr><td class="vocab-de" lang="de">der Tee</td><td class="vocab-zh">茶</td></tr>
-                <tr><td class="vocab-de" lang="de">das Glas</td><td class="vocab-zh">玻璃杯</td></tr>
-                <tr><td class="vocab-de" lang="de">die Tasse</td><td class="vocab-zh">杯子</td></tr>
-                <tr><td class="vocab-de" lang="de">das Wasser</td><td class="vocab-zh">水</td></tr>
-                <tr><td class="vocab-de" lang="de">der Saft</td><td class="vocab-zh">果汁</td></tr>
-                <tr><td class="vocab-de" lang="de">das Eis</td><td class="vocab-zh">冰淇淋</td></tr>
+              <table class="vc-table">
+                <tr><td class="vc-de" lang="de">noch</td><td class="vc-zh">还，仍然</td></tr>
+                <tr><td class="vc-de" lang="de">bezahlen</td><td class="vc-zh">付款</td></tr>
+                <tr><td class="vc-de" lang="de">die Rechnung</td><td class="vc-zh">账单</td></tr>
+                <tr><td class="vc-de" lang="de">bestellen</td><td class="vc-zh">点单</td></tr>
+                <tr><td class="vc-de" lang="de">möchten</td><td class="vc-zh">想要</td></tr>
+                <tr><td class="vc-de" lang="de">gern</td><td class="vc-zh">喜欢，乐意</td></tr>
+                <tr><td class="vc-de" lang="de">das Trinkgeld</td><td class="vc-zh">小费</td></tr>
+                <tr><td class="vc-de" lang="de">die Speisekarte</td><td class="vc-zh">菜单</td></tr>
+                <tr><td class="vc-de" lang="de">bringen</td><td class="vc-zh">带来</td></tr>
+                <tr><td class="vc-de" lang="de">der Kaffee</td><td class="vc-zh">咖啡</td></tr>
+                <tr><td class="vc-de" lang="de">der Tee</td><td class="vc-zh">茶</td></tr>
+                <tr><td class="vc-de" lang="de">das Glas</td><td class="vc-zh">玻璃杯</td></tr>
+                <tr><td class="vc-de" lang="de">die Tasse</td><td class="vc-zh">杯子</td></tr>
+                <tr><td class="vc-de" lang="de">das Wasser</td><td class="vc-zh">水</td></tr>
+                <tr><td class="vc-de" lang="de">der Saft</td><td class="vc-zh">果汁</td></tr>
+                <tr><td class="vc-de" lang="de">das Eis</td><td class="vc-zh">冰淇淋</td></tr>
               </table>
             </div>
           </div>
@@ -261,47 +190,47 @@
 
         <div class="vocab-card">
           <h2>Allemand A1 · Vocabulaire du café</h2>
-          <div class="vocab-cols">
-            <div class="vocab-col">
+          <div class="vc-grid">
+            <div class="vc-col">
               <h3>Mots de base &amp; Nourriture</h3>
-              <table class="vocab-table">
-                <tr><td class="vocab-de" lang="de">Gut</td><td class="vocab-zh">好的</td></tr>
-                <tr><td class="vocab-de" lang="de">also</td><td class="vocab-zh">那么，所以</td></tr>
-                <tr><td class="vocab-de" lang="de">dann</td><td class="vocab-zh">然后，那么</td></tr>
-                <tr><td class="vocab-de" lang="de">nehmen</td><td class="vocab-zh">点（餐），拿</td></tr>
-                <tr><td class="vocab-de" lang="de">wir</td><td class="vocab-zh">我们</td></tr>
-                <tr><td class="vocab-de" lang="de">ein Stück</td><td class="vocab-zh">一块，一片</td></tr>
-                <tr><td class="vocab-de" lang="de">Marmorkuchen</td><td class="vocab-zh">大理石花纹蛋糕</td></tr>
-                <tr><td class="vocab-de" lang="de">und</td><td class="vocab-zh">和，与</td></tr>
-                <tr><td class="vocab-de" lang="de">Erdbeersahnetorte</td><td class="vocab-zh">草莓奶油蛋糕</td></tr>
-                <tr><td class="vocab-de" lang="de">Kellner</td><td class="vocab-zh">（男）服务员</td></tr>
-                <tr><td class="vocab-de" lang="de">zahlen</td><td class="vocab-zh">付款，结账</td></tr>
-                <tr><td class="vocab-de" lang="de">zusammen</td><td class="vocab-zh">一起，共同</td></tr>
-                <tr><td class="vocab-de" lang="de">oder</td><td class="vocab-zh">或者，还是</td></tr>
-                <tr><td class="vocab-de" lang="de">getrennt</td><td class="vocab-zh">分开的，分别地</td></tr>
-                <tr><td class="vocab-de" lang="de">Entschuldigung</td><td class="vocab-zh">打扰一下，抱歉</td></tr>
-                <tr><td class="vocab-de" lang="de">Platz</td><td class="vocab-zh">座位，位子</td></tr>
+              <table class="vc-table">
+                <tr><td class="vc-de" lang="de">Gut</td><td class="vc-zh">好的</td></tr>
+                <tr><td class="vc-de" lang="de">also</td><td class="vc-zh">那么，所以</td></tr>
+                <tr><td class="vc-de" lang="de">dann</td><td class="vc-zh">然后，那么</td></tr>
+                <tr><td class="vc-de" lang="de">nehmen</td><td class="vc-zh">点（餐），拿</td></tr>
+                <tr><td class="vc-de" lang="de">wir</td><td class="vc-zh">我们</td></tr>
+                <tr><td class="vc-de" lang="de">ein Stück</td><td class="vc-zh">一块，一片</td></tr>
+                <tr><td class="vc-de" lang="de">Marmorkuchen</td><td class="vc-zh">大理石花纹蛋糕</td></tr>
+                <tr><td class="vc-de" lang="de">und</td><td class="vc-zh">和，与</td></tr>
+                <tr><td class="vc-de" lang="de">Erdbeersahnetorte</td><td class="vc-zh">草莓奶油蛋糕</td></tr>
+                <tr><td class="vc-de" lang="de">Kellner</td><td class="vc-zh">（男）服务员</td></tr>
+                <tr><td class="vc-de" lang="de">zahlen</td><td class="vc-zh">付款，结账</td></tr>
+                <tr><td class="vc-de" lang="de">zusammen</td><td class="vc-zh">一起，共同</td></tr>
+                <tr><td class="vc-de" lang="de">oder</td><td class="vc-zh">或者，还是</td></tr>
+                <tr><td class="vc-de" lang="de">getrennt</td><td class="vc-zh">分开的，分别地</td></tr>
+                <tr><td class="vc-de" lang="de">Entschuldigung</td><td class="vc-zh">打扰一下，抱歉</td></tr>
+                <tr><td class="vc-de" lang="de">Platz</td><td class="vc-zh">座位，位子</td></tr>
               </table>
             </div>
-            <div class="vocab-col">
+            <div class="vc-col">
               <h3>Vocabulaire de scène &amp; Verbes</h3>
-              <table class="vocab-table">
-                <tr><td class="vocab-de" lang="de">noch</td><td class="vocab-zh">还，仍然</td></tr>
-                <tr><td class="vocab-de" lang="de">bezahlen</td><td class="vocab-zh">付款</td></tr>
-                <tr><td class="vocab-de" lang="de">die Rechnung</td><td class="vocab-zh">账单</td></tr>
-                <tr><td class="vocab-de" lang="de">bestellen</td><td class="vocab-zh">点单</td></tr>
-                <tr><td class="vocab-de" lang="de">möchten</td><td class="vocab-zh">想要</td></tr>
-                <tr><td class="vocab-de" lang="de">gern</td><td class="vocab-zh">喜欢，乐意</td></tr>
-                <tr><td class="vocab-de" lang="de">das Trinkgeld</td><td class="vocab-zh">小费</td></tr>
-                <tr><td class="vocab-de" lang="de">die Speisekarte</td><td class="vocab-zh">菜单</td></tr>
-                <tr><td class="vocab-de" lang="de">bringen</td><td class="vocab-zh">带来</td></tr>
-                <tr><td class="vocab-de" lang="de">der Kaffee</td><td class="vocab-zh">咖啡</td></tr>
-                <tr><td class="vocab-de" lang="de">der Tee</td><td class="vocab-zh">茶</td></tr>
-                <tr><td class="vocab-de" lang="de">das Glas</td><td class="vocab-zh">玻璃杯</td></tr>
-                <tr><td class="vocab-de" lang="de">die Tasse</td><td class="vocab-zh">杯子</td></tr>
-                <tr><td class="vocab-de" lang="de">das Wasser</td><td class="vocab-zh">水</td></tr>
-                <tr><td class="vocab-de" lang="de">der Saft</td><td class="vocab-zh">果汁</td></tr>
-                <tr><td class="vocab-de" lang="de">das Eis</td><td class="vocab-zh">冰淇淋</td></tr>
+              <table class="vc-table">
+                <tr><td class="vc-de" lang="de">noch</td><td class="vc-zh">还，仍然</td></tr>
+                <tr><td class="vc-de" lang="de">bezahlen</td><td class="vc-zh">付款</td></tr>
+                <tr><td class="vc-de" lang="de">die Rechnung</td><td class="vc-zh">账单</td></tr>
+                <tr><td class="vc-de" lang="de">bestellen</td><td class="vc-zh">点单</td></tr>
+                <tr><td class="vc-de" lang="de">möchten</td><td class="vc-zh">想要</td></tr>
+                <tr><td class="vc-de" lang="de">gern</td><td class="vc-zh">喜欢，乐意</td></tr>
+                <tr><td class="vc-de" lang="de">das Trinkgeld</td><td class="vc-zh">小费</td></tr>
+                <tr><td class="vc-de" lang="de">die Speisekarte</td><td class="vc-zh">菜单</td></tr>
+                <tr><td class="vc-de" lang="de">bringen</td><td class="vc-zh">带来</td></tr>
+                <tr><td class="vc-de" lang="de">der Kaffee</td><td class="vc-zh">咖啡</td></tr>
+                <tr><td class="vc-de" lang="de">der Tee</td><td class="vc-zh">茶</td></tr>
+                <tr><td class="vc-de" lang="de">das Glas</td><td class="vc-zh">玻璃杯</td></tr>
+                <tr><td class="vc-de" lang="de">die Tasse</td><td class="vc-zh">杯子</td></tr>
+                <tr><td class="vc-de" lang="de">das Wasser</td><td class="vc-zh">水</td></tr>
+                <tr><td class="vc-de" lang="de">der Saft</td><td class="vc-zh">果汁</td></tr>
+                <tr><td class="vc-de" lang="de">das Eis</td><td class="vc-zh">冰淇淋</td></tr>
               </table>
             </div>
           </div>
@@ -337,47 +266,47 @@
 
         <div class="vocab-card">
           <h2>Deutsch A1 · Café-Wortschatz</h2>
-          <div class="vocab-cols">
-            <div class="vocab-col">
+          <div class="vc-grid">
+            <div class="vc-col">
               <h3>Grundwortschatz &amp; Essen</h3>
-              <table class="vocab-table">
-                <tr><td class="vocab-de" lang="de">Gut</td><td class="vocab-zh">好的</td></tr>
-                <tr><td class="vocab-de" lang="de">also</td><td class="vocab-zh">那么，所以</td></tr>
-                <tr><td class="vocab-de" lang="de">dann</td><td class="vocab-zh">然后，那么</td></tr>
-                <tr><td class="vocab-de" lang="de">nehmen</td><td class="vocab-zh">点（餐），拿</td></tr>
-                <tr><td class="vocab-de" lang="de">wir</td><td class="vocab-zh">我们</td></tr>
-                <tr><td class="vocab-de" lang="de">ein Stück</td><td class="vocab-zh">一块，一片</td></tr>
-                <tr><td class="vocab-de" lang="de">Marmorkuchen</td><td class="vocab-zh">大理石花纹蛋糕</td></tr>
-                <tr><td class="vocab-de" lang="de">und</td><td class="vocab-zh">和，与</td></tr>
-                <tr><td class="vocab-de" lang="de">Erdbeersahnetorte</td><td class="vocab-zh">草莓奶油蛋糕</td></tr>
-                <tr><td class="vocab-de" lang="de">Kellner</td><td class="vocab-zh">（男）服务员</td></tr>
-                <tr><td class="vocab-de" lang="de">zahlen</td><td class="vocab-zh">付款，结账</td></tr>
-                <tr><td class="vocab-de" lang="de">zusammen</td><td class="vocab-zh">一起，共同</td></tr>
-                <tr><td class="vocab-de" lang="de">oder</td><td class="vocab-zh">或者，还是</td></tr>
-                <tr><td class="vocab-de" lang="de">getrennt</td><td class="vocab-zh">分开的，分别地</td></tr>
-                <tr><td class="vocab-de" lang="de">Entschuldigung</td><td class="vocab-zh">打扰一下，抱歉</td></tr>
-                <tr><td class="vocab-de" lang="de">Platz</td><td class="vocab-zh">座位，位子</td></tr>
+              <table class="vc-table">
+                <tr><td class="vc-de" lang="de">Gut</td><td class="vc-zh">好的</td></tr>
+                <tr><td class="vc-de" lang="de">also</td><td class="vc-zh">那么，所以</td></tr>
+                <tr><td class="vc-de" lang="de">dann</td><td class="vc-zh">然后，那么</td></tr>
+                <tr><td class="vc-de" lang="de">nehmen</td><td class="vc-zh">点（餐），拿</td></tr>
+                <tr><td class="vc-de" lang="de">wir</td><td class="vc-zh">我们</td></tr>
+                <tr><td class="vc-de" lang="de">ein Stück</td><td class="vc-zh">一块，一片</td></tr>
+                <tr><td class="vc-de" lang="de">Marmorkuchen</td><td class="vc-zh">大理石花纹蛋糕</td></tr>
+                <tr><td class="vc-de" lang="de">und</td><td class="vc-zh">和，与</td></tr>
+                <tr><td class="vc-de" lang="de">Erdbeersahnetorte</td><td class="vc-zh">草莓奶油蛋糕</td></tr>
+                <tr><td class="vc-de" lang="de">Kellner</td><td class="vc-zh">（男）服务员</td></tr>
+                <tr><td class="vc-de" lang="de">zahlen</td><td class="vc-zh">付款，结账</td></tr>
+                <tr><td class="vc-de" lang="de">zusammen</td><td class="vc-zh">一起，共同</td></tr>
+                <tr><td class="vc-de" lang="de">oder</td><td class="vc-zh">或者，还是</td></tr>
+                <tr><td class="vc-de" lang="de">getrennt</td><td class="vc-zh">分开的，分别地</td></tr>
+                <tr><td class="vc-de" lang="de">Entschuldigung</td><td class="vc-zh">打扰一下，抱歉</td></tr>
+                <tr><td class="vc-de" lang="de">Platz</td><td class="vc-zh">座位，位子</td></tr>
               </table>
             </div>
-            <div class="vocab-col">
+            <div class="vc-col">
               <h3>Szenewörter &amp; Verben</h3>
-              <table class="vocab-table">
-                <tr><td class="vocab-de" lang="de">noch</td><td class="vocab-zh">还，仍然</td></tr>
-                <tr><td class="vocab-de" lang="de">bezahlen</td><td class="vocab-zh">付款</td></tr>
-                <tr><td class="vocab-de" lang="de">die Rechnung</td><td class="vocab-zh">账单</td></tr>
-                <tr><td class="vocab-de" lang="de">bestellen</td><td class="vocab-zh">点单</td></tr>
-                <tr><td class="vocab-de" lang="de">möchten</td><td class="vocab-zh">想要</td></tr>
-                <tr><td class="vocab-de" lang="de">gern</td><td class="vocab-zh">喜欢，乐意</td></tr>
-                <tr><td class="vocab-de" lang="de">das Trinkgeld</td><td class="vocab-zh">小费</td></tr>
-                <tr><td class="vocab-de" lang="de">die Speisekarte</td><td class="vocab-zh">菜单</td></tr>
-                <tr><td class="vocab-de" lang="de">bringen</td><td class="vocab-zh">带来</td></tr>
-                <tr><td class="vocab-de" lang="de">der Kaffee</td><td class="vocab-zh">咖啡</td></tr>
-                <tr><td class="vocab-de" lang="de">der Tee</td><td class="vocab-zh">茶</td></tr>
-                <tr><td class="vocab-de" lang="de">das Glas</td><td class="vocab-zh">玻璃杯</td></tr>
-                <tr><td class="vocab-de" lang="de">die Tasse</td><td class="vocab-zh">杯子</td></tr>
-                <tr><td class="vocab-de" lang="de">das Wasser</td><td class="vocab-zh">水</td></tr>
-                <tr><td class="vocab-de" lang="de">der Saft</td><td class="vocab-zh">果汁</td></tr>
-                <tr><td class="vocab-de" lang="de">das Eis</td><td class="vocab-zh">冰淇淋</td></tr>
+              <table class="vc-table">
+                <tr><td class="vc-de" lang="de">noch</td><td class="vc-zh">还，仍然</td></tr>
+                <tr><td class="vc-de" lang="de">bezahlen</td><td class="vc-zh">付款</td></tr>
+                <tr><td class="vc-de" lang="de">die Rechnung</td><td class="vc-zh">账单</td></tr>
+                <tr><td class="vc-de" lang="de">bestellen</td><td class="vc-zh">点单</td></tr>
+                <tr><td class="vc-de" lang="de">möchten</td><td class="vc-zh">想要</td></tr>
+                <tr><td class="vc-de" lang="de">gern</td><td class="vc-zh">喜欢，乐意</td></tr>
+                <tr><td class="vc-de" lang="de">das Trinkgeld</td><td class="vc-zh">小费</td></tr>
+                <tr><td class="vc-de" lang="de">die Speisekarte</td><td class="vc-zh">菜单</td></tr>
+                <tr><td class="vc-de" lang="de">bringen</td><td class="vc-zh">带来</td></tr>
+                <tr><td class="vc-de" lang="de">der Kaffee</td><td class="vc-zh">咖啡</td></tr>
+                <tr><td class="vc-de" lang="de">der Tee</td><td class="vc-zh">茶</td></tr>
+                <tr><td class="vc-de" lang="de">das Glas</td><td class="vc-zh">玻璃杯</td></tr>
+                <tr><td class="vc-de" lang="de">die Tasse</td><td class="vc-zh">杯子</td></tr>
+                <tr><td class="vc-de" lang="de">das Wasser</td><td class="vc-zh">水</td></tr>
+                <tr><td class="vc-de" lang="de">der Saft</td><td class="vc-zh">果汁</td></tr>
+                <tr><td class="vc-de" lang="de">das Eis</td><td class="vc-zh">冰淇淋</td></tr>
               </table>
             </div>
           </div>
