@@ -1,5 +1,33 @@
 ﻿window.MMV_JOURNALS = [
   {
+    "date": "2026-08-05",
+    "file": "2026-08-05.html",
+    "location": "江西省九江市濂溪区",
+    "excerpt": "11点多才起床，表弟煮了饺子。学了德语Redemittel和咖啡馆场景单词。表弟表妹昨晚因为手机和平板争执闹起来了，我把密码都改了，结果表妹试错太多把SIM卡锁了。想办法解锁的一波三折，最后想到用APP查PUK码。晚上在B站看成龙电影解说，心情才好了一点。",
+    "images": [
+      {
+        "file": "assets/images/2026-08-05-illustration.webp"
+      }
+    ],
+    "source": {
+      "label": "原创"
+    },
+    "locales": {
+      "en": {
+        "location": "Lianxi District, Jiujiang, Jiangxi",
+        "excerpt": "Slept past 11, my cousin boiled dumplings. Studied German Redemittel and café vocabulary. My cousins fought over my phone and tablet last night, so I changed all passwords—but my girl cousin locked the SIM card with too many wrong tries. After rounds of dead-end calls, the epiphany: look up the PUK code via the app. Watched a Jackie Chan movie breakdown on Bilibili in the evening—that lifted my mood a bit."
+      },
+      "fr": {
+        "location": "District de Lianxi, Jiujiang, Jiangxi",
+        "excerpt": "Levée après 11h, mon cousin a fait des raviolis. Étudié les Redemittel allemands et le vocabulaire du café. Mes cousins se sont disputés pour mon téléphone et ma tablette—j'ai changé tous les mots de passe, mais ma cousine a bloqué la SIM à force de mauvais essais. Après des appels infructueux, l'illumination : chercher le code PUK dans l'appli. Le soir, une analyse de Jackie Chan sur Bilibili m'a un peu remonté le moral."
+      },
+      "de": {
+        "location": "Lianxi, Jiujiang, Jiangxi",
+        "excerpt": "Erst nach 11 Uhr aufgestanden, mein Cousin hat Teigtaschen gekocht. Deutsche Redemittel und Café-Wortschatz gelernt. Meine Cousins haben sich gestern Nacht wegen meines Handys und Tablets gestritten—ich habe alle Passwörter geändert, aber meine Cousine hat die SIM-Karte durch zu viele Falscheingaben gesperrt. Nach erfolglosen Anrufen die Erleuchtung: PUK-Code direkt in der App nachschlagen. Abends auf Bilibili eine Jackie-Chan-Filmanalyse geschaut, das hat die Laune etwas gehoben."
+      }
+    }
+  },
+  {
     "date": "2026-08-04",
     "file": "2026-08-04.html",
     "location": "江西省九江市濂溪区",
