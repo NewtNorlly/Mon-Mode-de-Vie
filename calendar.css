@@ -20,6 +20,99 @@
 [data-mode="dark"] .calendar-sheet { --cal-ink: #c8d6e5; --cal-ink-muted: #8395a7; }
 [data-mode="dark"] .calendar-sheet .year-cell { background: hsl(var(--card) / 0.35); }
 
+/* ── Dark mode: TUI Calendar internal element overrides ── */
+/* TUI Calendar injects inline styles (white bg, #bbb text, #e5e5e5 borders) that
+   ignore CSS variables; these !important rules restore dark-mode appearance. */
+
+/* Time grid timezone column — inline background-color:white */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-timegrid-timezone {
+  background-color: transparent !important;
+  border-right-color: hsl(var(--border) / 0.4) !important;
+}
+
+/* Time grid hour labels — inline color:#bbb is already overridden, but ensure border */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-timegrid-hour {
+  color: var(--cal-ink-muted) !important;
+}
+
+/* Time grid horizontal gridlines — built-in #eee */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-timegrid-gridline {
+  border-bottom-color: hsl(var(--border) / 0.3) !important;
+}
+
+/* Day name header bar — inline border #e5e5e5 */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-dayname-container {
+  border-color: hsl(var(--border) / 0.4) !important;
+}
+
+/* Day name date text — inline color:#bbb */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-dayname-date-area {
+  color: var(--cal-ink-muted) !important;
+}
+
+/* Weekday grid line dividers — inline border-right:#e5e5e5 */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-weekday-grid-line {
+  border-right-color: hsl(var(--border) / 0.4) !important;
+}
+
+/* "All Day" left label — inline border-right:#e5e5e5 */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-allday-left {
+  border-right-color: hsl(var(--border) / 0.4) !important;
+}
+
+/* "All Day" top border — built-in #ddd */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-weekday-border {
+  border-top-color: hsl(var(--border) / 0.4) !important;
+}
+
+/* Weekday filled zone — built-in #e8e8e8 */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-weekday-filled {
+  background-color: hsl(var(--card) / 0.5) !important;
+}
+
+/* Time column dividers — inline border-right:#e5e5e5 */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-time-date {
+  border-right-color: hsl(var(--border) / 0.4) !important;
+}
+
+/* Splitter between All Day and time grid */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-splitter {
+  border-color: hsl(var(--border) / 0.4) !important;
+}
+[data-mode="dark"] #calendarRoot .tui-full-calendar-splitter-guide {
+  background-color: hsl(var(--border) / 0.25) !important;
+}
+
+/* Timezone close button — built-in #fff */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-timegrid-timezone-close-btn {
+  background-color: hsl(var(--card)) !important;
+  color: var(--cal-ink) !important;
+}
+
+/* Exceed / collapse buttons — built-in #fff background */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-weekday-exceed-in-week {
+  background-color: hsl(var(--card)) !important;
+  border-color: hsl(var(--border) / 0.5) !important;
+  color: var(--cal-ink) !important;
+}
+
+/* Schedule bullet — built-in #fff when focused */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-weekday-schedule-bullet-focused {
+  background-color: var(--cal-surface) !important;
+}
+
+/* Left time label column background */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-left-content {
+  color: var(--cal-ink-muted) !important;
+}
+
+/* Ensure calendar popups are readable in dark mode */
+[data-mode="dark"] #calendarRoot .tui-full-calendar-popup-container {
+  background-color: hsl(var(--card)) !important;
+  border-color: hsl(var(--border) / 0.5) !important;
+  color: var(--cal-ink) !important;
+}
+
 /* ── Toolbar ── */
 .calendar-toolbar {
   display: grid;
