@@ -1,0 +1,50 @@
+{
+  "date": "2025-01-19",
+  "locales": {
+    "en": {
+      "location": "Intersection of Gutan Road and Wenjin Road, Huangzhou District, Huanggang, Hubei",
+      "blocks": [
+        "On this day last year, I came to HUST’s admissions presentation, used my smartwatch to photograph a few good-looking PPT slides, and then dashed off to Wuhan University’s venue.",
+        "On this day this year, I sat at the lectern in HUST’s venue, unable to use any communication device. The younger students in the audience were full of enthusiasm, but there were barely any humanities students. I felt at a loss, and a little sad.",
+        "All in all, I completed my Q&A assignment with flying colors!",
+        "Farewell, No. 1 Nanhu Road!",
+        "Farewell, Huangzhou Prefecture!",
+        "On this day next year, may I once again sit at the lectern in the West Lecture Hall! Answering questions about the humanities at HUST really is far too easy!"
+      ],
+      "imageCaptions": [
+        "Admissions presentation in the West Lecture Hall",
+        "Chai Xiaosang, an upperclassman"
+      ]
+    },
+    "fr": {
+      "location": "Carrefour de la rue Gutan et de la rue Wenjin, district de Huangzhou, Huanggang, Hubei",
+      "blocks": [
+        "À cette même date l’an dernier, je suis venu à la réunion de présentation des admissions de HUST. J’ai photographié avec ma montre connectée quelques jolies diapositives du PPT, puis j’ai filé à celle de l’Université de Wuhan.",
+        "À cette même date cette année, j’étais assis au pupitre dans la salle de HUST, sans oser utiliser le moindre appareil de communication. Les lycéens dans la salle débordaient d’enthousiasme, mais les élèves de filière littéraire se comptaient sur les doigts d’une main. Je ne savais plus quoi faire et j’avais un peu le cœur lourd.",
+        "Dans l’ensemble, j’ai mené ma mission de questions-réponses à bien !",
+        "Adieu, numéro 1 de la rue Nanhu !",
+        "Adieu, préfecture de Huangzhou !",
+        "À cette même date l’an prochain, puissé-je m’asseoir de nouveau au pupitre de l’amphithéâtre Ouest ! Répondre aux questions sur les disciplines littéraires de HUST, c’est vraiment beaucoup trop facile !"
+      ],
+      "imageCaptions": [
+        "Présentation des admissions dans l’amphithéâtre Ouest",
+        "Chai Xiaosang, étudiant d’une promotion supérieure"
+      ]
+    },
+    "de": {
+      "location": "Kreuzung Gutan-Straße/Wenjin-Straße, Stadtbezirk Huangzhou, Huanggang, Hubei",
+      "blocks": [
+        "Heute vor einem Jahr kam ich zur Informationsveranstaltung über die Zulassung an der HUST. Mit meiner Smartwatch fotografierte ich ein paar hübsche PPT-Folien und eilte danach zur Veranstaltung der Wuhan-Universität.",
+        "Heute saß ich am Rednerpult im Veranstaltungssaal der HUST und wagte es nicht, irgendein Kommunikationsgerät zu benutzen. Die jüngeren Schülerinnen und Schüler im Saal waren voller Begeisterung, doch aus den geisteswissenschaftlichen Fächern waren nur sehr wenige da. Ich wusste nicht recht, was ich tun sollte, und war ein wenig traurig.",
+        "Alles in allem habe ich meine Aufgabe bei der Fragerunde mit Bravour erfüllt!",
+        "Leb wohl, Nanhu-Straße Nummer 1!",
+        "Leb wohl, Präfektur Huangzhou!",
+        "Möge ich heute in einem Jahr wieder am Rednerpult im Westlichen Hörsaal sitzen! Fragen zu den Geisteswissenschaften an der HUST zu beantworten, ist wirklich viel zu leicht!"
+      ],
+      "imageCaptions": [
+        "Informationsveranstaltung zur Zulassung im Westlichen Hörsaal",
+        "Chai Xiaosang, ein Student aus einem höheren Jahrgang"
+      ]
+    }
+  }
+}

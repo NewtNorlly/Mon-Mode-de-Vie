@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="neko" data-mode="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./favicon-192x192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/avatars/apple-touch-icon.png" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="theme-color" content="#eaf5e8" />
+  <meta name="description" content="Mon Mode de Vie — 一间关于生活、时间、故事与珍藏的数字会客厅。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="image" href="./assets/avatars/host-mooncat.webp" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap" /></noscript>
+  <title>Mon Mode de Vie</title>
+  <style>/* critical */:root{color-scheme:light;--background:70 49% 92%;--foreground:184 23% 26%;--card:66 60% 98%;--card-foreground:184 23% 26%;--secondary:56 52% 88%;--muted:128 31% 89%;--muted-foreground:184 14% 34%;--accent:162 55% 86%;--accent-foreground:173 58% 36%;--border:110 18% 83%;--sidebar-background:132 35% 90%;--sidebar-foreground:184 23% 26%;--sidebar-accent:66 58% 96%;--sidebar-accent-foreground:173 58% 36%;--sidebar-border:126 18% 78%;--story-accent:173 58% 36%;--font-serif:"LXGW WenKai TC","Songti SC","STSong",serif;--font-sans:"PingFang SC","Microsoft YaHei",sans-serif;--font-display:var(--font-serif);--font-body:var(--font-serif);--tracking-heading:-0.02em;--tracking-label:0.08em;--text-xs:0.75rem;--text-sm:0.875rem;--text-md:1rem;--text-lead:1.125rem;--leading-body:1.75;--leading-prose:2;--left-width:252px;--right-width:268px;--radius-sm:10px;--radius-md:18px;--radius-lg:28px;--radius-pill:999px;--glass-rgb:255 255 255;--motion-base:0.25s;--motion-slow:0.4s;--ease-spring:cubic-bezier(.16,1,.3,1);--ease-out:cubic-bezier(0,0,.2,1);--shadow-float:0 8px 26px hsl(170 32% 28%/.1)}:root[data-mode="dark"]{color-scheme:dark;--glass-rgb:17 29 31}*,*::before,*::after{box-sizing:border-box}html,body{width:100%;min-width:320px;height:100%;margin:0}body{overflow:hidden;color:hsl(var(--foreground));background:hsl(var(--background));font-family:var(--font-body);font-size:var(--text-md);line-height:var(--leading-body);-webkit-font-smoothing:antialiased}button,input{color:inherit;font:inherit}button{border:0;background:0}button:not(:disabled){cursor:pointer}[hidden]{display:none!important}.icon-sprite{position:absolute;width:0;height:0;overflow:hidden}a{color:inherit;text-decoration:none}svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.app-shell{width:100%;height:100dvh;overflow:hidden;background:radial-gradient(circle at 50% -18%,hsl(var(--card)/.92),transparent 42%),hsl(var(--background))}.topbar{position:static}.topbar-edge--left{position:fixed;z-index:50;top:14px;left:14px}.topbar-edge--right{position:fixed;z-index:50;top:14px;right:14px}.icon-button{display:grid;place-items:center;width:36px;height:36px;padding:0;border-radius:50%;color:hsl(var(--muted-foreground));background:hsl(var(--card)/.76);backdrop-filter:blur(22px) saturate(1.5);box-shadow:0 2px 10px hsl(var(--foreground)/.06),0 0 0 .5px hsl(var(--border)/.5)}.primary-nav{position:fixed;z-index:50;top:14px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:2px;padding:5px 7px;border-radius:var(--radius-pill);background:hsl(var(--card)/.76);backdrop-filter:blur(22px) saturate(1.5);box-shadow:0 2px 16px hsl(var(--foreground)/.07),0 0 0 .5px hsl(var(--border)/.55)}.nav-item{display:grid;place-items:center;width:38px;height:38px;padding:0;border-radius:50%;color:hsl(var(--muted-foreground));background:transparent;position:relative}.nav-item svg{width:19px;height:19px}.nav-item.is-active{color:hsl(var(--accent-foreground))}.nav-item.is-active::after{content:"";position:absolute;bottom:5px;left:50%;transform:translateX(-50%);width:4px;height:4px;border-radius:50%;background:hsl(var(--accent-foreground))}.workspace{display:grid;grid-template-columns:var(--left-width) 4px minmax(0,1fr) 4px var(--right-width);height:100dvh;overflow:hidden}.side-panel{min-width:0;overflow:auto;color:hsl(var(--sidebar-foreground));background:linear-gradient(180deg,hsl(var(--sidebar-accent)/.34),transparent 28%),hsl(var(--sidebar-background)/.76)}.side-panel--left{padding:70px 22px 24px}.side-panel--right{padding:70px 20px 24px}.resize-handle{background:hsl(var(--sidebar-border)/.35);cursor:col-resize}.panel-heading{margin-bottom:12px}.panel-heading h2{margin:0;font-family:var(--font-display);font-size:var(--text-sm);font-weight:500;letter-spacing:var(--tracking-heading)}.main-stage{position:relative;min-width:0;overflow:auto;background:radial-gradient(circle at 0 0,hsl(var(--card)/.55),transparent 32%),hsl(var(--background));padding-top:64px}.module-view{opacity:0;transform:translateY(10px);pointer-events:none;position:absolute;inset:0;overflow:auto}.module-view.is-active{opacity:1;transform:translateY(0);pointer-events:auto;position:relative}.home-chat{width:min(680px,calc(100% - 48px));margin:clamp(24px,5vh,48px) auto 0;padding:0 4px}.chat-day{margin:0 0 12px;color:hsl(var(--muted-foreground));font-family:var(--font-serif);font-size:var(--text-lead);text-align:center}.chat-thread{display:flex;flex-direction:column;gap:16px;padding-bottom:33vh}.chat-opening{display:contents}.chat-message{display:grid;grid-template-columns:42px minmax(0,1fr);align-items:start;gap:10px}.chat-message--guest{grid-template-columns:minmax(0,1fr) 42px}.chat-message--guest .chat-avatar{order:2}.chat-message--guest .chat-message__content{order:1;display:flex;flex-direction:column;align-items:flex-end}.chat-avatar{width:42px;height:42px;border-radius:50%}.chat-name{display:block;margin-bottom:4px;font-size:var(--text-sm);font-weight:600;color:hsl(var(--muted-foreground))}.chat-bubble{padding:12px 18px;border-radius:4px 16px 16px 16px;background:hsl(var(--card)/.65);border:1px solid hsl(var(--border)/.35);font-size:var(--text-lead);line-height:var(--leading-prose);display:inline-block;max-width:72%}.chat-bubble p{margin:0}.chat-message--guest .chat-bubble{border-radius:16px 4px 16px 16px;background:hsl(var(--accent)/.10)}.chat-hint{margin:0 0 20px;color:hsl(var(--muted-foreground));font-family:var(--font-serif);font-size:var(--text-lead);text-align:center;opacity:.55;user-select:none}.chat-choices{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}.chat-choice{display:inline-flex;align-items:center;gap:8px;min-height:46px;padding:10px 18px;border:1px solid hsl(var(--border)/.7);border-radius:var(--radius-pill);background:hsl(var(--card)/.7);font-size:var(--text-md)}.chat-choice__date{display:flex;flex-direction:column;align-items:center;line-height:1}.chat-choice__date b{font-size:var(--text-lead);color:hsl(var(--story-accent))}.chat-choice__date small{font-size:10px;color:hsl(var(--muted-foreground))}.envelope-card{display:grid;grid-template-columns:58px minmax(0,1fr);align-items:center;width:100%;min-height:92px;padding:12px 4px;gap:14px;color:hsl(var(--sidebar-foreground));background:transparent;text-align:left}.game-card{margin-top:24px}.game-card h3{margin:0;font-family:var(--font-display);font-size:var(--text-md);font-weight:500}.music-box{margin-top:24px}</style>
+  <link rel="stylesheet" href="./styles.css?v=20260812-motion2" />
+  <link rel="stylesheet" href="./third_party/tui-calendar/tui-calendar.min.css" media="print" onload="this.media='all'" />
+  <link rel="stylesheet" href="./calendar.css?v=20260812-motion1" media="print" onload="this.media='all'" />
+  <link rel="stylesheet" href="./journal-module.css?v=20260815-dialogue1" media="print" onload="this.media='all'" />
+  <link rel="stylesheet" href="./album-gallery.css?v=20260812-motion2" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="./third_party/tui-calendar/tui-calendar.min.css" />
+    <link rel="stylesheet" href="./calendar.css?v=20260812-motion1" />
+    <link rel="stylesheet" href="./journal-module.css?v=20260815-dialogue1" />
+    <link rel="stylesheet" href="./album-gallery.css?v=20260812-motion2" />
+  </noscript>
+</head>
+<body>
+
+<svg class="icon-sprite" aria-hidden="true">
+  <symbol id="icon-panel-left" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16M6.5 9.5 4 12l2.5 2.5"/></symbol>
+  <symbol id="icon-panel-right" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M15 4v16m2.5-10.5L20 12l-2.5 2.5"/></symbol>
+  <symbol id="icon-sofa" viewBox="0 0 24 24"><path d="M6.5 11V8.5A3.5 3.5 0 0 1 10 5h4a3.5 3.5 0 0 1 3.5 3.5V11"/><path d="M5 10.5a2 2 0 0 0-2 2V17h18v-4.5a2 2 0 1 0-4 0V14H7v-1.5a2 2 0 0 0-2-2Z"/><path d="M5 17v2m14-2v2"/></symbol>
+  <symbol id="icon-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 10h18M7 14h2m3 0h2m3 0h1M7 17h2m3 0h2"/></symbol>
+  <symbol id="icon-journal" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11a3 3 0 0 1 3 3v15a3 3 0 0 0-3-3H6.5A2.5 2.5 0 0 0 4 20.5Z"/><path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H14v18a3 3 0 0 1 3-3h.5a2.5 2.5 0 0 1 2.5 2.5Z"/></symbol>
+  <symbol id="icon-album" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="2"/><circle cx="9" cy="10" r="1.5"/><path d="m6.5 17 4-4 2.5 2 2.5-3 2 2.5"/></symbol>
+  <symbol id="icon-cloud" viewBox="0 0 24 24"><path d="M7.5 18.5h10a4 4 0 0 0 .5-8 6.3 6.3 0 0 0-12-1.5 4.8 4.8 0 0 0 1.5 9.5Z"/></symbol>
+  <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+  <symbol id="icon-game" viewBox="0 0 24 24"><path d="M8 8h8a5 5 0 0 1 4.7 3.3l1.1 3.2a3 3 0 0 1-5.1 3l-1.2-1.4h-7l-1.2 1.4a3 3 0 0 1-5.1-3l1.1-3.2A5 5 0 0 1 8 8Z"/><path d="M7 11v4m-2-2h4m7-1h.01m2 2h.01"/></symbol>
+  <symbol id="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></symbol>
+  <symbol id="icon-moon" viewBox="0 0 24 24"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5Z"/></symbol>
+  <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+  <symbol id="icon-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+</svg>
+
+<div class="app-shell" id="appShell" data-module="home">
+
+  <!-- ═══ 导航栏 — 悬浮 ═══ -->
+  <div class="topbar" id="topbar">
+    <div class="topbar-edge topbar-edge--left">
+      <button class="icon-button" id="leftToggle" type="button" aria-controls="leftPanel" aria-expanded="true" data-i18n-title="leftPanel">
+        <svg><use href="#icon-panel-left"/></svg>
+        <span class="panda-emoji">🐾</span>
+      </button>
+    </div>
+
+    <nav class="primary-nav">
+      <button class="nav-item is-active" data-module="home" aria-current="page" aria-label="会客厅" data-i18n-title="navHome">
+        <svg class="nav-icon-svg"><use href="#icon-sofa"/></svg>
+        <span class="panda-emoji">🐼</span>
+      </button>
+      <button class="nav-item" data-module="now" aria-label="日历" data-i18n-title="navNow">
+        <svg class="nav-icon-svg"><use href="#icon-calendar"/></svg>
+        <span class="panda-emoji">🗓️</span>
+      </button>
+      <button class="nav-item" data-module="journal" aria-label="日记" data-i18n-title="navJournal">
+        <svg class="nav-icon-svg"><use href="#icon-journal"/></svg>
+        <span class="panda-emoji">📝</span>
+      </button>
+      <button class="nav-item" data-module="album" aria-label="相册" data-i18n-title="navAlbum">
+        <svg class="nav-icon-svg"><use href="#icon-album"/></svg>
+        <span class="panda-emoji">🏔️</span>
+      </button>
+      <button class="nav-item" id="cloudToggle" type="button" aria-controls="cloudMenu" aria-expanded="false" aria-label="那朵小云·设置" data-i18n-title="navCloud">
+        <svg class="nav-icon-svg"><use href="#icon-cloud"/></svg>
+        <span class="panda-emoji">🍃</span>
+      </button>
+    </nav>
+
+    <div class="topbar-edge topbar-edge--right">
+      <button class="icon-button" id="rightToggle" type="button" aria-controls="rightPanel" aria-expanded="true" data-i18n-title="rightPanel">
+        <svg><use href="#icon-panel-right"/></svg>
+        <span class="panda-emoji">🐾</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ═══ 云菜单 ═══ -->
+  <div class="cloud-menu" id="cloudMenu" hidden>
+    <div class="cloud-menu__header">
+      <button class="icon-button" id="cloudClose" type="button"><svg><use href="#icon-close"/></svg></button>
+    </div>
+
+    <section class="cloud-section">
+      <div class="cloud-section__heading">
+        <h3 data-i18n="brightness">明暗</h3>
+        <div class="segmented-control">
+          <button type="button" data-mode-choice="light" class="is-selected"><svg><use href="#icon-sun"/></svg><span data-i18n="light">明亮</span></button>
+          <button type="button" data-mode-choice="dark"><svg><use href="#icon-moon"/></svg><span data-i18n="dark">夜间</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="cloud-section">
+      <h3 data-i18n="theme">主题</h3>
+      <div class="theme-grid" id="themeGrid"></div>
+    </section>
+
+    <section class="cloud-section">
+      <h3 data-i18n="language">语言</h3>
+      <div class="language-row">
+        <button type="button" data-language="zh" class="is-selected">中文</button>
+        <button type="button" data-language="en">EN</button>
+        <button type="button" data-language="fr">FR</button>
+        <button type="button" data-language="de">DE</button>
+      </div>
+    </section>
+
+    <div class="cloud-links">
+      <button type="button" id="contactToggle"><span data-i18n="contact">联系方式</span><small data-i18n="contactHint">有事请联系</small></button>
+      <a href="https://github.com/NewtNorlly" target="_blank" rel="noopener noreferrer" class="cloud-link-button"><span data-i18n="friends">友情链接</span><small data-i18n="githubLabel">我的 GitHub</small></a>
+    </div>
+  </div>
+
+  <!-- ═══ 三栏工作区 ═══ -->
+  <div class="workspace" id="workspace">
+
+    <!-- 左栏 -->
+    <aside class="side-panel side-panel--left" id="leftPanel">
+      <div class="panel-heading"><h2 data-i18n="leftPanel">去年今日</h2></div>
+      <div class="on-this-day">
+        <a href="#" class="otd-card" id="otdCard">
+          <div class="otd-cover" id="otdCover">
+            <img id="otdImage" src="" alt="" width="800" height="600" decoding="async" />
+          </div>
+          <div class="otd-body">
+            <time class="otd-date" id="otdDate"></time>
+            <p class="otd-excerpt" id="otdExcerpt"></p>
+          </div>
+        </a>
+      </div>
+
+      <div class="music-box" id="musicBox">
+        <div class="music-box__header">
+          <div class="music-box__disc">
+            <div class="music-box__disc-inner"></div>
+          </div>
+          <div class="music-box__meta">
+            <span class="music-box__label" data-i18n="musicBox">音乐盒</span>
+            <span class="music-box__song">Белая кошка</span>
+          </div>
+        </div>
+        <div class="music-box__player">
+          <button class="music-box__play" id="musicPlayBtn" type="button">
+            <svg class="icon-play" viewBox="0 0 24 24" width="20" height="20"><polygon points="7,4 20,12 7,20"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" width="20" height="20" hidden><rect x="5" y="4" width="5" height="16"/><rect x="14" y="4" width="5" height="16"/></svg>
+            <span class="music-box__play-label" data-i18n="play">播放</span>
+            <span class="music-box__play-label music-box__play-label--pause" data-i18n="pause" hidden>暂停</span>
+          </button>
+          <div class="music-box__wave">
+            <i class="music-box__wave-bar" style="--d:0"></i><i class="music-box__wave-bar" style="--d:1"></i><i class="music-box__wave-bar" style="--d:2"></i><i class="music-box__wave-bar" style="--d:3"></i><i class="music-box__wave-bar" style="--d:4"></i>
+          </div>
+        </div>
+        <div class="music-box__progress">
+          <div class="music-box__progress-fill" id="musicProgressBar"></div>
+        </div>
+        <audio id="musicAudio" preload="none" src="./assets/music/white-cat.mp3"></audio>
+      </div>
+    </aside>
+
+    <div class="resize-handle resize-handle--left" id="leftResize" role="separator" aria-orientation="vertical" aria-hidden="true"></div>
+
+    <!-- 中央主模块 -->
+    <main class="main-stage" id="mainStage">
+      <section class="module-view is-active" data-view="home">
+        <div class="home-chat" id="homeChat">
+          <p class="chat-day">你已经来到了NewtNorlly的MMDV</p>
+          <p class="chat-hint" id="chatHint">点击页面或按 Enter 继续</p>
+          <div class="chat-thread" id="chatThread">
+            <div class="chat-opening" id="chatOpening">
+              <article class="chat-message chat-message--host">
+                <img class="chat-avatar" src="./assets/avatars/host-mooncat.webp" alt="" width="96" height="96" decoding="async" />
+                <div class="chat-message__content">
+                  <span class="chat-name">NewtNorlly</span>
+                  <div class="chat-bubble"><p>如果你愿意，我们就从这里慢慢认识。</p></div>
+                </div>
+              </article>
+            </div>
+            <div class="chat-choices" id="guideOptions" hidden>
+              <button type="button" class="chat-choice" data-guide="recent">最近在忙什么？</button>
+              <button type="button" class="chat-choice" data-guide="living">你平时怎么生活？</button>
+              <button type="button" class="chat-choice" data-guide="treasures">带我看看你珍藏的东西</button>
+              <button type="button" class="chat-choice" data-guide="wander">我先随便逛逛</button>
+              <button type="button" class="chat-choice chat-choice--anniversary" id="anniversaryOption" data-guide="anniversary">
+                <span class="chat-choice__date"><b id="todayDay">29</b><small id="todayMonth">JUL</small></span>
+                <span>我想听听今天的纪念日茶话</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="module-view" data-view="now" hidden>
+        <div class="module-sheet calendar-sheet">
+          <div class="calendar-toolbar">
+            <label class="calendar-date-jump"><input id="calendarDateJump" type="date" /></label>
+            <strong id="calendarPeriod">2026年7月</strong>
+            <div class="view-switch">
+              <button type="button" data-calendar-view="year" data-i18n="calendarViewYear">年</button>
+              <button type="button" data-calendar-view="month" class="is-selected" data-i18n="calendarViewMonth">月</button>
+              <button type="button" data-calendar-view="week" data-i18n="calendarViewWeek">周</button>
+              <button type="button" data-calendar-view="day" data-i18n="calendarViewDay">日</button>
+            </div>
+          </div>
+          <div class="calendar-frame">
+            <div class="tui-calendar-viewport" id="calendarViewport"><div class="mmv-calendar" id="calendarRoot"></div></div>
+            <div class="calendar-year-view" id="calendarYearView" hidden></div>
+            <p class="calendar-fallback" id="calendarFallback" hidden data-i18n="calendarFallback">日历组件暂时没有加载成功。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="module-view" data-view="journal" hidden>
+        <div class="module-sheet journal-sheet">
+          <div class="journal-ledger" id="journalLedger"></div>
+          <div class="journal-reader" id="journalReader" hidden>
+            <button class="journal-reader__back" id="journalBackBtn" type="button" data-i18n-title="backLabel">← 返回日记主页</button>
+            <div class="journal-reader__content" id="journalReaderContent"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="module-view" data-view="album" hidden>
+        <div class="module-sheet album-sheet">
+          <div class="album-tabs-wrap"><div class="album-tabs" id="albumTabs" role="tablist"></div></div>
+          <div class="album-grid" id="albumGrid" role="tabpanel"></div>
+        </div>
+      </section>
+    </main>
+
+    <div class="resize-handle resize-handle--right" id="rightResize" role="separator" aria-orientation="vertical" aria-hidden="true"></div>
+
+    <!-- 右栏 -->
+    <aside class="side-panel side-panel--right" id="rightPanel">
+      <button class="envelope-card" id="envelopeToggle" type="button" aria-expanded="false" aria-controls="authorLetter">
+        <span class="envelope-illustration" aria-hidden="true">
+          <i class="envelope-flap"></i>
+          <svg><use href="#icon-mail"/></svg>
+        </span>
+        <span><small data-i18n="letter">一封信</small><br><strong data-i18n="letterSub">看看作者的留言</strong></span>
+      </button>
+
+      <div class="author-letter" id="authorLetter" hidden>
+        <div class="letter-paper">
+          <p data-i18n="letterContent">多做一些朝花夕拾的事，少做一些半途而废的事。</p>
+          <button type="button" id="letterClose" data-i18n="foldLetter">折好这封信</button>
+        </div>
+      </div>
+
+      <section class="game-card">
+        <header>
+          <svg><use href="#icon-game"/></svg>
+          <div><h3 data-i18n="game">玩玩小游戏</h3></div>
+        </header>
+        <iframe class="game-frame" id="paperRunFrame" src="./game/index.html" sandbox="allow-scripts allow-same-origin" loading="lazy" referrerpolicy="no-referrer" data-i18n-title="gameTitle" title="纸上漫游小游戏"></iframe>
+      </section>
+    </aside>
+
+  </div>
+</div>
+
+<button class="mobile-scrim" id="mobileScrim" type="button" aria-label="Close panels" hidden></button>
+
+<script>
+var _loaded={};
+function _ls(src,cb){
+  if(_loaded[src]){if(cb)cb();return;}
+  var s=document.createElement('script');
+  s.src=src;s.defer=true;
+  s.onload=function(){_loaded[src]=true;if(cb)cb();};
+  document.head.appendChild(s);
+}
+</script>
+<script src="./journals/data/journals.js?v=20260815-dialogue1" defer></script>
+<script src="./journal-data.js?v=20260804-v34" defer></script>
+<script src="./outlook-calendar-data.js?v=20260815-outlook1" defer></script>
+<script src="./calendar-data.js?v=20260815-outlook1" defer></script>
+<script src="./route.js?v=20260812-routes3"></script>
+<script src="./script.js?v=20260815-outlook1" defer></script>
+</body>
+</html>

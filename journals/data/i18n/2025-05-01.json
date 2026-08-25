@@ -1,0 +1,83 @@
+{
+  "date": "2025-05-01",
+  "locales": {
+    "en": {
+      "location": "Room 532, Building 5, Zisong Student Dormitory, Huazhong University of Science and Technology",
+      "blocks": [
+        "By chance, you got Senior Chai Xiaosang’s QQ number, so you instinctively visited his Qzone. To your delight, you discovered that his space was ‘open to everyone.’ The posts there were fascinating, the photos rich and varied, and the selfies were simply beyond praise. The senior turned out to be so natural and easy-going, so romantic and uninhibited! Your heart seemed to flutter, and you decided it was necessary to download his posts and photos to your computer in bulk. Mind you, ‘in bulk’! Manually clicking hundreds of ‘Save’ and ‘Copy and paste’ buttons would take far too much time and effort.",
+        "Clever you thought of the kick-ass ‘web crawler’! Back in last year’s Python class, Mr Wang Junze taught you the basics of using Houyi Collector. It was time to put what you had learned into practice!",
+        "What followed was routine. You opened Houyi Collector, loaded the senior’s Qzone page, and logged in with your own little cookie. The collector automatically identified the page elements, and you carefully filtered and organized the data you wanted.",
+        "The rest of the collection work could now be left to this kick-ass little crawler—Houyi Collector! About ten minutes later, the little crawler completed the job perfectly. After all, there was not that much content in the senior’s space: only 91 items in total, though every single one was wonderful.",
+        "But the little crawler had gathered only a pile of text and links, which could hardly satisfy your urge to explore. So you had to cobble together a new solution by hand!",
+        "You remembered the technical course ‘The Science of Python Web Crawling.’ The programmers over in Changsha had taught you how to iterate, send requests, receive responses, write data in binary form… all that coding knowledge. Yes, exactly—you were going to put what you had learned into practice again! Time flew. You were busy with all sorts of other matters until your curiosity suddenly woke again and turned into delight. Where had that senior’s posts and photos come from? From his mind and his camera equipment! What did he spend all day thinking about? What impression did he have of me? Surely he would not discover my curiosity, would he?",
+        "Collecting someone else’s material was, after all, ‘private business.’ It was part of your private life, a story you could not tell anyone. That was why you were terribly afraid that ‘your own story would become known to everyone’!",
+        "If that fear came true, how would you deal with it? You absolutely had to make up your mind about these things. But you told no one about your fear, because you knew that one careless remark spreading around could bring a great disaster. For a long time, in every struggle against the ‘simp mentality,’ sincerity had always been your best friend.",
+        "You felt damned whichever way you turned, but still bit the bullet and sent the senior a message:",
+        "‘At this very moment,",
+        "a certain young programmer",
+        "is collecting data from your Qzone posts.",
+        "If you notice",
+        "that your Qzone suddenly",
+        "has a great many visit records,",
+        "it probably is not a hacker or a scammer,",
+        "but perhaps a fellow alumnus.’",
+        "Some classmates may now ask: ‘What if someone collects data from my Qzone?’",
+        "There is no need to be afraid! First, you have to work out ‘who collected your Qzone data.’ Once you have identified the culprit, you can denounce him or her on a public platform!",
+        "You may also need a legal basis! The laws of the Republic stipulate that web-crawling technology must not involve citizens’ personal information, trade secrets, and so on."
+      ],
+      "imageCaptions": []
+    },
+    "fr": {
+      "location": "Chambre 532, bâtiment 5, résidence étudiante Zisong, Université des sciences et technologies de Huazhong",
+      "blocks": [
+        "Par un heureux hasard, tu as obtenu le numéro QQ de ton aîné Chai Xiaosang et, instinctivement, tu es allé voir son espace Qzone. Quelle heureuse surprise : son espace était « ouvert à tout le monde ». Ses publications étaient très intéressantes, ses photos riches et variées, et ses selfies, alors là, rien à redire. Ton aîné était donc si naturel et désinvolte, si romantique et affranchi ! Ton cœur semblait s’agiter : il fallait, pensais-tu, télécharger en masse sur ton ordinateur les textes de ses publications et ses photos. Attention, « en masse » ! Cliquer manuellement sur des centaines de boutons « Enregistrer » et « Copier-coller » aurait demandé beaucoup trop de temps et d’efforts.",
+        "Malin comme tu es, tu as pensé au putain de bon « crawler » ! Dès le cours de Python de l’année précédente, M. Wang Junze t’avait appris les bases de Houyi Collector. Il était temps de mettre tes connaissances en pratique !",
+        "La suite relevait de la routine. Tu as lancé Houyi Collector, ouvert la page Qzone de ton aîné et t’y es connecté avec ton petit cookie. Le collecteur a automatiquement reconnu les éléments de la page ; toi, tu as encore soigneusement filtré et organisé les données que tu voulais.",
+        "Tu pouvais désormais confier la suite de la collecte à ce putain de petit crawler : Houyi Collector ! Une dizaine de minutes plus tard, le petit crawler avait parfaitement terminé son travail. Après tout, l’espace de ton aîné ne contenait pas tant de choses : 91 éléments en tout, même si chacun d’eux était passionnant.",
+        "Mais le petit crawler n’avait recueilli qu’un tas de textes et de liens, bien insuffisant pour assouvir ton envie d’explorer. Il fallait donc bricoler toi-même une nouvelle solution !",
+        "Tu as pensé au cours technique intitulé « Science du crawling en Python ». Les programmeurs du côté de Changsha t’avaient appris à parcourir des données, envoyer des requêtes, recevoir des réponses, écrire en binaire… tout ce savoir en programmation. Oui, exactement : tu allais encore mettre tes connaissances en pratique ! Le temps a filé. Pris par toutes sortes d’affaires secondaires, tu ne t’es réveillé que lorsque ta curiosité a surgi de nouveau et s’est soudain changée en joie. D’où venaient les publications et les photos de cet aîné ? De son esprit et de son matériel photographique ! À quoi pouvait-il bien penser toute la journée ? Quelle impression avait-il de moi ? Il n’allait quand même pas découvrir ma curiosité, si ?",
+        "Collecter les données de quelqu’un relevait malgré tout d’une « affaire privée ». Cela faisait partie de ta vie privée, d’une histoire que tu ne pouvais raconter à personne. Tu avais donc terriblement peur que « ta propre histoire soit connue de tous » !",
+        "Et si ta peur devenait réalité, qu’allais-tu en faire ? Il fallait absolument que tu prennes une décision là-dessus. Pourtant, tu n’as parlé de ta peur à personne, car tu savais qu’une seule parole imprudente, si elle se répandait, pouvait attirer un immense malheur. Depuis longtemps, dans tous tes combats contre la « mentalité de simp », la sincérité avait toujours été ta meilleure amie.",
+        "Tu avais l’impression d’être coincé de tous les côtés, mais tu as quand même pris ton courage à deux mains pour envoyer un message à ton aîné :",
+        "« En ce moment même,",
+        "un certain jeune programmeur",
+        "est en train de collecter les données de tes publications Qzone.",
+        "Si tu découvres",
+        "que, tout à coup, ton espace Qzone",
+        "affiche un grand nombre de visites,",
+        "ce n’est sans doute ni un pirate ni un escroc,",
+        "mais peut-être un ancien de ton université. »",
+        "Certains camarades demanderont peut-être : « Et si quelqu’un collectait les données de mon espace Qzone, qu’est-ce que je fais ? »",
+        "Pas besoin d’avoir peur ! Il faut d’abord déterminer « qui a collecté les données de ton espace ». Une fois le responsable identifié, tu peux le dénoncer publiquement sur une plateforme !",
+        "Il te faudra peut-être aussi une base juridique ! Les lois de la République disposent que les techniques de crawling ne doivent pas toucher aux informations personnelles des citoyens, aux secrets commerciaux, etc."
+      ],
+      "imageCaptions": []
+    },
+    "de": {
+      "location": "Zimmer 532, Gebäude 5, Studentenwohnheim Zisong, Huazhong-Universität für Wissenschaft und Technik",
+      "blocks": [
+        "Durch einen Zufall kamst du an die QQ-Nummer deines älteren Kommilitonen Chai Xiaosang und besuchtest ganz instinktiv seinen Qzone-Bereich. Zu deiner freudigen Überraschung stelltest du fest, dass sein Bereich „für alle offen“ war. Die Posts darin waren sehr interessant, die Fotos bunt und vielfältig, und bei den Selfies gab es erst recht nichts zu meckern. Der ältere Kommilitone war also so natürlich und ungezwungen, so romantisch und ungebunden! Dein Herz schien in Wallung zu geraten, und du fandest, man müsse seine Post-Texte und Fotos gesammelt auf den eigenen Rechner herunterladen. Wohlgemerkt: „gesammelt“! Hunderte Male von Hand auf „Speichern“ und „Kopieren und Einfügen“ zu klicken wäre schließlich sehr zeit- und arbeitsaufwendig gewesen.",
+        "Du schlaues Kerlchen dachtest an den verdammt guten „Webcrawler“! Schon im Python-Kurs des vergangenen Jahres hatte Herr Wang Junze dir die Grundlagen von Houyi Collector beigebracht. Es war Zeit, das Gelernte anzuwenden!",
+        "Danach folgte die übliche Routine. Du öffnetest Houyi Collector, riefst die Qzone-Seite deines älteren Kommilitonen auf und meldetest dich mit deinem eigenen kleinen Cookie an. Der Collector erkannte die Seitenelemente automatisch, und du filtertest und ordnetest sehr sorgfältig die Daten heraus, die du haben wolltest.",
+        "Die weitere Sammelarbeit konntest du nun diesem verdammt guten kleinen Crawler überlassen: Houyi Collector! Nach ungefähr zehn Minuten hatte der kleine Crawler die Arbeit tadellos erledigt. Schließlich enthielt der Qzone-Bereich deines älteren Kommilitonen nicht besonders viel: insgesamt nur 91 Einträge, auch wenn jeder einzelne großartig war.",
+        "Aber der kleine Crawler hatte nur einen Haufen Texte und Links gesammelt, und das konnte deinen Forscherdrang kaum befriedigen. Also musstest du dir wieder von Hand einen neuen Plan zusammenbasteln!",
+        "Dir fiel der technische Kurs „Wissenschaft des Python-Webcrawlings“ ein. Die Programmierer drüben in Changsha hatten dir beigebracht, wie man Daten durchläuft, Anfragen sendet, Antworten empfängt, binär in Dateien schreibt … all dieses Programmierwissen. Ja, genau: Wieder wolltest du das Gelernte anwenden! Die Zeit verging wie im Flug. Du warst mit vielen Nebensachen beschäftigt, bis deine Neugier erneut erwachte und sich plötzlich in Freude verwandelte. Woher kamen die Posts und Fotos dieses älteren Kommilitonen? Aus seinem Kopf und aus seiner Fotoausrüstung! Worüber dachte er den ganzen Tag nach? Welchen Eindruck hatte er von mir? Er würde meine Neugier doch nicht bemerken, oder?",
+        "Die Daten eines anderen zu sammeln war schließlich eine „Privatsache“. Es war ein Teil deines Privatlebens, eine Geschichte, die du nicht weitererzählen konntest. Deshalb hattest du entsetzliche Angst davor, dass „deine eigene Geschichte allgemein bekannt würde“!",
+        "Falls deine Angst wahr würde, wie solltest du damit umgehen? Darüber musstest du unbedingt eine Entscheidung treffen. Aber du erwähntest deine Angst niemandem gegenüber, denn du wusstest: Wenn ein unbedachtes Wort nach außen drang, konnte das großes Unheil anrichten. Seit Langem war Aufrichtigkeit in all deinen Kämpfen gegen die „Simp-Mentalität“ immer dein bester Freund gewesen.",
+        "Du fühltest dich von allen Seiten in die Enge getrieben, biss aber trotzdem die Zähne zusammen und schicktest deinem älteren Kommilitonen eine Nachricht:",
+        "„Genau in diesem Augenblick,",
+        "sammelt irgendein junger Programmierer",
+        "gerade die Daten deiner Qzone-Posts.",
+        "Falls du feststellst,",
+        "dass dein Qzone-Bereich plötzlich",
+        "sehr viele Besuchseinträge hat,",
+        "dann ist das vermutlich weder ein Hacker noch ein Betrüger,",
+        "sondern vielleicht ein Alumnus deiner Universität.“",
+        "Manche Kommilitonen werden jetzt vielleicht fragen: „Was soll ich tun, wenn jemand die Daten meines Qzone-Bereichs sammelt?“",
+        "Keine Angst! Zuerst musst du herausfinden, „wer die Daten deines Qzone-Bereichs gesammelt hat“. Sobald der Verursacher feststeht, kannst du ihn oder sie auf einer öffentlichen Plattform anprangern!",
+        "Vielleicht brauchst du auch noch eine rechtliche Grundlage! Die Gesetze der Republik schreiben vor, dass Webcrawler-Technik nicht die personenbezogenen Daten von Bürgern, Geschäftsgeheimnisse und Ähnliches erfassen darf."
+      ],
+      "imageCaptions": []
+    }
+  }
+}

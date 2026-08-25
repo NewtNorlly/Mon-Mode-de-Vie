@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>纸上漫游</title>
+    <link rel="stylesheet" href="./game.css?v=20260812-motion2" />
+  </head>
+  <body>
+    <main class="runner-shell">
+      <div class="runner-meta">
+        <p id="gameHint" role="status" aria-live="polite">点击画面或按空格开始</p>
+      </div>
+
+      <div class="game-stage" id="gameStage">
+        <p class="score-line">
+          <span id="scoreLabel">步数</span>
+          <output id="score">000</output>
+        </p>
+        <canvas
+          id="gameCanvas"
+          width="240"
+          height="176"
+          tabindex="0"
+          role="img"
+          aria-label="纸上漫游：跳过书堆的无尽跑酷小游戏"
+        ></canvas>
+        <div class="game-overlay" id="gameOverlay" hidden>
+          <strong id="gameOverText">撞上书堆了，歇一会儿。</strong>
+        </div>
+      </div>
+
+      <button type="button" id="gameAction">开始漫游</button>
+    </main>
+    <script src="./game.js?v=20260812-motion2"></script>
+  </body>
+</html>

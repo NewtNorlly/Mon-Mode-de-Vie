@@ -1,0 +1,94 @@
+/* ═══════════════════════════════════════════════
+   Mon Mode de Vie — album-gallery.css (rebuild)
+   ═══════════════════════════════════════════════ */
+
+.album-sheet { container-type: inline-size; }
+
+.album-tabs-wrap { position: relative; overflow: hidden; }
+.album-tabs {
+  display: flex; overflow-x: auto; padding-inline: 22px;
+  scrollbar-width: none; scroll-behavior: smooth;
+}
+.album-tabs::-webkit-scrollbar { display: none; }
+.album-tab {
+  flex: 1 0 max-content; min-width: 100px; min-height: 56px; padding: 12px 20px;
+  border: 0; color: hsl(var(--foreground)); background: transparent;
+  font-family: var(--font-serif); font-size: var(--text-md); font-weight: 500; letter-spacing: var(--tracking-heading); cursor: pointer; scroll-snap-align: center;
+  transition: color var(--motion-fast) ease, background var(--motion-fast) ease;
+}
+.album-tab[aria-selected="true"] { color: hsl(var(--accent-foreground)); background: linear-gradient(180deg, hsl(var(--accent)/0.16), hsl(var(--accent)/0.46)); }
+
+.album-grid {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 18px;
+  opacity: 1; transform: translate3d(0, 0, 0);
+  transition: opacity var(--motion-fast) var(--ease-out), transform var(--motion-base) var(--ease-out);
+}
+.album-grid.is-leaving { opacity: 0; transform: translate3d(0, 4px, 0); pointer-events: none; }
+.album-grid.is-entering { opacity: 0; transform: translate3d(0, 4px, 0); }
+.album-card {
+  position: relative; aspect-ratio: 4/3; padding: 0; overflow: hidden;
+  border: 1px solid hsl(var(--border) / 0.78); border-radius: var(--radius-md);
+  cursor: zoom-in; background: linear-gradient(145deg, hsl(var(--secondary)), hsl(var(--accent)/0.76));
+  transition: transform var(--motion-fast) var(--ease-out), box-shadow var(--motion-fast) ease;
+}
+.album-card img { width: 100%; height: 100%; object-fit: cover; opacity: 0; filter: blur(4px) brightness(0.92); transition: opacity var(--motion-base), filter var(--motion-slow) var(--ease-out); }
+.album-card.is-loaded img { opacity: 1; }
+.album-card::after { content: ""; position: absolute; inset: 0; background: hsl(var(--card) / 0.16); transition: opacity var(--motion-slow) var(--ease-out); pointer-events: none; z-index: 1; }
+.album-card__folio { position: absolute; z-index: 2; top: 10px; left: 12px; color: white; font-size: var(--text-xs); text-shadow: 0 1px 6px rgb(0 0 0 / 0.3); }
+.album-card__label { position: absolute; z-index: 2; right: 0; bottom: 0; left: 0; padding: 40px 14px 12px; background: linear-gradient(transparent, rgb(10 20 20 / 0.6)); opacity: 0; }
+.album-card__label { transition: opacity var(--motion-fast) var(--ease-out), transform var(--motion-base) var(--ease-out); transform: translate3d(0, 4px, 0); }
+.album-card__label strong { display: block; color: white; font-family: var(--font-display); font-size: var(--text-md); font-weight: 500; }
+.album-card__label small { font-family: var(--font-sans); color: rgb(255 255 255 / 0.7); font-size: var(--text-xs); letter-spacing: var(--tracking-label); }
+
+/* ── Lightbox ── */
+.album-lightbox {
+  width: min(1120px, calc(100vw - 28px)); max-width: none; max-height: calc(100dvh - 28px);
+  padding: 0; border: 0; background: transparent;
+}
+.album-lightbox::backdrop { background: rgb(6 16 18 / 0.74); backdrop-filter: blur(18px); }
+.album-lightbox__panel {
+  display: grid; grid-template-rows: 1fr auto; overflow: hidden;
+  border: 1px solid var(--glass-border); border-radius: var(--radius-lg);
+  background: linear-gradient(145deg, rgb(var(--glass-rgb)/0.92), rgb(var(--glass-rgb)/0.72));
+  backdrop-filter: blur(30px);
+  opacity: 0; transform: scale(0.97); transform-origin: center;
+  transition: opacity var(--motion-fast) var(--ease-out), transform var(--motion-base) var(--ease-out);
+}
+.album-lightbox[open] .album-lightbox__panel { opacity: 1; transform: scale(1); }
+.album-lightbox.is-closing .album-lightbox__panel { opacity: 0; transform: scale(0.97); }
+.album-lightbox__media { display: grid; place-items: center; padding: 18px 24px 0; }
+.album-lightbox__media img { max-width: 100%; max-height: min(60dvh, 680px); border-radius: var(--radius-md); object-fit: contain; }
+.album-lightbox__caption { padding: 18px 24px 24px; text-align: center; }
+.album-lightbox__caption h2 { font-family: var(--font-display); font-size: clamp(22px, 3vw, 34px); font-weight: 500; letter-spacing: var(--tracking-heading); margin: 6px 0 0; }
+.album-lightbox__caption p { color: hsl(var(--muted-foreground)); font-family: var(--font-serif); font-size: var(--text-sm); line-height: 1.75; margin-top: 8px; }
+.album-lightbox__close {
+  position: absolute; z-index: 3; top: 12px; right: 12px;
+  display: grid; place-items: center;
+  width: 44px; height: 44px;
+  border: 1px solid hsl(var(--border)/0.8); background: rgb(var(--glass-rgb)/0.76);
+  backdrop-filter: blur(12px); border-radius: 50%;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .album-tab:hover { color: hsl(var(--foreground)); background: hsl(var(--accent) / 0.2); }
+  .album-card:hover img { filter: blur(0) brightness(1); }
+  .album-card:hover::after { opacity: 0; }
+  .album-card:hover { transform: translateY(-2px); box-shadow: 0 12px 32px hsl(var(--foreground) / 0.12); }
+  .album-card:hover .album-card__label { opacity: 1; transform: translate3d(0, 0, 0); }
+  .album-lightbox__close:hover { border-color: hsl(var(--accent-foreground)); color: hsl(var(--accent-foreground)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .album-grid { transform: none !important; transition: opacity 120ms ease !important; }
+  .album-card, .album-card img, .album-card::after, .album-card__label { transform: none !important; transition: opacity 120ms ease, filter 120ms ease !important; }
+  .album-lightbox__panel { transform: none !important; transition: opacity 120ms ease !important; }
+}
+
+@container (max-width: 720px) { .album-grid { grid-template-columns: repeat(2, 1fr); } }
+@container (max-width: 440px) { .album-grid { grid-template-columns: 1fr; } }
+
+@media (max-width: 700px) {
+  .album-lightbox__media { padding: 56px 12px 0; }
+  .album-lightbox__media img { max-height: 50dvh; }
+  .album-lightbox__caption { padding: 16px 20px 22px; }
+}

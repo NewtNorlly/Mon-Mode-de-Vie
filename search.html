@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>搜索 Mon Mode de Vie</title>
+  <script>
+    const q = new URLSearchParams(window.location.search).get('q');
+    if (q) {
+      window.location.replace('https://www.google.com/search?q=site:newtnorlly.xyz+' + encodeURIComponent(q));
+    } else {
+      document.write('<p style="text-align:center;margin-top:40vh;font-family:sans-serif;color:#666;">在 DuckDuckGo 中输入 <code>!mmdv 关键词</code> 即可搜索本站内容。</p>');
+    }
+  </script>
+</head>
+<body></body>
+</html>

@@ -1,0 +1,219 @@
+.album-sheet {
+  container-type: inline-size;
+}
+
+.album-header {
+  align-items: end;
+}
+
+.album-tabs-wrap {
+  position: relative;
+  margin-top: 26px;
+  border-block: 1px solid hsl(var(--border) / 0.78);
+  overflow: hidden;
+}
+
+.album-tabs-wrap::before,
+.album-tabs-wrap::after {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  content: "";
+  pointer-events: none;
+}
+
+.album-tabs-wrap::before {
+  left: 0;
+  background: linear-gradient(90deg, hsl(var(--card)), transparent);
+}
+
+.album-tabs-wrap::after {
+  right: 0;
+  background: linear-gradient(-90deg, hsl(var(--card)), transparent);
+}
+
+.album-tabs {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.album-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.album-tab {
+  position: relative;
+  flex: 1 0 max-content;
+  min-width: 124px;
+  min-height: 58px;
+  padding: 10px 18px;
+  border: 0;
+  color: hsl(var(--muted-foreground));
+  background: transparent;
+  font: inherit;
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+
+.album-tab::after {
+  position: absolute;
+  right: 18px;
+  bottom: -1px;
+  left: 18px;
+  height: 2px;
+  border-radius: var(--radius-pill);
+  background: hsl(var(--accent-foreground));
+  content: "";
+  opacity: 0;
+  transform: scaleX(0.36);
+}
+
+.album-tab:hover,
+.album-tab:focus-visible,
+.album-tab[aria-selected="true"] {
+  color: hsl(var(--foreground));
+  background: hsl(var(--accent) / 0.42);
+  outline: none;
+}
+
+.album-tab[aria-selected="true"]::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 20px;
+  gap: 14px;
+}
+
+.album-v0-card {
+  position: relative;
+  min-width: 0;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 1px solid hsl(var(--border) / 0.82);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(125deg, hsl(var(--card) / 0.16), transparent 58%),
+    linear-gradient(145deg, hsl(var(--secondary)), hsl(var(--accent) / 0.72));
+  box-shadow: inset 0 1px hsl(var(--card) / 0.9);
+}
+
+.album-v0-card::before {
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(
+      118deg,
+      transparent 0 9px,
+      hsl(var(--foreground) / 0.035) 9px 10px,
+      transparent 10px 15px
+    );
+  content: "";
+  mix-blend-mode: multiply;
+}
+
+.album-v0-card:nth-child(2n) {
+  background:
+    linear-gradient(155deg, hsl(var(--card) / 0.2), transparent 62%),
+    linear-gradient(135deg, hsl(var(--muted)), hsl(var(--secondary) / 0.7));
+}
+
+.album-v0-card:nth-child(3n) {
+  background:
+    linear-gradient(115deg, hsl(var(--card) / 0.18), transparent 54%),
+    linear-gradient(145deg, hsl(var(--accent) / 0.72), hsl(var(--muted)));
+}
+
+.album-v0-card__index,
+.album-v0-card__label {
+  position: absolute;
+  z-index: 1;
+}
+
+.album-v0-card__index {
+  top: 14px;
+  left: 16px;
+  color: hsl(var(--foreground) / 0.52);
+  font-size: var(--text-xs);
+  letter-spacing: 0.12em;
+}
+
+.album-v0-card__label {
+  right: 16px;
+  bottom: 14px;
+  left: 16px;
+  color: hsl(var(--foreground) / 0.68);
+  font-size: var(--text-sm);
+  text-align: right;
+}
+
+.album-v0-note {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  gap: 10px;
+  color: hsl(var(--muted-foreground));
+  font-size: var(--text-sm);
+}
+
+.album-v0-note > span {
+  flex: 0 0 auto;
+  width: 34px;
+  height: 1px;
+  background: hsl(var(--accent-foreground) / 0.58);
+}
+
+.album-v0-note p {
+  margin: 0;
+  text-wrap: pretty;
+}
+
+@container (max-width: 720px) {
+  .album-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@container (max-width: 440px) {
+  .album-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .album-v0-card {
+    aspect-ratio: 3 / 2;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .album-tab,
+  .album-tab::after {
+    transition:
+      color var(--motion-base) var(--ease-standard),
+      background var(--motion-base) var(--ease-standard),
+      opacity var(--motion-base) var(--ease-standard),
+      transform var(--motion-base) var(--ease-standard);
+  }
+
+  .album-v0-card {
+    animation: album-v0-arrive var(--motion-expressive) var(--ease-enter) both;
+    animation-delay: calc(var(--album-v0-index, 0) * 24ms);
+  }
+}
+
+@keyframes album-v0-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

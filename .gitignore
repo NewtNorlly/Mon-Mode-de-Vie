@@ -1,0 +1,24 @@
+﻿# Dependencies
+node_modules/
+.pnpm-store/
+.vendor-build/
+
+# Build artifacts
+dist/
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Local backups
+*.bak

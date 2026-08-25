@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>Gallery</title>
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{background:transparent}
+  body{background:transparent;font-family:system-ui,sans-serif}
+
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;width:100%}
+  .grid a{position:relative;display:block;aspect-ratio:4/3;cursor:zoom-in;border-radius:8px;overflow:hidden;line-height:0;background:#e8e6df}
+  .grid img{width:100%;height:100%;object-fit:cover;display:block;border-radius:8px;transition:transform 220ms cubic-bezier(.23,1,.32,1),filter 160ms ease}
+  .grid__more{position:absolute;inset:0;display:grid;place-items:center;color:#fff;background:rgba(8,14,16,.58);backdrop-filter:blur(2px);font:600 clamp(22px,5vw,38px)/1 system-ui;pointer-events:none}
+  @media(hover:hover) and (pointer:fine){.grid a:hover img{transform:scale(1.025);filter:brightness(.96)}}
+  @media(prefers-reduced-motion:reduce){.grid img{transition:filter 120ms ease;transform:none!important}}
+
+  .empty{color:#999;text-align:center;padding:32px 16px;font-size:14px}
+
+  /* ── Lightbox (self-contained, no external deps) ── */
+  dialog{padding:0;border:0;background:transparent;overflow:visible}
+  dialog::backdrop{background:transparent}
+  .overlay{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.25);backdrop-filter:blur(4px);opacity:0;transition:opacity .2s ease}
+  dialog[open] .overlay{opacity:1}
+  .overlay__close{position:fixed;top:16px;right:24px;z-index:2;padding:0;font-size:38px;color:#fff;background:none;border:none;cursor:pointer;line-height:1;opacity:.55;transition:opacity .15s}
+  .overlay__close:hover{opacity:1}
+  .overlay__img{max-width:96vw;max-height:93vh;object-fit:contain;border-radius:10px;box-shadow:0 4px 36px rgba(0,0,0,.5);pointer-events:none;user-select:none}
+  .nav{position:fixed;top:50%;z-index:3;display:grid;place-items:center;width:48px;height:48px;padding:0;border:1px solid rgba(255,255,255,.25);border-radius:50%;color:#fff;background:rgba(10,16,18,.52);backdrop-filter:blur(12px);font:300 42px/1 system-ui;cursor:pointer;transform:translateY(-50%)}
+  .nav--prev{left:clamp(8px,3vw,36px)}.nav--next{right:clamp(8px,3vw,36px)}.nav:disabled{opacity:.2;cursor:default}
+  .counter{position:fixed;bottom:18px;left:50%;z-index:3;padding:6px 11px;border-radius:999px;color:#fff;background:rgba(10,16,18,.58);font:600 12px/1 system-ui;transform:translateX(-50%)}
+</style>
+</head>
+<body>
+<div class="grid" id="grid"></div>
+<dialog id="dlg">
+  <div class="overlay" id="overlay">
+    <button class="overlay__close" id="closeBtn" aria-label="关闭">&times;</button>
+    <button class="nav nav--prev" id="prevBtn" aria-label="Previous image">&lsaquo;</button>
+    <img class="overlay__img" id="dlgImg" alt="">
+    <button class="nav nav--next" id="nextBtn" aria-label="Next image">&rsaquo;</button>
+    <span class="counter" id="counter"></span>
+  </div>
+</dialog>
+<script>
+(function(){
+  var hash = window.location.hash.slice(1);
+  if (!hash) { document.getElementById('grid').innerHTML = '<p class="empty">No images to show.</p>'; return; }
+
+  var paths;
+  try {
+    paths = JSON.parse(decodeURIComponent(hash));
+    if (!Array.isArray(paths) || !paths.length) throw new Error('empty');
+  } catch(e) {
+    document.getElementById('grid').innerHTML = '<p class="empty">No images to show.</p>';
+    return;
+  }
+
+  var grid = document.getElementById('grid');
+  var dlg = document.getElementById('dlg');
+  var dlgImg = document.getElementById('dlgImg');
+  var activeIndex = 0;
+  var prevBtn = document.getElementById('prevBtn');
+  var nextBtn = document.getElementById('nextBtn');
+  var counter = document.getElementById('counter');
+  function show(index) {
+    activeIndex = Math.max(0, Math.min(index, paths.length - 1));
+    var clean = paths[activeIndex].replace(/^\.\//, '');
+    dlgImg.src = '../' + clean;
+    counter.textContent = (activeIndex + 1) + ' / ' + paths.length;
+    prevBtn.disabled = activeIndex === 0;
+    nextBtn.disabled = activeIndex === paths.length - 1;
+  }
+
+  paths.slice(0, 9).forEach(function(p, index) {
+    var clean = p.replace(/^\.\//, '');
+    var full = '../' + clean;
+    var thumb = full.replace(/\.webp$/, '_thumb.webp');
+
+    var a = document.createElement('a');
+    a.href = '#';
+    a.setAttribute('aria-label','View image');
+    var img = document.createElement('img');
+    img.src = thumb;
+    img.alt = '';
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    a.appendChild(img);
+    if (index === 8 && paths.length > 9) {
+      var more = document.createElement('span');
+      more.className = 'grid__more';
+      more.textContent = '+' + (paths.length - 9);
+      a.appendChild(more);
+    }
+
+    a.addEventListener('click', function(e) {
+      e.preventDefault();
+      show(index);
+      dlg.showModal();
+    });
+
+    grid.appendChild(a);
+  });
+  prevBtn.addEventListener('click', function(){ if(activeIndex>0) show(activeIndex-1); });
+  nextBtn.addEventListener('click', function(){ if(activeIndex<paths.length-1) show(activeIndex+1); });
+  document.addEventListener('keydown', function(e){ if(!dlg.open)return; if(e.key==='ArrowLeft')show(activeIndex-1); else if(e.key==='ArrowRight')show(activeIndex+1); });
+
+  document.getElementById('closeBtn').addEventListener('click', function() {
+    dlg.close();
+  });
+
+  document.getElementById('overlay').addEventListener('click', function(e) {
+    if (e.target === this) dlg.close();
+  });
+
+  dlg.addEventListener('close', function() {
+    dlgImg.removeAttribute('src');
+  });
+
+  /* ── Height reporting to parent ── */
+  function report() {
+    var h = document.body.scrollHeight;
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({ type: 'mmv:gallery-resize', height: h }, '*');
+    }
+  }
+
+  var imgs = grid.querySelectorAll('img');
+  var done = 0;
+  function onLoad() { done++; if (done >= imgs.length) report(); }
+  imgs.forEach(function(img) {
+    if (img.complete) onLoad();
+    else img.addEventListener('load', onLoad, { once: true });
+    img.addEventListener('error', onLoad, { once: true });
+  });
+  if (done >= imgs.length) report();
+  window.addEventListener('resize', function() { requestAnimationFrame(report); });
+})();
+</script>
+</body>
+</html>
