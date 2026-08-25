@@ -22,3 +22,10 @@ Thumbs.db
 
 # Local backups
 *.bak
+
+# Me_Honey 临时转换产物
+_mh_*.py
+_mh_html/
+_mh_entries.json
+__pycache__/
+*.pyc
