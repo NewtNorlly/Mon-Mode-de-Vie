@@ -1700,7 +1700,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-02-09-1.jpg"
       }
-    ]
+    ],
+    "location": "江西省九江市"
   },
   {
     "date": "2025-12-24",
@@ -1713,7 +1714,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-12-24-2.jpg"
       }
-    ]
+    ],
+    "location": "江西省九江市"
   },
   {
     "date": "2025-12-18",
@@ -1729,7 +1731,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-12-18-3.jpg"
       }
-    ]
+    ],
+    "location": "江西省九江市"
   },
   {
     "date": "2025-12-01",
@@ -1742,7 +1745,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-12-01-2.jpg"
       }
-    ]
+    ],
+    "location": "江西省九江市"
   },
   {
     "date": "2025-11-14",
@@ -1752,7 +1756,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-11-14-1.jpg"
       }
-    ]
+    ],
+    "location": "江西省九江市"
   },
   {
     "date": "2025-11-10",
@@ -1762,7 +1767,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-11-10-1.jpg"
       }
-    ]
+    ],
+    "location": "江西省九江市"
   },
   {
     "date": "2025-10-22",
@@ -1772,7 +1778,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-10-22-1.jpg"
       }
-    ]
+    ],
+    "location": "江西省九江市"
   },
   {
     "date": "2025-10-20",
@@ -1788,7 +1795,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-10-20-3.jpg"
       }
-    ]
+    ],
+    "location": "江西省九江市"
   },
   {
     "date": "2025-10-19",
@@ -1798,7 +1806,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-10-19-1.jpg"
       }
-    ]
+    ],
+    "location": "江西省九江市"
   },
   {
     "date": "2025-09-30",
@@ -1811,7 +1820,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-09-30-2.jpg"
       }
-    ]
+    ],
+    "location": "江西省九江市"
   },
   {
     "date": "2025-08-31",
@@ -1821,7 +1831,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-08-31-1.jpg"
       }
-    ]
+    ],
+    "location": "江西省九江市"
   },
   {
     "date": "2025-07-19",
@@ -2460,7 +2471,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-06-05-1.jpg"
       }
-    ]
+    ],
+    "location": "湖北省武汉市"
   },
   {
     "date": "2025-05-29",
@@ -2645,7 +2657,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-05-22-1.jpg"
       }
-    ]
+    ],
+    "location": "湖北省武汉市"
   },
   {
     "date": "2025-05-20",
@@ -2696,7 +2709,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-05-17-2.jpg"
       }
-    ]
+    ],
+    "location": "湖北省武汉市"
   },
   {
     "date": "2025-05-16",
@@ -3337,7 +3351,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-04-20-53.jpg"
       }
-    ]
+    ],
+    "location": "湖北省武汉市"
   },
   {
     "date": "2025-04-13",
@@ -3557,7 +3572,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-03-25-14.jpg"
       }
-    ]
+    ],
+    "location": "湖北省武汉市"
   },
   {
     "date": "2025-02-18",
@@ -3595,7 +3611,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-02-06-2.jpg"
       }
-    ]
+    ],
+    "location": "湖北省武汉市"
   },
   {
     "date": "2025-01-30",
@@ -4153,7 +4170,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-01-05-1.jpg"
       }
-    ]
+    ],
+    "location": "湖北省武汉市"
   },
   {
     "date": "2024-12-25",
@@ -4294,7 +4312,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-11-29-12.jpg"
       }
-    ]
+    ],
+    "location": "湖北省武汉市"
   },
   {
     "date": "2024-11-26",
@@ -4332,7 +4351,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-11-25-1.jpg"
       }
-    ]
+    ],
+    "location": "湖北省武汉市"
   },
   {
     "date": "2024-11-24",
@@ -4532,7 +4552,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-10-20-2.jpg"
       }
-    ]
+    ],
+    "location": "湖北省武汉市"
   },
   {
     "date": "2024-10-16",
@@ -4905,7 +4926,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-21-1.jpg"
       }
-    ]
+    ],
+    "location": "湖北省武汉市"
   },
   {
     "date": "2024-09-20",
@@ -5384,7 +5406,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-08-09-2.jpg"
       }
-    ]
+    ],
+    "location": "湖北省武汉市"
   },
   {
     "date": "2024-08-08",
@@ -5461,7 +5484,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-07-10-1.jpg"
       }
-    ]
+    ],
+    "location": "湖北省武汉市"
   },
   {
     "date": "2024-07-04",
@@ -5578,7 +5602,8 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2023-01-15-1.jpg"
       }
-    ]
+    ],
+    "location": "故纸堆一角"
   },
   {
     "date": "2022-10-17",
@@ -5845,6 +5870,7 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2021-01-24-1.jpg"
       }
-    ]
+    ],
+    "location": "故纸堆一角"
   }
 ];
