@@ -16,7 +16,7 @@
 <h3>第一拨：刑法总论 → Criminal-Law</h3>
 <p><code>C:\Users\NewtN\下载\刑法总论备考资料2026</code> 里的 <strong>19 份 PDF</strong> 上传到 <code>NewtNorlly/Criminal-Law</code> 仓库的同名目录。</p>
 <p>遇到了一个大坑：仓库原本有 <code>.gitattributes</code> 配置 <code>*.pdf</code> 走 Git LFS，但 <strong>LFS 配额已超</strong>，pre-receive hook 直接拒收。前后折腾了三轮：</p>
-<p>1. ❌ <strong>直接推送</strong>：LFS 配额不足，LLS objects 上传失败 2. ❌ <strong>删除 .gitattributes 后推送</strong>：hook 仍根据历史 .gitattributes 检测新文件 3. ✅ <strong>GitHub API 清空远程 .gitattributes</strong> → 重新 SSH 推送 → 成功</p>
+<ol><li>❌ <strong>直接推送</strong>：LFS 配额不足，LLS objects 上传失败</li><li>❌ <strong>删除 .gitattributes 后推送</strong>：hook 仍根据历史 .gitattributes 检测新文件</li><li>✅ <strong>GitHub API 清空远程 .gitattributes</strong> → 重新 SSH 推送 → 成功</li></ol>
 <p>教训：GitHub LFS 免费配额有限（1 GB 存储 / 1 GB 月流量），仓库里的 PDF 教材已大量占用。以后新增 PDF 文件前，要么先检查 LFS 余额，要么提前把新目录排除出 LFS 追踪。</p>
 <h3>第二拨：民法总论 → Civil-Law</h3>
 <p>有了第一拨的经验，第二拨走捷径：先通过 GitHub API 将远程 <code>.gitattributes</code> 清空，再 SSH 一次性推送 <strong>7 份 PDF</strong>，一步到位，无波折。</p>
@@ -41,7 +41,7 @@
 <h3>First batch: General criminal law → Criminal-Law</h3>
 <p>The <strong>19 PDFs</strong> in <code>C:\Users\NewtN\下载\刑法总论备考资料2026</code> were uploaded to the same-named directory in the <code>NewtNorlly/Criminal-Law</code> repository.</p>
 <p>Hit a big pitfall: the repo originally had a <code>.gitattributes</code> routing <code>*.pdf</code> through Git LFS, but the <strong>LFS quota was already exceeded</strong>, so the pre-receive hook rejected it outright. It took three rounds of back and forth:</p>
-<p>1. ❌ <strong>Direct push</strong>: LFS quota insufficient, LFS objects upload failed 2. ❌ <strong>Delete .gitattributes then push</strong>: the hook still detected new files based on the historical .gitattributes 3. ✅ <strong>Clear the remote .gitattributes via the GitHub API</strong> → re-push over SSH → success</p>
+<ol><li>❌ <strong>Direct push</strong>: LFS quota insufficient, LFS objects upload failed</li><li>❌ <strong>Delete .gitattributes then push</strong>: the hook still detected new files based on the historical .gitattributes</li><li>✅ <strong>Clear the remote .gitattributes via the GitHub API</strong> → re-push over SSH → success</li></ol>
 <p>Lesson: GitHub's free LFS quota is limited (1 GB storage / 1 GB monthly bandwidth), and the PDF textbooks in the repo already take up a lot. From now on, before adding new PDFs, either check the LFS balance first or exclude the new directory from LFS tracking in advance.</p>
 <h3>Second batch: General civil law → Civil-Law</h3>
 <p>With the first batch's experience, the second batch took a shortcut: first clear the remote <code>.gitattributes</code> via the GitHub API, then push the <strong>7 PDFs</strong> over SSH in one go — done in a single step, without a hitch.</p>
@@ -66,7 +66,7 @@
 <h3>Premier lot : droit pénal général → Criminal-Law</h3>
 <p>Les <strong>19 PDF</strong> du dossier <code>C:\Users\NewtN\下载\刑法总论备考资料2026</code> ont été téléversés dans le répertoire homonyme du dépôt <code>NewtNorlly/Criminal-Law</code>.</p>
 <p>Gros écueil rencontré : le dépôt avait à l'origine un <code>.gitattributes</code> qui faisait passer <code>*.pdf</code> par Git LFS, mais le <strong>quota LFS était déjà dépassé</strong>, et le hook pre-receive a refusé d'emblée. Il a fallu trois tours d'essais :</p>
-<p>1. ❌ <strong>Push direct</strong> : quota LFS insuffisant, échec du téléversement des objets LFS 2. ❌ <strong>Supprimer .gitattributes puis push</strong> : le hook détectait toujours les nouveaux fichiers d'après l'historique de .gitattributes 3. ✅ <strong>Vider le .gitattributes distant via l'API GitHub</strong> → re-push en SSH → succès</p>
+<ol><li>❌ <strong>Push direct</strong> : quota LFS insuffisant, échec du téléversement des objets LFS</li><li>❌ <strong>Supprimer .gitattributes puis push</strong> : le hook détectait toujours les nouveaux fichiers d'après l'historique de .gitattributes</li><li>✅ <strong>Vider le .gitattributes distant via l'API GitHub</strong> → re-push en SSH → succès</li></ol>
 <p>Leçon : le quota LFS gratuit de GitHub est limité (1 Go de stockage / 1 Go de trafic mensuel), et les manuels PDF du dépôt en consomment déjà beaucoup. Désormais, avant d'ajouter de nouveaux PDF, il faut soit vérifier le solde LFS, soit exclure à l'avance le nouveau répertoire du suivi LFS.</p>
 <h3>Deuxième lot : droit civil général → Civil-Law</h3>
 <p>Fort de l'expérience du premier lot, le second a pris un raccourci : d'abord vider le <code>.gitattributes</code> distant via l'API GitHub, puis pousser les <strong>7 PDF</strong> en une seule fois par SSH — réglé en une étape, sans accroc.</p>
@@ -91,7 +91,7 @@
 <h3>Erste Charge: Allgemeines Strafrecht → Criminal-Law</h3>
 <p>Die <strong>19 PDFs</strong> in <code>C:\Users\NewtN\下载\刑法总论备考资料2026</code> wurden in das gleichnamige Verzeichnis des Repositories <code>NewtNorlly/Criminal-Law</code> hochgeladen.</p>
 <p>Dabei stieß ich auf eine große Hürde: Das Repo hatte ursprünglich eine <code>.gitattributes</code>, die <code>*.pdf</code> über Git LFS leitete, aber das <strong>LFS-Kontingent war bereits überschritten</strong>, sodass der pre-receive-Hook die Übertragung direkt ablehnte. Es brauchte drei Runden:</p>
-<p>1. ❌ <strong>Direkter Push</strong>: LFS-Kontingent unzureichend, Upload der LFS-Objekte schlug fehl 2. ❌ <strong>.gitattributes löschen und dann pushen</strong>: der Hook erkannte neue Dateien weiterhin anhand der historischen .gitattributes 3. ✅ <strong>Remote-.gitattributes per GitHub-API leeren</strong> → erneut per SSH pushen → Erfolg</p>
+<ol><li>❌ <strong>Direkter Push</strong>: LFS-Kontingent unzureichend, Upload der LFS-Objekte schlug fehl</li><li>❌ <strong>.gitattributes löschen und dann pushen</strong>: der Hook erkannte neue Dateien weiterhin anhand der historischen .gitattributes</li><li>✅ <strong>Remote-.gitattributes per GitHub-API leeren</strong> → erneut per SSH pushen → Erfolg</li></ol>
 <p>Lehre: Das kostenlose LFS-Kontingent von GitHub ist begrenzt (1 GB Speicher / 1 GB monatliches Datenvolumen), und die PDF-Lehrbücher im Repo verbrauchen bereits viel davon. Künftig gilt vor dem Hinzufügen neuer PDFs: entweder zuerst den LFS-Stand prüfen oder das neue Verzeichnis im Voraus vom LFS-Tracking ausschließen.</p>
 <h3>Zweite Charge: Allgemeines Zivilrecht → Civil-Law</h3>
 <p>Mit der Erfahrung aus der ersten Charge nahm die zweite eine Abkürzung: zuerst die Remote-<code>.gitattributes</code> per GitHub-API leeren, dann die <strong>7 PDFs</strong> per SSH in einem Zug pushen — in einem Schritt erledigt, ohne Komplikationen.</p>

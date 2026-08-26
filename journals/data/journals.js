@@ -1814,6 +1814,15 @@ window.MMV_JOURNALS = [
       },
       {
         "file": "assets/images/2025-07-10-27.jpg"
+      },
+      {
+        "file": "assets/images/2025-07-10-2.png"
+      },
+      {
+        "file": "assets/images/2025-07-10-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-07-10-28.jpg"
       }
     ]
   },
@@ -2053,7 +2062,35 @@ window.MMV_JOURNALS = [
       "kind": "pdf",
       "label": "PDF 第 22 页"
     },
-    "images": [],
+    "images": [
+      {
+        "file": "assets/images/2025-06-29-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-29-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-29-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-29-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-29-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-29-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-29-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-29-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-29-9.jpg"
+      }
+    ],
     "excerpt": "在不久的昨天下午，汪老师告诉我一个消息：时隔27年，母校文科，再度夺得，湖北省高考状元！",
     "locales": {
       "en": {
@@ -2253,6 +2290,145 @@ window.MMV_JOURNALS = [
     "privacyReview": "pending"
   },
   {
+    "date": "2025-06-11",
+    "file": "2025-06-11.html",
+    "location": "湖北省武汉市",
+    "excerpt": "世传《鄂東熊學甲辰汪氏抄本》，作者系熊专家本人，编者系门生汪振洋。《抄本》凡一百一十八条语录，起于提纲挈领之句“既反保守，又反冒进，综合平衡，稳步前进”，合于“天马散花”。堪称“新时代的《论语》”！",
+    "images": [
+      {
+        "file": "assets/images/2025-06-11-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-11-2.png"
+      },
+      {
+        "file": "assets/images/2025-06-11-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-11-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-11-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-11-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-11-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-11-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-11-9.jpg"
+      },
+      {
+        "file": "assets/images/2025-06-11-10.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-05-29",
+    "file": "2025-05-29.html",
+    "location": "湖北省武汉市",
+    "excerpt": "又是个生死疲劳的夏天，",
+    "images": [
+      {
+        "file": "assets/images/2025-05-29-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-2.png"
+      },
+      {
+        "file": "assets/images/2025-05-29-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-9.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-10.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-11.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-12.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-13.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-14.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-15.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-16.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-17.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-18.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-19.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-20.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-21.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-22.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-23.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-24.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-25.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-26.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-27.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-28.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-29.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-30.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-29-31.jpg"
+      }
+    ]
+  },
+  {
     "date": "2025-05-27",
     "file": "2025-05-27.html",
     "location": "华中科技大学紫菘学生公寓8栋前台",
@@ -2288,6 +2464,44 @@ window.MMV_JOURNALS = [
     "privacyReview": "pending"
   },
   {
+    "date": "2025-05-20",
+    "file": "2025-05-20.html",
+    "location": "湖北省武汉市",
+    "excerpt": "独夜无伴守灯下，春风对面吹。",
+    "images": [
+      {
+        "file": "assets/images/2025-05-20-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-20-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-20-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-20-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-20-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-20-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-20-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-20-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-20-9.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-20-10.jpg"
+      }
+    ]
+  },
+  {
     "date": "2025-05-16",
     "file": "2025-05-16.html",
     "location": "华中科技大学西华园文化餐吧",
@@ -2299,7 +2513,35 @@ window.MMV_JOURNALS = [
       "kind": "pdf",
       "label": "PDF 第 18、19 页"
     },
-    "images": [],
+    "images": [
+      {
+        "file": "assets/images/2025-05-16-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-16-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-16-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-16-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-16-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-16-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-16-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-16-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-16-9.jpg"
+      }
+    ],
     "excerpt": "这个月，就是五月，天气好的梦寐以求。",
     "locales": {
       "en": {
@@ -2394,6 +2636,44 @@ window.MMV_JOURNALS = [
     "privacyReview": "pending"
   },
   {
+    "date": "2025-05-06",
+    "file": "2025-05-06.html",
+    "location": "湖北省武汉市",
+    "excerpt": "我个人感觉，WPS的演示模板质量参差不齐，少有惊艳。在华中地区，本科生的小组作业滥用模板，千篇一律，严重“同质化”。教学楼的白板上，“劣质党政风”大行其道；奇丑无比的演示图文，不在少数。",
+    "images": [
+      {
+        "file": "assets/images/2025-05-06-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-06-2.png"
+      },
+      {
+        "file": "assets/images/2025-05-06-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-06-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-06-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-06-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-06-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-06-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-06-9.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-06-10.jpg"
+      }
+    ]
+  },
+  {
     "date": "2025-05-01",
     "file": "2025-05-01.html",
     "location": "华中科技大学紫菘学生公寓5栋532",
@@ -2405,7 +2685,47 @@ window.MMV_JOURNALS = [
       "kind": "pdf",
       "label": "PDF 第 17、18 页"
     },
-    "images": [],
+    "images": [
+      {
+        "file": "assets/images/2025-05-01-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-01-2.png"
+      },
+      {
+        "file": "assets/images/2025-05-01-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-01-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-01-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-01-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-01-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-01-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-01-9.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-01-10.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-01-11.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-01-12.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-01-13.jpg"
+      }
+    ],
     "excerpt": "一个偶然的机会，你要到了柴小桑学长的QQ，便本能地访问人家的QQ空间。你惊喜地发现，学长的空间“对所有人开放”，里面的说说很有意思，照片丰富多彩，自拍更是没的说了。学长竟是如此自然随性、烂……",
     "locales": {
       "en": {
@@ -2452,7 +2772,44 @@ window.MMV_JOURNALS = [
       "kind": "pdf",
       "label": "PDF 第 17 页"
     },
-    "images": [],
+    "images": [
+      {
+        "file": "assets/images/2025-04-26-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-26-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-26-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-26-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-26-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-26-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-26-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-26-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-26-9.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-26-10.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-26-11.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-26-12.jpg"
+      }
+    ],
     "excerpt": "“大抵是一两个月前，也和留言本有一丝关系的事。当时在这里邂逅了一位学姐，久久不能忘怀，回到宿舍思来想去，终于下定了决心，整顿仪容后，又到了一楼。犹豫了半天还是上去搭了话，问了学姐和值班有关……",
     "locales": {
       "en": {
@@ -2477,6 +2834,145 @@ window.MMV_JOURNALS = [
     "privacyReview": "pending"
   },
   {
+    "date": "2025-04-22",
+    "file": "2025-04-22.html",
+    "location": "湖北省武汉市",
+    "excerpt": "每一个不曾享受美食的日子，",
+    "images": [
+      {
+        "file": "assets/images/2025-04-22-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-9.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-10.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-11.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-12.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-13.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-14.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-15.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-16.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-17.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-18.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-19.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-20.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-21.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-22.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-23.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-24.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-25.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-26.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-27.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-28.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-29.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-22-30.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-04-13",
+    "file": "2025-04-13.html",
+    "location": "湖北省武汉市",
+    "excerpt": "亲爱的维基百科管理员，我想悄悄地告诉你：“我爱你全家！真的，没骗你！”",
+    "images": [
+      {
+        "file": "assets/images/2025-04-13-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-13-2.png"
+      },
+      {
+        "file": "assets/images/2025-04-13-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-13-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-13-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-13-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-13-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-13-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-13-9.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-13-10.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-13-11.jpg"
+      }
+    ]
+  },
+  {
     "date": "2025-04-01",
     "file": "2025-04-01.html",
     "location": "华中科技大学紫菘学生公寓5栋532",
@@ -2488,7 +2984,38 @@ window.MMV_JOURNALS = [
       "kind": "pdf",
       "label": "PDF 第 15、17 页"
     },
-    "images": [],
+    "images": [
+      {
+        "file": "assets/images/2025-04-01-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-01-2.png"
+      },
+      {
+        "file": "assets/images/2025-04-01-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-01-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-01-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-01-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-01-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-01-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-01-9.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-01-10.jpg"
+      }
+    ],
     "excerpt": "皓月当空，晚风微凉，又是个不眠之夜。",
     "locales": {
       "en": {
@@ -2523,7 +3050,35 @@ window.MMV_JOURNALS = [
       "kind": "pdf",
       "label": "PDF 第 15 页"
     },
-    "images": [],
+    "images": [
+      {
+        "file": "assets/images/2025-03-28-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-28-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-28-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-28-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-28-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-28-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-28-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-28-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-28-9.jpg"
+      }
+    ],
     "excerpt": "话说三月份的一个晚上，天寒地冻，星月无光。布莱恩和龟粪正在看《恶搞之家》，柴小桑正在整理白天逛珞珈山时拍的风景照。",
     "locales": {
       "en": {
@@ -2546,6 +3101,163 @@ window.MMV_JOURNALS = [
       }
     },
     "privacyReview": "pending"
+  },
+  {
+    "date": "2025-02-18",
+    "file": "2025-02-18.html",
+    "location": "湖北省武汉市",
+    "excerpt": "乙巳年 戊寅月 戊午日 酉时三刻",
+    "images": [
+      {
+        "file": "assets/images/2025-02-18-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-02-18-2.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-02-13",
+    "file": "2025-02-13.html",
+    "location": "湖北省武汉市",
+    "excerpt": "来了我就考，",
+    "images": [
+      {
+        "file": "assets/images/2025-02-13-1.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-01-30",
+    "file": "2025-01-30.html",
+    "location": "湖北省武汉市",
+    "excerpt": "神州时间乙已年丁丑月戊戌日，",
+    "images": [
+      {
+        "file": "assets/images/2025-01-30-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-9.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-10.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-11.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-12.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-13.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-14.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-15.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-16.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-17.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-18.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-19.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-20.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-21.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-22.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-23.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-24.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-25.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-26.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-27.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-28.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-29.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-30.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-01-28",
+    "file": "2025-01-28.html",
+    "location": "湖北省武汉市",
+    "excerpt": "甲辰龙年，我解锁了一些技能树上的新技能，也获得了一些有生之年的突破。",
+    "images": [
+      {
+        "file": "assets/images/2025-01-28-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-28-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-28-3.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-01-26",
+    "file": "2025-01-26.html",
+    "location": "湖北省武汉市",
+    "excerpt": "有很多次，我感觉文科实用性不强；",
+    "images": [
+      {
+        "file": "assets/images/2025-01-26-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-26-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-26-3.jpg"
+      }
+    ]
   },
   {
     "date": "2025-01-19",
@@ -2603,6 +3315,191 @@ window.MMV_JOURNALS = [
     "privacyReview": "pending"
   },
   {
+    "date": "2025-01-15",
+    "file": "2025-01-15.html",
+    "location": "湖北省武汉市",
+    "excerpt": "浔阳江头，",
+    "images": [
+      {
+        "file": "assets/images/2025-01-15-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-9.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-10.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-11.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-12.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-13.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-14.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-15.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-16.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-17.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-18.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-19.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-20.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-21.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-22.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-23.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-24.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-25.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-26.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-27.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-28.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-29.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-15-30.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-01-10",
+    "file": "2025-01-10.html",
+    "location": "湖北省武汉市",
+    "excerpt": "甲辰年冬月下旬某日上午十一点半",
+    "images": [
+      {
+        "file": "assets/images/2025-01-10-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-10-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-10-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-10-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-10-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-10-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-10-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-10-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-10-9.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-01-09",
+    "file": "2025-01-09.html",
+    "location": "湖北省武汉市",
+    "excerpt": "有些无聊，发条说说，看看会不会被腾讯屏蔽",
+    "images": [
+      {
+        "file": "assets/images/2025-01-09-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-09-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-09-3.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2024-12-25",
+    "file": "2024-12-25.html",
+    "location": "湖北省武汉市",
+    "excerpt": "大半夜刷课，",
+    "images": [
+      {
+        "file": "assets/images/2024-12-25-1.png"
+      },
+      {
+        "file": "assets/images/2024-12-25-2.jpg"
+      },
+      {
+        "file": "assets/images/2024-12-25-3.jpg"
+      },
+      {
+        "file": "assets/images/2024-12-25-4.jpg"
+      },
+      {
+        "file": "assets/images/2024-12-25-5.jpg"
+      },
+      {
+        "file": "assets/images/2024-12-25-6.jpg"
+      },
+      {
+        "file": "assets/images/2024-12-25-7.jpg"
+      },
+      {
+        "file": "assets/images/2024-12-25-8.jpg"
+      },
+      {
+        "file": "assets/images/2024-12-25-9.jpg"
+      }
+    ]
+  },
+  {
     "date": "2024-12-20",
     "file": "2024-12-20.html",
     "location": "湖北省武汉市",
@@ -2613,6 +3510,594 @@ window.MMV_JOURNALS = [
         "poster": "assets/images/2024-12-20-poster.webp"
       }
     ]
+  },
+  {
+    "date": "2024-11-30",
+    "file": "2024-11-30.html",
+    "location": "湖北省武汉市",
+    "excerpt": "恐龙快跑(黄州府)5.0版正在调试：",
+    "images": [
+      {
+        "file": "assets/images/2024-11-30-1.png"
+      },
+      {
+        "file": "assets/images/2024-11-30-video.mp4",
+        "poster": "assets/images/2024-11-30-poster.webp"
+      },
+      {
+        "file": "assets/images/2024-11-30-2.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-30-3.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-30-4.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-30-5.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-30-6.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-30-7.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-30-8.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-30-9.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-30-10.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-30-11.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-30-12.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2024-11-26",
+    "file": "2024-11-26.html",
+    "location": "湖北省武汉市",
+    "excerpt": "以下代码文件，纪念母校的百廿诞辰！",
+    "images": [
+      {
+        "file": "assets/images/2024-11-26-1.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-26-2.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-26-3.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-26-4.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-26-video.mp4",
+        "poster": "assets/images/2024-11-26-poster.webp"
+      },
+      {
+        "file": "assets/images/2024-11-26-video-2.mp4",
+        "poster": "assets/images/2024-11-26-poster-2.webp"
+      }
+    ]
+  },
+  {
+    "date": "2024-11-24",
+    "file": "2024-11-24.html",
+    "location": "湖北省武汉市",
+    "excerpt": "云破月来花弄影，",
+    "images": [
+      {
+        "file": "assets/images/2024-11-24-1.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-24-2.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-24-3.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-24-4.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-24-5.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-24-6.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-24-7.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-24-8.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-24-video.mp4",
+        "poster": "assets/images/2024-11-24-poster.webp"
+      },
+      {
+        "file": "assets/images/2024-11-24-video-2.mp4",
+        "poster": "assets/images/2024-11-24-poster-2.webp"
+      },
+      {
+        "file": "assets/images/2024-11-24-video-3.mp4",
+        "poster": "assets/images/2024-11-24-poster-3.webp"
+      }
+    ]
+  },
+  {
+    "date": "2024-11-23",
+    "file": "2024-11-23.html",
+    "location": "湖北省武汉市",
+    "excerpt": "秋风不解传乡信，",
+    "images": []
+  },
+  {
+    "date": "2024-11-21",
+    "file": "2024-11-21.html",
+    "location": "湖北省武汉市",
+    "excerpt": "小伙伴们，快来快来！我要曝光这个骗子！",
+    "images": []
+  },
+  {
+    "date": "2024-11-19",
+    "file": "2024-11-19.html",
+    "location": "湖北省武汉市",
+    "excerpt": "有生之年，华科校内，我制作了人生中第一个“波兰球”宣传画。至今犹记，黄州府的一位教研员曾有感而发：“我这一生，有个伟大的愿望，我希望我们的国家能够统一，我们的民族能够更加团结！”",
+    "images": []
+  },
+  {
+    "date": "2024-11-18",
+    "file": "2024-11-18.html",
+    "location": "湖北省武汉市",
+    "excerpt": "世间绮丽之最，在于把自己过成自己喜欢的样子。 纵使短暂，也很精彩！",
+    "images": []
+  },
+  {
+    "date": "2024-11-03",
+    "file": "2024-11-03.html",
+    "location": "湖北省武汉市",
+    "excerpt": "我：你刚才提到微信朋友圈头像，我翻了翻，发现我从小到大根本就没变过！",
+    "images": [
+      {
+        "file": "assets/images/2024-11-03-1.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-03-2.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-03-3.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-03-4.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-03-5.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-03-6.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-03-7.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-03-8.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-03-9.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2024-11-02",
+    "file": "2024-11-02.html",
+    "location": "湖北省武汉市",
+    "excerpt": "帝の凝视，",
+    "images": [
+      {
+        "file": "assets/images/2024-11-02-video.mp4",
+        "poster": "assets/images/2024-11-02-poster.webp"
+      }
+    ]
+  },
+  {
+    "date": "2024-10-29",
+    "file": "2024-10-29.html",
+    "location": "湖北省武汉市",
+    "excerpt": "学在华科大，什么都要临时学！",
+    "images": []
+  },
+  {
+    "date": "2024-10-28",
+    "file": "2024-10-28.html",
+    "location": "湖北省武汉市",
+    "excerpt": "柴江赣北  : 补上一张",
+    "images": [
+      {
+        "file": "assets/images/2024-10-28-1.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-28-2.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-28-3.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-28-4.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-28-5.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-28-6.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-28-7.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-28-8.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-28-9.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-28-10.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-28-11.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-28-12.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-28-13.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2024-10-24",
+    "file": "2024-10-24.html",
+    "location": "湖北省武汉市",
+    "excerpt": "梦想始于，南湖路一号！",
+    "images": []
+  },
+  {
+    "date": "2024-10-21",
+    "file": "2024-10-21.html",
+    "location": "湖北省武汉市",
+    "excerpt": "ʘᴗʘ",
+    "images": []
+  },
+  {
+    "date": "2024-10-16",
+    "file": "2024-10-16.html",
+    "location": "湖北省武汉市",
+    "excerpt": "从江州到江城，",
+    "images": []
+  },
+  {
+    "date": "2024-10-13",
+    "file": "2024-10-13.html",
+    "location": "湖北省武汉市",
+    "excerpt": "从江城到江州，前往浔阳驿！",
+    "images": []
+  },
+  {
+    "date": "2024-10-11",
+    "file": "2024-10-11.html",
+    "location": "湖北省武汉市",
+    "excerpt": "更新了时刻：落花时节又逢君",
+    "images": []
+  },
+  {
+    "date": "2024-10-07",
+    "file": "2024-10-07.html",
+    "location": "湖北省武汉市",
+    "excerpt": "我必须得给本校的安全教育点个赞了！",
+    "images": [
+      {
+        "file": "assets/images/2024-10-07-1.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-07-2.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-07-3.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-07-4.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-07-5.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-07-6.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-07-7.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-07-8.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-07-9.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-07-10.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-07-11.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-07-12.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-07-13.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2024-10-05",
+    "file": "2024-10-05.html",
+    "location": "湖北省武汉市",
+    "excerpt": "有生之年，华科校内，我驯服了PPT……",
+    "images": [
+      {
+        "file": "assets/images/2024-10-05-1.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-2.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-3.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-4.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-5.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-6.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-7.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-8.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-9.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-10.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-11.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-12.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-13.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-14.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-15.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-16.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-17.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-18.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-19.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-20.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-21.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-22.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-23.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-24.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-25.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-26.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-27.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-28.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-29.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-30.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-05-video.mp4",
+        "poster": "assets/images/2024-10-05-poster.webp"
+      },
+      {
+        "file": "assets/images/2024-10-05-video-2.mp4",
+        "poster": "assets/images/2024-10-05-poster-2.webp"
+      },
+      {
+        "file": "assets/images/2024-10-05-video-3.mp4",
+        "poster": "assets/images/2024-10-05-poster-3.webp"
+      },
+      {
+        "file": "assets/images/2024-10-05-video-4.mp4",
+        "poster": "assets/images/2024-10-05-poster-4.webp"
+      },
+      {
+        "file": "assets/images/2024-10-05-video-5.mp4",
+        "poster": "assets/images/2024-10-05-poster-5.webp"
+      },
+      {
+        "file": "assets/images/2024-10-05-video-6.mp4",
+        "poster": "assets/images/2024-10-05-poster-6.webp"
+      }
+    ]
+  },
+  {
+    "date": "2024-10-04",
+    "file": "2024-10-04.html",
+    "location": "湖北省武汉市",
+    "excerpt": "（这里放本日的插图）",
+    "images": []
+  },
+  {
+    "date": "2024-10-01",
+    "file": "2024-10-01.html",
+    "location": "湖北省武汉市",
+    "excerpt": "“人生到处知何似，应似飞鸿踏雪泥。”生命中的飞鸿转瞬即逝，留给我们无尽的伤感和回味！",
+    "images": [
+      {
+        "file": "assets/images/2024-10-01-1.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-01-2.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-01-3.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-01-4.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-01-5.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-01-6.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-01-video.mp4",
+        "poster": "assets/images/2024-10-01-poster.webp"
+      },
+      {
+        "file": "assets/images/2024-10-01-video-2.mp4",
+        "poster": "assets/images/2024-10-01-poster-2.webp"
+      }
+    ]
+  },
+  {
+    "date": "2024-09-28",
+    "file": "2024-09-28.html",
+    "location": "湖北省武汉市",
+    "excerpt": "从东湖到南湖， 虽有清早之奔驰， 却无风尘之劳苦。",
+    "images": [
+      {
+        "file": "assets/images/2024-09-28-1.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-2.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-3.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-4.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-5.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-6.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-7.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-8.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-9.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-10.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-11.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-12.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-13.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-14.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-15.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-16.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-28-video.mp4",
+        "poster": "assets/images/2024-09-28-poster.webp"
+      },
+      {
+        "file": "assets/images/2024-09-28-video-2.mp4",
+        "poster": "assets/images/2024-09-28-poster-2.webp"
+      },
+      {
+        "file": "assets/images/2024-09-28-video-3.mp4",
+        "poster": "assets/images/2024-09-28-poster-3.webp"
+      },
+      {
+        "file": "assets/images/2024-09-28-video-4.mp4",
+        "poster": "assets/images/2024-09-28-poster-4.webp"
+      },
+      {
+        "file": "assets/images/2024-09-28-video-5.mp4",
+        "poster": "assets/images/2024-09-28-poster-5.webp"
+      },
+      {
+        "file": "assets/images/2024-09-28-video-6.mp4",
+        "poster": "assets/images/2024-09-28-poster-6.webp"
+      }
+    ]
+  },
+  {
+    "date": "2024-09-27",
+    "file": "2024-09-27.html",
+    "location": "湖北省武汉市",
+    "excerpt": "华小科与狸奴，",
+    "images": []
+  },
+  {
+    "date": "2024-09-22",
+    "file": "2024-09-22.html",
+    "location": "湖北省武汉市",
+    "excerpt": "恳请孔夫子保佑我面试顺利！",
+    "images": []
   },
   {
     "date": "2024-09-20",
@@ -2674,7 +4159,7 @@ window.MMV_JOURNALS = [
   {
     "date": "2024-09-19",
     "file": "2024-09-19.html",
-    "location": "",
+    "location": "湖北省武汉市",
     "excerpt": "我在历史的故纸堆中，发现了一个小纸条。 画得还挺可爱！ 在 : 我画的 2024年9月20日 09:29 柴江赣北 回复在 : I'm a B … 2024年9月20日 09:38 柴江赣北……",
     "images": [
       {
@@ -2691,7 +4176,7 @@ window.MMV_JOURNALS = [
   {
     "date": "2024-09-18",
     "file": "2024-09-18.html",
-    "location": "",
+    "location": "湖北省武汉市",
     "excerpt": "闲乘月，夜同游。 雪夜访戴，月夜访程。 乘兴而去，兴尽而归。 从1037号森林，到415号森林。 漆同桌 : 别去森林了，去断背山 2024年9月17日 22:36 柴江赣北 回复漆同桌 :……",
     "images": [
       {
@@ -2746,7 +4231,7 @@ window.MMV_JOURNALS = [
   {
     "date": "2024-09-15",
     "file": "2024-09-15.html",
-    "location": "",
+    "location": "湖北省武汉市",
     "excerpt": "洛阳亲友如相问， 一片冰心在玉壶！ 柴江赣北 : 我被梅高薇同学冒充了…… 2024年9月15日 22:29",
     "images": [
       {
@@ -2777,7 +4262,7 @@ window.MMV_JOURNALS = [
   {
     "date": "2024-09-12",
     "file": "2024-09-12.html",
-    "location": "",
+    "location": "湖北省武汉市",
     "excerpt": "从今若许闲乘月， 拄杖无时夜叩门。 噗叽红柿 : 程老师为啥长变了 2024年9月12日 20:33 柴江赣北 回复噗叽红柿 : 这真是原图，程老师拍的 2024年9月12日 20:37 张悦……",
     "images": [
       {
