@@ -29,3 +29,6 @@ _mh_html/
 _mh_entries.json
 __pycache__/
 *.pyc
+
+# Reference materials (excluded from Pages publish)
+参考资料/

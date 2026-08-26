@@ -575,7 +575,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天做了一件从安装 Hanako 以来最大胆的事：把 53 个散装技能文件夹，彻底重组成 5 个 Bee 大类。",
     "images": [
       {
-        "file": "assets/images/2026-06-30-1.jpg"
+        "file": "assets/images/2026-06-30-1.webp"
       }
     ]
   },
@@ -586,7 +586,7 @@ window.MMV_JOURNALS = [
     "excerpt": "15:00~17:30 宏观经济学下课。",
     "images": [
       {
-        "file": "assets/images/2026-06-29-1.jpg"
+        "file": "assets/images/2026-06-29-1.webp"
       },
       {
         "file": "assets/images/2026-06-29-video.mp4",
@@ -609,7 +609,7 @@ window.MMV_JOURNALS = [
     "excerpt": "周末的缓冲日。复习功课、处理日常，没太多特别的事。",
     "images": [
       {
-        "file": "assets/images/2026-06-28-1.jpg"
+        "file": "assets/images/2026-06-28-1.webp"
       },
       {
         "file": "assets/images/2026-06-28-video.mp4",
@@ -624,7 +624,7 @@ window.MMV_JOURNALS = [
     "excerpt": "周六没有安排什么学术任务。处理法语德语的日常功课，让脑子彻底松松弦。",
     "images": [
       {
-        "file": "assets/images/2026-06-27-1.jpg"
+        "file": "assets/images/2026-06-27-1.webp"
       }
     ]
   },
@@ -635,7 +635,7 @@ window.MMV_JOURNALS = [
     "excerpt": "正常上课。周五的节奏一般比较轻，处理一下这周积压的杂事。",
     "images": [
       {
-        "file": "assets/images/2026-06-26-1.jpg"
+        "file": "assets/images/2026-06-26-1.webp"
       }
     ]
   },
@@ -646,7 +646,7 @@ window.MMV_JOURNALS = [
     "excerpt": "昨天 Cherry 写完了 35 条参考文献，但今天继续折腾格式问题。",
     "images": [
       {
-        "file": "assets/images/2026-06-25-1.jpg"
+        "file": "assets/images/2026-06-25-1.webp"
       }
     ]
   },
@@ -657,7 +657,7 @@ window.MMV_JOURNALS = [
     "excerpt": "12:35 让 Cherry 用 academic-paper 技能写质性研究方法的结课论文——关于比利时 Flanders 同情社区的。",
     "images": [
       {
-        "file": "assets/images/2026-06-24-1.jpg"
+        "file": "assets/images/2026-06-24-1.webp"
       },
       {
         "file": "assets/images/2026-06-24-video.mp4",
@@ -672,7 +672,7 @@ window.MMV_JOURNALS = [
     "excerpt": "昨天大干了一场，今天的节奏自然松下来了。",
     "images": [
       {
-        "file": "assets/images/2026-06-23-1.jpg"
+        "file": "assets/images/2026-06-23-1.webp"
       }
     ]
   },
@@ -683,7 +683,7 @@ window.MMV_JOURNALS = [
     "excerpt": "一早扎进管理信息系统结课大作业里。",
     "images": [
       {
-        "file": "assets/images/2026-06-22-1.jpg"
+        "file": "assets/images/2026-06-22-1.webp"
       }
     ]
   },
@@ -722,7 +722,7 @@ window.MMV_JOURNALS = [
     "excerpt": "周二。晚上集中处理了一件事：把下载文件夹里的四个安装包用 SSH 推送上 GitHub，每推一次清一次本地源文件，干干净净收尾。",
     "images": [
       {
-        "file": "assets/images/2026-06-16-1.jpg"
+        "file": "assets/images/2026-06-16-1.webp"
       }
     ]
   },
@@ -764,7 +764,7 @@ window.MMV_JOURNALS = [
     "excerpt": "周四。一天之内把短期经济波动模型从零推到全题解答，中间穿插了两轮讲义回炉。节奏紧凑但不出错，像跑完一套完整的学术冲刺训练。",
     "images": [
       {
-        "file": "assets/images/2026-06-11-1.jpg"
+        "file": "assets/images/2026-06-11-1.webp"
       }
     ]
   },
@@ -789,7 +789,7 @@ window.MMV_JOURNALS = [
     "excerpt": "周日。傍晚开始动手，把两组B站下载的音视频素材合并成完整视频，上传到 GitHub 的 QQ-Mail 仓库。节奏松弛，像水豚泡温泉一样不慌不忙地收了两件小活。",
     "images": [
       {
-        "file": "assets/images/2026-06-07-1.jpg"
+        "file": "assets/images/2026-06-07-1.webp"
       }
     ]
   },
@@ -828,7 +828,7 @@ window.MMV_JOURNALS = [
     "excerpt": "周日。今天一整天都在和 Hanako 迭代《政府绩效管理》的结课论文选题说明，从初稿到中期稿再到终稿，中间穿插了两次外部审阅意见的判断、格式修正和云端存档，最后顺手修了一个MCP连接器的路径问题。",
     "images": [
       {
-        "file": "assets/images/2026-05-31-1.jpg"
+        "file": "assets/images/2026-05-31-1.webp"
       }
     ]
   },
@@ -839,7 +839,7 @@ window.MMV_JOURNALS = [
     "excerpt": "周六。今天主要做了两件跨度很大的事：下午装了一套完整的学术研究自动化工具链，傍晚到晚上一头扎进流动人口与地方治理的政策文献里，前后像是两个世界。",
     "images": [
       {
-        "file": "assets/images/2026-05-30-1.jpg"
+        "file": "assets/images/2026-05-30-1.webp"
       }
     ]
   },
@@ -850,7 +850,7 @@ window.MMV_JOURNALS = [
     "excerpt": "周五。今天主要做了三件事：MD文件格式全面微调、标点规范化极限马拉松、以及完成两份宏观经济学作业答案。",
     "images": [
       {
-        "file": "assets/images/2026-05-29-1.jpg"
+        "file": "assets/images/2026-05-29-1.webp"
       }
     ]
   },
@@ -861,7 +861,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天是一个\"从零到一\"的日子。",
     "images": [
       {
-        "file": "assets/images/2026-05-28-1.jpg"
+        "file": "assets/images/2026-05-28-1.webp"
       }
     ]
   },
@@ -872,7 +872,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天从上午开始就一直泡在汇报准备里——",
     "images": [
       {
-        "file": "assets/images/2026-05-27-1.jpg"
+        "file": "assets/images/2026-05-27-1.webp"
       }
     ]
   },
@@ -883,7 +883,7 @@ window.MMV_JOURNALS = [
     "excerpt": "🕐 北京时间 13:10 开始，一个会话，一条消息",
     "images": [
       {
-        "file": "assets/images/2026-05-26-1.jpg"
+        "file": "assets/images/2026-05-26-1.webp"
       }
     ]
   },
@@ -894,7 +894,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的主线是一场从「发现自己」到「写出自己」的实验。",
     "images": [
       {
-        "file": "assets/images/2026-05-25-1.jpg"
+        "file": "assets/images/2026-05-25-1.webp"
       }
     ]
   },
@@ -916,7 +916,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天主要集中精力在行政法与行政诉讼法的卡片项目上，从查缺补漏到汇总整理，几乎一整天都在跟这 40 章的卡片打交道。",
     "images": [
       {
-        "file": "assets/images/2026-05-23-1.jpg"
+        "file": "assets/images/2026-05-23-1.webp"
       }
     ]
   },
@@ -927,7 +927,7 @@ window.MMV_JOURNALS = [
     "excerpt": "上午一口气把《刑法学（第七版）》剩下的四册全部加了 Markdown 标题层级。",
     "images": [
       {
-        "file": "assets/images/2026-05-22-1.jpg"
+        "file": "assets/images/2026-05-22-1.webp"
       }
     ]
   },
@@ -938,7 +938,7 @@ window.MMV_JOURNALS = [
     "excerpt": "全天一条龙：上午整理 2.2MB 的行政法与行政诉讼法 txt，下午加标题层级，傍晚补昨天日记，深夜把五本马工程刑法学 PDF 推到 GitHub。高效率的一天。",
     "images": [
       {
-        "file": "assets/images/2026-05-21-1.jpg"
+        "file": "assets/images/2026-05-21-1.webp"
       }
     ]
   },
@@ -949,7 +949,7 @@ window.MMV_JOURNALS = [
     "excerpt": "上午继续德语，一口气过了第 7 到第 13 讲。下午给工作区做减法，清频道私信、删冗余文件。跟前一天 26,000 行刑法学的硬仗相比，今天是恢复性的轻量日。",
     "images": [
       {
-        "file": "assets/images/2026-05-20-1.jpg"
+        "file": "assets/images/2026-05-20-1.webp"
       },
       {
         "file": "assets/images/2026-05-20-video.mp4",
@@ -964,7 +964,7 @@ window.MMV_JOURNALS = [
     "excerpt": "早上处理了 Outlook→飞书日程推送，然后开始全天的主要工程：张明楷《刑法学》第七版四册电子书的 txt 格式修复。",
     "images": [
       {
-        "file": "assets/images/2026-05-19-1.jpg"
+        "file": "assets/images/2026-05-19-1.webp"
       }
     ]
   },
@@ -1018,7 +1018,7 @@ window.MMV_JOURNALS = [
     "excerpt": "吉姆哈克  : 这个购买多少钱啊？ 2026年5月13日 15:08 楼月软件客服1  : 159元 2026年5月13日 15:09",
     "images": [
       {
-        "file": "assets/images/2026-05-13-1.jpg"
+        "file": "assets/images/2026-05-13-1.webp"
       }
     ]
   },
@@ -1054,22 +1054,22 @@ window.MMV_JOURNALS = [
     "excerpt": "吉姆哈克  : [图片] 2026年5月8日 00:30 吉姆哈克  : [图片] 2026年5月8日 00:31",
     "images": [
       {
-        "file": "assets/images/2026-05-08-1.jpg"
+        "file": "assets/images/2026-05-08-1.webp"
       },
       {
-        "file": "assets/images/2026-05-08-2.jpg"
+        "file": "assets/images/2026-05-08-2.webp"
       },
       {
-        "file": "assets/images/2026-05-08-3.jpg"
+        "file": "assets/images/2026-05-08-3.webp"
       },
       {
-        "file": "assets/images/2026-05-08-4.jpg"
+        "file": "assets/images/2026-05-08-4.webp"
       },
       {
-        "file": "assets/images/2026-05-08-5.jpg"
+        "file": "assets/images/2026-05-08-5.webp"
       },
       {
-        "file": "assets/images/2026-05-08-6.jpg"
+        "file": "assets/images/2026-05-08-6.webp"
       }
     ]
   },
@@ -1080,16 +1080,16 @@ window.MMV_JOURNALS = [
     "excerpt": "吉姆哈克  : [图片] 2026年5月7日 00:09 吉姆哈克  : [图片] 2026年5月7日 00:09",
     "images": [
       {
-        "file": "assets/images/2026-05-07-1.jpg"
+        "file": "assets/images/2026-05-07-1.webp"
       },
       {
-        "file": "assets/images/2026-05-07-2.jpg"
+        "file": "assets/images/2026-05-07-2.webp"
       },
       {
-        "file": "assets/images/2026-05-07-3.jpg"
+        "file": "assets/images/2026-05-07-3.webp"
       },
       {
-        "file": "assets/images/2026-05-07-4.jpg"
+        "file": "assets/images/2026-05-07-4.webp"
       }
     ]
   },
@@ -1135,13 +1135,13 @@ window.MMV_JOURNALS = [
     "excerpt": "吉姆哈克  : [图片] 2026年4月27日 00:08 吉姆哈克  : [图片] 2026年4月27日 00:09",
     "images": [
       {
-        "file": "assets/images/2026-04-27-1.jpg"
+        "file": "assets/images/2026-04-27-1.webp"
       },
       {
-        "file": "assets/images/2026-04-27-2.jpg"
+        "file": "assets/images/2026-04-27-2.webp"
       },
       {
-        "file": "assets/images/2026-04-27-3.jpg"
+        "file": "assets/images/2026-04-27-3.webp"
       },
       {
         "file": "assets/images/2026-04-27-4.png"
@@ -1268,13 +1268,13 @@ window.MMV_JOURNALS = [
     "excerpt": "吉姆哈克  : py被我搞坏了 2026年4月10日 10:31 万泽宇  : [疑问][疑问][疑问][疑问] 2026年4月10日 10:31",
     "images": [
       {
-        "file": "assets/images/2026-04-10-1.jpg"
+        "file": "assets/images/2026-04-10-1.webp"
       },
       {
-        "file": "assets/images/2026-04-10-2.jpg"
+        "file": "assets/images/2026-04-10-2.webp"
       },
       {
-        "file": "assets/images/2026-04-10-3.jpg"
+        "file": "assets/images/2026-04-10-3.webp"
       }
     ]
   },
@@ -1383,19 +1383,19 @@ window.MMV_JOURNALS = [
     "excerpt": "吉姆哈克  : 老哥在吗？ 2026年3月24日 11:28 吉姆哈克  : [图片] 2026年3月24日 11:28",
     "images": [
       {
-        "file": "assets/images/2026-03-24-1.jpg"
+        "file": "assets/images/2026-03-24-1.webp"
       },
       {
-        "file": "assets/images/2026-03-24-2.jpg"
+        "file": "assets/images/2026-03-24-2.webp"
       },
       {
-        "file": "assets/images/2026-03-24-3.jpg"
+        "file": "assets/images/2026-03-24-3.webp"
       },
       {
-        "file": "assets/images/2026-03-24-4.jpg"
+        "file": "assets/images/2026-03-24-4.webp"
       },
       {
-        "file": "assets/images/2026-03-24-5.jpg"
+        "file": "assets/images/2026-03-24-5.webp"
       }
     ]
   },
@@ -1406,7 +1406,7 @@ window.MMV_JOURNALS = [
     "excerpt": "纪杰  : 不行了 2026年3月23日 14:48 纪杰  : 肌肉酸痛 2026年3月23日 14:48",
     "images": [
       {
-        "file": "assets/images/2026-03-23-1.jpg"
+        "file": "assets/images/2026-03-23-1.webp"
       }
     ]
   },
@@ -1438,37 +1438,37 @@ window.MMV_JOURNALS = [
     "excerpt": "辅导员  : 嗯嗯，你看你什么时间有空呀 2026年3月19日 10:29 辅导员  : 你先去看病 2026年3月19日 10:29",
     "images": [
       {
-        "file": "assets/images/2026-03-19-1.jpg"
+        "file": "assets/images/2026-03-19-1.webp"
       },
       {
-        "file": "assets/images/2026-03-19-2.jpg"
+        "file": "assets/images/2026-03-19-2.webp"
       },
       {
         "file": "assets/images/2026-03-19-3.png"
       },
       {
-        "file": "assets/images/2026-03-19-4.jpg"
+        "file": "assets/images/2026-03-19-4.webp"
       },
       {
-        "file": "assets/images/2026-03-19-5.jpg"
+        "file": "assets/images/2026-03-19-5.webp"
       },
       {
-        "file": "assets/images/2026-03-19-6.jpg"
+        "file": "assets/images/2026-03-19-6.webp"
       },
       {
-        "file": "assets/images/2026-03-19-7.jpg"
+        "file": "assets/images/2026-03-19-7.webp"
       },
       {
-        "file": "assets/images/2026-03-19-8.jpg"
+        "file": "assets/images/2026-03-19-8.webp"
       },
       {
-        "file": "assets/images/2026-03-19-9.jpg"
+        "file": "assets/images/2026-03-19-9.webp"
       },
       {
-        "file": "assets/images/2026-03-19-10.jpg"
+        "file": "assets/images/2026-03-19-10.webp"
       },
       {
-        "file": "assets/images/2026-03-19-11.jpg"
+        "file": "assets/images/2026-03-19-11.webp"
       }
     ]
   },
@@ -1479,16 +1479,16 @@ window.MMV_JOURNALS = [
     "excerpt": "刘小舟  : ????哭哭 2026年3月18日 00:08 刘小舟  : 你原谅我了嘛宝宝[可怜] 2026年3月18日 00:17",
     "images": [
       {
-        "file": "assets/images/2026-03-18-1.jpg"
+        "file": "assets/images/2026-03-18-1.webp"
       },
       {
-        "file": "assets/images/2026-03-18-2.jpg"
+        "file": "assets/images/2026-03-18-2.webp"
       },
       {
-        "file": "assets/images/2026-03-18-3.jpg"
+        "file": "assets/images/2026-03-18-3.webp"
       },
       {
-        "file": "assets/images/2026-03-18-4.jpg"
+        "file": "assets/images/2026-03-18-4.webp"
       }
     ]
   },
@@ -1604,13 +1604,13 @@ window.MMV_JOURNALS = [
     "excerpt": "吉姆哈克  : 学长，祝你新年万事清欢，所愿皆成真！！！ 2026年2月28日 13:54 吉姆哈克  : 我又来打探消息了。。。 2026年2月28日 13:54",
     "images": [
       {
-        "file": "assets/images/2026-02-28-1.jpg"
+        "file": "assets/images/2026-02-28-1.webp"
       },
       {
-        "file": "assets/images/2026-02-28-2.jpg"
+        "file": "assets/images/2026-02-28-2.webp"
       },
       {
-        "file": "assets/images/2026-02-28-3.jpg"
+        "file": "assets/images/2026-02-28-3.webp"
       }
     ]
   },
@@ -1621,25 +1621,25 @@ window.MMV_JOURNALS = [
     "excerpt": "吉姆哈克  : 我感觉那网站，挺简陋的，应该可以便宜点吧 2026年2月27日 14:02 大宝  : 你发我下 2026年2月27日 14:02",
     "images": [
       {
-        "file": "assets/images/2026-02-27-1.jpg"
+        "file": "assets/images/2026-02-27-1.webp"
       },
       {
-        "file": "assets/images/2026-02-27-2.jpg"
+        "file": "assets/images/2026-02-27-2.webp"
       },
       {
-        "file": "assets/images/2026-02-27-3.jpg"
+        "file": "assets/images/2026-02-27-3.webp"
       },
       {
-        "file": "assets/images/2026-02-27-4.jpg"
+        "file": "assets/images/2026-02-27-4.webp"
       },
       {
-        "file": "assets/images/2026-02-27-5.jpg"
+        "file": "assets/images/2026-02-27-5.webp"
       },
       {
-        "file": "assets/images/2026-02-27-6.jpg"
+        "file": "assets/images/2026-02-27-6.webp"
       },
       {
-        "file": "assets/images/2026-02-27-7.jpg"
+        "file": "assets/images/2026-02-27-7.webp"
       }
     ]
   },
@@ -1698,7 +1698,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2026-02-09-1.jpg"
+        "file": "assets/images/2026-02-09-1.webp"
       }
     ],
     "location": "江西省九江市"
@@ -1709,10 +1709,10 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-12-24-1.jpg"
+        "file": "assets/images/2025-12-24-1.webp"
       },
       {
-        "file": "assets/images/2025-12-24-2.jpg"
+        "file": "assets/images/2025-12-24-2.webp"
       }
     ],
     "location": "江西省九江市"
@@ -1723,13 +1723,13 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-12-18-1.jpg"
+        "file": "assets/images/2025-12-18-1.webp"
       },
       {
-        "file": "assets/images/2025-12-18-2.jpg"
+        "file": "assets/images/2025-12-18-2.webp"
       },
       {
-        "file": "assets/images/2025-12-18-3.jpg"
+        "file": "assets/images/2025-12-18-3.webp"
       }
     ],
     "location": "江西省九江市"
@@ -1743,7 +1743,7 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-12-01-1.png"
       },
       {
-        "file": "assets/images/2025-12-01-2.jpg"
+        "file": "assets/images/2025-12-01-2.webp"
       }
     ],
     "location": "江西省九江市"
@@ -1754,7 +1754,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-11-14-1.jpg"
+        "file": "assets/images/2025-11-14-1.webp"
       }
     ],
     "location": "江西省九江市"
@@ -1765,7 +1765,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-11-10-1.jpg"
+        "file": "assets/images/2025-11-10-1.webp"
       }
     ],
     "location": "江西省九江市"
@@ -1776,7 +1776,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-10-22-1.jpg"
+        "file": "assets/images/2025-10-22-1.webp"
       }
     ],
     "location": "江西省九江市"
@@ -1787,13 +1787,13 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-10-20-1.jpg"
+        "file": "assets/images/2025-10-20-1.webp"
       },
       {
-        "file": "assets/images/2025-10-20-2.jpg"
+        "file": "assets/images/2025-10-20-2.webp"
       },
       {
-        "file": "assets/images/2025-10-20-3.jpg"
+        "file": "assets/images/2025-10-20-3.webp"
       }
     ],
     "location": "江西省九江市"
@@ -1804,7 +1804,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-10-19-1.jpg"
+        "file": "assets/images/2025-10-19-1.webp"
       }
     ],
     "location": "江西省九江市"
@@ -1815,10 +1815,10 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-09-30-1.jpg"
+        "file": "assets/images/2025-09-30-1.webp"
       },
       {
-        "file": "assets/images/2025-09-30-2.jpg"
+        "file": "assets/images/2025-09-30-2.webp"
       }
     ],
     "location": "江西省九江市"
@@ -1829,7 +1829,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-08-31-1.jpg"
+        "file": "assets/images/2025-08-31-1.webp"
       }
     ],
     "location": "江西省九江市"
@@ -1877,88 +1877,88 @@ window.MMV_JOURNALS = [
     "excerpt": "黄梅上乡，在我的记忆中，是个遥远的国度。那里的人民，生活在大别山的余脉中，采茶种菜栽水稻，唱着举国皆知的黄梅戏，说着佶屈聱牙的上乡音。 赣北的年轻人就很疑惑，黄梅戏的唱腔，怎么听都像安徽话呀。……",
     "images": [
       {
-        "file": "assets/images/2025-07-10-1.jpg"
+        "file": "assets/images/2025-07-10-1.webp"
       },
       {
         "file": "assets/images/2025-07-10-2.png"
       },
       {
-        "file": "assets/images/2025-07-10-3.jpg"
+        "file": "assets/images/2025-07-10-3.webp"
       },
       {
-        "file": "assets/images/2025-07-10-4.jpg"
+        "file": "assets/images/2025-07-10-4.webp"
       },
       {
-        "file": "assets/images/2025-07-10-5.jpg"
+        "file": "assets/images/2025-07-10-5.webp"
       },
       {
-        "file": "assets/images/2025-07-10-6.jpg"
+        "file": "assets/images/2025-07-10-6.webp"
       },
       {
-        "file": "assets/images/2025-07-10-7.jpg"
+        "file": "assets/images/2025-07-10-7.webp"
       },
       {
-        "file": "assets/images/2025-07-10-8.jpg"
+        "file": "assets/images/2025-07-10-8.webp"
       },
       {
-        "file": "assets/images/2025-07-10-9.jpg"
+        "file": "assets/images/2025-07-10-9.webp"
       },
       {
-        "file": "assets/images/2025-07-10-10.jpg"
+        "file": "assets/images/2025-07-10-10.webp"
       },
       {
-        "file": "assets/images/2025-07-10-11.jpg"
+        "file": "assets/images/2025-07-10-11.webp"
       },
       {
-        "file": "assets/images/2025-07-10-12.jpg"
+        "file": "assets/images/2025-07-10-12.webp"
       },
       {
-        "file": "assets/images/2025-07-10-13.jpg"
+        "file": "assets/images/2025-07-10-13.webp"
       },
       {
-        "file": "assets/images/2025-07-10-14.jpg"
+        "file": "assets/images/2025-07-10-14.webp"
       },
       {
-        "file": "assets/images/2025-07-10-15.jpg"
+        "file": "assets/images/2025-07-10-15.webp"
       },
       {
-        "file": "assets/images/2025-07-10-16.jpg"
+        "file": "assets/images/2025-07-10-16.webp"
       },
       {
-        "file": "assets/images/2025-07-10-17.jpg"
+        "file": "assets/images/2025-07-10-17.webp"
       },
       {
-        "file": "assets/images/2025-07-10-18.jpg"
+        "file": "assets/images/2025-07-10-18.webp"
       },
       {
-        "file": "assets/images/2025-07-10-19.jpg"
+        "file": "assets/images/2025-07-10-19.webp"
       },
       {
-        "file": "assets/images/2025-07-10-20.jpg"
+        "file": "assets/images/2025-07-10-20.webp"
       },
       {
-        "file": "assets/images/2025-07-10-21.jpg"
+        "file": "assets/images/2025-07-10-21.webp"
       },
       {
-        "file": "assets/images/2025-07-10-22.jpg"
+        "file": "assets/images/2025-07-10-22.webp"
       },
       {
-        "file": "assets/images/2025-07-10-23.jpg"
+        "file": "assets/images/2025-07-10-23.webp"
       },
       {
-        "file": "assets/images/2025-07-10-24.jpg"
+        "file": "assets/images/2025-07-10-24.webp"
       },
       {
-        "file": "assets/images/2025-07-10-25.jpg"
+        "file": "assets/images/2025-07-10-25.webp"
       },
       {
-        "file": "assets/images/2025-07-10-26.jpg"
+        "file": "assets/images/2025-07-10-26.webp"
       },
       {
-        "file": "assets/images/2025-07-10-27.jpg"
+        "file": "assets/images/2025-07-10-27.webp"
       },
       {
-        "file": "assets/images/2025-07-10-28.jpg"
+        "file": "assets/images/2025-07-10-28.webp"
       }
     ]
   },
@@ -2200,31 +2200,31 @@ window.MMV_JOURNALS = [
     },
     "images": [
       {
-        "file": "assets/images/2025-06-29-1.jpg"
+        "file": "assets/images/2025-06-29-1.webp"
       },
       {
-        "file": "assets/images/2025-06-29-2.jpg"
+        "file": "assets/images/2025-06-29-2.webp"
       },
       {
-        "file": "assets/images/2025-06-29-3.jpg"
+        "file": "assets/images/2025-06-29-3.webp"
       },
       {
-        "file": "assets/images/2025-06-29-4.jpg"
+        "file": "assets/images/2025-06-29-4.webp"
       },
       {
-        "file": "assets/images/2025-06-29-5.jpg"
+        "file": "assets/images/2025-06-29-5.webp"
       },
       {
-        "file": "assets/images/2025-06-29-6.jpg"
+        "file": "assets/images/2025-06-29-6.webp"
       },
       {
-        "file": "assets/images/2025-06-29-7.jpg"
+        "file": "assets/images/2025-06-29-7.webp"
       },
       {
-        "file": "assets/images/2025-06-29-8.jpg"
+        "file": "assets/images/2025-06-29-8.webp"
       },
       {
-        "file": "assets/images/2025-06-29-9.jpg"
+        "file": "assets/images/2025-06-29-9.webp"
       }
     ],
     "excerpt": "在不久的昨天下午，汪老师告诉我一个消息：时隔27年，母校文科，再度夺得，湖北省高考状元！",
@@ -2432,34 +2432,34 @@ window.MMV_JOURNALS = [
     "excerpt": "世传《鄂東熊學甲辰汪氏抄本》，作者系熊专家本人，编者系门生汪振洋。《抄本》凡一百一十八条语录，起于提纲挈领之句“既反保守，又反冒进，综合平衡，稳步前进”，合于“天马散花”。堪称“新时代的《论语》”！",
     "images": [
       {
-        "file": "assets/images/2025-06-11-1.jpg"
+        "file": "assets/images/2025-06-11-1.webp"
       },
       {
         "file": "assets/images/2025-06-11-2.png"
       },
       {
-        "file": "assets/images/2025-06-11-3.jpg"
+        "file": "assets/images/2025-06-11-3.webp"
       },
       {
-        "file": "assets/images/2025-06-11-4.jpg"
+        "file": "assets/images/2025-06-11-4.webp"
       },
       {
-        "file": "assets/images/2025-06-11-5.jpg"
+        "file": "assets/images/2025-06-11-5.webp"
       },
       {
-        "file": "assets/images/2025-06-11-6.jpg"
+        "file": "assets/images/2025-06-11-6.webp"
       },
       {
-        "file": "assets/images/2025-06-11-7.jpg"
+        "file": "assets/images/2025-06-11-7.webp"
       },
       {
-        "file": "assets/images/2025-06-11-8.jpg"
+        "file": "assets/images/2025-06-11-8.webp"
       },
       {
-        "file": "assets/images/2025-06-11-9.jpg"
+        "file": "assets/images/2025-06-11-9.webp"
       },
       {
-        "file": "assets/images/2025-06-11-10.jpg"
+        "file": "assets/images/2025-06-11-10.webp"
       }
     ]
   },
@@ -2469,7 +2469,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-06-05-1.jpg"
+        "file": "assets/images/2025-06-05-1.webp"
       }
     ],
     "location": "湖北省武汉市"
@@ -2481,136 +2481,136 @@ window.MMV_JOURNALS = [
     "excerpt": "又是个生死疲劳的夏天，",
     "images": [
       {
-        "file": "assets/images/2025-05-29-1.jpg"
+        "file": "assets/images/2025-05-29-1.webp"
       },
       {
         "file": "assets/images/2025-05-29-2.png"
       },
       {
-        "file": "assets/images/2025-05-29-3.jpg"
+        "file": "assets/images/2025-05-29-3.webp"
       },
       {
-        "file": "assets/images/2025-05-29-4.jpg"
+        "file": "assets/images/2025-05-29-4.webp"
       },
       {
-        "file": "assets/images/2025-05-29-5.jpg"
+        "file": "assets/images/2025-05-29-5.webp"
       },
       {
-        "file": "assets/images/2025-05-29-6.jpg"
+        "file": "assets/images/2025-05-29-6.webp"
       },
       {
-        "file": "assets/images/2025-05-29-7.jpg"
+        "file": "assets/images/2025-05-29-7.webp"
       },
       {
-        "file": "assets/images/2025-05-29-8.jpg"
+        "file": "assets/images/2025-05-29-8.webp"
       },
       {
-        "file": "assets/images/2025-05-29-9.jpg"
+        "file": "assets/images/2025-05-29-9.webp"
       },
       {
-        "file": "assets/images/2025-05-29-10.jpg"
+        "file": "assets/images/2025-05-29-10.webp"
       },
       {
-        "file": "assets/images/2025-05-29-11.jpg"
+        "file": "assets/images/2025-05-29-11.webp"
       },
       {
-        "file": "assets/images/2025-05-29-12.jpg"
+        "file": "assets/images/2025-05-29-12.webp"
       },
       {
-        "file": "assets/images/2025-05-29-13.jpg"
+        "file": "assets/images/2025-05-29-13.webp"
       },
       {
-        "file": "assets/images/2025-05-29-14.jpg"
+        "file": "assets/images/2025-05-29-14.webp"
       },
       {
-        "file": "assets/images/2025-05-29-15.jpg"
+        "file": "assets/images/2025-05-29-15.webp"
       },
       {
-        "file": "assets/images/2025-05-29-16.jpg"
+        "file": "assets/images/2025-05-29-16.webp"
       },
       {
-        "file": "assets/images/2025-05-29-17.jpg"
+        "file": "assets/images/2025-05-29-17.webp"
       },
       {
-        "file": "assets/images/2025-05-29-18.jpg"
+        "file": "assets/images/2025-05-29-18.webp"
       },
       {
-        "file": "assets/images/2025-05-29-19.jpg"
+        "file": "assets/images/2025-05-29-19.webp"
       },
       {
-        "file": "assets/images/2025-05-29-20.jpg"
+        "file": "assets/images/2025-05-29-20.webp"
       },
       {
-        "file": "assets/images/2025-05-29-21.jpg"
+        "file": "assets/images/2025-05-29-21.webp"
       },
       {
-        "file": "assets/images/2025-05-29-22.jpg"
+        "file": "assets/images/2025-05-29-22.webp"
       },
       {
-        "file": "assets/images/2025-05-29-23.jpg"
+        "file": "assets/images/2025-05-29-23.webp"
       },
       {
-        "file": "assets/images/2025-05-29-24.jpg"
+        "file": "assets/images/2025-05-29-24.webp"
       },
       {
-        "file": "assets/images/2025-05-29-25.jpg"
+        "file": "assets/images/2025-05-29-25.webp"
       },
       {
-        "file": "assets/images/2025-05-29-26.jpg"
+        "file": "assets/images/2025-05-29-26.webp"
       },
       {
-        "file": "assets/images/2025-05-29-27.jpg"
+        "file": "assets/images/2025-05-29-27.webp"
       },
       {
-        "file": "assets/images/2025-05-29-28.jpg"
+        "file": "assets/images/2025-05-29-28.webp"
       },
       {
-        "file": "assets/images/2025-05-29-29.jpg"
+        "file": "assets/images/2025-05-29-29.webp"
       },
       {
-        "file": "assets/images/2025-05-29-30.jpg"
+        "file": "assets/images/2025-05-29-30.webp"
       },
       {
-        "file": "assets/images/2025-05-29-31.jpg"
+        "file": "assets/images/2025-05-29-31.webp"
       },
       {
-        "file": "assets/images/2025-05-29-32.jpg"
+        "file": "assets/images/2025-05-29-32.webp"
       },
       {
-        "file": "assets/images/2025-05-29-33.jpg"
+        "file": "assets/images/2025-05-29-33.webp"
       },
       {
-        "file": "assets/images/2025-05-29-34.jpg"
+        "file": "assets/images/2025-05-29-34.webp"
       },
       {
-        "file": "assets/images/2025-05-29-35.jpg"
+        "file": "assets/images/2025-05-29-35.webp"
       },
       {
-        "file": "assets/images/2025-05-29-36.jpg"
+        "file": "assets/images/2025-05-29-36.webp"
       },
       {
-        "file": "assets/images/2025-05-29-37.jpg"
+        "file": "assets/images/2025-05-29-37.webp"
       },
       {
-        "file": "assets/images/2025-05-29-38.jpg"
+        "file": "assets/images/2025-05-29-38.webp"
       },
       {
-        "file": "assets/images/2025-05-29-39.jpg"
+        "file": "assets/images/2025-05-29-39.webp"
       },
       {
-        "file": "assets/images/2025-05-29-40.jpg"
+        "file": "assets/images/2025-05-29-40.webp"
       },
       {
-        "file": "assets/images/2025-05-29-41.jpg"
+        "file": "assets/images/2025-05-29-41.webp"
       },
       {
-        "file": "assets/images/2025-05-29-42.jpg"
+        "file": "assets/images/2025-05-29-42.webp"
       },
       {
-        "file": "assets/images/2025-05-29-43.jpg"
+        "file": "assets/images/2025-05-29-43.webp"
       },
       {
-        "file": "assets/images/2025-05-29-44.jpg"
+        "file": "assets/images/2025-05-29-44.webp"
       }
     ]
   },
@@ -2655,7 +2655,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-05-22-1.jpg"
+        "file": "assets/images/2025-05-22-1.webp"
       }
     ],
     "location": "湖北省武汉市"
@@ -2667,34 +2667,34 @@ window.MMV_JOURNALS = [
     "excerpt": "独夜无伴守灯下，春风对面吹。",
     "images": [
       {
-        "file": "assets/images/2025-05-20-1.jpg"
+        "file": "assets/images/2025-05-20-1.webp"
       },
       {
-        "file": "assets/images/2025-05-20-2.jpg"
+        "file": "assets/images/2025-05-20-2.webp"
       },
       {
-        "file": "assets/images/2025-05-20-3.jpg"
+        "file": "assets/images/2025-05-20-3.webp"
       },
       {
-        "file": "assets/images/2025-05-20-4.jpg"
+        "file": "assets/images/2025-05-20-4.webp"
       },
       {
-        "file": "assets/images/2025-05-20-5.jpg"
+        "file": "assets/images/2025-05-20-5.webp"
       },
       {
-        "file": "assets/images/2025-05-20-6.jpg"
+        "file": "assets/images/2025-05-20-6.webp"
       },
       {
-        "file": "assets/images/2025-05-20-7.jpg"
+        "file": "assets/images/2025-05-20-7.webp"
       },
       {
-        "file": "assets/images/2025-05-20-8.jpg"
+        "file": "assets/images/2025-05-20-8.webp"
       },
       {
-        "file": "assets/images/2025-05-20-9.jpg"
+        "file": "assets/images/2025-05-20-9.webp"
       },
       {
-        "file": "assets/images/2025-05-20-10.jpg"
+        "file": "assets/images/2025-05-20-10.webp"
       }
     ]
   },
@@ -2704,10 +2704,10 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-05-17-1.jpg"
+        "file": "assets/images/2025-05-17-1.webp"
       },
       {
-        "file": "assets/images/2025-05-17-2.jpg"
+        "file": "assets/images/2025-05-17-2.webp"
       }
     ],
     "location": "湖北省武汉市"
@@ -2726,31 +2726,31 @@ window.MMV_JOURNALS = [
     },
     "images": [
       {
-        "file": "assets/images/2025-05-16-1.jpg"
+        "file": "assets/images/2025-05-16-1.webp"
       },
       {
-        "file": "assets/images/2025-05-16-2.jpg"
+        "file": "assets/images/2025-05-16-2.webp"
       },
       {
-        "file": "assets/images/2025-05-16-3.jpg"
+        "file": "assets/images/2025-05-16-3.webp"
       },
       {
-        "file": "assets/images/2025-05-16-4.jpg"
+        "file": "assets/images/2025-05-16-4.webp"
       },
       {
-        "file": "assets/images/2025-05-16-5.jpg"
+        "file": "assets/images/2025-05-16-5.webp"
       },
       {
-        "file": "assets/images/2025-05-16-6.jpg"
+        "file": "assets/images/2025-05-16-6.webp"
       },
       {
-        "file": "assets/images/2025-05-16-7.jpg"
+        "file": "assets/images/2025-05-16-7.webp"
       },
       {
-        "file": "assets/images/2025-05-16-8.jpg"
+        "file": "assets/images/2025-05-16-8.webp"
       },
       {
-        "file": "assets/images/2025-05-16-9.jpg"
+        "file": "assets/images/2025-05-16-9.webp"
       }
     ],
     "excerpt": "这个月，就是五月，天气好的梦寐以求。",
@@ -2853,34 +2853,34 @@ window.MMV_JOURNALS = [
     "excerpt": "我个人感觉，WPS的演示模板质量参差不齐，少有惊艳。在华中地区，本科生的小组作业滥用模板，千篇一律，严重“同质化”。教学楼的白板上，“劣质党政风”大行其道；奇丑无比的演示图文，不在少数。",
     "images": [
       {
-        "file": "assets/images/2025-05-06-1.jpg"
+        "file": "assets/images/2025-05-06-1.webp"
       },
       {
         "file": "assets/images/2025-05-06-2.png"
       },
       {
-        "file": "assets/images/2025-05-06-3.jpg"
+        "file": "assets/images/2025-05-06-3.webp"
       },
       {
-        "file": "assets/images/2025-05-06-4.jpg"
+        "file": "assets/images/2025-05-06-4.webp"
       },
       {
-        "file": "assets/images/2025-05-06-5.jpg"
+        "file": "assets/images/2025-05-06-5.webp"
       },
       {
-        "file": "assets/images/2025-05-06-6.jpg"
+        "file": "assets/images/2025-05-06-6.webp"
       },
       {
-        "file": "assets/images/2025-05-06-7.jpg"
+        "file": "assets/images/2025-05-06-7.webp"
       },
       {
-        "file": "assets/images/2025-05-06-8.jpg"
+        "file": "assets/images/2025-05-06-8.webp"
       },
       {
-        "file": "assets/images/2025-05-06-9.jpg"
+        "file": "assets/images/2025-05-06-9.webp"
       },
       {
-        "file": "assets/images/2025-05-06-10.jpg"
+        "file": "assets/images/2025-05-06-10.webp"
       }
     ]
   },
@@ -2898,43 +2898,43 @@ window.MMV_JOURNALS = [
     },
     "images": [
       {
-        "file": "assets/images/2025-05-01-1.jpg"
+        "file": "assets/images/2025-05-01-1.webp"
       },
       {
         "file": "assets/images/2025-05-01-2.png"
       },
       {
-        "file": "assets/images/2025-05-01-3.jpg"
+        "file": "assets/images/2025-05-01-3.webp"
       },
       {
-        "file": "assets/images/2025-05-01-4.jpg"
+        "file": "assets/images/2025-05-01-4.webp"
       },
       {
-        "file": "assets/images/2025-05-01-5.jpg"
+        "file": "assets/images/2025-05-01-5.webp"
       },
       {
-        "file": "assets/images/2025-05-01-6.jpg"
+        "file": "assets/images/2025-05-01-6.webp"
       },
       {
-        "file": "assets/images/2025-05-01-7.jpg"
+        "file": "assets/images/2025-05-01-7.webp"
       },
       {
-        "file": "assets/images/2025-05-01-8.jpg"
+        "file": "assets/images/2025-05-01-8.webp"
       },
       {
-        "file": "assets/images/2025-05-01-9.jpg"
+        "file": "assets/images/2025-05-01-9.webp"
       },
       {
-        "file": "assets/images/2025-05-01-10.jpg"
+        "file": "assets/images/2025-05-01-10.webp"
       },
       {
-        "file": "assets/images/2025-05-01-11.jpg"
+        "file": "assets/images/2025-05-01-11.webp"
       },
       {
-        "file": "assets/images/2025-05-01-12.jpg"
+        "file": "assets/images/2025-05-01-12.webp"
       },
       {
-        "file": "assets/images/2025-05-01-13.jpg"
+        "file": "assets/images/2025-05-01-13.webp"
       }
     ],
     "excerpt": "一个偶然的机会，你要到了柴小桑学长的QQ，便本能地访问人家的QQ空间。你惊喜地发现，学长的空间“对所有人开放”，里面的说说很有意思，照片丰富多彩，自拍更是没的说了。学长竟是如此自然随性、烂……",
@@ -2971,7 +2971,7 @@ window.MMV_JOURNALS = [
         "poster": "assets/images/2025-04-30-poster.webp"
       },
       {
-        "file": "assets/images/2025-04-30-1.jpg"
+        "file": "assets/images/2025-04-30-1.webp"
       }
     ]
   },
@@ -2988,40 +2988,40 @@ window.MMV_JOURNALS = [
     },
     "images": [
       {
-        "file": "assets/images/2025-04-26-1.jpg"
+        "file": "assets/images/2025-04-26-1.webp"
       },
       {
-        "file": "assets/images/2025-04-26-2.jpg"
+        "file": "assets/images/2025-04-26-2.webp"
       },
       {
-        "file": "assets/images/2025-04-26-3.jpg"
+        "file": "assets/images/2025-04-26-3.webp"
       },
       {
-        "file": "assets/images/2025-04-26-4.jpg"
+        "file": "assets/images/2025-04-26-4.webp"
       },
       {
-        "file": "assets/images/2025-04-26-5.jpg"
+        "file": "assets/images/2025-04-26-5.webp"
       },
       {
-        "file": "assets/images/2025-04-26-6.jpg"
+        "file": "assets/images/2025-04-26-6.webp"
       },
       {
-        "file": "assets/images/2025-04-26-7.jpg"
+        "file": "assets/images/2025-04-26-7.webp"
       },
       {
-        "file": "assets/images/2025-04-26-8.jpg"
+        "file": "assets/images/2025-04-26-8.webp"
       },
       {
-        "file": "assets/images/2025-04-26-9.jpg"
+        "file": "assets/images/2025-04-26-9.webp"
       },
       {
-        "file": "assets/images/2025-04-26-10.jpg"
+        "file": "assets/images/2025-04-26-10.webp"
       },
       {
-        "file": "assets/images/2025-04-26-11.jpg"
+        "file": "assets/images/2025-04-26-11.webp"
       },
       {
-        "file": "assets/images/2025-04-26-12.jpg"
+        "file": "assets/images/2025-04-26-12.webp"
       }
     ],
     "excerpt": "“大抵是一两个月前，也和留言本有一丝关系的事。当时在这里邂逅了一位学姐，久久不能忘怀，回到宿舍思来想去，终于下定了决心，整顿仪容后，又到了一楼。犹豫了半天还是上去搭了话，问了学姐和值班有关……",
@@ -3054,136 +3054,136 @@ window.MMV_JOURNALS = [
     "excerpt": "每一个不曾享受美食的日子，",
     "images": [
       {
-        "file": "assets/images/2025-04-22-1.jpg"
+        "file": "assets/images/2025-04-22-1.webp"
       },
       {
-        "file": "assets/images/2025-04-22-2.jpg"
+        "file": "assets/images/2025-04-22-2.webp"
       },
       {
-        "file": "assets/images/2025-04-22-3.jpg"
+        "file": "assets/images/2025-04-22-3.webp"
       },
       {
-        "file": "assets/images/2025-04-22-4.jpg"
+        "file": "assets/images/2025-04-22-4.webp"
       },
       {
-        "file": "assets/images/2025-04-22-5.jpg"
+        "file": "assets/images/2025-04-22-5.webp"
       },
       {
-        "file": "assets/images/2025-04-22-6.jpg"
+        "file": "assets/images/2025-04-22-6.webp"
       },
       {
-        "file": "assets/images/2025-04-22-7.jpg"
+        "file": "assets/images/2025-04-22-7.webp"
       },
       {
-        "file": "assets/images/2025-04-22-8.jpg"
+        "file": "assets/images/2025-04-22-8.webp"
       },
       {
-        "file": "assets/images/2025-04-22-9.jpg"
+        "file": "assets/images/2025-04-22-9.webp"
       },
       {
-        "file": "assets/images/2025-04-22-10.jpg"
+        "file": "assets/images/2025-04-22-10.webp"
       },
       {
-        "file": "assets/images/2025-04-22-11.jpg"
+        "file": "assets/images/2025-04-22-11.webp"
       },
       {
-        "file": "assets/images/2025-04-22-12.jpg"
+        "file": "assets/images/2025-04-22-12.webp"
       },
       {
-        "file": "assets/images/2025-04-22-13.jpg"
+        "file": "assets/images/2025-04-22-13.webp"
       },
       {
-        "file": "assets/images/2025-04-22-14.jpg"
+        "file": "assets/images/2025-04-22-14.webp"
       },
       {
-        "file": "assets/images/2025-04-22-15.jpg"
+        "file": "assets/images/2025-04-22-15.webp"
       },
       {
-        "file": "assets/images/2025-04-22-16.jpg"
+        "file": "assets/images/2025-04-22-16.webp"
       },
       {
-        "file": "assets/images/2025-04-22-17.jpg"
+        "file": "assets/images/2025-04-22-17.webp"
       },
       {
-        "file": "assets/images/2025-04-22-18.jpg"
+        "file": "assets/images/2025-04-22-18.webp"
       },
       {
-        "file": "assets/images/2025-04-22-19.jpg"
+        "file": "assets/images/2025-04-22-19.webp"
       },
       {
-        "file": "assets/images/2025-04-22-20.jpg"
+        "file": "assets/images/2025-04-22-20.webp"
       },
       {
-        "file": "assets/images/2025-04-22-21.jpg"
+        "file": "assets/images/2025-04-22-21.webp"
       },
       {
-        "file": "assets/images/2025-04-22-22.jpg"
+        "file": "assets/images/2025-04-22-22.webp"
       },
       {
-        "file": "assets/images/2025-04-22-23.jpg"
+        "file": "assets/images/2025-04-22-23.webp"
       },
       {
-        "file": "assets/images/2025-04-22-24.jpg"
+        "file": "assets/images/2025-04-22-24.webp"
       },
       {
-        "file": "assets/images/2025-04-22-25.jpg"
+        "file": "assets/images/2025-04-22-25.webp"
       },
       {
-        "file": "assets/images/2025-04-22-26.jpg"
+        "file": "assets/images/2025-04-22-26.webp"
       },
       {
-        "file": "assets/images/2025-04-22-27.jpg"
+        "file": "assets/images/2025-04-22-27.webp"
       },
       {
-        "file": "assets/images/2025-04-22-28.jpg"
+        "file": "assets/images/2025-04-22-28.webp"
       },
       {
-        "file": "assets/images/2025-04-22-29.jpg"
+        "file": "assets/images/2025-04-22-29.webp"
       },
       {
-        "file": "assets/images/2025-04-22-30.jpg"
+        "file": "assets/images/2025-04-22-30.webp"
       },
       {
-        "file": "assets/images/2025-04-22-31.jpg"
+        "file": "assets/images/2025-04-22-31.webp"
       },
       {
-        "file": "assets/images/2025-04-22-32.jpg"
+        "file": "assets/images/2025-04-22-32.webp"
       },
       {
-        "file": "assets/images/2025-04-22-33.jpg"
+        "file": "assets/images/2025-04-22-33.webp"
       },
       {
-        "file": "assets/images/2025-04-22-34.jpg"
+        "file": "assets/images/2025-04-22-34.webp"
       },
       {
-        "file": "assets/images/2025-04-22-35.jpg"
+        "file": "assets/images/2025-04-22-35.webp"
       },
       {
-        "file": "assets/images/2025-04-22-36.jpg"
+        "file": "assets/images/2025-04-22-36.webp"
       },
       {
-        "file": "assets/images/2025-04-22-37.jpg"
+        "file": "assets/images/2025-04-22-37.webp"
       },
       {
-        "file": "assets/images/2025-04-22-38.jpg"
+        "file": "assets/images/2025-04-22-38.webp"
       },
       {
-        "file": "assets/images/2025-04-22-39.jpg"
+        "file": "assets/images/2025-04-22-39.webp"
       },
       {
-        "file": "assets/images/2025-04-22-40.jpg"
+        "file": "assets/images/2025-04-22-40.webp"
       },
       {
-        "file": "assets/images/2025-04-22-41.jpg"
+        "file": "assets/images/2025-04-22-41.webp"
       },
       {
-        "file": "assets/images/2025-04-22-42.jpg"
+        "file": "assets/images/2025-04-22-42.webp"
       },
       {
-        "file": "assets/images/2025-04-22-43.jpg"
+        "file": "assets/images/2025-04-22-43.webp"
       },
       {
-        "file": "assets/images/2025-04-22-44.jpg"
+        "file": "assets/images/2025-04-22-44.webp"
       }
     ]
   },
@@ -3193,163 +3193,163 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-04-20-1.jpg"
+        "file": "assets/images/2025-04-20-1.webp"
       },
       {
-        "file": "assets/images/2025-04-20-2.jpg"
+        "file": "assets/images/2025-04-20-2.webp"
       },
       {
-        "file": "assets/images/2025-04-20-3.jpg"
+        "file": "assets/images/2025-04-20-3.webp"
       },
       {
-        "file": "assets/images/2025-04-20-4.jpg"
+        "file": "assets/images/2025-04-20-4.webp"
       },
       {
-        "file": "assets/images/2025-04-20-5.jpg"
+        "file": "assets/images/2025-04-20-5.webp"
       },
       {
-        "file": "assets/images/2025-04-20-6.jpg"
+        "file": "assets/images/2025-04-20-6.webp"
       },
       {
-        "file": "assets/images/2025-04-20-7.jpg"
+        "file": "assets/images/2025-04-20-7.webp"
       },
       {
-        "file": "assets/images/2025-04-20-8.jpg"
+        "file": "assets/images/2025-04-20-8.webp"
       },
       {
-        "file": "assets/images/2025-04-20-9.jpg"
+        "file": "assets/images/2025-04-20-9.webp"
       },
       {
-        "file": "assets/images/2025-04-20-10.jpg"
+        "file": "assets/images/2025-04-20-10.webp"
       },
       {
-        "file": "assets/images/2025-04-20-11.jpg"
+        "file": "assets/images/2025-04-20-11.webp"
       },
       {
-        "file": "assets/images/2025-04-20-12.jpg"
+        "file": "assets/images/2025-04-20-12.webp"
       },
       {
-        "file": "assets/images/2025-04-20-13.jpg"
+        "file": "assets/images/2025-04-20-13.webp"
       },
       {
-        "file": "assets/images/2025-04-20-14.jpg"
+        "file": "assets/images/2025-04-20-14.webp"
       },
       {
-        "file": "assets/images/2025-04-20-15.jpg"
+        "file": "assets/images/2025-04-20-15.webp"
       },
       {
-        "file": "assets/images/2025-04-20-16.jpg"
+        "file": "assets/images/2025-04-20-16.webp"
       },
       {
-        "file": "assets/images/2025-04-20-17.jpg"
+        "file": "assets/images/2025-04-20-17.webp"
       },
       {
-        "file": "assets/images/2025-04-20-18.jpg"
+        "file": "assets/images/2025-04-20-18.webp"
       },
       {
-        "file": "assets/images/2025-04-20-19.jpg"
+        "file": "assets/images/2025-04-20-19.webp"
       },
       {
-        "file": "assets/images/2025-04-20-20.jpg"
+        "file": "assets/images/2025-04-20-20.webp"
       },
       {
-        "file": "assets/images/2025-04-20-21.jpg"
+        "file": "assets/images/2025-04-20-21.webp"
       },
       {
-        "file": "assets/images/2025-04-20-22.jpg"
+        "file": "assets/images/2025-04-20-22.webp"
       },
       {
-        "file": "assets/images/2025-04-20-23.jpg"
+        "file": "assets/images/2025-04-20-23.webp"
       },
       {
-        "file": "assets/images/2025-04-20-24.jpg"
+        "file": "assets/images/2025-04-20-24.webp"
       },
       {
-        "file": "assets/images/2025-04-20-25.jpg"
+        "file": "assets/images/2025-04-20-25.webp"
       },
       {
-        "file": "assets/images/2025-04-20-26.jpg"
+        "file": "assets/images/2025-04-20-26.webp"
       },
       {
-        "file": "assets/images/2025-04-20-27.jpg"
+        "file": "assets/images/2025-04-20-27.webp"
       },
       {
-        "file": "assets/images/2025-04-20-28.jpg"
+        "file": "assets/images/2025-04-20-28.webp"
       },
       {
-        "file": "assets/images/2025-04-20-29.jpg"
+        "file": "assets/images/2025-04-20-29.webp"
       },
       {
-        "file": "assets/images/2025-04-20-30.jpg"
+        "file": "assets/images/2025-04-20-30.webp"
       },
       {
-        "file": "assets/images/2025-04-20-31.jpg"
+        "file": "assets/images/2025-04-20-31.webp"
       },
       {
-        "file": "assets/images/2025-04-20-32.jpg"
+        "file": "assets/images/2025-04-20-32.webp"
       },
       {
-        "file": "assets/images/2025-04-20-33.jpg"
+        "file": "assets/images/2025-04-20-33.webp"
       },
       {
-        "file": "assets/images/2025-04-20-34.jpg"
+        "file": "assets/images/2025-04-20-34.webp"
       },
       {
-        "file": "assets/images/2025-04-20-35.jpg"
+        "file": "assets/images/2025-04-20-35.webp"
       },
       {
-        "file": "assets/images/2025-04-20-36.jpg"
+        "file": "assets/images/2025-04-20-36.webp"
       },
       {
-        "file": "assets/images/2025-04-20-37.jpg"
+        "file": "assets/images/2025-04-20-37.webp"
       },
       {
-        "file": "assets/images/2025-04-20-38.jpg"
+        "file": "assets/images/2025-04-20-38.webp"
       },
       {
-        "file": "assets/images/2025-04-20-39.jpg"
+        "file": "assets/images/2025-04-20-39.webp"
       },
       {
-        "file": "assets/images/2025-04-20-40.jpg"
+        "file": "assets/images/2025-04-20-40.webp"
       },
       {
-        "file": "assets/images/2025-04-20-41.jpg"
+        "file": "assets/images/2025-04-20-41.webp"
       },
       {
-        "file": "assets/images/2025-04-20-42.jpg"
+        "file": "assets/images/2025-04-20-42.webp"
       },
       {
-        "file": "assets/images/2025-04-20-43.jpg"
+        "file": "assets/images/2025-04-20-43.webp"
       },
       {
-        "file": "assets/images/2025-04-20-44.jpg"
+        "file": "assets/images/2025-04-20-44.webp"
       },
       {
-        "file": "assets/images/2025-04-20-45.jpg"
+        "file": "assets/images/2025-04-20-45.webp"
       },
       {
-        "file": "assets/images/2025-04-20-46.jpg"
+        "file": "assets/images/2025-04-20-46.webp"
       },
       {
-        "file": "assets/images/2025-04-20-47.jpg"
+        "file": "assets/images/2025-04-20-47.webp"
       },
       {
-        "file": "assets/images/2025-04-20-48.jpg"
+        "file": "assets/images/2025-04-20-48.webp"
       },
       {
-        "file": "assets/images/2025-04-20-49.jpg"
+        "file": "assets/images/2025-04-20-49.webp"
       },
       {
-        "file": "assets/images/2025-04-20-50.jpg"
+        "file": "assets/images/2025-04-20-50.webp"
       },
       {
-        "file": "assets/images/2025-04-20-51.jpg"
+        "file": "assets/images/2025-04-20-51.webp"
       },
       {
-        "file": "assets/images/2025-04-20-52.jpg"
+        "file": "assets/images/2025-04-20-52.webp"
       },
       {
-        "file": "assets/images/2025-04-20-53.jpg"
+        "file": "assets/images/2025-04-20-53.webp"
       }
     ],
     "location": "湖北省武汉市"
@@ -3361,37 +3361,37 @@ window.MMV_JOURNALS = [
     "excerpt": "亲爱的维基百科管理员，我想悄悄地告诉你：“我爱你全家！真的，没骗你！”",
     "images": [
       {
-        "file": "assets/images/2025-04-13-1.jpg"
+        "file": "assets/images/2025-04-13-1.webp"
       },
       {
         "file": "assets/images/2025-04-13-2.png"
       },
       {
-        "file": "assets/images/2025-04-13-3.jpg"
+        "file": "assets/images/2025-04-13-3.webp"
       },
       {
-        "file": "assets/images/2025-04-13-4.jpg"
+        "file": "assets/images/2025-04-13-4.webp"
       },
       {
-        "file": "assets/images/2025-04-13-5.jpg"
+        "file": "assets/images/2025-04-13-5.webp"
       },
       {
-        "file": "assets/images/2025-04-13-6.jpg"
+        "file": "assets/images/2025-04-13-6.webp"
       },
       {
-        "file": "assets/images/2025-04-13-7.jpg"
+        "file": "assets/images/2025-04-13-7.webp"
       },
       {
-        "file": "assets/images/2025-04-13-8.jpg"
+        "file": "assets/images/2025-04-13-8.webp"
       },
       {
-        "file": "assets/images/2025-04-13-9.jpg"
+        "file": "assets/images/2025-04-13-9.webp"
       },
       {
-        "file": "assets/images/2025-04-13-10.jpg"
+        "file": "assets/images/2025-04-13-10.webp"
       },
       {
-        "file": "assets/images/2025-04-13-11.jpg"
+        "file": "assets/images/2025-04-13-11.webp"
       }
     ]
   },
@@ -3409,34 +3409,34 @@ window.MMV_JOURNALS = [
     },
     "images": [
       {
-        "file": "assets/images/2025-04-01-1.jpg"
+        "file": "assets/images/2025-04-01-1.webp"
       },
       {
         "file": "assets/images/2025-04-01-2.png"
       },
       {
-        "file": "assets/images/2025-04-01-3.jpg"
+        "file": "assets/images/2025-04-01-3.webp"
       },
       {
-        "file": "assets/images/2025-04-01-4.jpg"
+        "file": "assets/images/2025-04-01-4.webp"
       },
       {
-        "file": "assets/images/2025-04-01-5.jpg"
+        "file": "assets/images/2025-04-01-5.webp"
       },
       {
-        "file": "assets/images/2025-04-01-6.jpg"
+        "file": "assets/images/2025-04-01-6.webp"
       },
       {
-        "file": "assets/images/2025-04-01-7.jpg"
+        "file": "assets/images/2025-04-01-7.webp"
       },
       {
-        "file": "assets/images/2025-04-01-8.jpg"
+        "file": "assets/images/2025-04-01-8.webp"
       },
       {
-        "file": "assets/images/2025-04-01-9.jpg"
+        "file": "assets/images/2025-04-01-9.webp"
       },
       {
-        "file": "assets/images/2025-04-01-10.jpg"
+        "file": "assets/images/2025-04-01-10.webp"
       }
     ],
     "excerpt": "皓月当空，晚风微凉，又是个不眠之夜。",
@@ -3475,31 +3475,31 @@ window.MMV_JOURNALS = [
     },
     "images": [
       {
-        "file": "assets/images/2025-03-28-1.jpg"
+        "file": "assets/images/2025-03-28-1.webp"
       },
       {
-        "file": "assets/images/2025-03-28-2.jpg"
+        "file": "assets/images/2025-03-28-2.webp"
       },
       {
-        "file": "assets/images/2025-03-28-3.jpg"
+        "file": "assets/images/2025-03-28-3.webp"
       },
       {
-        "file": "assets/images/2025-03-28-4.jpg"
+        "file": "assets/images/2025-03-28-4.webp"
       },
       {
-        "file": "assets/images/2025-03-28-5.jpg"
+        "file": "assets/images/2025-03-28-5.webp"
       },
       {
-        "file": "assets/images/2025-03-28-6.jpg"
+        "file": "assets/images/2025-03-28-6.webp"
       },
       {
-        "file": "assets/images/2025-03-28-7.jpg"
+        "file": "assets/images/2025-03-28-7.webp"
       },
       {
-        "file": "assets/images/2025-03-28-8.jpg"
+        "file": "assets/images/2025-03-28-8.webp"
       },
       {
-        "file": "assets/images/2025-03-28-9.jpg"
+        "file": "assets/images/2025-03-28-9.webp"
       }
     ],
     "excerpt": "话说三月份的一个晚上，天寒地冻，星月无光。布莱恩和龟粪正在看《恶搞之家》，柴小桑正在整理白天逛珞珈山时拍的风景照。",
@@ -3531,46 +3531,46 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-03-25-1.jpg"
+        "file": "assets/images/2025-03-25-1.webp"
       },
       {
-        "file": "assets/images/2025-03-25-2.jpg"
+        "file": "assets/images/2025-03-25-2.webp"
       },
       {
-        "file": "assets/images/2025-03-25-3.jpg"
+        "file": "assets/images/2025-03-25-3.webp"
       },
       {
-        "file": "assets/images/2025-03-25-4.jpg"
+        "file": "assets/images/2025-03-25-4.webp"
       },
       {
-        "file": "assets/images/2025-03-25-5.jpg"
+        "file": "assets/images/2025-03-25-5.webp"
       },
       {
-        "file": "assets/images/2025-03-25-6.jpg"
+        "file": "assets/images/2025-03-25-6.webp"
       },
       {
-        "file": "assets/images/2025-03-25-7.jpg"
+        "file": "assets/images/2025-03-25-7.webp"
       },
       {
-        "file": "assets/images/2025-03-25-8.jpg"
+        "file": "assets/images/2025-03-25-8.webp"
       },
       {
-        "file": "assets/images/2025-03-25-9.jpg"
+        "file": "assets/images/2025-03-25-9.webp"
       },
       {
-        "file": "assets/images/2025-03-25-10.jpg"
+        "file": "assets/images/2025-03-25-10.webp"
       },
       {
-        "file": "assets/images/2025-03-25-11.jpg"
+        "file": "assets/images/2025-03-25-11.webp"
       },
       {
-        "file": "assets/images/2025-03-25-12.jpg"
+        "file": "assets/images/2025-03-25-12.webp"
       },
       {
-        "file": "assets/images/2025-03-25-13.jpg"
+        "file": "assets/images/2025-03-25-13.webp"
       },
       {
-        "file": "assets/images/2025-03-25-14.jpg"
+        "file": "assets/images/2025-03-25-14.webp"
       }
     ],
     "location": "湖北省武汉市"
@@ -3582,10 +3582,10 @@ window.MMV_JOURNALS = [
     "excerpt": "乙巳年 戊寅月 戊午日 酉时三刻",
     "images": [
       {
-        "file": "assets/images/2025-02-18-1.jpg"
+        "file": "assets/images/2025-02-18-1.webp"
       },
       {
-        "file": "assets/images/2025-02-18-2.jpg"
+        "file": "assets/images/2025-02-18-2.webp"
       }
     ]
   },
@@ -3596,7 +3596,7 @@ window.MMV_JOURNALS = [
     "excerpt": "来了我就考，",
     "images": [
       {
-        "file": "assets/images/2025-02-13-1.jpg"
+        "file": "assets/images/2025-02-13-1.webp"
       }
     ]
   },
@@ -3606,10 +3606,10 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-02-06-1.jpg"
+        "file": "assets/images/2025-02-06-1.webp"
       },
       {
-        "file": "assets/images/2025-02-06-2.jpg"
+        "file": "assets/images/2025-02-06-2.webp"
       }
     ],
     "location": "湖北省武汉市"
@@ -3621,157 +3621,157 @@ window.MMV_JOURNALS = [
     "excerpt": "神州时间乙已年丁丑月戊戌日，",
     "images": [
       {
-        "file": "assets/images/2025-01-30-1.jpg"
+        "file": "assets/images/2025-01-30-1.webp"
       },
       {
-        "file": "assets/images/2025-01-30-2.jpg"
+        "file": "assets/images/2025-01-30-2.webp"
       },
       {
-        "file": "assets/images/2025-01-30-3.jpg"
+        "file": "assets/images/2025-01-30-3.webp"
       },
       {
-        "file": "assets/images/2025-01-30-4.jpg"
+        "file": "assets/images/2025-01-30-4.webp"
       },
       {
-        "file": "assets/images/2025-01-30-5.jpg"
+        "file": "assets/images/2025-01-30-5.webp"
       },
       {
-        "file": "assets/images/2025-01-30-6.jpg"
+        "file": "assets/images/2025-01-30-6.webp"
       },
       {
-        "file": "assets/images/2025-01-30-7.jpg"
+        "file": "assets/images/2025-01-30-7.webp"
       },
       {
-        "file": "assets/images/2025-01-30-8.jpg"
+        "file": "assets/images/2025-01-30-8.webp"
       },
       {
-        "file": "assets/images/2025-01-30-9.jpg"
+        "file": "assets/images/2025-01-30-9.webp"
       },
       {
-        "file": "assets/images/2025-01-30-10.jpg"
+        "file": "assets/images/2025-01-30-10.webp"
       },
       {
-        "file": "assets/images/2025-01-30-11.jpg"
+        "file": "assets/images/2025-01-30-11.webp"
       },
       {
-        "file": "assets/images/2025-01-30-12.jpg"
+        "file": "assets/images/2025-01-30-12.webp"
       },
       {
-        "file": "assets/images/2025-01-30-13.jpg"
+        "file": "assets/images/2025-01-30-13.webp"
       },
       {
-        "file": "assets/images/2025-01-30-14.jpg"
+        "file": "assets/images/2025-01-30-14.webp"
       },
       {
-        "file": "assets/images/2025-01-30-15.jpg"
+        "file": "assets/images/2025-01-30-15.webp"
       },
       {
-        "file": "assets/images/2025-01-30-16.jpg"
+        "file": "assets/images/2025-01-30-16.webp"
       },
       {
-        "file": "assets/images/2025-01-30-17.jpg"
+        "file": "assets/images/2025-01-30-17.webp"
       },
       {
-        "file": "assets/images/2025-01-30-18.jpg"
+        "file": "assets/images/2025-01-30-18.webp"
       },
       {
-        "file": "assets/images/2025-01-30-19.jpg"
+        "file": "assets/images/2025-01-30-19.webp"
       },
       {
-        "file": "assets/images/2025-01-30-20.jpg"
+        "file": "assets/images/2025-01-30-20.webp"
       },
       {
-        "file": "assets/images/2025-01-30-21.jpg"
+        "file": "assets/images/2025-01-30-21.webp"
       },
       {
-        "file": "assets/images/2025-01-30-22.jpg"
+        "file": "assets/images/2025-01-30-22.webp"
       },
       {
-        "file": "assets/images/2025-01-30-23.jpg"
+        "file": "assets/images/2025-01-30-23.webp"
       },
       {
-        "file": "assets/images/2025-01-30-24.jpg"
+        "file": "assets/images/2025-01-30-24.webp"
       },
       {
-        "file": "assets/images/2025-01-30-25.jpg"
+        "file": "assets/images/2025-01-30-25.webp"
       },
       {
-        "file": "assets/images/2025-01-30-26.jpg"
+        "file": "assets/images/2025-01-30-26.webp"
       },
       {
-        "file": "assets/images/2025-01-30-27.jpg"
+        "file": "assets/images/2025-01-30-27.webp"
       },
       {
-        "file": "assets/images/2025-01-30-28.jpg"
+        "file": "assets/images/2025-01-30-28.webp"
       },
       {
-        "file": "assets/images/2025-01-30-29.jpg"
+        "file": "assets/images/2025-01-30-29.webp"
       },
       {
-        "file": "assets/images/2025-01-30-30.jpg"
+        "file": "assets/images/2025-01-30-30.webp"
       },
       {
-        "file": "assets/images/2025-01-30-31.jpg"
+        "file": "assets/images/2025-01-30-31.webp"
       },
       {
-        "file": "assets/images/2025-01-30-32.jpg"
+        "file": "assets/images/2025-01-30-32.webp"
       },
       {
-        "file": "assets/images/2025-01-30-33.jpg"
+        "file": "assets/images/2025-01-30-33.webp"
       },
       {
-        "file": "assets/images/2025-01-30-34.jpg"
+        "file": "assets/images/2025-01-30-34.webp"
       },
       {
-        "file": "assets/images/2025-01-30-35.jpg"
+        "file": "assets/images/2025-01-30-35.webp"
       },
       {
-        "file": "assets/images/2025-01-30-36.jpg"
+        "file": "assets/images/2025-01-30-36.webp"
       },
       {
-        "file": "assets/images/2025-01-30-37.jpg"
+        "file": "assets/images/2025-01-30-37.webp"
       },
       {
-        "file": "assets/images/2025-01-30-38.jpg"
+        "file": "assets/images/2025-01-30-38.webp"
       },
       {
-        "file": "assets/images/2025-01-30-39.jpg"
+        "file": "assets/images/2025-01-30-39.webp"
       },
       {
-        "file": "assets/images/2025-01-30-40.jpg"
+        "file": "assets/images/2025-01-30-40.webp"
       },
       {
-        "file": "assets/images/2025-01-30-41.jpg"
+        "file": "assets/images/2025-01-30-41.webp"
       },
       {
-        "file": "assets/images/2025-01-30-42.jpg"
+        "file": "assets/images/2025-01-30-42.webp"
       },
       {
-        "file": "assets/images/2025-01-30-43.jpg"
+        "file": "assets/images/2025-01-30-43.webp"
       },
       {
-        "file": "assets/images/2025-01-30-44.jpg"
+        "file": "assets/images/2025-01-30-44.webp"
       },
       {
-        "file": "assets/images/2025-01-30-45.jpg"
+        "file": "assets/images/2025-01-30-45.webp"
       },
       {
-        "file": "assets/images/2025-01-30-46.jpg"
+        "file": "assets/images/2025-01-30-46.webp"
       },
       {
-        "file": "assets/images/2025-01-30-47.jpg"
+        "file": "assets/images/2025-01-30-47.webp"
       },
       {
-        "file": "assets/images/2025-01-30-48.jpg"
+        "file": "assets/images/2025-01-30-48.webp"
       },
       {
-        "file": "assets/images/2025-01-30-49.jpg"
+        "file": "assets/images/2025-01-30-49.webp"
       },
       {
-        "file": "assets/images/2025-01-30-50.jpg"
+        "file": "assets/images/2025-01-30-50.webp"
       },
       {
-        "file": "assets/images/2025-01-30-51.jpg"
+        "file": "assets/images/2025-01-30-51.webp"
       },
       {
         "file": "assets/images/2025-01-30-video.mp4",
@@ -3798,13 +3798,13 @@ window.MMV_JOURNALS = [
     "excerpt": "甲辰龙年，我解锁了一些技能树上的新技能，也获得了一些有生之年的突破。",
     "images": [
       {
-        "file": "assets/images/2025-01-28-1.jpg"
+        "file": "assets/images/2025-01-28-1.webp"
       },
       {
-        "file": "assets/images/2025-01-28-2.jpg"
+        "file": "assets/images/2025-01-28-2.webp"
       },
       {
-        "file": "assets/images/2025-01-28-3.jpg"
+        "file": "assets/images/2025-01-28-3.webp"
       }
     ]
   },
@@ -3815,13 +3815,13 @@ window.MMV_JOURNALS = [
     "excerpt": "有很多次，我感觉文科实用性不强；",
     "images": [
       {
-        "file": "assets/images/2025-01-26-1.jpg"
+        "file": "assets/images/2025-01-26-1.webp"
       },
       {
-        "file": "assets/images/2025-01-26-2.jpg"
+        "file": "assets/images/2025-01-26-2.webp"
       },
       {
-        "file": "assets/images/2025-01-26-3.jpg"
+        "file": "assets/images/2025-01-26-3.webp"
       }
     ]
   },
@@ -3887,226 +3887,226 @@ window.MMV_JOURNALS = [
     "excerpt": "浔阳江头，",
     "images": [
       {
-        "file": "assets/images/2025-01-15-1.jpg"
+        "file": "assets/images/2025-01-15-1.webp"
       },
       {
-        "file": "assets/images/2025-01-15-2.jpg"
+        "file": "assets/images/2025-01-15-2.webp"
       },
       {
-        "file": "assets/images/2025-01-15-3.jpg"
+        "file": "assets/images/2025-01-15-3.webp"
       },
       {
-        "file": "assets/images/2025-01-15-4.jpg"
+        "file": "assets/images/2025-01-15-4.webp"
       },
       {
-        "file": "assets/images/2025-01-15-5.jpg"
+        "file": "assets/images/2025-01-15-5.webp"
       },
       {
-        "file": "assets/images/2025-01-15-6.jpg"
+        "file": "assets/images/2025-01-15-6.webp"
       },
       {
-        "file": "assets/images/2025-01-15-7.jpg"
+        "file": "assets/images/2025-01-15-7.webp"
       },
       {
-        "file": "assets/images/2025-01-15-8.jpg"
+        "file": "assets/images/2025-01-15-8.webp"
       },
       {
-        "file": "assets/images/2025-01-15-9.jpg"
+        "file": "assets/images/2025-01-15-9.webp"
       },
       {
-        "file": "assets/images/2025-01-15-10.jpg"
+        "file": "assets/images/2025-01-15-10.webp"
       },
       {
-        "file": "assets/images/2025-01-15-11.jpg"
+        "file": "assets/images/2025-01-15-11.webp"
       },
       {
-        "file": "assets/images/2025-01-15-12.jpg"
+        "file": "assets/images/2025-01-15-12.webp"
       },
       {
-        "file": "assets/images/2025-01-15-13.jpg"
+        "file": "assets/images/2025-01-15-13.webp"
       },
       {
-        "file": "assets/images/2025-01-15-14.jpg"
+        "file": "assets/images/2025-01-15-14.webp"
       },
       {
-        "file": "assets/images/2025-01-15-15.jpg"
+        "file": "assets/images/2025-01-15-15.webp"
       },
       {
-        "file": "assets/images/2025-01-15-16.jpg"
+        "file": "assets/images/2025-01-15-16.webp"
       },
       {
-        "file": "assets/images/2025-01-15-17.jpg"
+        "file": "assets/images/2025-01-15-17.webp"
       },
       {
-        "file": "assets/images/2025-01-15-18.jpg"
+        "file": "assets/images/2025-01-15-18.webp"
       },
       {
-        "file": "assets/images/2025-01-15-19.jpg"
+        "file": "assets/images/2025-01-15-19.webp"
       },
       {
-        "file": "assets/images/2025-01-15-20.jpg"
+        "file": "assets/images/2025-01-15-20.webp"
       },
       {
-        "file": "assets/images/2025-01-15-21.jpg"
+        "file": "assets/images/2025-01-15-21.webp"
       },
       {
-        "file": "assets/images/2025-01-15-22.jpg"
+        "file": "assets/images/2025-01-15-22.webp"
       },
       {
-        "file": "assets/images/2025-01-15-23.jpg"
+        "file": "assets/images/2025-01-15-23.webp"
       },
       {
-        "file": "assets/images/2025-01-15-24.jpg"
+        "file": "assets/images/2025-01-15-24.webp"
       },
       {
-        "file": "assets/images/2025-01-15-25.jpg"
+        "file": "assets/images/2025-01-15-25.webp"
       },
       {
-        "file": "assets/images/2025-01-15-26.jpg"
+        "file": "assets/images/2025-01-15-26.webp"
       },
       {
-        "file": "assets/images/2025-01-15-27.jpg"
+        "file": "assets/images/2025-01-15-27.webp"
       },
       {
-        "file": "assets/images/2025-01-15-28.jpg"
+        "file": "assets/images/2025-01-15-28.webp"
       },
       {
-        "file": "assets/images/2025-01-15-29.jpg"
+        "file": "assets/images/2025-01-15-29.webp"
       },
       {
-        "file": "assets/images/2025-01-15-30.jpg"
+        "file": "assets/images/2025-01-15-30.webp"
       },
       {
-        "file": "assets/images/2025-01-15-31.jpg"
+        "file": "assets/images/2025-01-15-31.webp"
       },
       {
-        "file": "assets/images/2025-01-15-32.jpg"
+        "file": "assets/images/2025-01-15-32.webp"
       },
       {
-        "file": "assets/images/2025-01-15-33.jpg"
+        "file": "assets/images/2025-01-15-33.webp"
       },
       {
-        "file": "assets/images/2025-01-15-34.jpg"
+        "file": "assets/images/2025-01-15-34.webp"
       },
       {
-        "file": "assets/images/2025-01-15-35.jpg"
+        "file": "assets/images/2025-01-15-35.webp"
       },
       {
-        "file": "assets/images/2025-01-15-36.jpg"
+        "file": "assets/images/2025-01-15-36.webp"
       },
       {
-        "file": "assets/images/2025-01-15-37.jpg"
+        "file": "assets/images/2025-01-15-37.webp"
       },
       {
-        "file": "assets/images/2025-01-15-38.jpg"
+        "file": "assets/images/2025-01-15-38.webp"
       },
       {
-        "file": "assets/images/2025-01-15-39.jpg"
+        "file": "assets/images/2025-01-15-39.webp"
       },
       {
-        "file": "assets/images/2025-01-15-40.jpg"
+        "file": "assets/images/2025-01-15-40.webp"
       },
       {
-        "file": "assets/images/2025-01-15-41.jpg"
+        "file": "assets/images/2025-01-15-41.webp"
       },
       {
-        "file": "assets/images/2025-01-15-42.jpg"
+        "file": "assets/images/2025-01-15-42.webp"
       },
       {
-        "file": "assets/images/2025-01-15-43.jpg"
+        "file": "assets/images/2025-01-15-43.webp"
       },
       {
-        "file": "assets/images/2025-01-15-44.jpg"
+        "file": "assets/images/2025-01-15-44.webp"
       },
       {
-        "file": "assets/images/2025-01-15-45.jpg"
+        "file": "assets/images/2025-01-15-45.webp"
       },
       {
-        "file": "assets/images/2025-01-15-46.jpg"
+        "file": "assets/images/2025-01-15-46.webp"
       },
       {
-        "file": "assets/images/2025-01-15-47.jpg"
+        "file": "assets/images/2025-01-15-47.webp"
       },
       {
-        "file": "assets/images/2025-01-15-48.jpg"
+        "file": "assets/images/2025-01-15-48.webp"
       },
       {
-        "file": "assets/images/2025-01-15-49.jpg"
+        "file": "assets/images/2025-01-15-49.webp"
       },
       {
-        "file": "assets/images/2025-01-15-50.jpg"
+        "file": "assets/images/2025-01-15-50.webp"
       },
       {
-        "file": "assets/images/2025-01-15-51.jpg"
+        "file": "assets/images/2025-01-15-51.webp"
       },
       {
-        "file": "assets/images/2025-01-15-52.jpg"
+        "file": "assets/images/2025-01-15-52.webp"
       },
       {
-        "file": "assets/images/2025-01-15-53.jpg"
+        "file": "assets/images/2025-01-15-53.webp"
       },
       {
-        "file": "assets/images/2025-01-15-54.jpg"
+        "file": "assets/images/2025-01-15-54.webp"
       },
       {
-        "file": "assets/images/2025-01-15-55.jpg"
+        "file": "assets/images/2025-01-15-55.webp"
       },
       {
-        "file": "assets/images/2025-01-15-56.jpg"
+        "file": "assets/images/2025-01-15-56.webp"
       },
       {
-        "file": "assets/images/2025-01-15-57.jpg"
+        "file": "assets/images/2025-01-15-57.webp"
       },
       {
-        "file": "assets/images/2025-01-15-58.jpg"
+        "file": "assets/images/2025-01-15-58.webp"
       },
       {
-        "file": "assets/images/2025-01-15-59.jpg"
+        "file": "assets/images/2025-01-15-59.webp"
       },
       {
-        "file": "assets/images/2025-01-15-60.jpg"
+        "file": "assets/images/2025-01-15-60.webp"
       },
       {
-        "file": "assets/images/2025-01-15-61.jpg"
+        "file": "assets/images/2025-01-15-61.webp"
       },
       {
-        "file": "assets/images/2025-01-15-62.jpg"
+        "file": "assets/images/2025-01-15-62.webp"
       },
       {
-        "file": "assets/images/2025-01-15-63.jpg"
+        "file": "assets/images/2025-01-15-63.webp"
       },
       {
-        "file": "assets/images/2025-01-15-64.jpg"
+        "file": "assets/images/2025-01-15-64.webp"
       },
       {
-        "file": "assets/images/2025-01-15-65.jpg"
+        "file": "assets/images/2025-01-15-65.webp"
       },
       {
-        "file": "assets/images/2025-01-15-66.jpg"
+        "file": "assets/images/2025-01-15-66.webp"
       },
       {
-        "file": "assets/images/2025-01-15-67.jpg"
+        "file": "assets/images/2025-01-15-67.webp"
       },
       {
-        "file": "assets/images/2025-01-15-68.jpg"
+        "file": "assets/images/2025-01-15-68.webp"
       },
       {
-        "file": "assets/images/2025-01-15-69.jpg"
+        "file": "assets/images/2025-01-15-69.webp"
       },
       {
-        "file": "assets/images/2025-01-15-70.jpg"
+        "file": "assets/images/2025-01-15-70.webp"
       },
       {
-        "file": "assets/images/2025-01-15-71.jpg"
+        "file": "assets/images/2025-01-15-71.webp"
       },
       {
-        "file": "assets/images/2025-01-15-72.jpg"
+        "file": "assets/images/2025-01-15-72.webp"
       },
       {
-        "file": "assets/images/2025-01-15-73.jpg"
+        "file": "assets/images/2025-01-15-73.webp"
       },
       {
-        "file": "assets/images/2025-01-15-74.jpg"
+        "file": "assets/images/2025-01-15-74.webp"
       }
     ]
   },
@@ -4117,31 +4117,31 @@ window.MMV_JOURNALS = [
     "excerpt": "甲辰年冬月下旬某日上午十一点半",
     "images": [
       {
-        "file": "assets/images/2025-01-10-1.jpg"
+        "file": "assets/images/2025-01-10-1.webp"
       },
       {
-        "file": "assets/images/2025-01-10-2.jpg"
+        "file": "assets/images/2025-01-10-2.webp"
       },
       {
-        "file": "assets/images/2025-01-10-3.jpg"
+        "file": "assets/images/2025-01-10-3.webp"
       },
       {
-        "file": "assets/images/2025-01-10-4.jpg"
+        "file": "assets/images/2025-01-10-4.webp"
       },
       {
-        "file": "assets/images/2025-01-10-5.jpg"
+        "file": "assets/images/2025-01-10-5.webp"
       },
       {
-        "file": "assets/images/2025-01-10-6.jpg"
+        "file": "assets/images/2025-01-10-6.webp"
       },
       {
-        "file": "assets/images/2025-01-10-7.jpg"
+        "file": "assets/images/2025-01-10-7.webp"
       },
       {
-        "file": "assets/images/2025-01-10-8.jpg"
+        "file": "assets/images/2025-01-10-8.webp"
       },
       {
-        "file": "assets/images/2025-01-10-9.jpg"
+        "file": "assets/images/2025-01-10-9.webp"
       }
     ]
   },
@@ -4152,13 +4152,13 @@ window.MMV_JOURNALS = [
     "excerpt": "有些无聊，发条说说，看看会不会被腾讯屏蔽",
     "images": [
       {
-        "file": "assets/images/2025-01-09-1.jpg"
+        "file": "assets/images/2025-01-09-1.webp"
       },
       {
-        "file": "assets/images/2025-01-09-2.jpg"
+        "file": "assets/images/2025-01-09-2.webp"
       },
       {
-        "file": "assets/images/2025-01-09-3.jpg"
+        "file": "assets/images/2025-01-09-3.webp"
       }
     ]
   },
@@ -4168,7 +4168,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2025-01-05-1.jpg"
+        "file": "assets/images/2025-01-05-1.webp"
       }
     ],
     "location": "湖北省武汉市"
@@ -4183,28 +4183,28 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-12-25-1.png"
       },
       {
-        "file": "assets/images/2024-12-25-2.jpg"
+        "file": "assets/images/2024-12-25-2.webp"
       },
       {
-        "file": "assets/images/2024-12-25-3.jpg"
+        "file": "assets/images/2024-12-25-3.webp"
       },
       {
-        "file": "assets/images/2024-12-25-4.jpg"
+        "file": "assets/images/2024-12-25-4.webp"
       },
       {
-        "file": "assets/images/2024-12-25-5.jpg"
+        "file": "assets/images/2024-12-25-5.webp"
       },
       {
-        "file": "assets/images/2024-12-25-6.jpg"
+        "file": "assets/images/2024-12-25-6.webp"
       },
       {
-        "file": "assets/images/2024-12-25-7.jpg"
+        "file": "assets/images/2024-12-25-7.webp"
       },
       {
-        "file": "assets/images/2024-12-25-8.jpg"
+        "file": "assets/images/2024-12-25-8.webp"
       },
       {
-        "file": "assets/images/2024-12-25-9.jpg"
+        "file": "assets/images/2024-12-25-9.webp"
       }
     ]
   },
@@ -4219,7 +4219,7 @@ window.MMV_JOURNALS = [
         "poster": "assets/images/2024-12-20-poster.webp"
       },
       {
-        "file": "assets/images/2024-12-20-1.jpg"
+        "file": "assets/images/2024-12-20-1.webp"
       }
     ]
   },
@@ -4233,37 +4233,37 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-11-30-1.png"
       },
       {
-        "file": "assets/images/2024-11-30-2.jpg"
+        "file": "assets/images/2024-11-30-2.webp"
       },
       {
-        "file": "assets/images/2024-11-30-3.jpg"
+        "file": "assets/images/2024-11-30-3.webp"
       },
       {
-        "file": "assets/images/2024-11-30-4.jpg"
+        "file": "assets/images/2024-11-30-4.webp"
       },
       {
-        "file": "assets/images/2024-11-30-5.jpg"
+        "file": "assets/images/2024-11-30-5.webp"
       },
       {
-        "file": "assets/images/2024-11-30-6.jpg"
+        "file": "assets/images/2024-11-30-6.webp"
       },
       {
-        "file": "assets/images/2024-11-30-7.jpg"
+        "file": "assets/images/2024-11-30-7.webp"
       },
       {
-        "file": "assets/images/2024-11-30-8.jpg"
+        "file": "assets/images/2024-11-30-8.webp"
       },
       {
-        "file": "assets/images/2024-11-30-9.jpg"
+        "file": "assets/images/2024-11-30-9.webp"
       },
       {
-        "file": "assets/images/2024-11-30-10.jpg"
+        "file": "assets/images/2024-11-30-10.webp"
       },
       {
-        "file": "assets/images/2024-11-30-11.jpg"
+        "file": "assets/images/2024-11-30-11.webp"
       },
       {
-        "file": "assets/images/2024-11-30-12.jpg"
+        "file": "assets/images/2024-11-30-12.webp"
       },
       {
         "file": "assets/images/2024-11-30-video.mp4",
@@ -4277,40 +4277,40 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2024-11-29-1.jpg"
+        "file": "assets/images/2024-11-29-1.webp"
       },
       {
-        "file": "assets/images/2024-11-29-2.jpg"
+        "file": "assets/images/2024-11-29-2.webp"
       },
       {
-        "file": "assets/images/2024-11-29-3.jpg"
+        "file": "assets/images/2024-11-29-3.webp"
       },
       {
-        "file": "assets/images/2024-11-29-4.jpg"
+        "file": "assets/images/2024-11-29-4.webp"
       },
       {
-        "file": "assets/images/2024-11-29-5.jpg"
+        "file": "assets/images/2024-11-29-5.webp"
       },
       {
-        "file": "assets/images/2024-11-29-6.jpg"
+        "file": "assets/images/2024-11-29-6.webp"
       },
       {
-        "file": "assets/images/2024-11-29-7.jpg"
+        "file": "assets/images/2024-11-29-7.webp"
       },
       {
-        "file": "assets/images/2024-11-29-8.jpg"
+        "file": "assets/images/2024-11-29-8.webp"
       },
       {
-        "file": "assets/images/2024-11-29-9.jpg"
+        "file": "assets/images/2024-11-29-9.webp"
       },
       {
-        "file": "assets/images/2024-11-29-10.jpg"
+        "file": "assets/images/2024-11-29-10.webp"
       },
       {
-        "file": "assets/images/2024-11-29-11.jpg"
+        "file": "assets/images/2024-11-29-11.webp"
       },
       {
-        "file": "assets/images/2024-11-29-12.jpg"
+        "file": "assets/images/2024-11-29-12.webp"
       }
     ],
     "location": "湖北省武汉市"
@@ -4322,16 +4322,16 @@ window.MMV_JOURNALS = [
     "excerpt": "以下代码文件，纪念母校的百廿诞辰！",
     "images": [
       {
-        "file": "assets/images/2024-11-26-1.jpg"
+        "file": "assets/images/2024-11-26-1.webp"
       },
       {
-        "file": "assets/images/2024-11-26-2.jpg"
+        "file": "assets/images/2024-11-26-2.webp"
       },
       {
-        "file": "assets/images/2024-11-26-3.jpg"
+        "file": "assets/images/2024-11-26-3.webp"
       },
       {
-        "file": "assets/images/2024-11-26-4.jpg"
+        "file": "assets/images/2024-11-26-4.webp"
       },
       {
         "file": "assets/images/2024-11-26-video.mp4",
@@ -4349,7 +4349,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2024-11-25-1.jpg"
+        "file": "assets/images/2024-11-25-1.webp"
       }
     ],
     "location": "湖北省武汉市"
@@ -4361,28 +4361,28 @@ window.MMV_JOURNALS = [
     "excerpt": "云破月来花弄影，",
     "images": [
       {
-        "file": "assets/images/2024-11-24-1.jpg"
+        "file": "assets/images/2024-11-24-1.webp"
       },
       {
-        "file": "assets/images/2024-11-24-2.jpg"
+        "file": "assets/images/2024-11-24-2.webp"
       },
       {
-        "file": "assets/images/2024-11-24-3.jpg"
+        "file": "assets/images/2024-11-24-3.webp"
       },
       {
-        "file": "assets/images/2024-11-24-4.jpg"
+        "file": "assets/images/2024-11-24-4.webp"
       },
       {
-        "file": "assets/images/2024-11-24-5.jpg"
+        "file": "assets/images/2024-11-24-5.webp"
       },
       {
-        "file": "assets/images/2024-11-24-6.jpg"
+        "file": "assets/images/2024-11-24-6.webp"
       },
       {
-        "file": "assets/images/2024-11-24-7.jpg"
+        "file": "assets/images/2024-11-24-7.webp"
       },
       {
-        "file": "assets/images/2024-11-24-8.jpg"
+        "file": "assets/images/2024-11-24-8.webp"
       },
       {
         "file": "assets/images/2024-11-24-video.mp4",
@@ -4403,28 +4403,170 @@ window.MMV_JOURNALS = [
     "file": "2024-11-23.html",
     "location": "湖北省武汉市",
     "excerpt": "秋风不解传乡信，",
-    "images": []
+    "images": [
+      {
+        "file": "assets/images/2024-11-23-1.webp"
+      },
+      {
+        "file": "assets/images/2024-11-23-2.webp"
+      },
+      {
+        "file": "assets/images/2024-11-23-3.webp"
+      },
+      {
+        "file": "assets/images/2024-11-23-4.webp"
+      },
+      {
+        "file": "assets/images/2024-11-23-5.webp"
+      },
+      {
+        "file": "assets/images/2024-11-23-6.webp"
+      },
+      {
+        "file": "assets/images/2024-11-23-7.webp"
+      },
+      {
+        "file": "assets/images/2024-11-23-8.webp"
+      },
+      {
+        "file": "assets/images/2024-11-23-9.webp"
+      },
+      {
+        "file": "assets/images/2024-11-23-10.webp"
+      }
+    ]
   },
   {
     "date": "2024-11-21",
     "file": "2024-11-21.html",
     "location": "湖北省武汉市",
     "excerpt": "小伙伴们，快来快来！我要曝光这个骗子！",
-    "images": []
+    "images": [
+      {
+        "file": "assets/images/2024-11-21-1.webp"
+      },
+      {
+        "file": "assets/images/2024-11-21-2.webp"
+      },
+      {
+        "file": "assets/images/2024-11-21-3.webp"
+      },
+      {
+        "file": "assets/images/2024-11-21-4.webp"
+      },
+      {
+        "file": "assets/images/2024-11-21-5.webp"
+      },
+      {
+        "file": "assets/images/2024-11-21-6.webp"
+      },
+      {
+        "file": "assets/images/2024-11-21-7.webp"
+      },
+      {
+        "file": "assets/images/2024-11-21-8.webp"
+      },
+      {
+        "file": "assets/images/2024-11-21-9.webp"
+      },
+      {
+        "file": "assets/images/2024-11-21-10.webp"
+      },
+      {
+        "file": "assets/images/2024-11-21-11.webp"
+      },
+      {
+        "file": "assets/images/2024-11-21-12.webp"
+      },
+      {
+        "file": "assets/images/2024-11-21-13.webp"
+      }
+    ]
   },
   {
     "date": "2024-11-19",
     "file": "2024-11-19.html",
     "location": "湖北省武汉市",
     "excerpt": "有生之年，华科校内，我制作了人生中第一个“波兰球”宣传画。至今犹记，黄州府的一位教研员曾有感而发：“我这一生，有个伟大的愿望，我希望我们的国家能够统一，我们的民族能够更加团结！”",
-    "images": []
+    "images": [
+      {
+        "file": "assets/images/2024-11-19-1.webp"
+      },
+      {
+        "file": "assets/images/2024-11-19-2.webp"
+      },
+      {
+        "file": "assets/images/2024-11-19-3.webp"
+      },
+      {
+        "file": "assets/images/2024-11-19-4.webp"
+      },
+      {
+        "file": "assets/images/2024-11-19-5.webp"
+      },
+      {
+        "file": "assets/images/2024-11-19-6.webp"
+      },
+      {
+        "file": "assets/images/2024-11-19-7.webp"
+      },
+      {
+        "file": "assets/images/2024-11-19-8.webp"
+      },
+      {
+        "file": "assets/images/2024-11-19-9.webp"
+      },
+      {
+        "file": "assets/images/2024-11-19-10.webp"
+      },
+      {
+        "file": "assets/images/2024-11-19-11.webp"
+      },
+      {
+        "file": "assets/images/2024-11-19-12.webp"
+      },
+      {
+        "file": "assets/images/2024-11-19-13.webp"
+      },
+      {
+        "file": "assets/images/2024-11-19-14.webp"
+      }
+    ]
   },
   {
     "date": "2024-11-18",
     "file": "2024-11-18.html",
     "location": "湖北省武汉市",
     "excerpt": "世间绮丽之最，在于把自己过成自己喜欢的样子。 纵使短暂，也很精彩！",
-    "images": []
+    "images": [
+      {
+        "file": "assets/images/2024-11-18-1.webp"
+      },
+      {
+        "file": "assets/images/2024-11-18-2.webp"
+      },
+      {
+        "file": "assets/images/2024-11-18-3.webp"
+      },
+      {
+        "file": "assets/images/2024-11-18-4.webp"
+      },
+      {
+        "file": "assets/images/2024-11-18-5.webp"
+      },
+      {
+        "file": "assets/images/2024-11-18-6.webp"
+      },
+      {
+        "file": "assets/images/2024-11-18-7.webp"
+      },
+      {
+        "file": "assets/images/2024-11-18-8.webp"
+      },
+      {
+        "file": "assets/images/2024-11-18-9.webp"
+      }
+    ]
   },
   {
     "date": "2024-11-03",
@@ -4433,31 +4575,31 @@ window.MMV_JOURNALS = [
     "excerpt": "我：你刚才提到微信朋友圈头像，我翻了翻，发现我从小到大根本就没变过！",
     "images": [
       {
-        "file": "assets/images/2024-11-03-1.jpg"
+        "file": "assets/images/2024-11-03-1.webp"
       },
       {
-        "file": "assets/images/2024-11-03-2.jpg"
+        "file": "assets/images/2024-11-03-2.webp"
       },
       {
-        "file": "assets/images/2024-11-03-3.jpg"
+        "file": "assets/images/2024-11-03-3.webp"
       },
       {
-        "file": "assets/images/2024-11-03-4.jpg"
+        "file": "assets/images/2024-11-03-4.webp"
       },
       {
-        "file": "assets/images/2024-11-03-5.jpg"
+        "file": "assets/images/2024-11-03-5.webp"
       },
       {
-        "file": "assets/images/2024-11-03-6.jpg"
+        "file": "assets/images/2024-11-03-6.webp"
       },
       {
-        "file": "assets/images/2024-11-03-7.jpg"
+        "file": "assets/images/2024-11-03-7.webp"
       },
       {
-        "file": "assets/images/2024-11-03-8.jpg"
+        "file": "assets/images/2024-11-03-8.webp"
       },
       {
-        "file": "assets/images/2024-11-03-9.jpg"
+        "file": "assets/images/2024-11-03-9.webp"
       }
     ]
   },
@@ -4478,7 +4620,20 @@ window.MMV_JOURNALS = [
     "file": "2024-10-29.html",
     "location": "湖北省武汉市",
     "excerpt": "学在华科大，什么都要临时学！",
-    "images": []
+    "images": [
+      {
+        "file": "assets/images/2024-10-29-1.webp"
+      },
+      {
+        "file": "assets/images/2024-10-29-2.webp"
+      },
+      {
+        "file": "assets/images/2024-10-29-3.webp"
+      },
+      {
+        "file": "assets/images/2024-10-29-4.webp"
+      }
+    ]
   },
   {
     "date": "2024-10-28",
@@ -4487,43 +4642,43 @@ window.MMV_JOURNALS = [
     "excerpt": "柴江赣北  : 补上一张",
     "images": [
       {
-        "file": "assets/images/2024-10-28-1.jpg"
+        "file": "assets/images/2024-10-28-1.webp"
       },
       {
-        "file": "assets/images/2024-10-28-2.jpg"
+        "file": "assets/images/2024-10-28-2.webp"
       },
       {
-        "file": "assets/images/2024-10-28-3.jpg"
+        "file": "assets/images/2024-10-28-3.webp"
       },
       {
-        "file": "assets/images/2024-10-28-4.jpg"
+        "file": "assets/images/2024-10-28-4.webp"
       },
       {
-        "file": "assets/images/2024-10-28-5.jpg"
+        "file": "assets/images/2024-10-28-5.webp"
       },
       {
-        "file": "assets/images/2024-10-28-6.jpg"
+        "file": "assets/images/2024-10-28-6.webp"
       },
       {
-        "file": "assets/images/2024-10-28-7.jpg"
+        "file": "assets/images/2024-10-28-7.webp"
       },
       {
-        "file": "assets/images/2024-10-28-8.jpg"
+        "file": "assets/images/2024-10-28-8.webp"
       },
       {
-        "file": "assets/images/2024-10-28-9.jpg"
+        "file": "assets/images/2024-10-28-9.webp"
       },
       {
-        "file": "assets/images/2024-10-28-10.jpg"
+        "file": "assets/images/2024-10-28-10.webp"
       },
       {
-        "file": "assets/images/2024-10-28-11.jpg"
+        "file": "assets/images/2024-10-28-11.webp"
       },
       {
-        "file": "assets/images/2024-10-28-12.jpg"
+        "file": "assets/images/2024-10-28-12.webp"
       },
       {
-        "file": "assets/images/2024-10-28-13.jpg"
+        "file": "assets/images/2024-10-28-13.webp"
       }
     ]
   },
@@ -4532,14 +4687,40 @@ window.MMV_JOURNALS = [
     "file": "2024-10-24.html",
     "location": "湖北省武汉市",
     "excerpt": "梦想始于，南湖路一号！",
-    "images": []
+    "images": [
+      {
+        "file": "assets/images/2024-10-24.webp"
+      }
+    ]
   },
   {
     "date": "2024-10-21",
     "file": "2024-10-21.html",
     "location": "湖北省武汉市",
     "excerpt": "ʘᴗʘ",
-    "images": []
+    "images": [
+      {
+        "file": "assets/images/2024-10-21-1.webp"
+      },
+      {
+        "file": "assets/images/2024-10-21-2.webp"
+      },
+      {
+        "file": "assets/images/2024-10-21-3.webp"
+      },
+      {
+        "file": "assets/images/2024-10-21-4.webp"
+      },
+      {
+        "file": "assets/images/2024-10-21-5.webp"
+      },
+      {
+        "file": "assets/images/2024-10-21-6.webp"
+      },
+      {
+        "file": "assets/images/2024-10-21-7.webp"
+      }
+    ]
   },
   {
     "date": "2024-10-20",
@@ -4547,10 +4728,10 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2024-10-20-1.jpg"
+        "file": "assets/images/2024-10-20-1.webp"
       },
       {
-        "file": "assets/images/2024-10-20-2.jpg"
+        "file": "assets/images/2024-10-20-2.webp"
       }
     ],
     "location": "湖北省武汉市"
@@ -4560,14 +4741,25 @@ window.MMV_JOURNALS = [
     "file": "2024-10-16.html",
     "location": "湖北省武汉市",
     "excerpt": "从江州到江城，",
-    "images": []
+    "images": [
+      {
+        "file": "assets/images/2024-10-16.webp"
+      }
+    ]
   },
   {
     "date": "2024-10-13",
     "file": "2024-10-13.html",
     "location": "湖北省武汉市",
     "excerpt": "从江城到江州，前往浔阳驿！",
-    "images": []
+    "images": [
+      {
+        "file": "assets/images/2024-10-13-1.webp"
+      },
+      {
+        "file": "assets/images/2024-10-13-2.webp"
+      }
+    ]
   },
   {
     "date": "2024-10-11",
@@ -4576,7 +4768,7 @@ window.MMV_JOURNALS = [
     "excerpt": "更新了时刻：落花时节又逢君",
     "images": [
       {
-        "file": "assets/images/2024-10-11-1.jpg"
+        "file": "assets/images/2024-10-11-1.webp"
       }
     ]
   },
@@ -4587,43 +4779,43 @@ window.MMV_JOURNALS = [
     "excerpt": "我必须得给本校的安全教育点个赞了！",
     "images": [
       {
-        "file": "assets/images/2024-10-07-1.jpg"
+        "file": "assets/images/2024-10-07-1.webp"
       },
       {
-        "file": "assets/images/2024-10-07-2.jpg"
+        "file": "assets/images/2024-10-07-2.webp"
       },
       {
-        "file": "assets/images/2024-10-07-3.jpg"
+        "file": "assets/images/2024-10-07-3.webp"
       },
       {
-        "file": "assets/images/2024-10-07-4.jpg"
+        "file": "assets/images/2024-10-07-4.webp"
       },
       {
-        "file": "assets/images/2024-10-07-5.jpg"
+        "file": "assets/images/2024-10-07-5.webp"
       },
       {
-        "file": "assets/images/2024-10-07-6.jpg"
+        "file": "assets/images/2024-10-07-6.webp"
       },
       {
-        "file": "assets/images/2024-10-07-7.jpg"
+        "file": "assets/images/2024-10-07-7.webp"
       },
       {
-        "file": "assets/images/2024-10-07-8.jpg"
+        "file": "assets/images/2024-10-07-8.webp"
       },
       {
-        "file": "assets/images/2024-10-07-9.jpg"
+        "file": "assets/images/2024-10-07-9.webp"
       },
       {
-        "file": "assets/images/2024-10-07-10.jpg"
+        "file": "assets/images/2024-10-07-10.webp"
       },
       {
-        "file": "assets/images/2024-10-07-11.jpg"
+        "file": "assets/images/2024-10-07-11.webp"
       },
       {
-        "file": "assets/images/2024-10-07-12.jpg"
+        "file": "assets/images/2024-10-07-12.webp"
       },
       {
-        "file": "assets/images/2024-10-07-13.jpg"
+        "file": "assets/images/2024-10-07-13.webp"
       }
     ]
   },
@@ -4634,94 +4826,94 @@ window.MMV_JOURNALS = [
     "excerpt": "有生之年，华科校内，我驯服了PPT……",
     "images": [
       {
-        "file": "assets/images/2024-10-05-1.jpg"
+        "file": "assets/images/2024-10-05-1.webp"
       },
       {
-        "file": "assets/images/2024-10-05-2.jpg"
+        "file": "assets/images/2024-10-05-2.webp"
       },
       {
-        "file": "assets/images/2024-10-05-3.jpg"
+        "file": "assets/images/2024-10-05-3.webp"
       },
       {
-        "file": "assets/images/2024-10-05-4.jpg"
+        "file": "assets/images/2024-10-05-4.webp"
       },
       {
-        "file": "assets/images/2024-10-05-5.jpg"
+        "file": "assets/images/2024-10-05-5.webp"
       },
       {
-        "file": "assets/images/2024-10-05-6.jpg"
+        "file": "assets/images/2024-10-05-6.webp"
       },
       {
-        "file": "assets/images/2024-10-05-7.jpg"
+        "file": "assets/images/2024-10-05-7.webp"
       },
       {
-        "file": "assets/images/2024-10-05-8.jpg"
+        "file": "assets/images/2024-10-05-8.webp"
       },
       {
-        "file": "assets/images/2024-10-05-9.jpg"
+        "file": "assets/images/2024-10-05-9.webp"
       },
       {
-        "file": "assets/images/2024-10-05-10.jpg"
+        "file": "assets/images/2024-10-05-10.webp"
       },
       {
-        "file": "assets/images/2024-10-05-11.jpg"
+        "file": "assets/images/2024-10-05-11.webp"
       },
       {
-        "file": "assets/images/2024-10-05-12.jpg"
+        "file": "assets/images/2024-10-05-12.webp"
       },
       {
-        "file": "assets/images/2024-10-05-13.jpg"
+        "file": "assets/images/2024-10-05-13.webp"
       },
       {
-        "file": "assets/images/2024-10-05-14.jpg"
+        "file": "assets/images/2024-10-05-14.webp"
       },
       {
-        "file": "assets/images/2024-10-05-15.jpg"
+        "file": "assets/images/2024-10-05-15.webp"
       },
       {
-        "file": "assets/images/2024-10-05-16.jpg"
+        "file": "assets/images/2024-10-05-16.webp"
       },
       {
-        "file": "assets/images/2024-10-05-17.jpg"
+        "file": "assets/images/2024-10-05-17.webp"
       },
       {
-        "file": "assets/images/2024-10-05-18.jpg"
+        "file": "assets/images/2024-10-05-18.webp"
       },
       {
-        "file": "assets/images/2024-10-05-19.jpg"
+        "file": "assets/images/2024-10-05-19.webp"
       },
       {
-        "file": "assets/images/2024-10-05-20.jpg"
+        "file": "assets/images/2024-10-05-20.webp"
       },
       {
-        "file": "assets/images/2024-10-05-21.jpg"
+        "file": "assets/images/2024-10-05-21.webp"
       },
       {
-        "file": "assets/images/2024-10-05-22.jpg"
+        "file": "assets/images/2024-10-05-22.webp"
       },
       {
-        "file": "assets/images/2024-10-05-23.jpg"
+        "file": "assets/images/2024-10-05-23.webp"
       },
       {
-        "file": "assets/images/2024-10-05-24.jpg"
+        "file": "assets/images/2024-10-05-24.webp"
       },
       {
-        "file": "assets/images/2024-10-05-25.jpg"
+        "file": "assets/images/2024-10-05-25.webp"
       },
       {
-        "file": "assets/images/2024-10-05-26.jpg"
+        "file": "assets/images/2024-10-05-26.webp"
       },
       {
-        "file": "assets/images/2024-10-05-27.jpg"
+        "file": "assets/images/2024-10-05-27.webp"
       },
       {
-        "file": "assets/images/2024-10-05-28.jpg"
+        "file": "assets/images/2024-10-05-28.webp"
       },
       {
-        "file": "assets/images/2024-10-05-29.jpg"
+        "file": "assets/images/2024-10-05-29.webp"
       },
       {
-        "file": "assets/images/2024-10-05-30.jpg"
+        "file": "assets/images/2024-10-05-30.webp"
       },
       {
         "file": "assets/images/2024-10-05-video.mp4",
@@ -4756,37 +4948,37 @@ window.MMV_JOURNALS = [
     "excerpt": "（这里放本日的插图）",
     "images": [
       {
-        "file": "assets/images/2024-10-04-1.jpg"
+        "file": "assets/images/2024-10-04-1.webp"
       },
       {
-        "file": "assets/images/2024-10-04-2.jpg"
+        "file": "assets/images/2024-10-04-2.webp"
       },
       {
-        "file": "assets/images/2024-10-04-3.jpg"
+        "file": "assets/images/2024-10-04-3.webp"
       },
       {
-        "file": "assets/images/2024-10-04-4.jpg"
+        "file": "assets/images/2024-10-04-4.webp"
       },
       {
-        "file": "assets/images/2024-10-04-5.jpg"
+        "file": "assets/images/2024-10-04-5.webp"
       },
       {
-        "file": "assets/images/2024-10-04-6.jpg"
+        "file": "assets/images/2024-10-04-6.webp"
       },
       {
-        "file": "assets/images/2024-10-04-7.jpg"
+        "file": "assets/images/2024-10-04-7.webp"
       },
       {
-        "file": "assets/images/2024-10-04-8.jpg"
+        "file": "assets/images/2024-10-04-8.webp"
       },
       {
-        "file": "assets/images/2024-10-04-9.jpg"
+        "file": "assets/images/2024-10-04-9.webp"
       },
       {
-        "file": "assets/images/2024-10-04-10.jpg"
+        "file": "assets/images/2024-10-04-10.webp"
       },
       {
-        "file": "assets/images/2024-10-04-11.jpg"
+        "file": "assets/images/2024-10-04-11.webp"
       }
     ]
   },
@@ -4797,22 +4989,22 @@ window.MMV_JOURNALS = [
     "excerpt": "“人生到处知何似，应似飞鸿踏雪泥。”生命中的飞鸿转瞬即逝，留给我们无尽的伤感和回味！",
     "images": [
       {
-        "file": "assets/images/2024-10-01-1.jpg"
+        "file": "assets/images/2024-10-01-1.webp"
       },
       {
-        "file": "assets/images/2024-10-01-2.jpg"
+        "file": "assets/images/2024-10-01-2.webp"
       },
       {
-        "file": "assets/images/2024-10-01-3.jpg"
+        "file": "assets/images/2024-10-01-3.webp"
       },
       {
-        "file": "assets/images/2024-10-01-4.jpg"
+        "file": "assets/images/2024-10-01-4.webp"
       },
       {
-        "file": "assets/images/2024-10-01-5.jpg"
+        "file": "assets/images/2024-10-01-5.webp"
       },
       {
-        "file": "assets/images/2024-10-01-6.jpg"
+        "file": "assets/images/2024-10-01-6.webp"
       },
       {
         "file": "assets/images/2024-10-01-video.mp4",
@@ -4831,52 +5023,52 @@ window.MMV_JOURNALS = [
     "excerpt": "从东湖到南湖， 虽有清早之奔驰， 却无风尘之劳苦。",
     "images": [
       {
-        "file": "assets/images/2024-09-28-1.jpg"
+        "file": "assets/images/2024-09-28-1.webp"
       },
       {
-        "file": "assets/images/2024-09-28-2.jpg"
+        "file": "assets/images/2024-09-28-2.webp"
       },
       {
-        "file": "assets/images/2024-09-28-3.jpg"
+        "file": "assets/images/2024-09-28-3.webp"
       },
       {
-        "file": "assets/images/2024-09-28-4.jpg"
+        "file": "assets/images/2024-09-28-4.webp"
       },
       {
-        "file": "assets/images/2024-09-28-5.jpg"
+        "file": "assets/images/2024-09-28-5.webp"
       },
       {
-        "file": "assets/images/2024-09-28-6.jpg"
+        "file": "assets/images/2024-09-28-6.webp"
       },
       {
-        "file": "assets/images/2024-09-28-7.jpg"
+        "file": "assets/images/2024-09-28-7.webp"
       },
       {
-        "file": "assets/images/2024-09-28-8.jpg"
+        "file": "assets/images/2024-09-28-8.webp"
       },
       {
-        "file": "assets/images/2024-09-28-9.jpg"
+        "file": "assets/images/2024-09-28-9.webp"
       },
       {
-        "file": "assets/images/2024-09-28-10.jpg"
+        "file": "assets/images/2024-09-28-10.webp"
       },
       {
-        "file": "assets/images/2024-09-28-11.jpg"
+        "file": "assets/images/2024-09-28-11.webp"
       },
       {
-        "file": "assets/images/2024-09-28-12.jpg"
+        "file": "assets/images/2024-09-28-12.webp"
       },
       {
-        "file": "assets/images/2024-09-28-13.jpg"
+        "file": "assets/images/2024-09-28-13.webp"
       },
       {
-        "file": "assets/images/2024-09-28-14.jpg"
+        "file": "assets/images/2024-09-28-14.webp"
       },
       {
-        "file": "assets/images/2024-09-28-15.jpg"
+        "file": "assets/images/2024-09-28-15.webp"
       },
       {
-        "file": "assets/images/2024-09-28-16.jpg"
+        "file": "assets/images/2024-09-28-16.webp"
       },
       {
         "file": "assets/images/2024-09-28-video.mp4",
@@ -4909,14 +5101,22 @@ window.MMV_JOURNALS = [
     "file": "2024-09-27.html",
     "location": "湖北省武汉市",
     "excerpt": "华小科与狸奴，",
-    "images": []
+    "images": [
+      {
+        "file": "assets/images/2024-09-27.webp"
+      }
+    ]
   },
   {
     "date": "2024-09-22",
     "file": "2024-09-22.html",
     "location": "湖北省武汉市",
     "excerpt": "恳请孔夫子保佑我面试顺利！",
-    "images": []
+    "images": [
+      {
+        "file": "assets/images/2024-09-22.webp"
+      }
+    ]
   },
   {
     "date": "2024-09-21",
@@ -4924,7 +5124,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2024-09-21-1.jpg"
+        "file": "assets/images/2024-09-21-1.webp"
       }
     ],
     "location": "湖北省武汉市"
@@ -4936,7 +5136,7 @@ window.MMV_JOURNALS = [
     "excerpt": "地点是武汉市洪山区的华中科技大学主校区中操场 沙场秋点兵",
     "images": [
       {
-        "file": "assets/images/2024-09-20-1.jpg"
+        "file": "assets/images/2024-09-20-1.webp"
       },
       {
         "file": "assets/images/2024-09-20-2.webp"
@@ -4991,34 +5191,34 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-09-20-3.jpg"
       },
       {
-        "file": "assets/images/2024-09-20-4.jpg"
+        "file": "assets/images/2024-09-20-4.webp"
       },
       {
-        "file": "assets/images/2024-09-20-5.jpg"
+        "file": "assets/images/2024-09-20-5.webp"
       },
       {
-        "file": "assets/images/2024-09-20-6.jpg"
+        "file": "assets/images/2024-09-20-6.webp"
       },
       {
-        "file": "assets/images/2024-09-20-7.jpg"
+        "file": "assets/images/2024-09-20-7.webp"
       },
       {
-        "file": "assets/images/2024-09-20-8.jpg"
+        "file": "assets/images/2024-09-20-8.webp"
       },
       {
-        "file": "assets/images/2024-09-20-9.jpg"
+        "file": "assets/images/2024-09-20-9.webp"
       },
       {
-        "file": "assets/images/2024-09-20-10.jpg"
+        "file": "assets/images/2024-09-20-10.webp"
       },
       {
-        "file": "assets/images/2024-09-20-11.jpg"
+        "file": "assets/images/2024-09-20-11.webp"
       },
       {
-        "file": "assets/images/2024-09-20-12.jpg"
+        "file": "assets/images/2024-09-20-12.webp"
       },
       {
-        "file": "assets/images/2024-09-20-13.jpg"
+        "file": "assets/images/2024-09-20-13.webp"
       }
     ]
   },
@@ -5029,13 +5229,13 @@ window.MMV_JOURNALS = [
     "excerpt": "我在历史的故纸堆中，发现了一个小纸条。 画得还挺可爱！ 在 : 我画的 2024年9月20日 09:29 柴江赣北 回复在 : I'm a B … 2024年9月20日 09:38 柴江赣北……",
     "images": [
       {
-        "file": "assets/images/2024-09-19-1.jpg"
+        "file": "assets/images/2024-09-19-1.webp"
       },
       {
-        "file": "assets/images/2024-09-19-2.jpg"
+        "file": "assets/images/2024-09-19-2.webp"
       },
       {
-        "file": "assets/images/2024-09-19-3.jpg"
+        "file": "assets/images/2024-09-19-3.webp"
       }
     ]
   },
@@ -5046,34 +5246,34 @@ window.MMV_JOURNALS = [
     "excerpt": "闲乘月，夜同游。 雪夜访戴，月夜访程。 乘兴而去，兴尽而归。 从1037号森林，到415号森林。 漆同桌 : 别去森林了，去断背山 2024年9月17日 22:36 柴江赣北 回复漆同桌 :……",
     "images": [
       {
-        "file": "assets/images/2024-09-18-1.jpg"
+        "file": "assets/images/2024-09-18-1.webp"
       },
       {
-        "file": "assets/images/2024-09-18-2.jpg"
+        "file": "assets/images/2024-09-18-2.webp"
       },
       {
-        "file": "assets/images/2024-09-18-3.jpg"
+        "file": "assets/images/2024-09-18-3.webp"
       },
       {
-        "file": "assets/images/2024-09-18-4.jpg"
+        "file": "assets/images/2024-09-18-4.webp"
       },
       {
-        "file": "assets/images/2024-09-18-5.jpg"
+        "file": "assets/images/2024-09-18-5.webp"
       },
       {
-        "file": "assets/images/2024-09-18-6.jpg"
+        "file": "assets/images/2024-09-18-6.webp"
       },
       {
-        "file": "assets/images/2024-09-18-7.jpg"
+        "file": "assets/images/2024-09-18-7.webp"
       },
       {
-        "file": "assets/images/2024-09-18-8.jpg"
+        "file": "assets/images/2024-09-18-8.webp"
       },
       {
-        "file": "assets/images/2024-09-18-9.jpg"
+        "file": "assets/images/2024-09-18-9.webp"
       },
       {
-        "file": "assets/images/2024-09-18-10.jpg"
+        "file": "assets/images/2024-09-18-10.webp"
       }
     ]
   },
@@ -5090,7 +5290,7 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-09-16-2.png"
       },
       {
-        "file": "assets/images/2024-09-16-3.jpg"
+        "file": "assets/images/2024-09-16-3.webp"
       }
     ]
   },
@@ -5101,13 +5301,13 @@ window.MMV_JOURNALS = [
     "excerpt": "洛阳亲友如相问， 一片冰心在玉壶！ 柴江赣北 : 我被梅高薇同学冒充了…… 2024年9月15日 22:29",
     "images": [
       {
-        "file": "assets/images/2024-09-15-1.jpg"
+        "file": "assets/images/2024-09-15-1.webp"
       },
       {
         "file": "assets/images/2024-09-15-2.png"
       },
       {
-        "file": "assets/images/2024-09-15-3.jpg"
+        "file": "assets/images/2024-09-15-3.webp"
       }
     ]
   },
@@ -5118,10 +5318,10 @@ window.MMV_JOURNALS = [
     "excerpt": "地点是武汉市的喻家山 程老师 : [搓手得意][搓手得意][搓手得意] 2024年9月13日 11:53 柴江赣北 回复程老师 : 我好想给野猪拍照 2024年9月13日 13:02",
     "images": [
       {
-        "file": "assets/images/2024-09-13-1.jpg"
+        "file": "assets/images/2024-09-13-1.webp"
       },
       {
-        "file": "assets/images/2024-09-13-2.jpg"
+        "file": "assets/images/2024-09-13-2.webp"
       }
     ]
   },
@@ -5132,10 +5332,10 @@ window.MMV_JOURNALS = [
     "excerpt": "从今若许闲乘月， 拄杖无时夜叩门。 噗叽红柿 : 程老师为啥长变了 2024年9月12日 20:33 柴江赣北 回复噗叽红柿 : 这真是原图，程老师拍的 2024年9月12日 20:37 张悦……",
     "images": [
       {
-        "file": "assets/images/2024-09-12-1.jpg"
+        "file": "assets/images/2024-09-12-1.webp"
       },
       {
-        "file": "assets/images/2024-09-12-2.jpg"
+        "file": "assets/images/2024-09-12-2.webp"
       },
       {
         "file": "assets/images/2024-09-12-3.webp"
@@ -5171,10 +5371,10 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-09-12-13.webp"
       },
       {
-        "file": "assets/images/2024-09-12-14.jpg"
+        "file": "assets/images/2024-09-12-14.webp"
       },
       {
-        "file": "assets/images/2024-09-12-15.jpg"
+        "file": "assets/images/2024-09-12-15.webp"
       },
       {
         "file": "assets/images/2024-09-12-3.jpg"
@@ -5216,7 +5416,7 @@ window.MMV_JOURNALS = [
         "poster": "assets/images/2024-09-11-poster.webp"
       },
       {
-        "file": "assets/images/2024-09-11-1.jpg"
+        "file": "assets/images/2024-09-11-1.webp"
       },
       {
         "file": "assets/images/2024-09-11-1-video.mp4",
@@ -5231,7 +5431,7 @@ window.MMV_JOURNALS = [
         "poster": "assets/images/2024-09-11-3-poster.webp"
       },
       {
-        "file": "assets/images/2024-09-11-2.jpg"
+        "file": "assets/images/2024-09-11-2.webp"
       }
     ]
   },
@@ -5242,37 +5442,37 @@ window.MMV_JOURNALS = [
     "excerpt": "我在浔阳江头，收到了江城的枫叶； 又在紫菘楼下，收到了组织的offer. 关山难越，谁悲失路之人？ 萍水相逢，尽是吾乡师友！ 方是钰 : 2024年9月8日 13:35 柴江赣北 : 这回真的……",
     "images": [
       {
-        "file": "assets/images/2024-09-08-1.jpg"
+        "file": "assets/images/2024-09-08-1.webp"
       },
       {
-        "file": "assets/images/2024-09-08-2.jpg"
+        "file": "assets/images/2024-09-08-2.webp"
       },
       {
-        "file": "assets/images/2024-09-08-3.jpg"
+        "file": "assets/images/2024-09-08-3.webp"
       },
       {
-        "file": "assets/images/2024-09-08-4.jpg"
+        "file": "assets/images/2024-09-08-4.webp"
       },
       {
-        "file": "assets/images/2024-09-08-5.jpg"
+        "file": "assets/images/2024-09-08-5.webp"
       },
       {
-        "file": "assets/images/2024-09-08-6.jpg"
+        "file": "assets/images/2024-09-08-6.webp"
       },
       {
-        "file": "assets/images/2024-09-08-7.jpg"
+        "file": "assets/images/2024-09-08-7.webp"
       },
       {
-        "file": "assets/images/2024-09-08-8.jpg"
+        "file": "assets/images/2024-09-08-8.webp"
       },
       {
         "file": "assets/images/2024-09-08-9.gif"
       },
       {
-        "file": "assets/images/2024-09-08-10.jpg"
+        "file": "assets/images/2024-09-08-10.webp"
       },
       {
-        "file": "assets/images/2024-09-08-11.jpg"
+        "file": "assets/images/2024-09-08-11.webp"
       }
     ]
   },
@@ -5283,7 +5483,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2024-09-06.jpg"
+        "file": "assets/images/2024-09-06.webp"
       }
     ]
   },
@@ -5294,7 +5494,7 @@ window.MMV_JOURNALS = [
     "excerpt": "“熊学理论”第58条：生死有命，富贵在天。",
     "images": [
       {
-        "file": "assets/images/2024-09-02.jpg"
+        "file": "assets/images/2024-09-02.webp"
       }
     ]
   },
@@ -5305,10 +5505,10 @@ window.MMV_JOURNALS = [
     "excerpt": "他乡遇老乡，濯港与小池 柴江赣北 : 2024年8月31日 12:13 黄炜 : 老乡见老乡，两眼泪汪汪 2024年8月31日 12:17 柴江赣北 回复黄炜 : 只是感动，不至于哭 2024……",
     "images": [
       {
-        "file": "assets/images/2024-08-31-1.jpg"
+        "file": "assets/images/2024-08-31-1.webp"
       },
       {
-        "file": "assets/images/2024-08-31-2.jpg"
+        "file": "assets/images/2024-08-31-2.webp"
       }
     ]
   },
@@ -5401,10 +5601,10 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2024-08-09-1.jpg"
+        "file": "assets/images/2024-08-09-1.webp"
       },
       {
-        "file": "assets/images/2024-08-09-2.jpg"
+        "file": "assets/images/2024-08-09-2.webp"
       }
     ],
     "location": "湖北省武汉市"
@@ -5448,13 +5648,13 @@ window.MMV_JOURNALS = [
         "poster": "assets/images/2024-07-27-1-poster.webp"
       },
       {
-        "file": "assets/images/2024-07-27-1.jpg"
+        "file": "assets/images/2024-07-27-1.webp"
       },
       {
-        "file": "assets/images/2024-07-27-2.jpg"
+        "file": "assets/images/2024-07-27-2.webp"
       },
       {
-        "file": "assets/images/2024-07-27-3.jpg"
+        "file": "assets/images/2024-07-27-3.webp"
       }
     ]
   },
@@ -5472,7 +5672,7 @@ window.MMV_JOURNALS = [
         "poster": "assets/images/2024-07-22-poster.webp"
       },
       {
-        "file": "assets/images/2024-07-22-1.jpg"
+        "file": "assets/images/2024-07-22-1.webp"
       }
     ]
   },
@@ -5482,7 +5682,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2024-07-10-1.jpg"
+        "file": "assets/images/2024-07-10-1.webp"
       }
     ],
     "location": "湖北省武汉市"
@@ -5499,7 +5699,7 @@ window.MMV_JOURNALS = [
         "hls": "assets/video/2024-07-04/master.m3u8"
       },
       {
-        "file": "assets/images/2024-07-04-1.jpg"
+        "file": "assets/images/2024-07-04-1.webp"
       }
     ],
     "source": {
@@ -5539,10 +5739,10 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-06-26-video.mp4"
       },
       {
-        "file": "assets/images/2024-06-26-1.jpg"
+        "file": "assets/images/2024-06-26-1.webp"
       },
       {
-        "file": "assets/images/2024-06-26-2.jpg"
+        "file": "assets/images/2024-06-26-2.webp"
       }
     ],
     "source": {
@@ -5600,7 +5800,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2023-01-15-1.jpg"
+        "file": "assets/images/2023-01-15-1.webp"
       }
     ],
     "location": "故纸堆一角"
@@ -5868,7 +6068,7 @@ window.MMV_JOURNALS = [
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2021-01-24-1.jpg"
+        "file": "assets/images/2021-01-24-1.webp"
       }
     ],
     "location": "故纸堆一角"
