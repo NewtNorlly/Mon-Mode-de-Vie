@@ -1693,6 +1693,137 @@ window.MMV_JOURNALS = [
     "images": []
   },
   {
+    "date": "2026-02-09",
+    "file": "2026-02-09.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2026-02-09-1.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-24",
+    "file": "2025-12-24.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-12-24-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-12-24-2.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-18",
+    "file": "2025-12-18.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-12-18-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-12-18-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-12-18-3.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-01",
+    "file": "2025-12-01.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-12-01-1.png"
+      },
+      {
+        "file": "assets/images/2025-12-01-2.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-11-14",
+    "file": "2025-11-14.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-11-14-1.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-11-10",
+    "file": "2025-11-10.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-11-10-1.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-10-22",
+    "file": "2025-10-22.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-10-22-1.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-10-20",
+    "file": "2025-10-20.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-10-20-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-10-20-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-10-20-3.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-10-19",
+    "file": "2025-10-19.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-10-19-1.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-09-30",
+    "file": "2025-09-30.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-09-30-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-09-30-2.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-08-31",
+    "file": "2025-08-31.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-08-31-1.jpg"
+      }
+    ]
+  },
+  {
     "date": "2025-07-19",
     "file": "2025-07-19.html",
     "location": "华中科技大学紫菘学生公寓10栋106",
@@ -2322,6 +2453,16 @@ window.MMV_JOURNALS = [
     ]
   },
   {
+    "date": "2025-06-05",
+    "file": "2025-06-05.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-06-05-1.jpg"
+      }
+    ]
+  },
+  {
     "date": "2025-05-29",
     "file": "2025-05-29.html",
     "location": "湖北省武汉市",
@@ -2497,6 +2638,16 @@ window.MMV_JOURNALS = [
     "privacyReview": "pending"
   },
   {
+    "date": "2025-05-22",
+    "file": "2025-05-22.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-05-22-1.jpg"
+      }
+    ]
+  },
+  {
     "date": "2025-05-20",
     "file": "2025-05-20.html",
     "location": "湖北省武汉市",
@@ -2531,6 +2682,19 @@ window.MMV_JOURNALS = [
       },
       {
         "file": "assets/images/2025-05-20-10.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-05-17",
+    "file": "2025-05-17.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-05-17-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-05-17-2.jpg"
       }
     ]
   },
@@ -2791,6 +2955,9 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-04-30-video.mp4",
         "poster": "assets/images/2025-04-30-poster.webp"
+      },
+      {
+        "file": "assets/images/2025-04-30-1.jpg"
       }
     ]
   },
@@ -3007,6 +3174,172 @@ window.MMV_JOURNALS = [
     ]
   },
   {
+    "date": "2025-04-20",
+    "file": "2025-04-20.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-04-20-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-9.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-10.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-11.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-12.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-13.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-14.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-15.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-16.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-17.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-18.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-19.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-20.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-21.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-22.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-23.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-24.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-25.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-26.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-27.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-28.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-29.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-30.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-31.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-32.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-33.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-34.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-35.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-36.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-37.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-38.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-39.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-40.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-41.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-42.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-43.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-44.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-45.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-46.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-47.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-48.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-49.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-50.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-51.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-52.jpg"
+      },
+      {
+        "file": "assets/images/2025-04-20-53.jpg"
+      }
+    ]
+  },
+  {
     "date": "2025-04-13",
     "file": "2025-04-13.html",
     "location": "湖北省武汉市",
@@ -3178,6 +3511,55 @@ window.MMV_JOURNALS = [
     "privacyReview": "pending"
   },
   {
+    "date": "2025-03-25",
+    "file": "2025-03-25.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-03-25-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-25-2.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-25-3.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-25-4.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-25-5.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-25-6.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-25-7.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-25-8.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-25-9.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-25-10.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-25-11.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-25-12.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-25-13.jpg"
+      },
+      {
+        "file": "assets/images/2025-03-25-14.jpg"
+      }
+    ]
+  },
+  {
     "date": "2025-02-18",
     "file": "2025-02-18.html",
     "location": "湖北省武汉市",
@@ -3199,6 +3581,19 @@ window.MMV_JOURNALS = [
     "images": [
       {
         "file": "assets/images/2025-02-13-1.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2025-02-06",
+    "file": "2025-02-06.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-02-06-1.jpg"
+      },
+      {
+        "file": "assets/images/2025-02-06-2.jpg"
       }
     ]
   },
@@ -3360,6 +3755,22 @@ window.MMV_JOURNALS = [
       },
       {
         "file": "assets/images/2025-01-30-51.jpg"
+      },
+      {
+        "file": "assets/images/2025-01-30-video.mp4",
+        "poster": "assets/images/2025-01-30-poster.webp"
+      },
+      {
+        "file": "assets/images/2025-01-30-video.mp4",
+        "poster": "assets/images/2025-01-30-poster.webp"
+      },
+      {
+        "file": "assets/images/2025-01-30-video.mp4",
+        "poster": "assets/images/2025-01-30-poster.webp"
+      },
+      {
+        "file": "assets/images/2025-01-30-video.mp4",
+        "poster": "assets/images/2025-01-30-poster.webp"
       }
     ]
   },
@@ -3735,6 +4146,16 @@ window.MMV_JOURNALS = [
     ]
   },
   {
+    "date": "2025-01-05",
+    "file": "2025-01-05.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2025-01-05-1.jpg"
+      }
+    ]
+  },
+  {
     "date": "2024-12-25",
     "file": "2024-12-25.html",
     "location": "湖北省武汉市",
@@ -3778,6 +4199,9 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-12-20-video.mp4",
         "poster": "assets/images/2024-12-20-poster.webp"
+      },
+      {
+        "file": "assets/images/2024-12-20-1.jpg"
       }
     ]
   },
@@ -3830,6 +4254,49 @@ window.MMV_JOURNALS = [
     ]
   },
   {
+    "date": "2024-11-29",
+    "file": "2024-11-29.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2024-11-29-1.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-29-2.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-29-3.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-29-4.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-29-5.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-29-6.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-29-7.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-29-8.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-29-9.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-29-10.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-29-11.jpg"
+      },
+      {
+        "file": "assets/images/2024-11-29-12.jpg"
+      }
+    ]
+  },
+  {
     "date": "2024-11-26",
     "file": "2024-11-26.html",
     "location": "湖北省武汉市",
@@ -3854,6 +4321,16 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-11-26-video-2.mp4",
         "poster": "assets/images/2024-11-26-poster-2.webp"
+      }
+    ]
+  },
+  {
+    "date": "2024-11-25",
+    "file": "2024-11-25.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2024-11-25-1.jpg"
       }
     ]
   },
@@ -4043,6 +4520,19 @@ window.MMV_JOURNALS = [
     "location": "湖北省武汉市",
     "excerpt": "ʘᴗʘ",
     "images": []
+  },
+  {
+    "date": "2024-10-20",
+    "file": "2024-10-20.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2024-10-20-1.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-20-2.jpg"
+      }
+    ]
   },
   {
     "date": "2024-10-16",
@@ -4243,7 +4733,41 @@ window.MMV_JOURNALS = [
     "file": "2024-10-04.html",
     "location": "湖北省武汉市",
     "excerpt": "（这里放本日的插图）",
-    "images": []
+    "images": [
+      {
+        "file": "assets/images/2024-10-04-1.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-04-2.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-04-3.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-04-4.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-04-5.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-04-6.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-04-7.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-04-8.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-04-9.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-04-10.jpg"
+      },
+      {
+        "file": "assets/images/2024-10-04-11.jpg"
+      }
+    ]
   },
   {
     "date": "2024-10-01",
@@ -4374,6 +4898,16 @@ window.MMV_JOURNALS = [
     "images": []
   },
   {
+    "date": "2024-09-21",
+    "file": "2024-09-21.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2024-09-21-1.jpg"
+      }
+    ]
+  },
+  {
     "date": "2024-09-20",
     "file": "2024-09-20.html",
     "location": "武汉市洪山区华中科技大学主校区中操场",
@@ -4427,6 +4961,42 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-20-13-video.mp4",
         "poster": "assets/images/2024-09-20-13-poster.webp"
+      },
+      {
+        "file": "assets/images/2024-09-20-2.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-20-3.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-20-4.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-20-5.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-20-6.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-20-7.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-20-8.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-20-9.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-20-10.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-20-11.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-20-12.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-20-13.jpg"
       }
     ]
   },
@@ -4583,6 +5153,33 @@ window.MMV_JOURNALS = [
       },
       {
         "file": "assets/images/2024-09-12-15.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-12-3.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-12-4.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-12-5.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-12-6.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-12-7.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-12-8.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-12-9.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-12-10.jpg"
+      },
+      {
+        "file": "assets/images/2024-09-12-11.jpg"
       }
     ]
   },
@@ -4777,6 +5374,19 @@ window.MMV_JOURNALS = [
     ]
   },
   {
+    "date": "2024-08-09",
+    "file": "2024-08-09.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2024-08-09-1.jpg"
+      },
+      {
+        "file": "assets/images/2024-08-09-2.jpg"
+      }
+    ]
+  },
+  {
     "date": "2024-08-08",
     "file": "2024-08-08.html",
     "location": "湖北省黄冈市",
@@ -4813,6 +5423,15 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-07-27-1-video.mp4",
         "poster": "assets/images/2024-07-27-1-poster.webp"
+      },
+      {
+        "file": "assets/images/2024-07-27-1.jpg"
+      },
+      {
+        "file": "assets/images/2024-07-27-2.jpg"
+      },
+      {
+        "file": "assets/images/2024-07-27-3.jpg"
       }
     ]
   },
@@ -4828,6 +5447,19 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-07-22-video.mp4",
         "poster": "assets/images/2024-07-22-poster.webp"
+      },
+      {
+        "file": "assets/images/2024-07-22-1.jpg"
+      }
+    ]
+  },
+  {
+    "date": "2024-07-10",
+    "file": "2024-07-10.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2024-07-10-1.jpg"
       }
     ]
   },
@@ -4841,6 +5473,9 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-07-04-video.mp4",
         "poster": "assets/images/2024-07-04-video-poster.webp",
         "hls": "assets/video/2024-07-04/master.m3u8"
+      },
+      {
+        "file": "assets/images/2024-07-04-1.jpg"
       }
     ],
     "source": {
@@ -4878,6 +5513,12 @@ window.MMV_JOURNALS = [
       },
       {
         "file": "assets/images/2024-06-26-video.mp4"
+      },
+      {
+        "file": "assets/images/2024-06-26-1.jpg"
+      },
+      {
+        "file": "assets/images/2024-06-26-2.jpg"
       }
     ],
     "source": {
@@ -4928,6 +5569,16 @@ window.MMV_JOURNALS = [
         "excerpt": "Qian Qiu fügte einen Zeitleisteneintrag hinzu: die Studienbewerbungswand. Gaokao-Beratung, Studienfachkonsultationen, Erstsemestermaterialien, Zertifizierungsressourcen. Interessierte Studenten, fügt Wall-Wall auf QQ hinzu."
       }
     }
+  },
+  {
+    "date": "2023-01-15",
+    "file": "2023-01-15.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2023-01-15-1.jpg"
+      }
+    ]
   },
   {
     "date": "2022-10-17",
@@ -5185,5 +5836,15 @@ window.MMV_JOURNALS = [
         "excerpt": "Ein Freund von Misue und ich sind uns fremd. Ich wage nicht mehr zu scherzen. Ich werde still die Aufzeichnungen des Großen Historikers lesen."
       }
     }
+  },
+  {
+    "date": "2021-01-24",
+    "file": "2021-01-24.html",
+    "excerpt": "今天的日记没有正文文本啦",
+    "images": [
+      {
+        "file": "assets/images/2021-01-24-1.jpg"
+      }
+    ]
   }
 ];
