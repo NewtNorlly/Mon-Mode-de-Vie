@@ -3475,6 +3475,18 @@
     },
     "images": [
       {
+        "file": "assets/images/2025-03-28-10.webp"
+      },
+      {
+        "file": "assets/images/2025-03-28-11.webp"
+      },
+      {
+        "file": "assets/images/2025-03-28-12.webp"
+      },
+      {
+        "file": "assets/images/2025-03-28-13.webp"
+      },
+      {
         "file": "assets/images/2025-03-28-1.webp"
       },
       {
@@ -4779,7 +4791,34 @@
     "excerpt": "我必须得给本校的安全教育点个赞了！",
     "images": [
       {
+        "file": "assets/images/2024-10-07-14.webp"
+      },
+      {
         "file": "assets/images/2024-10-07-1.webp"
+      },
+      {
+        "file": "assets/images/2024-10-07-15.webp"
+      },
+      {
+        "file": "assets/images/2024-10-07-16.webp"
+      },
+      {
+        "file": "assets/images/2024-10-07-17.webp"
+      },
+      {
+        "file": "assets/images/2024-10-07-18.webp"
+      },
+      {
+        "file": "assets/images/2024-10-07-19.webp"
+      },
+      {
+        "file": "assets/images/2024-10-07-20.webp"
+      },
+      {
+        "file": "assets/images/2024-10-07-21.webp"
+      },
+      {
+        "file": "assets/images/2024-10-07-22.webp"
       },
       {
         "file": "assets/images/2024-10-07-2.webp"
@@ -4825,6 +4864,15 @@
     "location": "湖北省武汉市",
     "excerpt": "有生之年，华科校内，我驯服了PPT……",
     "images": [
+      {
+        "file": "assets/images/2024-10-05-31.webp"
+      },
+      {
+        "file": "assets/images/2024-10-05-32.webp"
+      },
+      {
+        "file": "assets/images/2024-10-05-33.webp"
+      },
       {
         "file": "assets/images/2024-10-05-1.webp"
       },
@@ -5682,7 +5730,8 @@
     "excerpt": "今天的日记没有正文文本啦",
     "images": [
       {
-        "file": "assets/images/2024-07-10-1.webp"
+        "file": "assets/images/2024-07-10-video.mp4",
+        "poster": "assets/images/2024-07-10-poster.webp"
       }
     ],
     "location": "湖北省武汉市"
