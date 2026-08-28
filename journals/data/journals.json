@@ -1835,6 +1835,32 @@
     "location": "江西省九江市"
   },
   {
+    "date": "2025-07-24",
+    "file": "2025-07-24.html",
+    "location": "湖北省武汉市",
+    "excerpt": "勒保斯基 这不是巧了吗",
+    "images": [
+      {
+        "file": "assets/images/2025-07-24-1.webp"
+      },
+      {
+        "file": "assets/images/2025-07-24-2.webp"
+      },
+      {
+        "file": "assets/images/2025-07-24-3.webp"
+      },
+      {
+        "file": "assets/images/2025-07-24-4.webp"
+      },
+      {
+        "file": "assets/images/2025-07-24-5.webp"
+      },
+      {
+        "file": "assets/images/2025-07-24-6.webp"
+      }
+    ]
+  },
+  {
     "date": "2025-07-19",
     "file": "2025-07-19.html",
     "location": "华中科技大学紫菘学生公寓10栋106",
@@ -4515,24 +4541,6 @@
       {
         "file": "assets/images/2024-11-24-video-3.mp4",
         "poster": "assets/images/2024-11-24-poster-3.webp"
-      },
-      {
-        "file": "assets/images/2024-11-24-45.webp"
-      },
-      {
-        "file": "assets/images/2024-11-24-46.webp"
-      },
-      {
-        "file": "assets/images/2024-11-24-47.webp"
-      },
-      {
-        "file": "assets/images/2024-11-24-48.webp"
-      },
-      {
-        "file": "assets/images/2024-11-24-49.webp"
-      },
-      {
-        "file": "assets/images/2024-11-24-50.webp"
       }
     ]
   },
