@@ -1,5 +1,24 @@
 window.MMV_JOURNALS = [
   {
+    "date": "2026-08-28",
+    "file": "2026-08-28.html",
+    "excerpt": "老者何等幸福 炉热，酒红 甚至平静地迎接死神—— 只是，且慢，不在今朝！我的小恐龙测试成功了，他跟每一位校友都发了很多邮件，而且每一封邮件都不一样，因为里面都是随机生成的祝福语。",
+    "images": [
+      {
+        "file": "assets/images/2026-08-28-illustration-01.webp"
+      },
+      {
+        "file": "assets/images/2026-08-28-illustration-02.webp"
+      },
+      {
+        "file": "assets/images/2026-08-28-illustration-03.webp"
+      },
+      {
+        "file": "assets/images/2026-08-28-illustration-04.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-08-24",
     "file": "2026-08-24.html",
     "location": "微信聊天记录",
