@@ -2,7 +2,8 @@
   {
     "date": "2026-08-28",
     "file": "2026-08-28.html",
-    "excerpt": "老者何等幸福 炉热，酒红 甚至平静地迎接死神—— 只是，且慢，不在今朝！我的小恐龙测试成功了，他跟每一位校友都发了很多邮件，而且每一封邮件都不一样，因为里面都是随机生成的祝福语。",
+    "location": "湖北省武汉市洪山区",
+    "excerpt": "我的小恐龙测试成功了，他跟每一位校友都发了很多邮件，而且每一封邮件都不一样，因为里面都是随机生成的祝福语。傍晚时分，南湖的校友问我有关“小机器人”的事情，我直接承认是我发的了，竟然被表扬了，这感觉太幸福了。人生苦短，挚友可贵。作为一个长者的感觉，太让人幸福了！",
     "images": [
       {
         "file": "assets/images/2026-08-28-illustration-01.webp"
@@ -16,7 +17,24 @@
       {
         "file": "assets/images/2026-08-28-illustration-04.webp"
       }
-    ]
+    ],
+    "source": {
+      "label": "原创"
+    },
+    "locales": {
+      "en": {
+        "location": "Hongshan District, Wuhan, Hubei",
+        "excerpt": "My little Dino test succeeded — he sent many emails to every alumnus, each one different, with randomly generated blessings. In the evening, an alumnus from Nanhu asked me about the 'little robot,' and I admitted it was me. To my surprise, I was praised — what a happy feeling! Life is short, true friends are precious. Being an elder feels so blissful!"
+      },
+      "fr": {
+        "location": "District de Hongshan, Wuhan, Hubei",
+        "excerpt": "Mon petit Dino a réussi son test — il a envoyé plein de courriels à chaque ancien élève, chacun différent, avec des vœux générés au hasard. Le soir, un ancien de Nanhu m'a interrogé sur le « petit robot », et j'ai avoué que c'était moi. À ma surprise, j'ai été félicité — quel bonheur ! La vie est courte, les vrais amis sont précieux. Se sentir comme un aîné est si heureux !"
+      },
+      "de": {
+        "location": "Hongshan, Wuhan, Hubei",
+        "excerpt": "Mein kleiner Dino-Test war erfolgreich — er schickte viele E-Mails an jeden Alumnus, jede anders, mit zufällig generierten Segenswünschen. Abends fragte mich ein Alumnus aus Nanhu nach dem „kleinen Roboter“, und ich gab zu, dass ich es war. Zu meiner Überraschung wurde ich gelobt — was für ein glückliches Gefühl! Das Leben ist kurz, wahre Freunde sind kostbar. Sich wie ein Ältester zu fühlen, ist so wunderbar!"
+      }
+    }
   },
   {
     "date": "2026-08-24",
