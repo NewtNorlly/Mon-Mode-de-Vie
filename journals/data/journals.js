@@ -41,56 +41,168 @@ window.MMV_JOURNALS = [
     "file": "2026-08-24.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 漫漫姐姐 2026年8月24日 10:44 吉姆哈克  : 现在可以去火车站了 2026年8月24日 10:44 吉姆哈克  : [语音通话] 对方无应答 2026年8月24日 10:49",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Sister Manman 2026年8月24日 10:44 吉姆哈克  : We can head to the train station now 2026年8月24日 10:44 吉姆哈克  : [Voice call] No answer 2026年8月24日 10:49"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Sœur Manman 2026年8月24日 10:44 吉姆哈克  : On peut aller à la gare maintenant 2026年8月24日 10:44 吉姆哈克  : [Appel vocal] Sans réponse 2026年8月24日 10:49"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Schwester Manman 2026年8月24日 10:44 吉姆哈克  : Wir können jetzt zum Bahnhof 2026年8月24日 10:44 吉姆哈克  : [Sprachanruf] Keine Antwort 2026年8月24日 10:49"
+      }
+    }
   },
   {
     "date": "2026-08-20",
     "file": "2026-08-20.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [视频通话] 对方无应答 2026年8月20日 07:32 吉姆哈克  : 雨哲老师，我本周又有新的ChatGPT额度了！帮我给电脑发个指令，叫它继续帮我跑任务 2026年8月20日 07:32 吉姆哈克  : 你帮我搞定了电脑上的任务，我就请你吃板栗🌰🌰🌰 2026年8月20日 07:32",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Video call] No answer 2026年8月20日 07:32 吉姆哈克  : Teacher Yuzhe, I've got fresh ChatGPT credits this week! Send my computer a command to keep running my tasks 2026年8月20日 07:32 吉姆哈克  : Once you sort out the tasks on my computer, I'll treat you to roasted chestnuts 2026年8月20日 07:32"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Appel vidéo] Sans réponse 2026年8月20日 07:32 吉姆哈克  : Professeur Yuzhe, j'ai encore de nouveaux crédits ChatGPT cette semaine ! Envoie une instruction à mon ordinateur pour qu'il continue mes tâches 2026年8月20日 07:32 吉姆哈克  : Quand tu auras réglé les tâches sur mon ordinateur, je t'offre des châtaignes grillées 2026年8月20日 07:32"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Videoanruf] Keine Antwort 2026年8月20日 07:32 吉姆哈克  : Lehrer Yuzhe, diese Woche habe ich wieder neues ChatGPT-Guthaben! Schick meinem Rechner einen Befehl, damit er meine Aufgaben weiterlaufen lässt 2026年8月20日 07:32 吉姆哈克  : Wenn du die Aufgaben auf meinem Rechner erledigst, lade ich dich zu gerösteten Kastanien ein 2026年8月20日 07:32"
+      }
+    }
   },
   {
     "date": "2026-08-19",
     "file": "2026-08-19.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 我真要给你个小红包了 2026年8月19日 07:23 吉姆哈克  : 台词、场景、故事线，全程无尿点 2026年8月19日 07:23 吉姆哈克  : 每个人物都很脆弱，搞不好一辈子都会受制于人，世事本无常啊 2026年8月19日 07:26",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : I really owe you a little red envelope 2026年8月19日 07:23 吉姆哈克  : The dialogue, scenes and storyline never have a single dull moment 2026年8月19日 07:23 吉姆哈克  : Every character is so fragile; one wrong move and you could be under someone's thumb for life. How fickle the world is 2026年8月19日 07:26"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Je vais vraiment devoir te donner une petite enveloppe rouge 2026年8月19日 07:23 吉姆哈克  : Répliques, scènes, intrigue, pas un seul temps mort 2026年8月19日 07:23 吉姆哈克  : Chaque personnage est si fragile, un faux pas et l'on peut être sous la coupe d'autrui toute sa vie. Le monde est bien instable 2026年8月19日 07:26"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Ich schulde dir wirklich einen kleinen roten Umschlag 2026年8月19日 07:23 吉姆哈克  : Dialoge, Szenen, Handlung, durchweg kein einziger Längenmoment 2026年8月19日 07:23 吉姆哈克  : Jede Figur ist so zerbrechlich, ein falscher Schritt und man könnte ein Leben lang von anderen abhängig sein. Wie unbeständig die Welt doch ist 2026年8月19日 07:26"
+      }
+    }
   },
   {
     "date": "2026-08-18",
     "file": "2026-08-18.html",
     "location": "微信聊天记录",
     "excerpt": "阿姐（帥紫漫）  : 明天来还是后天 2026年8月18日 20:22 吉姆哈克  : 我妈想要给我养一天肉 2026年8月18日 20:48 吉姆哈克  : 我明天在家待一天 2026年8月18日 20:48",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "阿姐（帥紫漫）  : Tomorrow or the day after 2026年8月18日 20:22 吉姆哈克  : My mom wants to fatten me up for a day 2026年8月18日 20:48 吉姆哈克  : I'll stay home all day tomorrow 2026年8月18日 20:48"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "阿姐（帥紫漫）  : Demain ou après-demain 2026年8月18日 20:22 吉姆哈克  : Ma mère veut me faire reprendre des forces pendant une journée 2026年8月18日 20:48 吉姆哈克  : Je reste à la maison toute la journée demain 2026年8月18日 20:48"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "阿姐（帥紫漫）  : Morgen oder übermorgen 2026年8月18日 20:22 吉姆哈克  : Meine Mutter will mich einen Tag lang aufpäppeln 2026年8月18日 20:48 吉姆哈克  : Ich bleibe morgen den ganzen Tag zu Hause 2026年8月18日 20:48"
+      }
+    }
   },
   {
     "date": "2026-08-15",
     "file": "2026-08-15.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 投我所好啊，知我者佳一 2026年8月15日 02:21 吉姆哈克  : [图片] 2026年8月15日 02:21 吉姆哈克  : 我才发现，我已经收藏过了 2026年8月15日 02:21",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : You know exactly what I like—Jiayi is the one who truly gets me 2026年8月15日 02:21 吉姆哈克  : [Photo] 2026年8月15日 02:21 吉姆哈克  : Just realized I'd already favorited it 2026年8月15日 02:21"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Tu joues pile sur mes goûts, Jiayi est celui qui me comprend vraiment 2026年8月15日 02:21 吉姆哈克  : [Photo] 2026年8月15日 02:21 吉姆哈克  : Je viens de voir que je l'avais déjà enregistré 2026年8月15日 02:21"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Du triffst genau meinen Geschmack, Jiayi versteht mich wirklich 2026年8月15日 02:21 吉姆哈克  : [Bild] 2026年8月15日 02:21 吉姆哈克  : Ich hab gerade gemerkt, dass ich es schon favorisiert hatte 2026年8月15日 02:21"
+      }
+    }
   },
   {
     "date": "2026-08-13",
     "file": "2026-08-13.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 我终于知道豆包的“工作任务”有啥用啦！！！ 2026年8月13日 02:48 吉姆哈克  : [图片] 2026年8月13日 02:48 吉姆哈克  : [图片] 2026年8月13日 02:48",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : I finally get what Doubao's \"work tasks\" are for!!! 2026年8月13日 02:48 吉姆哈克  : [Photo] 2026年8月13日 02:48 吉姆哈克  : [Photo] 2026年8月13日 02:48"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : J'ai enfin compris à quoi servent les « tâches de travail » de Doubao !!! 2026年8月13日 02:48 吉姆哈克  : [Photo] 2026年8月13日 02:48 吉姆哈克  : [Photo] 2026年8月13日 02:48"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Endlich verstehe ich, wozu Doubaos „Arbeitsaufgaben“ gut sind!!! 2026年8月13日 02:48 吉姆哈克  : [Bild] 2026年8月13日 02:48 吉姆哈克  : [Bild] 2026年8月13日 02:48"
+      }
+    }
   },
   {
     "date": "2026-08-12",
     "file": "2026-08-12.html",
     "location": "微信聊天记录",
     "excerpt": "大宝哥  : 超级会员100tb,普通会员20TB 2026年8月12日 14:17 吉姆哈克  : [图片] 2026年8月12日 14:31 吉姆哈克  : 我有创建了一个账号 2026年8月12日 14:31",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "大宝哥  : Super VIP 100TB, regular VIP 20TB 2026年8月12日 14:17 吉姆哈克  : [Photo] 2026年8月12日 14:31 吉姆哈克  : I created yet another account 2026年8月12日 14:31"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "大宝哥  : Super VIP 100 To, VIP ordinaire 20 To 2026年8月12日 14:17 吉姆哈克  : [Photo] 2026年8月12日 14:31 吉姆哈克  : J'ai encore créé un compte 2026年8月12日 14:31"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "大宝哥  : Super-VIP 100 TB, normales VIP 20 TB 2026年8月12日 14:17 吉姆哈克  : [Bild] 2026年8月12日 14:31 吉姆哈克  : Ich hab noch ein Konto erstellt 2026年8月12日 14:31"
+      }
+    }
   },
   {
     "date": "2026-08-09",
     "file": "2026-08-09.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : newtnorlly.xyz 2026年8月9日 11:58 吉姆哈克  : 20061018.xyz 2026年8月9日 11:58 吉姆哈克  : 全都修好了，全都上线啦 2026年8月9日 11:58",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : newtnorlly.xyz 2026年8月9日 11:58 吉姆哈克  : 20061018.xyz 2026年8月9日 11:58 吉姆哈克  : All fixed, everything is live now 2026年8月9日 11:58"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : newtnorlly.xyz 2026年8月9日 11:58 吉姆哈克  : 20061018.xyz 2026年8月9日 11:58 吉姆哈克  : Tout est réparé, tout est en ligne 2026年8月9日 11:58"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : newtnorlly.xyz 2026年8月9日 11:58 吉姆哈克  : 20061018.xyz 2026年8月9日 11:58 吉姆哈克  : Alles repariert, alles ist jetzt online 2026年8月9日 11:58"
+      }
+    }
   },
   {
     "date": "2026-08-08",
@@ -420,21 +532,63 @@ window.MMV_JOURNALS = [
     "file": "2026-07-21.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年7月21日 00:07 吉姆哈克  : https://newtnorlly.github.io/Bilibili-YouTube-Collection/ 2026年7月21日 00:07 吉姆哈克  : 今天晚上火速手搓了一个网站 2026年7月21日 00:07",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年7月21日 00:07 吉姆哈克  : https://newtnorlly.github.io/Bilibili-YouTube-Collection/ 2026年7月21日 00:07 吉姆哈克  : Whipped up a website from scratch in a rush tonight 2026年7月21日 00:07"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年7月21日 00:07 吉姆哈克  : https://newtnorlly.github.io/Bilibili-YouTube-Collection/ 2026年7月21日 00:07 吉姆哈克  : J'ai monté un site à la main en vitesse ce soir 2026年7月21日 00:07"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年7月21日 00:07 吉姆哈克  : https://newtnorlly.github.io/Bilibili-YouTube-Collection/ 2026年7月21日 00:07 吉姆哈克  : Hab heute Abend im Eiltempo eine Website von Hand gebaut 2026年7月21日 00:07"
+      }
+    }
   },
   {
     "date": "2026-07-20",
     "file": "2026-07-20.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 正在优化对话交互机制 2026年7月20日 12:19 吉姆哈克  : 还得往Journal日记模块中，存入更多的日记资料 2026年7月20日 12:20 吉姆哈克  : 那个Now日历日程模块，目前什么日程都没有，我得把我的下学期课表，全都为了AI，让他帮我把日程整理出来，并放在那个模块中 2026年7月20日 12:20",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Optimizing the conversational interaction mechanism 2026年7月20日 12:19 吉姆哈克  : I still need to store more journal material in the Journal module 2026年7月20日 12:20 吉姆哈克  : The Now calendar module has no events yet; I need to hand my whole next-semester schedule to the AI so it can organize the events and put them in that module 2026年7月20日 12:20"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Je suis en train d'optimiser le mécanisme d'interaction conversationnelle 2026年7月20日 12:19 吉姆哈克  : Il faut encore stocker plus de contenu de journal dans le module Journal 2026年7月20日 12:20 吉姆哈克  : Le module calendrier Now n'a aucun rendez-vous pour l'instant ; je dois donner tout mon emploi du temps du semestre prochain à l'IA pour qu'il classe les événements et les place dans ce module 2026年7月20日 12:20"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Optimiere gerade den Dialog-Interaktionsmechanismus 2026年7月20日 12:19 吉姆哈克  : Ich muss noch mehr Tagebuchmaterial im Journal-Modul speichern 2026年7月20日 12:20 吉姆哈克  : Das Now-Kalendermodul hat noch keine Termine; ich muss meinen ganzen Stundenplan des nächsten Semesters an die KI geben, damit sie die Termine ordnet und ins Modul stellt 2026年7月20日 12:20"
+      }
+    }
   },
   {
     "date": "2026-07-19",
     "file": "2026-07-19.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 最近遇到了一个很吓人的事 2026年7月19日 15:19 吉姆哈克  : 我本来是待在我小池的小舅家的 2026年7月19日 15:19 吉姆哈克  : 然后吓得连夜跑到九江的三舅家了 2026年7月19日 15:19",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Something really scary happened to me lately 2026年7月19日 15:19 吉姆哈克  : I was originally staying at my uncle's in Xiaochi 2026年7月19日 15:19 吉姆哈克  : Then I got so scared I fled that same night to Third Uncle's in Jiujiang 2026年7月19日 15:19"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Il m'est arrivé un truc vraiment flippant récemment 2026年7月19日 15:19 吉姆哈克  : J'étais chez mon oncle à Xiaochi au départ 2026年7月19日 15:19 吉姆哈克  : Et j'ai eu tellement peur que j'ai filé dans la nuit chez Troisième Oncle à Jiujiang 2026年7月19日 15:19"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Mir ist kürzlich etwas richtig Beängstigendes passiert 2026年7月19日 15:19 吉姆哈克  : Ich war eigentlich bei meinem Onkel in Xiaochi 2026年7月19日 15:19 吉姆哈克  : Dann hab ich mich so erschrocken, dass ich noch in derselben Nacht zu Drittem Onkel nach Jiujiang geflohen bin 2026年7月19日 15:19"
+      }
+    }
   },
   {
     "date": "2026-07-18",
@@ -502,14 +656,42 @@ window.MMV_JOURNALS = [
     "file": "2026-07-17.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 所以，你当初的Codex账号，还有闲置的吗？[吃瓜][吃瓜][吃瓜] 2026年7月17日 02:26 吉姆哈克  : 可否借我用一下，我想Vibe Coding我的个人网站，我想设计成交互式页面，就跟之了学吧一样[表情][表情][表情] 2026年7月17日 02:26 吉姆哈克  : 这个就不麻烦其他的技术人员啦，我可以自己手动点完所有交互式页面，直接解锁爬虫单元[表情][表情][表情] 2026年7月17日 02:26",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : So, do you still have any of those old Codex accounts lying idle? [吃瓜][吃瓜][吃瓜] 2026年7月17日 02:26 吉姆哈克  : Could I borrow one? I want to vibe-code my personal website into interactive pages, just like Zhile Xueba [表情][表情][表情] 2026年7月17日 02:26 吉姆哈克  : No need to bother other tech people with this, I can click through all the interactive pages myself and just unlock the crawler unit [表情][表情][表情] 2026年7月17日 02:26"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Dis, il te reste des comptes Codex inutilisés ? [吃瓜][吃瓜][吃瓜] 2026年7月17日 02:26 吉姆哈克  : Je peux t'en emprunter un ? Je veux coder mon site perso en mode vibe, en faire des pages interactives, comme Zhile Xueba [表情][表情][表情] 2026年7月17日 02:26 吉姆哈克  : Pas besoin d'embêter d'autres techniciens, je peux cliquer moi-même sur toutes les pages interactives et débloquer directement l'unité crawler [表情][表情][表情] 2026年7月17日 02:26"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Sag mal, hast du noch irgendwelche ungenutzten Codex-Konten übrig? [吃瓜][吃瓜][吃瓜] 2026年7月17日 02:26 吉姆哈克  : Kann ich mir eins leihen? Ich will meine persönliche Website per Vibe Coding in interaktive Seiten umbauen, genau wie Zhile Xueba [表情][表情][表情] 2026年7月17日 02:26 吉姆哈克  : Da muss ich keine anderen Techniker bemühen, ich kann alle interaktiven Seiten selbst durchklicken und direkt die Crawler-Einheit freischalten [表情][表情][表情] 2026年7月17日 02:26"
+      }
+    }
   },
   {
     "date": "2026-07-16",
     "file": "2026-07-16.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [视频通话] 已拒绝 2026年7月16日 15:13 吉姆哈克  : 漫漫姐姐，你大概几号回来呀？我在小舅家待得好怕一个，甘凳的小姨帅心语，动不动就割手 2026年7月16日 15:17 吉姆哈克  : 如果你要在深圳那边，玩上半个月，那我就直接回武汉待着吧 2026年7月16日 15:17",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Video call] Declined 2026年7月16日 15:13 吉姆哈克  : Sister Manman, about when are you coming back? I'm so scared staying at my uncle's—Gandeng's aunt Shuai Xinyu keeps cutting her wrists at the slightest thing 2026年7月16日 15:17 吉姆哈克  : If you're going to spend two weeks in Shenzhen, I'll just head back to Wuhan and stay there 2026年7月16日 15:17"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Appel vidéo] Refusé 2026年7月16日 15:13 吉姆哈克  : Sœur Manman, tu reviens à peu près quand ? J'ai tellement peur chez mon oncle, la tante de Gandeng, Shuai Xinyu, se coupe les poignets pour un rien 2026年7月16日 15:17 吉姆哈克  : Si tu restes deux semaines à Shenzhen, je rentre directement à Wuhan 2026年7月16日 15:17"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Videoanruf] Abgelehnt 2026年7月16日 15:13 吉姆哈克  : Schwester Manman, wann kommst du ungefähr zurück? Mir ist es bei meinem Onkel so unheimlich, Gandengs Tante Shuai Xinyu ritzt sich wegen jeder Kleinigkeit die Handgelenke 2026年7月16日 15:17 吉姆哈克  : Wenn du zwei Wochen in Shenzhen bleibst, fahre ich einfach zurück nach Wuhan 2026年7月16日 15:17"
+      }
+    }
   },
   {
     "date": "2026-07-14",
@@ -521,49 +703,147 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2026-07-14-video.mp4",
         "poster": "assets/images/2026-07-14-poster.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年7月14日 03:56 吉姆哈克  : It only takes one night to trash Xiaodeng's reputation, I'm dying laughing, hahaha [表情][表情][表情] 2026年7月14日 03:56 吉姆哈克  : [Photo] 2026年7月14日 04:06"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年7月14日 03:56 吉姆哈克  : Pourrir la réputation de Xiaodeng, il suffit d'une soirée, je meurs de rire, hahaha [表情][表情][表情] 2026年7月14日 03:56 吉姆哈克  : [Photo] 2026年7月14日 04:06"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年7月14日 03:56 吉姆哈克  : Xiaodengs Ruf in einer Nacht ruinieren, ich sterbe vor Lachen, hahaha [表情][表情][表情] 2026年7月14日 03:56 吉姆哈克  : [Bild] 2026年7月14日 04:06"
+      }
+    }
   },
   {
     "date": "2026-07-13",
     "file": "2026-07-13.html",
     "location": "微信聊天记录",
     "excerpt": "表弟（帅雨哲）  : 帅帅哥哥在不 2026年7月13日 20:16 表弟（帅雨哲）  : [表情] 2026年7月13日 20:33 吉姆哈克  : newtnorlly@outlook.com 2026年7月13日 20:45",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "表弟（帅雨哲）  : Is Brother Shuai Shuai around 2026年7月13日 20:16 表弟（帅雨哲）  : [Sticker] 2026年7月13日 20:33 吉姆哈克  : newtnorlly@outlook.com 2026年7月13日 20:45"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "表弟（帅雨哲）  : Grand frère Shuai Shuai est là 2026年7月13日 20:16 表弟（帅雨哲）  : [Sticker] 2026年7月13日 20:33 吉姆哈克  : newtnorlly@outlook.com 2026年7月13日 20:45"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "表弟（帅雨哲）  : Ist Bruder Shuai Shuai da 2026年7月13日 20:16 表弟（帅雨哲）  : [Sticker] 2026年7月13日 20:33 吉姆哈克  : newtnorlly@outlook.com 2026年7月13日 20:45"
+      }
+    }
   },
   {
     "date": "2026-07-12",
     "file": "2026-07-12.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [语音通话] 已取消 2026年7月12日 23:20 吉姆哈克  : [视频通话] 通话时长 00:02 2026年7月12日 23:20 吉姆哈克  : [语音通话] 已拒绝 2026年7月12日 23:20",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Voice call] Cancelled 2026年7月12日 23:20 吉姆哈克  : [Video call] Duration 00:02 2026年7月12日 23:20 吉姆哈克  : [Voice call] Declined 2026年7月12日 23:20"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Appel vocal] Annulé 2026年7月12日 23:20 吉姆哈克  : [Appel vidéo] Durée 00:02 2026年7月12日 23:20 吉姆哈克  : [Appel vocal] Refusé 2026年7月12日 23:20"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Sprachanruf] Abgebrochen 2026年7月12日 23:20 吉姆哈克  : [Videoanruf] Dauer 00:02 2026年7月12日 23:20 吉姆哈克  : [Sprachanruf] Abgelehnt 2026年7月12日 23:20"
+      }
+    }
   },
   {
     "date": "2026-07-09",
     "file": "2026-07-09.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年7月9日 16:50  吉姆哈克  : 我是整个学院第一个深入研究、重度使用智能体的人，我发现当初吹的很爆炸的小龙虾，一点都不稳定，体验感一点都不舒服 2026年7月9日 21:49 吉姆哈克  : 后来，各大厂商的智能体都发展起来了，但综合来看，开源的项目已经很丰富了，免费的反而比收钱的更有性价比，至少对我们这些老油条来说[吃瓜][吃瓜][吃瓜]",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年7月9日 16:50 吉姆哈克  : I'm the first in the whole school to dig deep into and make heavy use of AI agents, and I found that the lobster everyone had hyped to the skies is anything but stable, with a thoroughly uncomfortable experience 2026年7月9日 21:49 吉姆哈克  : Later, the major vendors' agents all matured, but all in all open-source projects are already plentiful; the free ones actually offer better value than the paid ones, at least for old hands like us [吃瓜][吃瓜][吃瓜]"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年7月9日 16:50 吉姆哈克  : Je suis le premier de toute la faculté à étudier en profondeur et à utiliser intensivement les agents IA, et j'ai trouvé que le homard qu'on avait vanté comme révolutionnaire n'est pas stable du tout, avec une expérience très désagréable 2026年7月9日 21:49 吉姆哈克  : Ensuite les agents des grands éditeurs se sont tous développés, mais globalement les projets open source sont déjà très riches ; les gratuits offrent finalement un meilleur rapport que les payants, du moins pour des roublards comme nous [吃瓜][吃瓜][吃瓜]"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年7月9日 16:50 吉姆哈克  : Ich bin der Erste an der ganzen Fakultät, der KI-Agenten tiefgehend erforscht und intensiv nutzt, und ich fand, dass der in den Himmel gelobte Hummer alles andere als stabil ist, mit einem rundum unangenehmen Erlebnis 2026年7月9日 21:49 吉姆哈克  : Später wurden die Agenten der großen Anbieter alle reifer, aber insgesamt sind die Open-Source-Projekte schon sehr umfangreich; die kostenlosen bieten sogar ein besseres Preis-Leistungs-Verhältnis als die kostenpflichtigen, zumindest für alte Hasen wie uns [吃瓜][吃瓜][吃瓜]"
+      }
+    }
   },
   {
     "date": "2026-07-07",
     "file": "2026-07-07.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年7月7日 00:00 吉姆哈克  : 洪老师给我开通啦 2026年7月7日 00:00 吉姆哈克  : 我现在可以成功认证了 2026年7月7日 00:00",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年7月7日 00:00 吉姆哈克  : Teacher Hong got it activated for me 2026年7月7日 00:00 吉姆哈克  : I can authenticate successfully now 2026年7月7日 00:00"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年7月7日 00:00 吉姆哈克  : M. Hong me l'a activé 2026年7月7日 00:00 吉姆哈克  : Je peux maintenant m'authentifier avec succès 2026年7月7日 00:00"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年7月7日 00:00 吉姆哈克  : Lehrer Hong hat es für mich freigeschaltet 2026年7月7日 00:00 吉姆哈克  : Jetzt kann ich mich erfolgreich authentifizieren 2026年7月7日 00:00"
+      }
+    }
   },
   {
     "date": "2026-07-06",
     "file": "2026-07-06.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年7月6日 09:07 吉姆哈克  : [图片] 2026年7月6日 09:07 吉姆哈克  : [图片] 2026年7月6日 09:07",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年7月6日 09:07 吉姆哈克  : [Photo] 2026年7月6日 09:07 吉姆哈克  : [Photo] 2026年7月6日 09:07"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年7月6日 09:07 吉姆哈克  : [Photo] 2026年7月6日 09:07 吉姆哈克  : [Photo] 2026年7月6日 09:07"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年7月6日 09:07 吉姆哈克  : [Bild] 2026年7月6日 09:07 吉姆哈克  : [Bild] 2026年7月6日 09:07"
+      }
+    }
   },
   {
     "date": "2026-07-05",
     "file": "2026-07-05.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 本科缓考申请表.doc 2026年7月5日 01:34 吉姆哈克  : 何导好，我昨天晚些时候去校医院抢救室，拍下了当天上午的病历单，就把它放在缓考申请表的证明材料里了[表情][表情][表情] 2026年7月5日 01:35 吉姆哈克  : 但我不知道具体是发哪一张照片，所以我觉得还是把所有照片都发给你看吧 2026年7月5日 01:35",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Undergraduate Deferred-Exam Application.doc 2026年7月5日 01:34 吉姆哈克  : Advisor He, late yesterday I went to the campus hospital emergency room and photographed that morning's medical record, and I've put it in the supporting documents of the deferred-exam application [表情][表情][表情] 2026年7月5日 01:35 吉姆哈克  : But I wasn't sure exactly which photo to send, so I figured I'd send you all the photos to look at 2026年7月5日 01:35"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Formulaire de demande d'examen différé (licence).doc 2026年7月5日 01:34 吉姆哈克  : Conseiller He, hier tard je suis allé aux urgences de l'infirmerie du campus, j'ai photographié la fiche médicale du matin et je l'ai mise dans les justificatifs de la demande d'examen différé [表情][表情][表情] 2026年7月5日 01:35 吉姆哈克  : Mais je ne savais pas exactement quelle photo envoyer, donc j'ai préféré vous envoyer toutes les photos 2026年7月5日 01:35"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Antrag auf Studienleistungstermin-Verschiebung (Bachelor).doc 2026年7月5日 01:34 吉姆哈克  : Betreuer He, gestern spät war ich im Notfallraum der Campus-Klinik und habe den Krankenschein vom Vormittag fotografiert; ich habe ihn zu den Belegen des Verschiebungsantrags gelegt [表情][表情][表情] 2026年7月5日 01:35 吉姆哈克  : Aber ich wusste nicht genau, welches Foto ich schicken sollte, also schicke ich Ihnen lieber alle Fotos zur Ansicht 2026年7月5日 01:35"
+      }
+    }
   },
   {
     "date": "2026-07-04",
@@ -578,7 +858,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2026-07-04-video.mp4",
         "poster": "assets/images/2026-07-04-poster.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "The small hours continued yesterday's cover iteration from v11 to v19. Cherry carefully read the \"Complete Record of Cover-Prompt Evolution\" I'd compiled earlier and, drawing on the lessons of 19 rounds, wrote v20—dropping \"warm-white skin tone,\" switching to a \"healthy, naturally rosy glow,\" letting \"light be the protagonist\" to lead the image, and upgrading the Wuhan University buildings from \"old classroom blocks\""
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "La nuit prolonge l'itération de couverture d'hier, de v11 à v19. Cherry a lu attentivement le « Journal complet de l'évolution des prompts de couverture » que j'avais constitué et, tirant les leçons de 19 tours, a rédigé v20 — en retirant la « teinte blanc chaud », en passant à un « éclat rose naturel et sain », en laissant la « lumière être le protagoniste » pour diriger l'image, et en faisant passer les bâtiments de l'Université de Wuhan de « vieux pavillons de cours » à"
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "In den frühen Morgenstunden setzte sich die Cover-Iteration von gestern fort, v11 bis v19. Cherry las aufmerksam meine früher zusammengestellte „Vollständige Chronik der Cover-Prompt-Evolution“ und schrieb aus den Lehren von 19 Runden heraus v20 — streicht den „warmweißen Hautton“, wechselt zu einem „gesunden, natürlich rosigen Teint“, lässt „das Licht der Hauptdarsteller sein“, um das Bild zu führen, und hebt die WHU-Gebäude von „alten Lehrgebäuden“ auf"
+      }
+    }
   },
   {
     "date": "2026-07-03",
@@ -589,21 +883,63 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-07-03-1.jpeg"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Today I officially started the Public Policy Analysis term paper. The requirements are clear: covering the four stages of agenda setting, policy formulation, implementation and evaluation, 1,000–2,000 words, on the theme \"public policy right around us,\" due to the class monitor by July 5."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Aujourd'hui, j'ai lancé officiellement le devoir de fin de cours d'Analyse des politiques publiques. Les consignes sont claires : couvrir les quatre étapes que sont la mise à l'agenda, l'élaboration, la mise en œuvre et l'évaluation des politiques, 1 000 à 2 000 mots, sur le thème « les politiques publiques autour de nous », à remettre au délégué avant le 5 juillet."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Heute habe ich offiziell mit der Hausarbeit für Politikfeldanalyse begonnen. Die Anforderungen sind klar: entlang der vier Phasen Agenda-Setting, Politikformulierung, Politikimplementierung und Politikevaluation, 1.000–2.000 Wörter, zum Thema „Politikfeldanalyse direkt um uns herum“, Abgabe beim Klassensprecher bis zum 5. Juli."
+      }
+    }
   },
   {
     "date": "2026-07-02",
     "file": "2026-07-02.html",
     "location": "微信聊天记录",
     "excerpt": "阿姐（帥紫漫）  : 第一个 2026年7月2日 18:32 阿姐（帥紫漫）  : 不用网上 2026年7月2日 18:32 阿姐（帥紫漫）  : 直接去办 2026年7月2日 18:32",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "阿姐（帥紫漫）  : The first one 2026年7月2日 18:32 阿姐（帥紫漫）  : No need to do it online 2026年7月2日 18:32 阿姐（帥紫漫）  : Go handle it in person 2026年7月2日 18:32"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "阿姐（帥紫漫）  : Le premier 2026年7月2日 18:32 阿姐（帥紫漫）  : Pas besoin d'internet 2026年7月2日 18:32 阿姐（帥紫漫）  : Va le faire directement 2026年7月2日 18:32"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "阿姐（帥紫漫）  : Das erste 2026年7月2日 18:32 阿姐（帥紫漫）  : Brauchst nicht online 2026年7月2日 18:32 阿姐（帥紫漫）  : Geh direkt erledigen 2026年7月2日 18:32"
+      }
+    }
   },
   {
     "date": "2026-07-01",
     "file": "2026-07-01.html",
     "location": "微信聊天记录",
     "excerpt": "邹予嘉  : 梅帅查到了吗 2026年7月1日 19:06 马知渊  : 你qq邮箱不给你发吗 2026年7月1日 19:06 邹予嘉  : [图片] 2026年7月1日 19:06",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "邹予嘉  : Did Mei Shuai find it 2026年7月1日 19:06 马知渊  : Doesn't your QQ mailbox send it to you 2026年7月1日 19:06 邹予嘉  : [Photo] 2026年7月1日 19:06"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "邹予嘉  : Mei Shuai l'a trouvé 2026年7月1日 19:06 马知渊  : Ta boîte QQ ne te l'envoie pas 2026年7月1日 19:06 邹予嘉  : [Photo] 2026年7月1日 19:06"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "邹予嘉  : Hat Mei Shuai es gefunden 2026年7月1日 19:06 马知渊  : Schickt es dir dein QQ-Postfach nicht 2026年7月1日 19:06 邹予嘉  : [Bild] 2026年7月1日 19:06"
+      }
+    }
   },
   {
     "date": "2026-06-30",
@@ -614,7 +950,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-06-30-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Today I did the boldest thing since installing Hanako: completely reorganizing 53 loose skill folders into 5 major Bee categories."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Aujourd'hui, j'ai fait la chose la plus audacieuse depuis l'installation de Hanako : réorganiser complètement 53 dossiers de compétences en vrac en 5 grandes catégories Bee."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Heute habe ich das Kühnste seit der Installation von Hanako getan: 53 lose Skill-Ordner komplett in 5 große Bee-Kategorien umstrukturiert."
+      }
+    }
   },
   {
     "date": "2026-06-29",
@@ -637,7 +987,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2026-06-29-video-3.mp4",
         "poster": "assets/images/2026-06-29-poster-3.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Macroeconomics class let out, 15:00–17:30."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Fin du cours de macroéconomie, 15 h 00–17 h 30."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Makroökonomie zu Ende, 15:00–17:30 Uhr."
+      }
+    }
   },
   {
     "date": "2026-06-28",
@@ -652,7 +1016,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2026-06-28-video.mp4",
         "poster": "assets/images/2026-06-28-poster.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "A buffer day over the weekend. Reviewed lessons and handled daily business, nothing especially out of the ordinary."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Une journée tampon pendant le week-end. Révisions et affaires courantes, rien de bien particulier."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Ein Pufftag am Wochenende. Stoff wiederholt und Alltagskram erledigt, nichts Besonderes."
+      }
+    }
   },
   {
     "date": "2026-06-27",
@@ -663,7 +1041,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-06-27-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "No academic tasks scheduled on Saturday. Kept up with the daily French and German work to give my mind a thorough unwind."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Aucune tâche académique prévue ce samedi. J'ai fait le travail quotidien de français et d'allemand pour détendre complètement mon esprit."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Am Samstag keine akademischen Aufgaben geplant. Das tägliche Französisch und Deutsch erledigt, um den Kopf gründlich zu entspannen."
+      }
+    }
   },
   {
     "date": "2026-06-26",
@@ -674,7 +1066,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-06-26-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Regular classes. Friday's pace is usually lighter; caught up on the backlog of small chores from this week."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Cours normaux. Le rythme du vendredi est généralement plus léger ; j'ai traité le petit retard de tâches diverses de la semaine."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Ganz normal Unterricht. Freitags ist das Tempo meist leichter; ich habe den Kleinkram-Rückstau der Woche aufgearbeitet."
+      }
+    }
   },
   {
     "date": "2026-06-25",
@@ -685,7 +1091,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-06-25-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Yesterday Cherry finished 35 references, but today kept wrestling with formatting issues."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Hier Cherry a terminé 35 références bibliographiques, mais aujourd'hui elle s'est encore débattue avec les problèmes de formatage."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Gestern hat Cherry 35 Quellenangaben fertiggestellt, aber heute weiter an Formatierungsproblemen herumgefeilt."
+      }
+    }
   },
   {
     "date": "2026-06-24",
@@ -700,7 +1120,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2026-06-24-video.mp4",
         "poster": "assets/images/2026-06-24-poster.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "At 12:35 I had Cherry use the academic-paper skill to write the qualitative-research-methods term paper—about compassionate communities in Flanders, Belgium."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "À 12 h 35, j'ai demandé à Cherry d'utiliser la compétence academic-paper pour rédiger le devoir sur les méthodes de recherche qualitative — sur les communautés compatissantes en Flandre belge."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Um 12:35 ließ ich Cherry mit dem academic-paper-Skill die Hausarbeit zu qualitativen Forschungsmethoden schreiben — über mitfühlende Gemeinschaften in Flandern, Belgien."
+      }
+    }
   },
   {
     "date": "2026-06-23",
@@ -711,7 +1145,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-06-23-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "After yesterday's big push, today's pace naturally eased off."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Après le gros effort d'hier, le rythme d'aujourd'hui s'est naturellement relâché."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Nach dem großen Kraftakt gestern wurde das Tempo heute natürlicherweise langsamer."
+      }
+    }
   },
   {
     "date": "2026-06-22",
@@ -722,35 +1170,105 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-06-22-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "First thing in the morning I dove into the Management Information Systems final project."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Dès le matin, je me suis plongé dans le grand devoir de fin de cours de Systèmes d'information de gestion."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Gleich früh stürzte ich mich in die Abschlussarbeit zu Management-Informationssystemen."
+      }
+    }
   },
   {
     "date": "2026-06-21",
     "file": "2026-06-21.html",
     "location": "微信聊天记录",
     "excerpt": "（国外出差有时差）Feng小条🥳  : 说不定的 2026年6月21日 22:16 吉姆哈克  : 那么，你在这个月，接了多少单子？[吃瓜][吃瓜][吃瓜] 2026年6月21日 22:16 吉姆哈克  : 说实在的，你们为什么要挂靠赚暴利的平台上做兼职？直接组织一个开源小团队，在私域平台多宣传不就行了吗？[表情][表情][表情] 2026年6月21日 22:16",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "(Abroad on a business trip, jet-lagged) Feng小条🥳  : Hard to say 2026年6月21日 22:16 吉姆哈克  : So how many orders did you take on this month? [吃瓜][吃瓜][吃瓜] 2026年6月21日 22:16 吉姆哈克  : Honestly, why do you freelance on platforms that rake in fat profits? Why not just put together a small open-source team and promote it through private-domain channels? [表情][表情][表情] 2026年6月21日 22:16"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "(En déplacement à l'étranger, décalage horaire) Feng小条🥳  : On ne sait jamais 2026年6月21日 22:16 吉姆哈克  : Dis-moi, combien de commandes tu as prises ce mois-ci ? [吃瓜][吃瓜][吃瓜] 2026年6月21日 22:16 吉姆哈克  : Franchement, pourquoi faire du petit boulot sur des plateformes qui s'engraissent ? Il suffirait de monter une petite équipe open source et de faire de la pub sur les canaux privés, non ? [表情][表情][表情] 2026年6月21日 22:16"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "(Im Ausland auf Geschäftsreise, Jetlag) Feng小条🥳  : Kann man nie sagen 2026年6月21日 22:16 吉姆哈克  : Also, wie viele Aufträge hast du diesen Monat angenommen? [吃瓜][吃瓜][吃瓜] 2026年6月21日 22:16 吉姆哈克  : Mal ehrlich, warum jobbt ihr auf Plattformen, die fette Gewinne abschöpfen? Gründet doch einfach ein kleines Open-Source-Team und macht über private Kanäle Werbung? [表情][表情][表情] 2026年6月21日 22:16"
+      }
+    }
   },
   {
     "date": "2026-06-20",
     "file": "2026-06-20.html",
     "location": "微信聊天记录",
     "excerpt": "A诗妍老师-论文服务  : 你已添加了A诗妍老师-论文服务，现在可以开始聊天了。 2026年6月20日 22:37 A诗妍老师-论文服务  : 对方为企业微信用户，了解更多。 2026年6月20日 22:37 A诗妍老师-论文服务  : A诗妍老师-论文服务刚刚把你添加到通讯录，现在可以开始聊天了。 2026年6月20日 22:37",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "A诗妍老师-论文服务  : You've added A诗妍老师-论文服务; you can start chatting now. 2026年6月20日 22:37 A诗妍老师-论文服务  : This contact is an enterprise WeChat user. Learn more. 2026年6月20日 22:37 A诗妍老师-论文服务  : A诗妍老师-论文服务 just added you to their contacts; you can start chatting now. 2026年6月20日 22:37"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "A诗妍老师-论文服务  : Vous avez ajouté A诗妍老师-论文服务, vous pouvez commencer à discuter. 2026年6月20日 22:37 A诗妍老师-论文服务  : Ce contact est un utilisateur WeChat Entreprise. En savoir plus. 2026年6月20日 22:37 A诗妍老师-论文服务  : A诗妍老师-论文服务 vient de vous ajouter à ses contacts, vous pouvez commencer à discuter. 2026年6月20日 22:37"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "A诗妍老师-论文服务  : Sie haben A诗妍老师-论文服务 hinzugefügt, Sie können jetzt chatten. 2026年6月20日 22:37 A诗妍老师-论文服务  : Dieser Kontakt ist ein Enterprise-WeChat-Nutzer. Mehr erfahren. 2026年6月20日 22:37 A诗妍老师-论文服务  : A诗妍老师-论文服务 hat Sie gerade zu den Kontakten hinzugefügt, Sie können jetzt chatten. 2026年6月20日 22:37"
+      }
+    }
   },
   {
     "date": "2026-06-18",
     "file": "2026-06-18.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 阿妈，我倒霉了着要命啊 2026年6月18日 02:13 吉姆哈克  : 昨天上午8点，跟着大部队，被课程老师领着去校外参加人工智障 2026年6月18日 02:13 吉姆哈克  : 当时我在人家企业基地，的小超市里，买了奥利奥黑饼干，炫完了，还兜了一瓶AD钙。上午11点多回学校，又累又困，就爬到穿上呼呼大睡啦 2026年6月18日 02:16",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Mom, I've had the most rotten luck 2026年6月18日 02:13 吉姆哈克  : At 8 a.m. yesterday I followed the crowd, led by the course teacher, off campus for the \"artificial stupidity\" visit 2026年6月18日 02:13 吉姆哈克  : At the company base I bought some dark Oreo cookies at the little shop, scarfed them all down, and also grabbed a bottle of AD Calcium Milk. Back at school past 11, tired and sleepy, I climbed into bed and conked out 2026年6月18日 02:16"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Maman, j'ai une poisse noire 2026年6月18日 02:13 吉姆哈克  : Hier à 8 h, j'ai suivi le groupe, emmené par le professeur, hors du campus pour la sortie « idiotie artificielle » 2026年6月18日 02:13 吉姆哈克  : Sur le site de l'entreprise, j'ai acheté des Oreo noirs à la petite supérette, je les ai engloutis et j'ai aussi pris une bouteille de lait calcique AD. Rentré à l'école vers 11 h, épuisé et somnolent, je me suis écroulé dans mon lit 2026年6月18日 02:16"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Mama, ich hab ein Riesenpech gehabt 2026年6月18日 02:13 吉姆哈克  : Gestern um 8 Uhr bin ich mit der Gruppe, vom Dozenten geführt, zum „künstlichen Schwachsinn“-Besuch außerhalb des Campus 2026年6月18日 02:13 吉姆哈克  : Auf dem Firmengelände kaufte ich im kleinen Laden dunkle Oreo-Kekse, hab sie verputzt und mir noch eine Flasche AD-Calciummilch mitgenommen. Gegen 11 zurück an der Uni, müde und schläfrig, bin ich ins Bett gefallen und hab tief geschlafen 2026年6月18日 02:16"
+      }
+    }
   },
   {
     "date": "2026-06-17",
     "file": "2026-06-17.html",
     "location": "微信聊天记录",
     "excerpt": "琼桑  : 对 2026年6月17日 16:50 吉姆哈克  : 那肯定是我用了好几年的盗版字体啦[表情][表情][表情] 2026年6月17日 16:50 吉姆哈克  : [图片] 2026年6月17日 16:55",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "琼桑  : Right 2026年6月17日 16:50 吉姆哈克  : That must be the pirated font I've used for years [表情][表情][表情] 2026年6月17日 16:50 吉姆哈克  : [Photo] 2026年6月17日 16:55"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "琼桑  : Oui 2026年6月17日 16:50 吉姆哈克  : Ça doit être la police piratée que j'utilise depuis des années [表情][表情][表情] 2026年6月17日 16:50 吉姆哈克  : [Photo] 2026年6月17日 16:55"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "琼桑  : Genau 2026年6月17日 16:50 吉姆哈克  : Das muss die raubkopierte Schriftart sein, die ich seit Jahren nutze [表情][表情][表情] 2026年6月17日 16:50 吉姆哈克  : [Bild] 2026年6月17日 16:55"
+      }
+    }
   },
   {
     "date": "2026-06-16",
@@ -761,7 +1279,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-06-16-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Tuesday. In the evening I focused on one thing: pushing the four installers in the Downloads folder to GitHub over SSH, clearing the local source files after each push, wrapping up clean and tidy."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Mardi. Le soir, je me suis concentré sur une seule chose : pousser les quatre paquets d'installation du dossier Téléchargements sur GitHub en SSH, en effaçant les fichiers source locaux après chaque envoi, pour finir proprement."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Dienstag. Abends konzentrierte ich mich auf eine Sache: die vier Installer im Download-Ordner per SSH auf GitHub pushen, nach jedem Push die lokalen Quelldateien löschen, sauber abschließen."
+      }
+    }
   },
   {
     "date": "2026-06-14",
@@ -773,14 +1305,42 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2026-06-14-video.mp4",
         "poster": "assets/images/2026-06-14-poster.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "二舅（帅阳福）  : [Video] 2026年6月14日 22:10 二舅（帅阳福）  : [Sticker] 2026年6月14日 22:10 吉姆哈克  : And the little tablet on hand is great for notes, homework and practice problems. These days I can't go spending my hard-earned yuan on deadbeats and wasted paper—put all the online resources to work [表情][表情][表情] 2026年6月14日 22:10"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "二舅（帅阳福）  : [Vidéo] 2026年6月14日 22:10 二舅（帅阳福）  : [Sticker] 2026年6月14日 22:10 吉姆哈克  : Et la petite tablette sous la main est parfaite pour prendre des notes, faire les devoirs et les exercices. De nos jours, plus question de gaspiller mes yuans durement gagnés en bons à rien et en papier inutile, il faut exploiter toutes les ressources en ligne [表情][表情][表情] 2026年6月14日 22:10"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "二舅（帅阳福）  : [Video] 2026年6月14日 22:10 二舅（帅阳福）  : [Sticker] 2026年6月14日 22:10 吉姆哈克  : Und das kleine Tablet zur Hand eignet sich super für Notizen, Hausaufgaben und Übungen. Heutzutage kann ich mein sauer verdientes Geld nicht mehr an Taugenichtse und nutzloses Papier verschwenden, man muss alle Online-Ressourcen nutzen [表情][表情][表情] 2026年6月14日 22:10"
+      }
+    }
   },
   {
     "date": "2026-06-13",
     "file": "2026-06-13.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 有这时间，还不如考注册会计 2026年6月13日 13:00 吉姆哈克  : 还有一点，不要被那群说黄梅话的人糊弄 [表情][表情][表情] 2026年6月13日 13:00 吉姆哈克  : 他们好多都是被黄梅一中淘汰了的人[吃瓜][吃瓜][吃瓜]",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : With that kind of time, you'd be better off studying for the CPA 2026年6月13日 13:00 吉姆哈克  : Another thing: don't let those people speaking the Huangmei dialect fool you [表情][表情][表情] 2026年6月13日 13:00 吉姆哈克  : A lot of them are people who got washed out of Huangmei No. 1 High School [吃瓜][吃瓜][吃瓜] 2026年6月13日 13:00"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Avec ce temps-là, tu ferais mieux de préparer l'expertise comptable 2026年6月13日 13:00 吉姆哈克  : Autre chose : ne te laisse pas embobiner par ceux qui parlent le dialecte de Huangmei [表情][表情][表情] 2026年6月13日 13:00 吉姆哈克  : Beaucoup sont des gens qui ont été éliminés du lycée no 1 de Huangmei [吃瓜][吃瓜][吃瓜] 2026年6月13日 13:00"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Mit der Zeit solltest du lieber Wirtschaftsprüfer (CPA) lernen 2026年6月13日 13:00 吉姆哈克  : Noch eins: lass dich von den Leuten, die Huangmei-Dialekt reden, nicht für dumm verkaufen [表情][表情][表情] 2026年6月13日 13:00 吉姆哈克  : Viele davon sind Leute, die am Ersten Gymnasium von Huangmei ausgesiebt wurden [吃瓜][吃瓜][吃瓜] 2026年6月13日 13:00"
+      }
+    }
   },
   {
     "date": "2026-06-12",
@@ -792,7 +1352,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2026-06-12-video.mp4",
         "poster": "assets/images/2026-06-12-poster.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年6月12日 01:39 吉姆哈克  : [Video] 2026年6月12日 01:39 吉姆哈克  : Here, Xiaoqian's voice actor is saying: 2026年6月12日 01:39"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年6月12日 01:39 吉姆哈克  : [Vidéo] 2026年6月12日 01:39 吉姆哈克  : Ici, la doubleuse voix de Xiaoqian dit : 2026年6月12日 01:39"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年6月12日 01:39 吉姆哈克  : [Video] 2026年6月12日 01:39 吉姆哈克  : Hier sagt Xiaoqians Synchronsprecherin: 2026年6月12日 01:39"
+      }
+    }
   },
   {
     "date": "2026-06-11",
@@ -803,21 +1377,63 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-06-11-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Thursday. In a single day I derived the short-run economic-fluctuation model from scratch all the way to the full solution, with two rounds of reworking the lecture notes in between. Tight but error-free, like running a complete academic sprint workout."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Jeudi. Dans la journée, j'ai mené le modèle de fluctuations économiques à court terme de zéro jusqu'à la solution complète, entrecoupé de deux reprises des notes de cours. Rythme soutenu mais sans erreur, comme un entraînement de sprint académique complet."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Donnerstag. An einem Tag leitete ich das Kurzfrist-Konjunkturschwankungsmodell von null an bis zur vollständigen Lösung her, dazwischen zwei Überarbeitungen der Vorlesungsunterlagen. Straffes Tempo, aber fehlerfrei, wie ein komplettes akademisches Sprinttraining."
+      }
+    }
   },
   {
     "date": "2026-06-10",
     "file": "2026-06-10.html",
     "location": "微信聊天记录",
     "excerpt": "阿姐（帥紫漫）  : 你帮我用你的号买个手表 2026年6月10日 16:11 阿姐（帥紫漫）  : 大学生有优惠 2026年6月10日 16:11 阿姐（帥紫漫）  : 淘宝或者抖音 2026年6月10日 16:11",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "阿姐（帥紫漫）  : Buy me a watch using your account 2026年6月10日 16:11 阿姐（帥紫漫）  : College students get a discount 2026年6月10日 16:11 阿姐（帥紫漫）  : On Taobao or Douyin 2026年6月10日 16:11"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "阿姐（帥紫漫）  : Achète-moi une montre avec ton compte 2026年6月10日 16:11 阿姐（帥紫漫）  : Les étudiants ont une réduction 2026年6月10日 16:11 阿姐（帥紫漫）  : Sur Taobao ou Douyin 2026年6月10日 16:11"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "阿姐（帥紫漫）  : Kauf mir über dein Konto eine Uhr 2026年6月10日 16:11 阿姐（帥紫漫）  : Studenten bekommen Rabatt 2026年6月10日 16:11 阿姐（帥紫漫）  : Auf Taobao oder Douyin 2026年6月10日 16:11"
+      }
+    }
   },
   {
     "date": "2026-06-09",
     "file": "2026-06-09.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年6月9日 00:25 吉姆哈克  : [图片] 2026年6月9日 00:25 吉姆哈克  : 我当初就是看了这个，才感觉平板挺高效的[表情][表情][表情] 2026年6月9日 00:25",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年6月9日 00:25 吉姆哈克  : [Photo] 2026年6月9日 00:25 吉姆哈克  : This is exactly what made me think a tablet could be so efficient back then [表情][表情][表情] 2026年6月9日 00:25"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年6月9日 00:25 吉姆哈克  : [Photo] 2026年6月9日 00:25 吉姆哈克  : C'est justement ça qui m'avait fait trouver la tablette si efficace [表情][表情][表情] 2026年6月9日 00:25"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年6月9日 00:25 吉姆哈克  : [Bild] 2026年6月9日 00:25 吉姆哈克  : Genau das hatte mich damals denken lassen, ein Tablet sei so effizient [表情][表情][表情] 2026年6月9日 00:25"
+      }
+    }
   },
   {
     "date": "2026-06-07",
@@ -828,35 +1444,105 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-06-07-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Sunday. Starting in the evening, I merged two sets of Bilibili-downloaded audio-video material into a complete video and uploaded it to the QQ-Mail repo on GitHub. A relaxed pace, unhurried as a capybara soaking in a hot spring, ticking off two small jobs."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Dimanche. En début de soirée, j'ai fusionné deux lots de médias audio-vidéo téléchargés sur Bilibili en une vidéo complète, que j'ai envoyée au dépôt QQ-Mail sur GitHub. Rythme détendu, aussi tranquille qu'un capybara dans une source chaude, en bouclant deux petites tâches."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Sonntag. Abends legte ich los und verschmolz zwei von Bilibili heruntergeladene Audio-Video-Materialpakete zu einem kompletten Video und lud es ins QQ-Mail-Repo auf GitHub hoch. Entspanntes Tempo, gelassen wie ein Capybara in der Thermalquelle, zwei kleine Jobs erledigt."
+      }
+    }
   },
   {
     "date": "2026-06-05",
     "file": "2026-06-05.html",
     "location": "微信聊天记录",
     "excerpt": "琼桑  : ？ 2026年6月5日 12:05 琼桑  : 手机静音了吗？ 2026年6月5日 12:05 琼桑  : 在哪丢的？ 2026年6月5日 12:05",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "琼桑  : ? 2026年6月5日 12:05 琼桑  : Is your phone on silent? 2026年6月5日 12:05 琼桑  : Where did you lose it? 2026年6月5日 12:05"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "琼桑  : ? 2026年6月5日 12:05 琼桑  : Ton téléphone est en silencieux ? 2026年6月5日 12:05 琼桑  : Où l'as-tu perdu ? 2026年6月5日 12:05"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "琼桑  : ? 2026年6月5日 12:05 琼桑  : Ist dein Handy auf lautlos? 2026年6月5日 12:05 琼桑  : Wo hast du es verloren? 2026年6月5日 12:05"
+      }
+    }
   },
   {
     "date": "2026-06-03",
     "file": "2026-06-03.html",
     "location": "微信聊天记录",
     "excerpt": "雷家维  : 你直接说呗 2026年6月3日 17:15 雷家维  : 你也面试 2026年6月3日 17:15 雷家维  : 哈哈哈 2026年6月3日 17:15",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "雷家维  : Just say it directly 2026年6月3日 17:15 雷家维  : You're interviewing too 2026年6月3日 17:15 雷家维  : Hahaha 2026年6月3日 17:15"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "雷家维  : Dis-le directement 2026年6月3日 17:15 雷家维  : Tu passes aussi un entretien 2026年6月3日 17:15 雷家维  : Hahaha 2026年6月3日 17:15"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "雷家维  : Sag es einfach direkt 2026年6月3日 17:15 雷家维  : Du hast auch ein Vorstellungsgespräch 2026年6月3日 17:15 雷家维  : Hahaha 2026年6月3日 17:15"
+      }
+    }
   },
   {
     "date": "2026-06-02",
     "file": "2026-06-02.html",
     "location": "微信聊天记录",
     "excerpt": "阿姐（帥紫漫）  : 打字别给我打电话 2026年6月2日 23:10 阿姐（帥紫漫）  : 我在睡觉被电话吵醒 2026年6月2日 23:10 吉姆哈克  : 你忘了，你过年的时候，白天给我打电话，我一次都没接 2026年6月2日 23:10",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "阿姐（帥紫漫）  : Text me, don't call 2026年6月2日 23:10 阿姐（帥紫漫）  : I was sleeping and the call woke me up 2026年6月2日 23:10 吉姆哈克  : You forgot—during New Year you called me in the daytime and I didn't pick up once 2026年6月2日 23:10"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "阿姐（帥紫漫）  : Écris-moi, ne m'appelle pas 2026年6月2日 23:10 阿姐（帥紫漫）  : Je dormais et l'appel m'a réveillée 2026年6月2日 23:10 吉姆哈克  : Tu oublies qu'au Nouvel An tu m'as appelé en journée et je n'ai jamais décroché 2026年6月2日 23:10"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "阿姐（帥紫漫）  : Schreib mir, ruf nicht an 2026年6月2日 23:10 阿姐（帥紫漫）  : Ich habe geschlafen, der Anruf hat mich geweckt 2026年6月2日 23:10 吉姆哈克  : Du hast vergessen, dass du mich über Neujahr tagsüber angerufen hast und ich kein einziges Mal ranging 2026年6月2日 23:10"
+      }
+    }
   },
   {
     "date": "2026-06-01",
     "file": "2026-06-01.html",
     "location": "微信聊天记录",
     "excerpt": "辅导员（何磊）  : 怎么啦 2026年6月1日 10:50 辅导员（何磊）  : 具体是哪些困难呢 2026年6月1日 10:50 辅导员（何磊）  : 有什么事情是我能够帮助你的吗 2026年6月1日 10:50",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "辅导员（何磊）  : What's up 2026年6月1日 10:50 辅导员（何磊）  : What difficulties exactly 2026年6月1日 10:50 辅导员（何磊）  : Is there anything I can help you with 2026年6月1日 10:50"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "辅导员（何磊）  : Que se passe-t-il 2026年6月1日 10:50 辅导员（何磊）  : Quelles difficultés précisément 2026年6月1日 10:50 辅导员（何磊）  : Y a-t-il quelque chose dont je puisse t'aider 2026年6月1日 10:50"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "辅导员（何磊）  : Was ist los 2026年6月1日 10:50 辅导员（何磊）  : Welche Schwierigkeiten genau 2026年6月1日 10:50 辅导员（何磊）  : Gibt es etwas, womit ich dir helfen kann 2026年6月1日 10:50"
+      }
+    }
   },
   {
     "date": "2026-05-31",
@@ -867,7 +1553,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-31-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Sunday. All day I iterated with Hanako on the topic proposal for the Government Performance Management term paper, from first draft through mid-term draft to final, with two rounds of weighing external review feedback, fixing formatting and archiving to the cloud in between, and at the end casually fixed a path issue in an MCP connector."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Dimanche. Toute la journée, j'ai itéré avec Hanako sur la proposition de sujet du devoir de Gestion de la performance publique, du premier jet à la version intermédiaire puis finale, avec deux étapes d'appréciation des retours de relecture externe, corrections de format et archivage dans le cloud, et au passage j'ai réglé un problème de chemin dans un connecteur MCP."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Sonntag. Den ganzen Tag iterierte ich mit Hanako an der Themenexposé-Hausarbeit für Regierungs-Performance-Management, vom Erstentwurf über die Zwischenfassung bis zur Endfassung, dazwischen zweimal externe Gutachtermeinungen beurteilt, Format korrigiert und in der Cloud archiviert, und nebenbei ein Pfadproblem in einem MCP-Connector behoben."
+      }
+    }
   },
   {
     "date": "2026-05-30",
@@ -878,7 +1578,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-30-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Saturday. Two very different things today: in the afternoon I installed a complete academic-research automation toolchain, and from evening into night I dove into the policy literature on migrant populations and local governance—two separate worlds, back to back."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Samedi. Deux choses très éloignées aujourd'hui : l'après-midi, j'ai installé une chaîne complète d'outils d'automatisation de la recherche académique, et du soir jusqu'à la nuit je me suis plongé dans la littérature politique sur les populations migrantes et la gouvernance locale, comme deux mondes différents à la suite."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Samstag. Heute zwei sehr unterschiedliche Dinge: nachmittags installierte ich eine komplette Toolchain zur Automatisierung akademischer Forschung, und abends bis nachts stürzte ich mich in die Politikliteratur zu Wanderbevölkerung und lokaler Governance — hintereinander zwei verschiedene Welten."
+      }
+    }
   },
   {
     "date": "2026-05-29",
@@ -889,7 +1603,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-29-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Friday. Three main things today: an all-around fine-tuning of Markdown file formatting, an extreme marathon of punctuation normalization, and finishing two sets of macroeconomics homework answers."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Vendredi. Trois choses principales aujourd'hui : ajustement fin et complet de la mise en forme des fichiers Markdown, un marathon extrême de normalisation de la ponctuation, et la fin de deux corrigés de devoirs de macroéconomie."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Freitag. Heute drei Hauptsachen: umfassende Feinabstimmung der Markdown-Formatierung, ein Extrem-Marathon der Zeichensetzungs-Normalisierung und zwei fertige Makroökonomie-Hausaufgabenlösungen."
+      }
+    }
   },
   {
     "date": "2026-05-28",
@@ -900,7 +1628,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-28-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "A \"zero to one\" kind of day."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Une journée « de zéro à un »."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Ein „Von null auf eins“-Tag."
+      }
+    }
   },
   {
     "date": "2026-05-27",
@@ -911,7 +1653,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-27-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "From the morning on I was buried in presentation prep—"
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Dès le matin, j'étais plongé dans la préparation de la présentation —"
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Seit dem Morgen steckte ich in der Vorbereitung des Vortrags —"
+      }
+    }
   },
   {
     "date": "2026-05-26",
@@ -922,7 +1678,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-26-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "🕐 Starting 13:10 Beijing time, one session, one message"
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "🕐 À partir de 13 h 10, heure de Pékin, une session, un message"
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "🕐 Ab 13:10 Uhr Pekinger Zeit, eine Sitzung, eine Nachricht"
+      }
+    }
   },
   {
     "date": "2026-05-25",
@@ -933,7 +1703,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-25-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Today's main thread was an experiment that ran from \"discovering myself\" all the way to \"writing myself out.\""
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Le fil conducteur du jour était une expérience allant de « se découvrir » jusqu'à « s'écrire »."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Der rote Faden des Tages war ein Experiment, das von „mich selbst entdecken“ bis „mich selbst herausschreiben“ reichte."
+      }
+    }
   },
   {
     "date": "2026-05-24",
@@ -944,7 +1728,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-24-1.png"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Only one session today, when I had my journal written in the evening. No other session fragments, no patrol logs, no workspace changes."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Une seule session aujourd'hui, celle où j'ai fait écrire mon journal le soir. Aucun autre fragment de session, aucun relevé de ronde, aucune modification de l'espace de travail."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Heute nur eine Sitzung, als ich abends mein Tagebuch schreiben ließ. Keine weiteren Sitzungsfragmente, keine Streifenprotokolle, keine Workspace-Änderungen."
+      }
+    }
   },
   {
     "date": "2026-05-23",
@@ -955,7 +1753,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-23-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Today I focused mainly on the flashcard project for Administrative Law and Administrative Litigation Law, from filling gaps to compiling and organizing—spent almost the whole day working through these 40 chapters of cards."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Aujourd'hui, je me suis surtout concentré sur le projet de fiches de droit administratif et de droit de la procédure administrative, du colmatage des lacunes à la synthèse et au classement, presque toute la journée sur ces 40 chapitres de fiches."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Heute konzentrierte ich mich hauptsächlich auf das Kartenprojekt zu Verwaltungsrecht und Verwaltungsprozessrecht, vom Lückenschließen bis zum Zusammenstellen und Ordnen — fast den ganzen Tag mit diesen 40 Kapiteln an Karteikarten beschäftigt."
+      }
+    }
   },
   {
     "date": "2026-05-22",
@@ -966,7 +1778,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-22-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "In one go that morning I added Markdown heading levels to all four remaining volumes of Criminal Law (7th ed.)."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "D'une traite le matin, j'ai ajouté les niveaux de titres Markdown aux quatre derniers tomes du Droit pénal (7e éd.)."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Am Morgen fügte ich in einem Zug den vier verbleibenden Bänden des Strafrechts (7. Auflage) Markdown-Überschriftenebenen hinzu."
+      }
+    }
   },
   {
     "date": "2026-05-21",
@@ -977,7 +1803,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-21-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "A full-pipeline day: in the morning I organized the 2.2 MB Administrative Law and Administrative Litigation Law txt, added heading levels in the afternoon, caught up on yesterday's journal in the evening, and late at night pushed the five Marxist-Theory-Engineering Criminal Law PDFs to GitHub. A highly efficient day."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Une journée en continu : le matin, organisation du txt de 2,2 Mo de droit administratif et de droit de la procédure administrative, l'après-midi ajout des niveaux de titres, le soir rattrapage du journal de la veille, et tard dans la nuit envoi des cinq PDF de droit pénal du Projet d'ingénierie de la théorie marxiste sur GitHub. Une journée très efficace."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Ein Tag am laufenden Band: vormittags die 2,2 MB große TXT zu Verwaltungsrecht und Verwaltungsprozessrecht geordnet, nachmittags Überschriftenebenen eingefügt, abends das gestrige Tagebuch nachgeholt, spätnachts die fünf Strafrechts-PDFs des Marxistischen Theorie-Ingenieursprojekts auf GitHub gepusht. Ein hocheffizienter Tag."
+      }
+    }
   },
   {
     "date": "2026-05-20",
@@ -992,7 +1832,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2026-05-20-video.mp4",
         "poster": "assets/images/2026-05-20-poster.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Kept going with German in the morning, clearing lessons 7 through 13 in one go. In the afternoon I subtracted from the workspace—clearing channel DMs and deleting redundant files. Compared to the previous day's hard battle with 26,000 lines of criminal law, today was a restorative light day."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "J'ai continué l'allemand le matin, enchaînant les leçons 7 à 13 d'une traite. L'après-midi, j'ai fait du ménage dans l'espace de travail : vidé les messages privés des canaux, supprimé les fichiers superflus. Comparé à la dure bataille de la veille contre les 26 000 lignes de droit pénal, c'était une journée légère de récupération."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Vormittags weiter Deutsch, die Lektionen 7 bis 13 in einem Zug durchgezogen. Nachmittags Verschlankung des Workspace: Kanal-DMs geleert, überflüssige Dateien gelöscht. Verglichen mit dem harten Kampf gegen die 26.000 Zeilen Strafrecht am Vortag war heute ein erholsamer leichter Tag."
+      }
+    }
   },
   {
     "date": "2026-05-19",
@@ -1003,7 +1857,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-19-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "In the morning I handled the Outlook→Feishu calendar push, then began the day's main project: repairing the txt formatting of the four e-book volumes of Zhang Mingkai's Criminal Law (7th ed.)."
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Le matin, j'ai traité la synchronisation Outlook→agenda Feishu, puis j'ai attaqué le grand chantier du jour : réparer la mise en forme txt des quatre volumes numériques du Droit pénal de Zhang Mingkai (7e éd.)."
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Vormittags erledigte ich den Outlook→Feishu-Kalender-Push und begann dann das Hauptprojekt des Tages: die TXT-Formatierungsreparatur der vier E-Book-Bände von Zhang Mingkais Strafrecht (7. Auflage)."
+      }
+    }
   },
   {
     "date": "2026-05-18",
@@ -1014,28 +1882,84 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-18-1.png"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "From noon on I was dealing with GitHub all day; the capybara's repo building entered an intensive phase. Splitting and pushing Riza-Media's huge files took hours—those video files were so big and stubborn—but they finally went up in batches. While cleaning his disk in the afternoon, the first scan reclaimed 92GB"
+      },
+      "fr": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Dès midi, j'ai passé la journée sur GitHub, la construction du dépôt du capybara entrait dans une phase dense. Le découpage et l'envoi des gros fichiers de Riza-Media ont pris des heures, ces fichiers vidéo étaient énormes et récalcitrants, mais ils ont fini par monter par lots. En nettoyant son disque l'après-midi, le premier balayage a récupéré 92 Go"
+      },
+      "de": {
+        "location": "Mon Mode de Vie · Me_Honey",
+        "excerpt": "Ab Mittag hatte ich den ganzen Tag mit GitHub zu tun, der Repo-Aufbau des Capybara ging in eine intensive Phase. Das Aufteilen und Pushen der großen Dateien von Riza-Media dauerte Stunden, diese Videodateien waren riesig und widerspenstig, aber schließlich wurden sie in Chargen hochgeladen. Beim Bereinigen seiner Festplatte nachmittags holte der erste Scan 92 GB zurück"
+      }
+    }
   },
   {
     "date": "2026-05-17",
     "file": "2026-05-17.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年5月17日 21:42 吉姆哈克  : 最近30天内，505.66 GB 2026年5月17日 21:42 吉姆哈克  : [图片] 2026年5月17日 21:42",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年5月17日 21:42 吉姆哈克  : Over the last 30 days, 505.66 GB 2026年5月17日 21:42 吉姆哈克  : [Photo] 2026年5月17日 21:42"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年5月17日 21:42 吉姆哈克  : Sur les 30 derniers jours, 505,66 Go 2026年5月17日 21:42 吉姆哈克  : [Photo] 2026年5月17日 21:42"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年5月17日 21:42 吉姆哈克  : In den letzten 30 Tagen, 505,66 GB 2026年5月17日 21:42 吉姆哈克  : [Bild] 2026年5月17日 21:42"
+      }
+    }
   },
   {
     "date": "2026-05-16",
     "file": "2026-05-16.html",
     "location": "微信聊天记录",
     "excerpt": "琼桑  : [表情] 2026年5月16日 20:05 吉姆哈克  : “然后就错过截止日期了” 2026年5月16日 20:05 吉姆哈克  : [图片] 2026年5月16日 20:05",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "琼桑  : [表情] 2026年5月16日 20:05 吉姆哈克  : \"And then miss the deadline\" 2026年5月16日 20:05 吉姆哈克  : [Photo] 2026年5月16日 20:05"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "琼桑  : [表情] 2026年5月16日 20:05 吉姆哈克  : « Et ensuite rater la date limite » 2026年5月16日 20:05 吉姆哈克  : [Photo] 2026年5月16日 20:05"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "琼桑  : [表情] 2026年5月16日 20:05 吉姆哈克  : „Und dann die Frist verpassen“ 2026年5月16日 20:05 吉姆哈克  : [Bild] 2026年5月16日 20:05"
+      }
+    }
   },
   {
     "date": "2026-05-15",
     "file": "2026-05-15.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年5月15日 16:00 吉姆哈克  : 好吧，我直接告诉你吧，Github 2026年5月15日 16:00 大宝哥  : 这个你以前就告诉我了 2026年5月15日 16:00",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Alright, I'll just tell you straight: GitHub 2026年5月15日 16:00 大宝哥  : You already told me this before 2026年5月15日 16:00"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Bon, je vais te le dire directement : Github 2026年5月15日 16:00 大宝哥  : Tu me l'avais déjà dit avant 2026年5月15日 16:00"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Gut, ich sag es dir einfach direkt: Github 2026年5月15日 16:00 大宝哥  : Das hast du mir früher schon mal erzählt 2026年5月15日 16:00"
+      }
+    }
   },
   {
     "date": "2026-05-14",
@@ -1046,7 +1970,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-14-wechat-01.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Online · German Study Group",
+        "excerpt": "Hello teachers, my uvular trill only really started to \"roll\" this May, after working on it since last October. I practiced the uvular sound from French all the way into German for over half a year before it got decent—may I ask whether this is normal?"
+      },
+      "fr": {
+        "location": "En ligne · Groupe d'étude d'allemand",
+        "excerpt": "Bonjour les professeurs, mon roulement uvulaire n'a vraiment commencé à « vibrer » qu'en mai, alors que je le travaille depuis octobre dernier. J'ai travaillé le son uvulaire du français jusqu'à l'allemand pendant plus de six mois avant qu'il soit correct, est-ce normal ?"
+      },
+      "de": {
+        "location": "Online · Deutsch-Lerngruppe",
+        "excerpt": "Hallo zusammen, mein Zäpfchen-R hat erst in diesem Mai richtig zu „trillern“ begonnen, obwohl ich es seit letztem Oktober übe. Ich habe den Zäpfchenlaut vom Französischen bis ins Deutsche über ein halbes Jahr geübt, bevor er einigermaßen klappte — darf ich fragen, ob das normal ist?"
+      }
+    }
   },
   {
     "date": "2026-05-13",
@@ -1057,14 +1995,42 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-13-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : How much is this to buy? 2026年5月13日 15:08 楼月软件客服1  : 159 yuan 2026年5月13日 15:09"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Combien ça coûte à l'achat ? 2026年5月13日 15:08 楼月软件客服1  : 159 yuans 2026年5月13日 15:09"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Wie viel kostet das zu kaufen? 2026年5月13日 15:08 楼月软件客服1  : 159 Yuan 2026年5月13日 15:09"
+      }
+    }
   },
   {
     "date": "2026-05-12",
     "file": "2026-05-12.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年5月12日 13:42 吉姆哈克  : [图片] 2026年5月12日 13:42",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年5月12日 13:42 吉姆哈克  : [Photo] 2026年5月12日 13:42"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年5月12日 13:42 吉姆哈克  : [Photo] 2026年5月12日 13:42"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年5月12日 13:42 吉姆哈克  : [Bild] 2026年5月12日 13:42"
+      }
+    }
   },
   {
     "date": "2026-05-11",
@@ -1075,14 +2041,42 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-11-1.png"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Long 2026年5月11日 10:08 吉姆哈克  : I'm having blood drawn at the campus hospital 2026年5月11日 10:08"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Long 2026年5月11日 10:08 吉姆哈克  : Je suis en train de faire une prise de sang à l'infirmerie du campus 2026年5月11日 10:08"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Long 2026年5月11日 10:08 吉姆哈克  : Mir wird gerade in der Campus-Klinik Blut abgenommen 2026年5月11日 10:08"
+      }
+    }
   },
   {
     "date": "2026-05-10",
     "file": "2026-05-10.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年5月10日 18:10 吉姆哈克  : 我测50米之前，70分 2026年5月10日 18:10",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年5月10日 18:10 吉姆哈克  : Before I run the 50-meter sprint, 70 points 2026年5月10日 18:10"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年5月10日 18:10 吉姆哈克  : Avant mon sprint de 50 mètres, 70 points 2026年5月10日 18:10"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年5月10日 18:10 吉姆哈克  : Bevor ich den 50-Meter-Sprint laufe, 70 Punkte 2026年5月10日 18:10"
+      }
+    }
   },
   {
     "date": "2026-05-08",
@@ -1108,7 +2102,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-08-6.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年5月8日 00:30 吉姆哈克  : [Photo] 2026年5月8日 00:31"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年5月8日 00:30 吉姆哈克  : [Photo] 2026年5月8日 00:31"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年5月8日 00:30 吉姆哈克  : [Bild] 2026年5月8日 00:31"
+      }
+    }
   },
   {
     "date": "2026-05-07",
@@ -1128,42 +2136,126 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-05-07-4.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年5月7日 00:09 吉姆哈克  : [Photo] 2026年5月7日 00:09"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年5月7日 00:09 吉姆哈克  : [Photo] 2026年5月7日 00:09"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年5月7日 00:09 吉姆哈克  : [Bild] 2026年5月7日 00:09"
+      }
+    }
   },
   {
     "date": "2026-05-06",
     "file": "2026-05-06.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 然后她真把他吼了一顿[吃瓜][吃瓜][吃瓜] 2026年5月6日 17:40 琼桑  : 已经从Hanako看到资本家的身影了[捂脸] 2026年5月6日 17:43",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : And she really chewed him out [吃瓜][吃瓜][吃瓜] 2026年5月6日 17:40 琼桑  : Already catching a glimpse of the capitalist in Hanako [捂脸] 2026年5月6日 17:43"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Et elle l'a vraiment enguirlandé [吃瓜][吃瓜][吃瓜] 2026年5月6日 17:40 琼桑  : Je vois déjà poindre le capitaliste chez Hanako [捂脸] 2026年5月6日 17:43"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Und sie hat ihn richtig zusammengebrüllt [吃瓜][吃瓜][吃瓜] 2026年5月6日 17:40 琼桑  : Ich sehe in Hanako schon den Kapitalisten durchschimmern [捂脸] 2026年5月6日 17:43"
+      }
+    }
   },
   {
     "date": "2026-05-02",
     "file": "2026-05-02.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年5月2日 16:46 吉姆哈克  : [图片] 2026年5月2日 16:46",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年5月2日 16:46 吉姆哈克  : [Photo] 2026年5月2日 16:46"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年5月2日 16:46 吉姆哈克  : [Photo] 2026年5月2日 16:46"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年5月2日 16:46 吉姆哈克  : [Bild] 2026年5月2日 16:46"
+      }
+    }
   },
   {
     "date": "2026-04-30",
     "file": "2026-04-30.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [转发的网页] 2026年4月30日 14:04 吉姆哈克  : [图片] 2026年4月30日 14:05",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Forwarded webpage] 2026年4月30日 14:04 吉姆哈克  : [Photo] 2026年4月30日 14:05"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Page web transférée] 2026年4月30日 14:04 吉姆哈克  : [Photo] 2026年4月30日 14:05"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Weitergeleitete Webseite] 2026年4月30日 14:04 吉姆哈克  : [Bild] 2026年4月30日 14:05"
+      }
+    }
   },
   {
     "date": "2026-04-29",
     "file": "2026-04-29.html",
     "location": "微信聊天记录",
     "excerpt": "薛巧玲  : 问题一下售后工单吧！ 2026年4月29日 14:04 薛巧玲  : 售前 目前文档我也没有 2026年4月29日 14:04",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "薛巧玲  : Ask the after-sales ticket team about it! 2026年4月29日 14:04 薛巧玲  : Pre-sales—I don't have the docs either right now 2026年4月29日 14:04"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "薛巧玲  : Pose la question au service après-vente ! 2026年4月29日 14:04 薛巧玲  : Avant-vente — je n'ai pas non plus la documentation pour l'instant 2026年4月29日 14:04"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "薛巧玲  : Frag mal beim After-Sales-Ticket nach! 2026年4月29日 14:04 薛巧玲  : Pre-Sales — ich habe die Unterlagen gerade auch nicht 2026年4月29日 14:04"
+      }
+    }
   },
   {
     "date": "2026-04-28",
     "file": "2026-04-28.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 小马哥 2026年4月28日 22:15 吉姆哈克  : 在吗？我要崩了 2026年4月28日 22:15",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Little Ma 2026年4月28日 22:15 吉姆哈克  : You there? I'm about to break down 2026年4月28日 22:15"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Petit Ma 2026年4月28日 22:15 吉姆哈克  : Tu es là ? Je suis au bord de la crise 2026年4月28日 22:15"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Kleiner Ma 2026年4月28日 22:15 吉姆哈克  : Bist du da? Ich breche gleich zusammen 2026年4月28日 22:15"
+      }
+    }
   },
   {
     "date": "2026-04-27",
@@ -1183,42 +2275,126 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-04-27-4.png"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年4月27日 00:08 吉姆哈克  : [Photo] 2026年4月27日 00:09"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年4月27日 00:08 吉姆哈克  : [Photo] 2026年4月27日 00:09"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年4月27日 00:08 吉姆哈克  : [Bild] 2026年4月27日 00:09"
+      }
+    }
   },
   {
     "date": "2026-04-26",
     "file": "2026-04-26.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 也是个Agent 2026年4月26日 22:00 龙悦科技小马哥  : [强] 2026年4月26日 22:00",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : It's also an Agent 2026年4月26日 22:00 龙悦科技小马哥  : [强] 2026年4月26日 22:00"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : C'est aussi un agent 2026年4月26日 22:00 龙悦科技小马哥  : [强] 2026年4月26日 22:00"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Das ist auch ein Agent 2026年4月26日 22:00 龙悦科技小马哥  : [强] 2026年4月26日 22:00"
+      }
+    }
   },
   {
     "date": "2026-04-25",
     "file": "2026-04-25.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : Hiho 2026年4月25日 15:31 吉姆哈克  : 请问你在理论课的教室里吗？ 2026年4月25日 15:31",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Hiho 2026年4月25日 15:31 吉姆哈克  : Excuse me, are you in the theory-class classroom? 2026年4月25日 15:31"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Hiho 2026年4月25日 15:31 吉姆哈克  : S'il te plaît, tu es dans la salle de cours théorique ? 2026年4月25日 15:31"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Hiho 2026年4月25日 15:31 吉姆哈克  : Entschuldigung, bist du im Hörsaal für Theorie? 2026年4月25日 15:31"
+      }
+    }
   },
   {
     "date": "2026-04-24",
     "file": "2026-04-24.html",
     "location": "微信聊天记录",
     "excerpt": "李爽  : 放哪里了 2026年4月24日 22:14 李爽  : 我咋没找到 2026年4月24日 22:14",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "李爽  : Where did you put it 2026年4月24日 22:14 李爽  : How come I can't find it 2026年4月24日 22:14"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "李爽  : Où l'as-tu mis 2026年4月24日 22:14 李爽  : Comment ça se fait que je ne le trouve pas 2026年4月24日 22:14"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "李爽  : Wo hast du es hingelegt 2026年4月24日 22:14 李爽  : Wieso finde ich es nicht 2026年4月24日 22:14"
+      }
+    }
   },
   {
     "date": "2026-04-22",
     "file": "2026-04-22.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 臭贝塔主修课程，把天选大学生拼成超级赛亚人了[啤酒][啤酒][啤酒] 2026年4月22日 06:07 阿妈  : 那你上什么学 2026年4月22日 06:08",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Damn Beta's major courses have stitched the chosen college student into a Super Saiyan [啤酒][啤酒][啤酒] 2026年4月22日 06:07 阿妈  : Then why go to school at all 2026年4月22日 06:08"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Les maudits cours de majeure de Beta ont transformé l'étudiant élu en Super Saiyan [啤酒][啤酒][啤酒] 2026年4月22日 06:07 阿妈  : Alors à quoi bon aller à l'école 2026年4月22日 06:08"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Die verdammten Hauptfachkurse von Beta haben den auserwählten Studenten zu einem Super Saiyajin zusammengenäht [啤酒][啤酒][啤酒] 2026年4月22日 06:07 阿妈  : Wozu gehst du dann überhaupt zur Schule 2026年4月22日 06:08"
+      }
+    }
   },
   {
     "date": "2026-04-21",
     "file": "2026-04-21.html",
     "location": "微信聊天记录",
     "excerpt": "朱念龙  : https://www.localgovernment.vic.gov.au/__data/assets/pdf_file/0020/1866546/Strengthening-LGPRF-2022-Reforms.pdf 2",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "朱念龙  : https://www.localgovernment.vic.gov.au/__data/assets/pdf_file/0020/1866546/Strengthening-LGPRF-2022-Reforms.pdf 2"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "朱念龙  : https://www.localgovernment.vic.gov.au/__data/assets/pdf_file/0020/1866546/Strengthening-LGPRF-2022-Reforms.pdf 2"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "朱念龙  : https://www.localgovernment.vic.gov.au/__data/assets/pdf_file/0020/1866546/Strengthening-LGPRF-2022-Reforms.pdf 2"
+      }
+    }
   },
   {
     "date": "2026-04-20",
@@ -1229,42 +2405,126 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-04-20-1.png"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "蒋鹏伟  : But I'm a little worried the classmate who sat next to us will tell the PE teacher 2026年4月20日 16:06 蒋鹏伟  : Why are you going back to Jiujiang on Wednesday?   Quote: I bet I can make it back to Zisong alive on Wednesday [加油][加油][加油] 2026年4月20日 16:06"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "蒋鹏伟  : Mais j'ai un peu peur que le camarade assis à côté de nous le dise au prof de sport 2026年4月20日 16:06 蒋鹏伟  : Pourquoi tu dois rentrer à Jiujiang mercredi ?   Citation : je parie que je peux revenir vivant à Zisong mercredi [加油][加油][加油] 2026年4月20日 16:06"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "蒋鹏伟  : Aber ich fürchte ein bisschen, dass der Kommilitone, der neben uns saß, es dem Sportlehrer erzählt 2026年4月20日 16:06 蒋鹏伟  : Wieso musst du am Mittwoch zurück nach Jiujiang?   Zitat: Ich wette, ich schaffe es am Mittwoch lebend zurück nach Zisong [加油][加油][加油] 2026年4月20日 16:06"
+      }
+    }
   },
   {
     "date": "2026-04-19",
     "file": "2026-04-19.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 体验感还是太舒适了 2026年4月19日 13:20 大宝  : 配的哪家ai 2026年4月19日 20:13",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : The experience is still way too smooth 2026年4月19日 13:20 大宝  : Which AI is it paired with 2026年4月19日 20:13"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : L'expérience reste bien trop confortable 2026年4月19日 13:20 大宝  : Avec quelle IA c'est configuré 2026年4月19日 20:13"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Das Erlebnis ist immer noch viel zu geschmeidig 2026年4月19日 13:20 大宝  : Welche KI ist dahinter eingebunden 2026年4月19日 20:13"
+      }
+    }
   },
   {
     "date": "2026-04-18",
     "file": "2026-04-18.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年4月18日 01:29 吉姆哈克  : [图片] 2026年4月18日 01:29",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年4月18日 01:29 吉姆哈克  : [Photo] 2026年4月18日 01:29"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年4月18日 01:29 吉姆哈克  : [Photo] 2026年4月18日 01:29"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年4月18日 01:29 吉姆哈克  : [Bild] 2026年4月18日 01:29"
+      }
+    }
   },
   {
     "date": "2026-04-17",
     "file": "2026-04-17.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 哥们儿 2026年4月17日 14:50 吉姆哈克  : 组织行为学上节课 2026年4月17日 14:50",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Buddy 2026年4月17日 14:50 吉姆哈克  : In last Organizational Behavior class 2026年4月17日 14:50"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Mec 2026年4月17日 14:50 吉姆哈克  : Au dernier cours de Comportement organisationnel 2026年4月17日 14:50"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Alter 2026年4月17日 14:50 吉姆哈克  : In der letzten Stunde Organisationsverhalten 2026年4月17日 14:50"
+      }
+    }
   },
   {
     "date": "2026-04-16",
     "file": "2026-04-16.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年4月16日 10:51 吉姆哈克  : 你现在是专业PDF转Obsidian Markdown格式化工具。 源文件：法语A1讲义（277页，存在两栏排版）\"C:\\Users\\NewtN\\下载\\A1讲义完整",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年4月16日 10:51 吉姆哈克  : You are now a professional PDF-to-Obsidian-Markdown formatting tool. Source file: French A1 lecture notes (277 pages, two-column layout) \"C:\\Users\\NewtN\\下载\\A1讲义完整"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年4月16日 10:51 吉姆哈克  : Tu es maintenant un outil professionnel de mise en forme PDF vers Markdown Obsidian. Fichier source : polycopié de français A1 (277 pages, mise en page sur deux colonnes) \"C:\\Users\\NewtN\\下载\\A1讲义完整"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年4月16日 10:51 吉姆哈克  : Du bist jetzt ein professionelles Formatierungswerkzeug für PDF-zu-Obsidian-Markdown. Quelldatei: Französisch-A1-Vorlesungsskript (277 Seiten, zweispaltiges Layout) \"C:\\Users\\NewtN\\下载\\A1讲义完整"
+      }
+    }
   },
   {
     "date": "2026-04-15",
     "file": "2026-04-15.html",
     "location": "微信聊天记录",
     "excerpt": "龙悦科技小马哥  : [捂脸] 2026年4月15日 10:10 龙悦科技小马哥  : 笑死 2026年4月15日 10:10",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "龙悦科技小马哥  : [捂脸] 2026年4月15日 10:10 龙悦科技小马哥  : Dying laughing 2026年4月15日 10:10"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "龙悦科技小马哥  : [捂脸] 2026年4月15日 10:10 龙悦科技小马哥  : Je meurs de rire 2026年4月15日 10:10"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "龙悦科技小马哥  : [捂脸] 2026年4月15日 10:10 龙悦科技小马哥  : Ich lach mich kaputt 2026年4月15日 10:10"
+      }
+    }
   },
   {
     "date": "2026-04-14",
@@ -1275,28 +2535,84 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-04-14-1.png"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Alright, I'm ready 2026年4月14日 09:57 吉姆哈克  : Those two are still sold out 2026年4月14日 10:00"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : D'accord, je suis prêt 2026年4月14日 09:57 吉姆哈克  : Ces deux-là sont encore en rupture de stock 2026年4月14日 10:00"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Gut, ich bin bereit 2026年4月14日 09:57 吉姆哈克  : Die beiden sind immer noch ausverkauft 2026年4月14日 10:00"
+      }
+    }
   },
   {
     "date": "2026-04-13",
     "file": "2026-04-13.html",
     "location": "微信聊天记录",
     "excerpt": "蒋鹏伟  : 我来了 2026年4月13日 14:11 蒋鹏伟  : 在场馆里 2026年4月13日 14:11",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "蒋鹏伟  : I'm here 2026年4月13日 14:11 蒋鹏伟  : Inside the venue 2026年4月13日 14:11"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "蒋鹏伟  : J'arrive 2026年4月13日 14:11 蒋鹏伟  : Dans l'enceinte 2026年4月13日 14:11"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "蒋鹏伟  : Ich bin da 2026年4月13日 14:11 蒋鹏伟  : In der Halle 2026年4月13日 14:11"
+      }
+    }
   },
   {
     "date": "2026-04-12",
     "file": "2026-04-12.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 组长好，给我安排新的任务吧 2026年4月12日 16:08 吉姆哈克  : 阿力哥告诉我，不需要再折腾了 2026年4月12日 16:08",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Hello team leader, assign me a new task 2026年4月12日 16:08 吉姆哈克  : Brother Ali told me there's no need to keep tinkering 2026年4月12日 16:08"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Bonjour chef d'équipe, donne-moi une nouvelle tâche 2026年4月12日 16:08 吉姆哈克  : Frère Ali m'a dit que je n'avais plus besoin de bricoler 2026年4月12日 16:08"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Hallo Teamleiter, weis mir eine neue Aufgabe zu 2026年4月12日 16:08 吉姆哈克  : Bruder Ali hat gesagt, ich muss nicht weiter herumbasteln 2026年4月12日 16:08"
+      }
+    }
   },
   {
     "date": "2026-04-11",
     "file": "2026-04-11.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [表情] 2026年4月11日 11:52 毕苏杭  : 嗯嗯，就是确认一下你们的安排，实在没时间可以不用太着急，等明天或者下周一 2026年4月11日 11:59",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [表情] 2026年4月11日 11:52 毕苏杭  : Mm-hm, just confirming your plans—if you really don't have time there's no rush, tomorrow or next Monday works 2026年4月11日 11:59"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [表情] 2026年4月11日 11:52 毕苏杭  : Oui, c'est juste pour confirmer votre organisation, si vous n'avez vraiment pas le temps pas de panique, demain ou lundi prochain 2026年4月11日 11:59"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [表情] 2026年4月11日 11:52 毕苏杭  : Ja, ich will nur eure Planung bestätigen, wenn ihr wirklich keine Zeit habt, eilt es nicht, morgen oder nächsten Montag geht auch 2026年4月11日 11:59"
+      }
+    }
   },
   {
     "date": "2026-04-10",
@@ -1313,105 +2629,315 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-04-10-3.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : I broke my Python 2026年4月10日 10:31 万泽宇  : [疑问][疑问][疑问][疑问] 2026年4月10日 10:31"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : J'ai cassé mon Python 2026年4月10日 10:31 万泽宇  : [疑问][疑问][疑问][疑问] 2026年4月10日 10:31"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Ich hab mein Python kaputtgemacht 2026年4月10日 10:31 万泽宇  : [疑问][疑问][疑问][疑问] 2026年4月10日 10:31"
+      }
+    }
   },
   {
     "date": "2026-04-09",
     "file": "2026-04-09.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 最后，请一个同学，带给主修课程的老师 2026年4月9日 22:48 辅导员  : 请假先找我签字确认，再去找教务老师盖章，再把请假条交给请假课程老师 2026年4月9日 22:49",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Finally, ask a classmate to bring it to the major-course teacher 2026年4月9日 22:48 辅导员  : For leave, first come to me for a signature, then get it stamped at academic affairs, then hand the leave note to the course teacher 2026年4月9日 22:49"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Enfin, demande à un camarade de l'apporter au professeur du cours de majeure 2026年4月9日 22:48 辅导员  : Pour une absence, viens d'abord me faire signer, puis va faire tamponner aux études, puis remets le billet d'absence au professeur concerné 2026年4月9日 22:49"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Zum Schluss einen Kommilitonen bitten, es dem Hauptfachdozenten zu bringen 2026年4月9日 22:48 辅导员  : Für eine Freistellung erst bei mir unterschreiben lassen, dann beim Studienamt abstempeln, dann den Zettel dem jeweiligen Dozenten geben 2026年4月9日 22:49"
+      }
+    }
   },
   {
     "date": "2026-04-08",
     "file": "2026-04-08.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 再不报销，周末就要面对面了   引用：李貌老师还没有给我报销 2026年4月8日 15:26 阿妈  : 给你转过去了 2026年4月8日 15:27",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : If I don't get reimbursed soon, we'll be meeting face to face this weekend   Quote: Teacher Li Mao still hasn't reimbursed me 2026年4月8日 15:26 阿妈  : I've transferred it to you 2026年4月8日 15:27"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Si je ne suis pas remboursé bientôt, on se retrouve en face à face ce week-end   Citation : M. Li Mao ne m'a toujours pas remboursé 2026年4月8日 15:26 阿妈  : Je te l'ai viré 2026年4月8日 15:27"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Wenn ich nicht bald erstattet bekomme, stehen wir uns dieses Wochenende gegenüber   Zitat: Lehrer Li Mao hat mich immer noch nicht erstattet 2026年4月8日 15:26 阿妈  : Ich hab es dir überwiesen 2026年4月8日 15:27"
+      }
+    }
   },
   {
     "date": "2026-04-07",
     "file": "2026-04-07.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 有学生号和密码，就能连上校园网 2026年4月7日 08:08 吉姆哈克  : 他说是“校区Wifi全覆盖”，其实也看地方 2026年4月7日 08:09",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : With a student ID and password you can get on the campus network 2026年4月7日 08:08 吉姆哈克  : They say \"full campus WiFi coverage,\" but it really depends on the spot 2026年4月7日 08:09"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Avec un numéro étudiant et un mot de passe, on se connecte au réseau du campus 2026年4月7日 08:08 吉姆哈克  : Ils parlent de « Wi-Fi couvrant tout le campus », mais en vrai ça dépend des endroits 2026年4月7日 08:09"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Mit Studentenkennung und Passwort kommt man ins Campus-Netz 2026年4月7日 08:08 吉姆哈克  : Sie sagen „flächendeckendes Campus-WLAN“, aber es hängt wirklich vom Ort ab 2026年4月7日 08:09"
+      }
+    }
   },
   {
     "date": "2026-04-06",
     "file": "2026-04-06.html",
     "location": "微信聊天记录",
     "excerpt": "龙悦科技小马哥  : [白眼] 2026年4月6日 02:27 龙悦科技小马哥  : 官方的那有人管 新版一堆堆问题 2026年4月6日 02:27",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "龙悦科技小马哥  : [白眼] 2026年4月6日 02:27 龙悦科技小马哥  : Nobody maintains the official one anyway; the new version is full of problems 2026年4月6日 02:27"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "龙悦科技小马哥  : [白眼] 2026年4月6日 02:27 龙悦科技小马哥  : La version officielle, personne n'en s'occupe ; la nouvelle mouture accumule les problèmes 2026年4月6日 02:27"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "龙悦科技小马哥  : [白眼] 2026年4月6日 02:27 龙悦科技小马哥  : Für die offizielle Version fühlt sich eh keiner zuständig, die neue Version hat einen Haufen Probleme 2026年4月6日 02:27"
+      }
+    }
   },
   {
     "date": "2026-04-05",
     "file": "2026-04-05.html",
     "location": "微信聊天记录",
     "excerpt": "阿妈  : [图片] 2026年4月5日 12:47 阿妈  : 帅帅，你还要努力哦！ 2026年4月5日 12:48",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "阿妈  : [Photo] 2026年4月5日 12:47 阿妈  : Shuaishuai, you've got to keep working hard! 2026年4月5日 12:48"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "阿妈  : [Photo] 2026年4月5日 12:47 阿妈  : Shuaishuai, tu dois encore persévérer ! 2026年4月5日 12:48"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "阿妈  : [Bild] 2026年4月5日 12:47 阿妈  : Shuaishuai, du musst dich weiter anstrengen! 2026年4月5日 12:48"
+      }
+    }
   },
   {
     "date": "2026-04-04",
     "file": "2026-04-04.html",
     "location": "微信聊天记录",
     "excerpt": "龙悦科技小马哥  : 去吧 2026年4月4日 12:23 龙悦科技小马哥  : 小伙 2026年4月4日 18:12",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "龙悦科技小马哥  : Go ahead 2026年4月4日 12:23 龙悦科技小马哥  : Young man 2026年4月4日 18:12"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "龙悦科技小马哥  : Vas-y 2026年4月4日 12:23 龙悦科技小马哥  : Jeune homme 2026年4月4日 18:12"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "龙悦科技小马哥  : Los geht's 2026年4月4日 12:23 龙悦科技小马哥  : Junger Mann 2026年4月4日 18:12"
+      }
+    }
   },
   {
     "date": "2026-04-03",
     "file": "2026-04-03.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 有多少人？ 2026年4月3日 08:07 邹予嘉  : 少来了好多 2026年4月3日 08:08",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : How many people? 2026年4月3日 08:07 邹予嘉  : Way fewer showed up 2026年4月3日 08:08"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Il y a combien de gens ? 2026年4月3日 08:07 邹予嘉  : Beaucoup moins sont venus 2026年4月3日 08:08"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Wie viele Leute? 2026年4月3日 08:07 邹予嘉  : Es sind viel weniger gekommen 2026年4月3日 08:08"
+      }
+    }
   },
   {
     "date": "2026-04-02",
     "file": "2026-04-02.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 还是用自己的outlook邮箱??，给老师的gmail邮箱??发个邮件??？ 2026年4月2日 12:57 吉姆哈克  : 不管了，我先沉淀一个月再说[太阳][太阳][太阳] 2026年4月2日 12:58",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Should I use my own Outlook mailbox?? to send an email?? to the teacher's Gmail mailbox?? 2026年4月2日 12:57 吉姆哈克  : Whatever, I'll lie low and let things settle for a month first [太阳][太阳][太阳] 2026年4月2日 12:58"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : J'utilise quand même ma propre boîte Outlook?? pour envoyer un mail?? à la boîte Gmail du professeur?? 2026年4月2日 12:57 吉姆哈克  : Tant pis, je laisse d'abord les choses décanter pendant un mois [太阳][太阳][太阳] 2026年4月2日 12:58"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Soll ich mein eigenes Outlook-Postfach?? nehmen, um eine Mail?? an das Gmail-Postfach des Lehrers zu schicken?? 2026年4月2日 12:57 吉姆哈克  : Egal, ich lass es erst mal einen Monat ruhen und setze mich ab [太阳][太阳][太阳] 2026年4月2日 12:58"
+      }
+    }
   },
   {
     "date": "2026-04-01",
     "file": "2026-04-01.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 计算社会科学 2026年4月1日 10:14 吉姆哈克  : 的老师???????变了 2026年4月1日 10:15",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : The Computational Social Science 2026年4月1日 10:14 吉姆哈克  : teacher??????? has changed 2026年4月1日 10:15"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Le professeur de Sciences sociales computationnelles 2026年4月1日 10:14 吉姆哈克  : ??????? a changé 2026年4月1日 10:15"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Der Dozent für Computational Social Science 2026年4月1日 10:14 吉姆哈克  : ??????? hat gewechselt 2026年4月1日 10:15"
+      }
+    }
   },
   {
     "date": "2026-03-31",
     "file": "2026-03-31.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : “王局拍案”吗？“习近平的成长故事”？ 2026年3月31日 08:14 大宝  : 得你自己探索了。 2026年3月31日 08:14",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : \"Director Wang Takes the Bench\"? \"Xi Jinping: A Growth Story\"? 2026年3月31日 08:14 大宝  : You'll have to explore that yourself. 2026年3月31日 08:14"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : « Le juge Wang tranche » ? « L'histoire de croissance de Xi Jinping » ? 2026年3月31日 08:14 大宝  : Il va falloir explorer ça toi-même. 2026年3月31日 08:14"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : „Direktor Wangs Verhandlung“? „Xi Jinping: Eine Entwicklungsgeschichte“? 2026年3月31日 08:14 大宝  : Das musst du schon selbst erkunden. 2026年3月31日 08:14"
+      }
+    }
   },
   {
     "date": "2026-03-30",
     "file": "2026-03-30.html",
     "location": "微信聊天记录",
     "excerpt": "龙悦科技小马哥  : 他们的智商取决于你 2026年3月30日 12:15 龙悦科技小马哥  : [尴尬] 2026年3月30日 12:15",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "龙悦科技小马哥  : Their intelligence depends on you 2026年3月30日 12:15 龙悦科技小马哥  : [尴尬] 2026年3月30日 12:15"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "龙悦科技小马哥  : Leur intelligence dépend de toi 2026年3月30日 12:15 龙悦科技小马哥  : [尴尬] 2026年3月30日 12:15"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "龙悦科技小马哥  : Ihre Intelligenz hängt von dir ab 2026年3月30日 12:15 龙悦科技小马哥  : [尴尬] 2026年3月30日 12:15"
+      }
+    }
   },
   {
     "date": "2026-03-28",
     "file": "2026-03-28.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 我要不要再把一些小物件寄回去？ 2026年3月28日 15:40 吉姆哈克  : 到武汉了没？   引用：买了 2026年3月28日 15:41",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Should I ship some small items back again? 2026年3月28日 15:40 吉姆哈克  : Have you reached Wuhan yet?   Quote: Bought it 2026年3月28日 15:41"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Je devrais renvoyer encore quelques petites affaires ? 2026年3月28日 15:40 吉姆哈克  : Tu es arrivé à Wuhan ?   Citation : Je l'ai acheté 2026年3月28日 15:41"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Soll ich noch ein paar Kleinigkeiten zurückschicken? 2026年3月28日 15:40 吉姆哈克  : Bist du schon in Wuhan angekommen?   Zitat: Gekauft 2026年3月28日 15:41"
+      }
+    }
   },
   {
     "date": "2026-03-27",
     "file": "2026-03-27.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年3月27日 09:19 吉姆哈克  : [图片] 2026年3月27日 09:19",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年3月27日 09:19 吉姆哈克  : [Photo] 2026年3月27日 09:19"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年3月27日 09:19 吉姆哈克  : [Photo] 2026年3月27日 09:19"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年3月27日 09:19 吉姆哈克  : [Bild] 2026年3月27日 09:19"
+      }
+    }
   },
   {
     "date": "2026-03-25",
     "file": "2026-03-25.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 阿妈，现在不是机器人 2026年3月25日 08:57 吉姆哈克  : 黎医生，建议我买枕头，买两个 2026年3月25日 08:57",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Mom, it's not a robot right now 2026年3月25日 08:57 吉姆哈克  : Dr. Li advised me to buy two pillows 2026年3月25日 08:57"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Maman, ce n'est pas un robot là 2026年3月25日 08:57 吉姆哈克  : Le Dr Li me conseille d'acheter deux oreillers 2026年3月25日 08:57"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Mama, das ist gerade kein Roboter 2026年3月25日 08:57 吉姆哈克  : Dr. Li rät mir, zwei Kissen zu kaufen 2026年3月25日 08:57"
+      }
+    }
   },
   {
     "date": "2026-03-24",
@@ -1434,7 +2960,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-03-24-5.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : You there, bro? 2026年3月24日 11:28 吉姆哈克  : [Photo] 2026年3月24日 11:28"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : T'es là, grand frère ? 2026年3月24日 11:28 吉姆哈克  : [Photo] 2026年3月24日 11:28"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Bist du da, Alter? 2026年3月24日 11:28 吉姆哈克  : [Bild] 2026年3月24日 11:28"
+      }
+    }
   },
   {
     "date": "2026-03-23",
@@ -1445,28 +2985,84 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-03-23-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "纪杰  : I can't go on 2026年3月23日 14:48 纪杰  : Muscle soreness 2026年3月23日 14:48"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "纪杰  : Je n'en peux plus 2026年3月23日 14:48 纪杰  : Courbatures 2026年3月23日 14:48"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "纪杰  : Ich kann nicht mehr 2026年3月23日 14:48 纪杰  : Muskelkater 2026年3月23日 14:48"
+      }
+    }
   },
   {
     "date": "2026-03-22",
     "file": "2026-03-22.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 我感觉这个商家，就是臭卖课的 2026年3月22日 15:37 大宝  : [破涕为笑] 2026年3月22日 15:39",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : I get the feeling this seller is just a lousy course-peddler 2026年3月22日 15:37 大宝  : [破涕为笑] 2026年3月22日 15:39"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : J'ai l'impression que ce vendeur est juste un sale marchand de cours 2026年3月22日 15:37 大宝  : [破涕为笑] 2026年3月22日 15:39"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Ich hab das Gefühl, dieser Händler ist nur ein mieser Kursverkäufer 2026年3月22日 15:37 大宝  : [破涕为笑] 2026年3月22日 15:39"
+      }
+    }
   },
   {
     "date": "2026-03-21",
     "file": "2026-03-21.html",
     "location": "微信聊天记录",
     "excerpt": "赵文沛  : [表情] 2026年3月21日 00:17 赵文沛  : 那这是怎么回事   引用：刚好我上次骂一个同学，搭建了一个脏话机器人 2026年3月21日 00:17",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "赵文沛  : [表情] 2026年3月21日 00:17 赵文沛  : Then what's this about?   Quote: it just so happens that last time I chewed out a classmate and built a swearing bot 2026年3月21日 00:17"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "赵文沛  : [表情] 2026年3月21日 00:17 赵文沛  : Alors c'est quoi cette histoire ?   Citation : justement, la dernière fois que j'ai engueulé un camarade, j'ai monté un robot à insultes 2026年3月21日 00:17"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "赵文沛  : [表情] 2026年3月21日 00:17 赵文沛  : Was hat es damit auf sich?   Zitat: zufällig hab ich letztes Mal, als ich einen Kommilitonen beschimpft habe, einen Schimpfwort-Bot gebaut 2026年3月21日 00:17"
+      }
+    }
   },
   {
     "date": "2026-03-20",
     "file": "2026-03-20.html",
     "location": "微信聊天记录",
     "excerpt": "焦嘉禾  : 理论框架也麻烦你了 2026年3月20日 10:44 焦嘉禾  : [合十][合十] 2026年3月20日 10:44",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "焦嘉禾  : The theoretical framework is in your hands too, sorry for the trouble 2026年3月20日 10:44 焦嘉禾  : [合十][合十] 2026年3月20日 10:44"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "焦嘉禾  : Le cadre théorique repose aussi sur toi, merci d'avance 2026年3月20日 10:44 焦嘉禾  : [合十][合十] 2026年3月20日 10:44"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "焦嘉禾  : Der theoretische Rahmen liegt auch bei dir, danke für die Mühe 2026年3月20日 10:44 焦嘉禾  : [合十][合十] 2026年3月20日 10:44"
+      }
+    }
   },
   {
     "date": "2026-03-19",
@@ -1507,7 +3103,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-03-19-11.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "辅导员  : Mm-hm, when do you have time 2026年3月19日 10:29 辅导员  : You go see a doctor first 2026年3月19日 10:29"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "辅导员  : Oui, dis-moi quand tu es disponible 2026年3月19日 10:29 辅导员  : Va d'abord consulter 2026年3月19日 10:29"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "辅导员  : Ja, sag mal, wann hast du Zeit 2026年3月19日 10:29 辅导员  : Geh erst mal zum Arzt 2026年3月19日 10:29"
+      }
+    }
   },
   {
     "date": "2026-03-18",
@@ -1527,112 +3137,336 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-03-18-4.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "刘小舟  : ???? *cries* 2026年3月18日 00:08 刘小舟  : Have you forgiven me, baby [可怜] 2026年3月18日 00:17"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "刘小舟  : ???? pleure 2026年3月18日 00:08 刘小舟  : Tu m'as pardonné, bébé [可怜] 2026年3月18日 00:17"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "刘小舟  : ???? *weint* 2026年3月18日 00:08 刘小舟  : Hast du mir verziehen, Schatz [可怜] 2026年3月18日 00:17"
+      }
+    }
   },
   {
     "date": "2026-03-17",
     "file": "2026-03-17.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年3月17日 19:48 林柏浩  : 这个表情包和好友人数具体是什么呢[捂脸] 2026年3月17日 19:49",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年3月17日 19:48 林柏浩  : What exactly are this sticker pack and the friend count about [捂脸] 2026年3月17日 19:49"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年3月17日 19:48 林柏浩  : Que sont exactement ce pack de stickers et le nombre d'amis [捂脸] 2026年3月17日 19:49"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年3月17日 19:48 林柏浩  : Was genau haben dieses Stickerpaket und die Freundesanzahl auf sich [捂脸] 2026年3月17日 19:49"
+      }
+    }
   },
   {
     "date": "2026-03-16",
     "file": "2026-03-16.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年3月16日 16:19 吉姆哈克  : 你说的对 2026年3月16日 16:19",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年3月16日 16:19 吉姆哈克  : You're right 2026年3月16日 16:19"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年3月16日 16:19 吉姆哈克  : Tu as raison 2026年3月16日 16:19"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年3月16日 16:19 吉姆哈克  : Du hast recht 2026年3月16日 16:19"
+      }
+    }
   },
   {
     "date": "2026-03-15",
     "file": "2026-03-15.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [语音或视频通话] 2026年3月15日 08:50 吉姆哈克  : 我现在回九江看牙医 2026年3月15日 08:50",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Voice or video call] 2026年3月15日 08:50 吉姆哈克  : I'm heading back to Jiujiang now to see the dentist 2026年3月15日 08:50"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Appel vocal ou vidéo] 2026年3月15日 08:50 吉姆哈克  : Je rentre à Jiujiang voir le dentiste 2026年3月15日 08:50"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Sprach- oder Videoanruf] 2026年3月15日 08:50 吉姆哈克  : Ich fahre jetzt zurück nach Jiujiang zum Zahnarzt 2026年3月15日 08:50"
+      }
+    }
   },
   {
     "date": "2026-03-14",
     "file": "2026-03-14.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年3月14日 00:21 吉姆哈克  : [图片] 2026年3月14日 00:22",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年3月14日 00:21 吉姆哈克  : [Photo] 2026年3月14日 00:22"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年3月14日 00:21 吉姆哈克  : [Photo] 2026年3月14日 00:22"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年3月14日 00:21 吉姆哈克  : [Bild] 2026年3月14日 00:22"
+      }
+    }
   },
   {
     "date": "2026-03-13",
     "file": "2026-03-13.html",
     "location": "微信聊天记录",
     "excerpt": "万泽宇  : 那个PPT有没有做好？如果实在做不赢的话，我拿AI生一个 2026年3月13日 12:26 吉姆哈克  : 我正在赶工 2026年3月13日 13:03",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "万泽宇  : Is that PPT done yet? If you really can't finish it in time, I'll generate one with AI 2026年3月13日 12:26 吉姆哈克  : I'm rushing to finish it right now 2026年3月13日 13:03"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "万泽宇  : Ce PPT est prêt ? Si tu n'arrives vraiment pas à le finir à temps, j'en génère un avec l'IA 2026年3月13日 12:26 吉姆哈克  : Je suis en train de le boucler en urgence 2026年3月13日 13:03"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "万泽宇  : Ist die PPT fertig? Wenn du es wirklich nicht rechtzeitig schaffst, lass ich eine von der KI generieren 2026年3月13日 12:26 吉姆哈克  : Ich arbeite gerade unter Hochdruck daran 2026年3月13日 13:03"
+      }
+    }
   },
   {
     "date": "2026-03-12",
     "file": "2026-03-12.html",
     "location": "微信聊天记录",
     "excerpt": "琼桑  : [图片] 2026年3月12日 11:00 吉姆哈克  : [玫瑰][玫瑰][玫瑰] 2026年3月12日 11:00",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "琼桑  : [Photo] 2026年3月12日 11:00 吉姆哈克  : [玫瑰][玫瑰][玫瑰] 2026年3月12日 11:00"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "琼桑  : [Photo] 2026年3月12日 11:00 吉姆哈克  : [玫瑰][玫瑰][玫瑰] 2026年3月12日 11:00"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "琼桑  : [Bild] 2026年3月12日 11:00 吉姆哈克  : [玫瑰][玫瑰][玫瑰] 2026年3月12日 11:00"
+      }
+    }
   },
   {
     "date": "2026-03-11",
     "file": "2026-03-11.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 这个我昨天看完了   引用：通过百度网盘分享的文件：2025年C类初赛视频 链接：（网盘链接已隐去） 提取码：**** --来自百度网盘超级会员V2的分享",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : I finished watching this yesterday   Quote: File shared via Baidu Netdisk: 2025 Category C preliminary video. Link: (netdisk link hidden). Extraction code: **** — shared by Baidu Netdisk Super VIP V2"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : J'ai fini de regarder ça hier   Citation : Fichier partagé via Baidu Netdisk : vidéo préliminaire catégorie C 2025. Lien : (lien de cloud masqué). Code d'extraction : **** — partage d'un Super VIP V2 de Baidu Netdisk"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Das hab ich gestern zu Ende geschaut   Zitat: Über Baidu Netdisk geteilte Datei: 2025 Kategorie-C-Vorrunden-Video. Link: (Netdisk-Link ausgeblendet). Extraktionscode: **** — geteilt von Baidu-Netdisk-Super-VIP V2"
+      }
+    }
   },
   {
     "date": "2026-03-10",
     "file": "2026-03-10.html",
     "location": "微信聊天记录",
     "excerpt": "阿妈  : 你昨天又回九江了 2026年3月10日 07:16 吉姆哈克  : 昨天只是下单 2026年3月10日 08:40",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "阿妈  : You went back to Jiujiang again yesterday 2026年3月10日 07:16 吉姆哈克  : Yesterday was only placing the order 2026年3月10日 08:40"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "阿妈  : Tu es encore rentré à Jiujiang hier 2026年3月10日 07:16 吉姆哈克  : Hier j'ai juste passé la commande 2026年3月10日 08:40"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "阿妈  : Du bist gestern wieder zurück nach Jiujiang 2026年3月10日 07:16 吉姆哈克  : Gestern habe ich nur die Bestellung aufgegeben 2026年3月10日 08:40"
+      }
+    }
   },
   {
     "date": "2026-03-09",
     "file": "2026-03-09.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年3月9日 19:43 吉姆哈克  : 这是一个B站视频 2026年3月9日 19:43",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年3月9日 19:43 吉姆哈克  : This is a Bilibili video 2026年3月9日 19:43"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年3月9日 19:43 吉姆哈克  : C'est une vidéo Bilibili 2026年3月9日 19:43"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年3月9日 19:43 吉姆哈克  : Das ist ein Bilibili-Video 2026年3月9日 19:43"
+      }
+    }
   },
   {
     "date": "2026-03-08",
     "file": "2026-03-08.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [发呆] 2026年3月8日 00:14 吉姆哈克  : [发呆] 2026年3月8日 00:14",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [发呆] 2026年3月8日 00:14 吉姆哈克  : [发呆] 2026年3月8日 00:14"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [发呆] 2026年3月8日 00:14 吉姆哈克  : [发呆] 2026年3月8日 00:14"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [发呆] 2026年3月8日 00:14 吉姆哈克  : [发呆] 2026年3月8日 00:14"
+      }
+    }
   },
   {
     "date": "2026-03-06",
     "file": "2026-03-06.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年3月6日 13:46 吉姆哈克  : [图片] 2026年3月6日 13:46",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年3月6日 13:46 吉姆哈克  : [Photo] 2026年3月6日 13:46"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年3月6日 13:46 吉姆哈克  : [Photo] 2026年3月6日 13:46"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年3月6日 13:46 吉姆哈克  : [Bild] 2026年3月6日 13:46"
+      }
+    }
   },
   {
     "date": "2026-03-05",
     "file": "2026-03-05.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 我想好了基本思路 2026年3月5日 10:56 吉姆哈克  : 明天的翻转课堂 2026年3月5日 10:56",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : I've worked out the basic approach 2026年3月5日 10:56 吉姆哈克  : For tomorrow's flipped classroom 2026年3月5日 10:56"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : J'ai défini l'idée de base 2026年3月5日 10:56 吉姆哈克  : Pour la classe inversée de demain 2026年3月5日 10:56"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Ich hab den grundlegenden Ansatz fertig überlegt 2026年3月5日 10:56 吉姆哈克  : Für das Flipped Classroom morgen 2026年3月5日 10:56"
+      }
+    }
   },
   {
     "date": "2026-03-04",
     "file": "2026-03-04.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年3月4日 10:48 吉姆哈克  : [图片] 2026年3月4日 10:49",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年3月4日 10:48 吉姆哈克  : [Photo] 2026年3月4日 10:49"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年3月4日 10:48 吉姆哈克  : [Photo] 2026年3月4日 10:49"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年3月4日 10:48 吉姆哈克  : [Bild] 2026年3月4日 10:49"
+      }
+    }
   },
   {
     "date": "2026-03-03",
     "file": "2026-03-03.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 我敢透露那么多信息吗？ 2026年3月3日 12:57 辅导员  : [捂脸][捂脸][捂脸] 2026年3月3日 12:57",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Do I dare reveal that much information? 2026年3月3日 12:57 辅导员  : [捂脸][捂脸][捂脸] 2026年3月3日 12:57"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Est-ce que j'oserais divulguer autant d'infos ? 2026年3月3日 12:57 辅导员  : [捂脸][捂脸][捂脸] 2026年3月3日 12:57"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Würde ich mir erlauben, so viele Infos preiszugeben? 2026年3月3日 12:57 辅导员  : [捂脸][捂脸][捂脸] 2026年3月3日 12:57"
+      }
+    }
   },
   {
     "date": "2026-03-02",
     "file": "2026-03-02.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 江教练，新春大吉，佳节愉快[庆祝][庆祝][庆祝] 2026年3月2日 15:11 吉姆哈克  : 本学期我将面临两项体测，一项2.4千米，一项1千米 2026年3月2日 15:11",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Coach Jiang, a prosperous New Year and happy holidays [庆祝][庆祝][庆祝] 2026年3月2日 15:11 吉姆哈克  : This semester I face two fitness tests, one 2.4 km and one 1 km 2026年3月2日 15:11"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Coach Jiang, bonne et heureuse nouvelle année, belles fêtes [庆祝][庆祝][庆祝] 2026年3月2日 15:11 吉姆哈克  : Ce semestre, j'ai deux tests physiques, un de 2,4 km et un de 1 km 2026年3月2日 15:11"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Trainer Jiang, ein frohes neues Jahr und schöne Feiertage [庆祝][庆祝][庆祝] 2026年3月2日 15:11 吉姆哈克  : Dieses Semester stehen zwei Fitnesstests an, einer über 2,4 km und einer über 1 km 2026年3月2日 15:11"
+      }
+    }
   },
   {
     "date": "2026-02-28",
@@ -1649,7 +3483,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-02-28-3.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Senior, wishing you a New Year of quiet joys and every wish fulfilled!!! 2026年2月28日 13:54 吉姆哈克  : I'm back again to fish for news... 2026年2月28日 13:54"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Aîné, je te souhaite une nouvelle année de bonheurs simples et que tous tes vœux se réalisent !!! 2026年2月28日 13:54 吉姆哈克  : Je reviens aux nouvelles... 2026年2月28日 13:54"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Senior, ich wünsche dir ein neues Jahr voller stiller Freuden und dass alle Wünsche in Erfüllung gehen!!! 2026年2月28日 13:54 吉姆哈克  : Ich bin schon wieder da, um Neuigkeiten auszukundschaften... 2026年2月28日 13:54"
+      }
+    }
   },
   {
     "date": "2026-02-27",
@@ -1678,56 +3526,168 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2026-02-27-7.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : I get the feeling that website is pretty rough—it ought to be cheaper, right 2026年2月27日 14:02 大宝  : Send it to me 2026年2月27日 14:02"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : J'ai l'impression que ce site est assez sommaire, ça devrait pouvoir être moins cher 2026年2月27日 14:02 大宝  : Envoie-le-moi 2026年2月27日 14:02"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Ich find die Website ziemlich primitiv, das müsste doch günstiger gehen 2026年2月27日 14:02 大宝  : Schick sie mir mal 2026年2月27日 14:02"
+      }
+    }
   },
   {
     "date": "2026-02-26",
     "file": "2026-02-26.html",
     "location": "微信聊天记录",
     "excerpt": "二舅  : [语音或视频通话] 2026年2月26日 17:22 吉姆哈克  : [图片] 2026年2月26日 17:24",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "二舅  : [Voice or video call] 2026年2月26日 17:22 吉姆哈克  : [Photo] 2026年2月26日 17:24"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "二舅  : [Appel vocal ou vidéo] 2026年2月26日 17:22 吉姆哈克  : [Photo] 2026年2月26日 17:24"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "二舅  : [Sprach- oder Videoanruf] 2026年2月26日 17:22 吉姆哈克  : [Bild] 2026年2月26日 17:24"
+      }
+    }
   },
   {
     "date": "2026-02-24",
     "file": "2026-02-24.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [语音或视频通话] 2026年2月24日 09:49 吉姆哈克  : 何导，我感觉，其实当个技术官僚也挺好的 2026年2月24日 10:45",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Voice or video call] 2026年2月24日 09:49 吉姆哈克  : Advisor He, I actually think being a technocrat is a pretty good life 2026年2月24日 10:45"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Appel vocal ou vidéo] 2026年2月24日 09:49 吉姆哈克  : Conseiller He, je me dis qu'être technocrate, ce n'est finalement pas mal du tout 2026年2月24日 10:45"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Sprach- oder Videoanruf] 2026年2月24日 09:49 吉姆哈克  : Betreuer He, ich finde eigentlich, Technokrat zu sein ist gar nicht schlecht 2026年2月24日 10:45"
+      }
+    }
   },
   {
     "date": "2026-02-21",
     "file": "2026-02-21.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 『来自123云盘用户的分享』 链接：（网盘链接已隐去） 提取码：**** 2026年2月21日 18:25",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : 『Shared by a 123 Cloud Drive user』 Link: (cloud-drive link hidden). Extraction code: **** 2026年2月21日 18:25"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : 『Partage d'un utilisateur du cloud 123』 Lien : (lien de cloud masqué). Code d'extraction : **** 2026年2月21日 18:25"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : 『Geteilt von einem 123-Cloud-Nutzer』 Link: (Cloud-Link ausgeblendet). Extraktionscode: **** 2026年2月21日 18:25"
+      }
+    }
   },
   {
     "date": "2026-02-20",
     "file": "2026-02-20.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : 妈妈，你付了几个人的钱啊？ 2026年2月20日 12:46 吉姆哈克  : 麻麻，ama，mom，mother，muma，meri，momon 2026年2月20日 12:47",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : Mom, how many people did you pay for? 2026年2月20日 12:46 吉姆哈克  : mama, ama, mom, mother, muma, meri, momon 2026年2月20日 12:47"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : Maman, tu as payé pour combien de personnes ? 2026年2月20日 12:46 吉姆哈克  : mama, ama, mom, mother, muma, meri, momon 2026年2月20日 12:47"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : Mama, für wie viele Leute hast du bezahlt? 2026年2月20日 12:46 吉姆哈克  : mama, ama, mom, mother, muma, meri, momon 2026年2月20日 12:47"
+      }
+    }
   },
   {
     "date": "2026-02-17",
     "file": "2026-02-17.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [图片] 2026年2月17日 00:26 吉姆哈克  : 这是今天教给表弟老师的 2026年2月17日 00:27",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [Photo] 2026年2月17日 00:26 吉姆哈克  : This is what I used to teach my little cousin today 2026年2月17日 00:27"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [Photo] 2026年2月17日 00:26 吉姆哈克  : C'est ce que j'ai enseigné à mon petit cousin aujourd'hui 2026年2月17日 00:27"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [Bild] 2026年2月17日 00:26 吉姆哈克  : Das habe ich heute meinem kleinen Cousin beigebracht 2026年2月17日 00:27"
+      }
+    }
   },
   {
     "date": "2026-02-13",
     "file": "2026-02-13.html",
     "location": "微信聊天记录",
     "excerpt": "吉姆哈克  : [【沪语】1995年上译厂沪语配音电影《Jesus》] 2026年2月13日 01:32 吉姆哈克  : 抱歉抱歉，这几天没登录微信，我的手机恢复出厂设置了   引用：吉姆哈克，你有何导的电话吗？ 2026年2月13日 01",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "吉姆哈克  : [【Shanghainese】1995 Shanghai Dub Studio Shanghainese-dubbed film \"Jesus\"] 2026年2月13日 01:32 吉姆哈克  : Sorry, I didn't log into WeChat these past few days—my phone was factory reset   Quote: Jim, do you have Advisor He's number? 2026年2月13日 01"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "吉姆哈克  : [【Shanghaïen】Film doublé en shanghaïen par le studio de doublage de Shanghai en 1995, « Jesus »] 2026年2月13日 01:32 吉姆哈克  : Désolé, je ne me suis pas connecté à WeChat ces jours-ci, mon téléphone a été réinitialisé   Citation : Jim, tu as le numéro du conseiller He ? 2026年2月13日 01"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "吉姆哈克  : [【Shanghainesisch】1995 vom Shanghaier Synchronstudio auf Shanghainesisch synchronisierter Film „Jesus“] 2026年2月13日 01:32 吉姆哈克  : Tut mir leid, ich war die Tage nicht in WeChat eingeloggt, mein Handy wurde auf Werkseinstellungen zurückgesetzt   Zitat: Jim, hast du die Nummer von Betreuer He? 2026年2月13日 01"
+      }
+    }
   },
   {
     "date": "2026-02-12",
     "file": "2026-02-12.html",
     "location": "微信聊天记录",
     "excerpt": "阿姐  : 我也不知道诶 2026年2月12日 21:43 阿姐  : 你抖音搜搜 2026年2月12日 21:44",
-    "images": []
+    "images": [],
+    "locales": {
+      "en": {
+        "location": "WeChat Chat History",
+        "excerpt": "阿姐  : I don't know either 2026年2月12日 21:43 阿姐  : Search it on Douyin 2026年2月12日 21:44"
+      },
+      "fr": {
+        "location": "Historique de discussion WeChat",
+        "excerpt": "阿姐  : Je ne sais pas non plus 2026年2月12日 21:43 阿姐  : Cherche sur Douyin 2026年2月12日 21:44"
+      },
+      "de": {
+        "location": "WeChat-Chatverlauf",
+        "excerpt": "阿姐  : Ich weiß es auch nicht 2026年2月12日 21:43 阿姐  : Such mal auf Douyin 2026年2月12日 21:44"
+      }
+    }
   },
   {
     "date": "2026-02-09",
@@ -1738,7 +3698,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2026-02-09-1.webp"
       }
     ],
-    "location": "江西省九江市"
+    "location": "江西省九江市",
+    "locales": {
+      "en": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-12-24",
@@ -1752,7 +3726,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-12-24-2.webp"
       }
     ],
-    "location": "江西省九江市"
+    "location": "江西省九江市",
+    "locales": {
+      "en": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-12-18",
@@ -1769,7 +3757,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-12-18-3.webp"
       }
     ],
-    "location": "江西省九江市"
+    "location": "江西省九江市",
+    "locales": {
+      "en": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-12-01",
@@ -1783,7 +3785,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-12-01-2.webp"
       }
     ],
-    "location": "江西省九江市"
+    "location": "江西省九江市",
+    "locales": {
+      "en": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-11-14",
@@ -1794,7 +3810,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-11-14-1.webp"
       }
     ],
-    "location": "江西省九江市"
+    "location": "江西省九江市",
+    "locales": {
+      "en": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-11-10",
@@ -1805,7 +3835,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-11-10-1.webp"
       }
     ],
-    "location": "江西省九江市"
+    "location": "江西省九江市",
+    "locales": {
+      "en": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-10-22",
@@ -1816,7 +3860,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-10-22-1.webp"
       }
     ],
-    "location": "江西省九江市"
+    "location": "江西省九江市",
+    "locales": {
+      "en": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-10-20",
@@ -1833,7 +3891,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-10-20-3.webp"
       }
     ],
-    "location": "江西省九江市"
+    "location": "江西省九江市",
+    "locales": {
+      "en": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-10-19",
@@ -1844,7 +3916,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-10-19-1.webp"
       }
     ],
-    "location": "江西省九江市"
+    "location": "江西省九江市",
+    "locales": {
+      "en": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-09-30",
@@ -1858,7 +3944,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-09-30-2.webp"
       }
     ],
-    "location": "江西省九江市"
+    "location": "江西省九江市",
+    "locales": {
+      "en": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-08-31",
@@ -1869,7 +3969,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-08-31-1.webp"
       }
     ],
-    "location": "江西省九江市"
+    "location": "江西省九江市",
+    "locales": {
+      "en": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-07-24",
@@ -1895,7 +4009,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-07-24-6.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Lebowski, well, isn't this a coincidence."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Lebowski, ça alors, quel hasard."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Lebowski, so ein Zufall aber auch."
+      }
+    }
   },
   {
     "date": "2025-07-19",
@@ -2023,7 +4151,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-07-10-28.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Huangmei County, Huanggang, Hubei",
+        "excerpt": "In my memory, the upper countryside of Huangmei is a faraway land. Its people live among the trailing ridges of the Dabie Mountains, picking tea, planting vegetables and growing rice, singing the Huangmei opera known all across the country, and speaking that knotty, hard-on-the-tongue upper-country accent. Young people of northern Jiangxi are puzzled: the Huangmei-opera lilt, however you listen, sounds just like Anhui dialect...."
+      },
+      "fr": {
+        "location": "Comté de Huangmei, Huanggang, Hubei",
+        "excerpt": "Dans ma mémoire, le haut-pays de Huangmei est un royaume lointain. Son peuple vit dans les contreforts des monts Dabie, cueille le thé, cultive légumes et riz, chante l'opéra Huangmei connu de tout le pays et parle l'accent abrupt et malaisé du haut-pays. Les jeunes du nord du Jiangxi s'interrogent : la mélodie de l'opéra Huangmei, quoi qu'on fasse, ressemble à s'y méprendre au dialecte de l'Anhui...."
+      },
+      "de": {
+        "location": "Kreis Huangmei, Huanggang, Hubei",
+        "excerpt": "In meiner Erinnerung ist das obere Land von Huangmei ein fernes Reich. Seine Menschen leben in den Ausläufern des Dabie-Gebirges, pflücken Tee, bauen Gemüse und Reis, singen die landesweit bekannte Huangmei-Oper und sprechen jenen sperrigen, zungenbrecherischen Oberland-Dialekt. Die Jugendlichen Nordjiangxis wundern sich: der Singsang der Huangmei-Oper klingt, wie man es auch dreht, ganz wie Anhui-Dialekt...."
+      }
+    }
   },
   {
     "date": "2025-07-08",
@@ -2524,7 +4666,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-06-11-10.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Handed down is the \"Jiachen Wang Manuscript of Eastern-Hubei Xiong Studies,\" written by Expert Xiong himself and compiled by his disciple Wang Zhenyang. The manuscript contains 118 sayings in all, opening with the programmatic line, \"Oppose both conservatism and rash advance; seek comprehensive balance and steady progress,\" in keeping with a \"heavenly horse scattering flowers.\" It may well be called the Analects of a new era!"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Nous est transmis le « Manuscrit Wang de l'année jiachen des études Xiong du Hubei oriental », écrit par l'expert Xiong lui-même et compilé par son disciple Wang Zhenyang. Le manuscrit compte cent dix-huit maximes, qui s'ouvrent sur la phrase directrice : « Combattre à la fois le conservatisme et la précipitation, viser l'équilibre global et avancer à pas sûrs », selon le « cheval céleste qui répand les fleurs ». Il mérite d'être appelé les Entretiens d'une ère nouvelle !"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Überliefert ist das „Jiachen-Wang-Manuskript der Xiong-Lehre Ost-Hubeis“, verfasst von Experte Xiong höchstpersönlich und herausgegeben von seinem Schüler Wang Zhenyang. Das Manuskript umfasst insgesamt 118 Lehrsätze und beginnt mit dem programmatischen Satz: „Gegen Konservatismus wie gegen Vorauseilen zugleich, umfassendes Gleichgewicht und stetiges Voranschreiten“, ganz im Sinne des „himmlischen Pferdes, das Blumen streut“. Man darf es wohl die „Gespräche“ einer neuen Epoche nennen!"
+      }
+    }
   },
   {
     "date": "2025-06-05",
@@ -2535,7 +4691,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-06-05-1.webp"
       }
     ],
-    "location": "湖北省武汉市"
+    "location": "湖北省武汉市",
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-05-29",
@@ -2675,7 +4845,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-05-29-44.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Another summer drained to the bone,"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Encore un été épuisé jusqu'à la moelle,"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Wieder ein bis aufs Mark erschöpfter Sommer,"
+      }
+    }
   },
   {
     "date": "2025-05-27",
@@ -2721,7 +4905,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-05-22-1.webp"
       }
     ],
-    "location": "湖北省武汉市"
+    "location": "湖北省武汉市",
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-05-20",
@@ -2759,7 +4957,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-05-20-10.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Alone at night, companionless beneath the lamp, the spring breeze blows full in my face."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Seul la nuit, sans compagnie sous la lampe, la brise de printemps me souffle au visage."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Einsam in der Nacht, ohne Gefährten unter der Lampe, streicht der Frühlingswind mir ins Gesicht."
+      }
+    }
   },
   {
     "date": "2025-05-17",
@@ -2773,7 +4985,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-05-17-2.webp"
       }
     ],
-    "location": "湖北省武汉市"
+    "location": "湖北省武汉市",
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-05-16",
@@ -2945,7 +5171,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-05-06-10.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "My own feeling is that WPS presentation templates are uneven in quality and rarely impressive. Across central China, undergraduate group projects overuse templates, all cut from the same cloth and badly \"homogenized.\" On the whiteboards of classroom buildings, a shoddy Party-government style runs rampant, and hideously ugly presentation graphics are anything but rare."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "J'ai le sentiment que les modèles de présentation WPS sont de qualité inégale et rarement saisissants. Dans la Chine centrale, les travaux de groupe des licences abusent des modèles, tous taillés sur le même patron et gravement « homogénéisés ». Sur les tableaux blancs des bâtiments d'enseignement, un style de propagande de mauvaise qualité fait florès, et les diaporamas d'une laideur affreuse ne manquent pas."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Ich persönlich finde die Präsentationsvorlagen von WPS von sehr unterschiedlicher Qualität, kaum eine überzeugt. In Zentralchina missbrauchen Bachelor-Gruppenarbeiten Vorlagen, alle nach demselben Muster, stark „homogenisiert“. An den Whiteboards der Lehrgebäude wuchert ein minderwertiger Parteien-Behörden-Stil, und scheußlich hässliche Präsentationsgrafiken sind keine Seltenheit."
+      }
+    }
   },
   {
     "date": "2025-05-01",
@@ -3036,7 +5276,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-04-30-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Hongshan District, Wuhan, Hubei",
+        "excerpt": "When I was young I hated being pestered, and above all hated being ordered about. What I wanted was freedom, to do exactly as I pleased—just like my nephew, utterly calm and unhurried! Right now I too am lying in bed, legs crossed, my mind wandering: someday I'll buy a mountain and watch the stars from it; ..."
+      },
+      "fr": {
+        "location": "District de Hongshan, Wuhan, Hubei",
+        "excerpt": "Jeune, je ne supportais pas qu'on me harcèle, et surtout pas qu'on me commande. Ce que je voulais, c'était la liberté, faire ce qui me chantait, tout comme mon neveu, serein et imperturbable ! En ce moment même, je suis allongé dans mon lit, jambes croisées, laissant vagabonder ma pensée : plus tard, j'achèterai une montagne pour y regarder les étoiles ; ..."
+      },
+      "de": {
+        "location": "Hongshan, Wuhan, Hubei",
+        "excerpt": "Als junger Mensch wollte ich nicht bedrängt und schon gar nicht herumkommandiert werden. Was ich wollte, war Freiheit, einfach zu tun, was mir gefiel — genau wie mein Neffe, gelassen und ganz bei sich! Auch ich liege gerade im Bett, Bein über Bein geschlagen, und lasse meine Gedanken schweifen: später einen Berg kaufen und dort die Sterne betrachten; ..."
+      }
+    }
   },
   {
     "date": "2025-04-26",
@@ -3248,7 +5502,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-04-22-44.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Every day spent without savoring good food,"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Chaque jour passé sans savourer de bonne chère,"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Jeder Tag, an dem man kein gutes Essen genießt,"
+      }
+    }
   },
   {
     "date": "2025-04-20",
@@ -3415,7 +5683,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-04-20-53.webp"
       }
     ],
-    "location": "湖北省武汉市"
+    "location": "湖北省武汉市",
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-04-13",
@@ -3456,7 +5738,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-04-13-11.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Dear Wikipedia administrator, let me whisper this to you: \"I love your whole family! Truly, no lie!\""
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Cher administrateur de Wikipédia, je voudrais te glisser à l'oreille : « J'aime toute ta famille ! Vraiment, sans mentir ! »"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Lieber Wikipedia-Administrator, lass es mich dir leise zuflüstern: „Ich liebe deine ganze Familie! Wirklich, keine Lüge!“"
+      }
+    }
   },
   {
     "date": "2025-04-01",
@@ -3648,7 +5944,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-03-25-14.webp"
       }
     ],
-    "location": "湖北省武汉市"
+    "location": "湖北省武汉市",
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2025-02-18",
@@ -3662,7 +5972,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-02-18-2.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Yisi year, Wuyin month, Wuwu day, third quarter of the you-hour (17–19h)."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Année yisi, mois wuyin, jour wuwu, troisième quart de l'heure du coq (17–19 h)."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Yisi-Jahr, Wuyin-Monat, Wuwu-Tag, drittes Viertel der You-Stunde (17–19 Uhr)."
+      }
+    }
   },
   {
     "date": "2025-02-13",
@@ -3673,7 +5997,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-02-13-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Once I'm there, I'll just sit the exam,"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Une fois sur place, je passe l'examen, c'est tout,"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Wenn ich da bin, mach ich einfach die Prüfung,"
+      }
+    }
   },
   {
     "date": "2025-02-06",
@@ -3687,7 +6025,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-02-06-2.webp"
       }
     ],
-    "location": "湖北省武汉市"
+    "location": "湖北省武汉市",
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Lebowski: so much adult behavior is simply ugly, with not a trace of beauty. But adults playing at being children are no prettier a sight."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Lebowski : beaucoup de comportements d'adultes sont tout simplement laids, sans la moindre beauté. Mais les adultes qui se font enfants ne sont pas plus beaux à voir."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Lebowski: so viel Verhalten von Erwachsenen ist einfach hässlich, ohne jede Schönheit. Aber Erwachsene, die sich als Kinder gebärden, sind auch kein schöner Anblick."
+      }
+    }
   },
   {
     "date": "2025-01-30",
@@ -3864,7 +6216,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-01-30-video.mp4",
         "poster": "assets/images/2025-01-30-poster.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "By Shenzhou time, Yisi year, Dingchou month, Wuxu day,"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Selon l'heure du Shenzhou, année yisi, mois dingchou, jour wuxu,"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Nach Shenzhou-Zeit, Yisi-Jahr, Dingchou-Monat, Wuxu-Tag,"
+      }
+    }
   },
   {
     "date": "2025-01-28",
@@ -3881,7 +6247,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-01-28-3.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "In the Jiachen Year of the Dragon, I unlocked new abilities on the skill tree and made a few once-in-a-lifetime breakthroughs."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "L'année jiachen du Dragon, j'ai débloqué de nouvelles compétences dans mon arbre et réalisé quelques percées inédites dans ma vie."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Im Jiachen-Drachenjahr habe ich neue Fähigkeiten im Skill-Baum freigeschaltet und ein paar Durchbrüche mein ganzes Leben lang erreicht."
+      }
+    }
   },
   {
     "date": "2025-01-26",
@@ -3898,7 +6278,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-01-26-3.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Many a time I've felt the humanities aren't all that practical;"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Bien des fois, j'ai eu le sentiment que les lettres n'étaient guère pratiques ;"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Oft hatte ich das Gefühl, die Geisteswissenschaften seien nicht besonders anwendungsnah;"
+      }
+    }
   },
   {
     "date": "2025-01-19",
@@ -4183,7 +6577,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-01-15-74.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "By the banks of the Xunyang,"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Au bord de la rivière Xunyang,"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Am Ufer des Xunyang-Flusses,"
+      }
+    }
   },
   {
     "date": "2025-01-10",
@@ -4218,7 +6626,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-01-10-9.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Half past eleven in the morning, one day in the last third of the eleventh lunar month, Jiachen year."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Onze heures et demie du matin, un jour de la dernière décade du onzième mois lunaire, année jiachen."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Halb zwölf vormittags, an einem Tag im letzten Drittel des elften Mondmonats, Jiachen-Jahr."
+      }
+    }
   },
   {
     "date": "2025-01-09",
@@ -4235,7 +6657,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2025-01-09-3.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "A bit bored, posting a Shuo Shuo to see whether Tencent will block it."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Un peu d'ennui, je publie un Shuo Shuo pour voir si Tencent va le censurer."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Etwas gelangweilt, poste ich ein Shuo Shuo, um zu sehen, ob Tencent es blockt."
+      }
+    }
   },
   {
     "date": "2025-01-05",
@@ -4246,7 +6682,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2025-01-05-1.webp"
       }
     ],
-    "location": "湖北省武汉市"
+    "location": "湖北省武汉市",
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Chai Jiang Ganbei: this student's remarks are truly earth-shattering!"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Chai Jiang Ganbei : les propos de ce camarade sont proprement stupéfiants !"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Chai Jiang Ganbei: Die Äußerungen dieses Kommilitonen sind wirklich welterschütternd!"
+      }
+    }
   },
   {
     "date": "2024-12-25",
@@ -4281,7 +6731,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-12-25-9.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Clicking through online courses in the dead of night,"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "J'enchaîne les cours en ligne au beau milieu de la nuit,"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Mitten in der Nacht arbeite ich Pflicht-Onlinekurse ab,"
+      }
+    }
   },
   {
     "date": "2024-12-20",
@@ -4296,7 +6760,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-12-20-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Hu Jintao and Deng Xiaoping were right: science and technology are the primary productive forces! With crawler technology you can freeload Tencent's VIP videos and never pay for a membership! There it is, productive forces right before your eyes!"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Hu Jintao et Deng Xiaoping avaient raison : la science et la technologie sont la première force productive ! Grâce au crawler, on profite gratuitement des vidéos VIP de Tencent, plus besoin de payer d'abonnement ! La voilà, la force productive à portée de main !"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Hu Jintao und Deng Xiaoping hatten recht: Wissenschaft und Technik sind die erste Produktivkraft! Mit Crawler-Technik kann man Tencents VIP-Videos umsonst schauen und braucht keine Mitgliedschaft zu kaufen! Da ist sie, die Produktivkraft direkt vor Augen!"
+      }
+    }
   },
   {
     "date": "2024-11-30",
@@ -4344,7 +6822,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-11-30-video.mp4",
         "poster": "assets/images/2024-11-30-poster.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Dino Dash (Huangzhou Prefecture) v5.0 is now under debugging:"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Dino Dash (préfecture de Huangzhou), version 5.0, en cours de débogage :"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Dino-Rennen (Präfektur Huangzhou) v5.0 wird gerade debuggt:"
+      }
+    }
   },
   {
     "date": "2024-11-29",
@@ -4388,7 +6880,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-11-29-12.webp"
       }
     ],
-    "location": "湖北省武汉市"
+    "location": "湖北省武汉市",
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2024-11-26",
@@ -4416,7 +6922,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-11-26-video-2.mp4",
         "poster": "assets/images/2024-11-26-poster-2.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "The following code files commemorate my alma mater's 120th anniversary!"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Les fichiers de code ci-dessous célèbrent le cent-vingtième anniversaire de mon alma mater !"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Die folgenden Codedateien gedenken des 120. Gründungstags meiner Alma Mater!"
+      }
+    }
   },
   {
     "date": "2024-11-25",
@@ -4427,7 +6947,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-11-25-1.webp"
       }
     ],
-    "location": "湖北省武汉市"
+    "location": "湖北省武汉市",
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2024-11-24",
@@ -4579,7 +7113,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-11-24-video-3.mp4",
         "poster": "assets/images/2024-11-24-poster-3.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "The clouds break, the moon comes forth, and flowers dally with their shadows,"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Les nuages se fendent, la lune paraît, les fleurs jouent avec leur ombre,"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Die Wolken weichen, der Mond tritt hervor, die Blumen spielen mit ihrem Schatten,"
+      }
+    }
   },
   {
     "date": "2024-11-23",
@@ -4617,7 +7165,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-11-23-10.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "The autumn wind knows not how to carry a letter home,"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Le vent d'automne ne sait porter les nouvelles du pays,"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der Herbstwind versteht es nicht, einen Brief nach Hause zu tragen,"
+      }
+    }
   },
   {
     "date": "2024-11-21",
@@ -4664,7 +7226,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-11-21-13.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Guys, come quick, come quick! I'm here to expose this scammer!"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Les amis, vite, venez ! Je vais dénoncer cet arnaqueur !"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Leute, schnell her! Ich zeige hier diesen Betrüger!"
+      }
+    }
   },
   {
     "date": "2024-11-19",
@@ -4714,7 +7290,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-11-19-14.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "In my time, on the HUST campus, I made the first \"Polandball\" propaganda poster of my life. I still remember a teaching researcher from Huangzhou Prefecture once saying from the heart: \"I have one great wish in this life—I hope our country can be reunified and our nation grow more united!\""
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "De mon vivant, sur le campus de HUST, j'ai réalisé la première affiche de propagande « Polandball » de ma vie. Je me souviens encore qu'un inspecteur pédagogique de la préfecture de Huangzhou avait dit avec élan : « J'ai un grand vœu dans cette vie : que notre pays se réunifie et que notre nation soit plus unie ! »"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Zu meinen Lebzeiten, auf dem HUST-Campus, habe ich das erste „Polandball“-Propagandaplakat meines Lebens gestaltet. Ich erinnere mich noch gut an einen pädagogischen Fachberater aus der Präfektur Huangzhou, der einst aus vollem Herzen sagte: „Ich habe einen großen Wunsch in diesem Leben: ich hoffe, unser Land kann wiedervereint werden und unsere Nation noch enger zusammenrücken!“"
+      }
+    }
   },
   {
     "date": "2024-11-18",
@@ -4749,7 +7339,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-11-18-9.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "The most splendid thing in this world is to live yourself into the shape you love. Even if brief, it is brilliant!"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Ce qu'il y a de plus beau au monde, c'est de faire de sa vie ce qui nous plaît. Même bref, c'est magnifique !"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Das Schönste auf der Welt ist, sein Leben so zu leben, wie man es selbst mag. Auch wenn es kurz ist, es ist wunderbar!"
+      }
+    }
   },
   {
     "date": "2024-11-12",
@@ -4760,7 +7364,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-11-12-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Lebowski: collective criminality."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Lebowski : criminalité collective."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Lebowski: kollektive Kriminalität."
+      }
+    }
   },
   {
     "date": "2024-11-03",
@@ -4795,7 +7413,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-11-03-9.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Me: You mentioned the WeChat Moments profile picture just now, so I flipped through mine and found it has never once changed since I was little!"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Moi : Tu parlais à l'instant de la photo de profil des Moments WeChat, j'ai feuilleté les miennes et découvert qu'elles n'avaient jamais changé depuis mon enfance !"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Ich: Du hast gerade das WeChat-Moments-Profilbild erwähnt, da hab ich meine durchgeblättert und festgestellt, dass es sich seit meiner Kindheit überhaupt nie verändert hat!"
+      }
+    }
   },
   {
     "date": "2024-11-02",
@@ -4807,7 +7439,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-11-02-video.mp4",
         "poster": "assets/images/2024-11-02-poster.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "The Emperor's Gaze,"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Le regard de l'Empereur,"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der Blick des Kaisers,"
+      }
+    }
   },
   {
     "date": "2024-10-29",
@@ -4827,7 +7473,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-10-29-4.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Studying at HUST means learning everything on the fly!"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Étudier à HUST, c'est tout apprendre dans l'urgence !"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Studieren an der HUST heißt, alles spontan lernen zu müssen!"
+      }
+    }
   },
   {
     "date": "2024-10-28",
@@ -4874,7 +7534,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-10-28-13.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "柴江赣北  : Adding one more"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "柴江赣北  : J'en rajoute une"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "柴江赣北  : Ich füge noch eins hinzu"
+      }
+    }
   },
   {
     "date": "2024-10-24",
@@ -4885,7 +7559,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-10-24.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "The dream begins at No. 1 Nanhu Road!"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Le rêve commence au 1, rue Nanhu !"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der Traum beginnt in der Nanhu-Straße Nr. 1!"
+      }
+    }
   },
   {
     "date": "2024-10-21",
@@ -4914,7 +7602,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-10-21-7.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "ʘᴗʘ"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "ʘᴗʘ"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "ʘᴗʘ"
+      }
+    }
   },
   {
     "date": "2024-10-20",
@@ -4928,7 +7630,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-10-20-2.webp"
       }
     ],
-    "location": "湖北省武汉市"
+    "location": "湖北省武汉市",
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2024-10-16",
@@ -4939,7 +7655,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-10-16.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "From Jiangzhou to the River City,"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "De Jiangzhou à la Cité du Fleuve,"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Von Jiangzhou zur Flussstadt,"
+      }
+    }
   },
   {
     "date": "2024-10-13",
@@ -4953,7 +7683,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-10-13-2.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "From the River City back to Jiangzhou, bound for the Xunyang post station!"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "De la Cité du Fleuve à Jiangzhou, en route pour le relais de Xunyang !"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Von der Flussstadt zurück nach Jiangzhou, auf zur Poststation Xunyang!"
+      }
+    }
   },
   {
     "date": "2024-10-11",
@@ -4964,7 +7708,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-10-11-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Updated the moment: meeting you again in the season of falling blossoms."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "J'ai mis à jour l'instant : te retrouver à la saison des fleurs qui tombent."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Den Augenblick aktualisiert: dich zur Zeit der fallenden Blüten wiederbegegnen."
+      }
+    }
   },
   {
     "date": "2024-10-07",
@@ -5038,7 +7796,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-10-07-13.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "I really have to give our school's safety education a thumbs-up!"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Je dois dire un grand bravo à l'éducation à la sécurité de notre université !"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Ich muss der Sicherheitserziehung unserer Uni ein Lob aussprechen!"
+      }
+    }
   },
   {
     "date": "2024-10-05",
@@ -5169,7 +7941,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-10-05-video-6.mp4",
         "poster": "assets/images/2024-10-05-poster-6.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "In my time, on the HUST campus, I tamed PowerPoint..."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "De mon vivant, sur le campus de HUST, j'ai dompté PowerPoint..."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Zu meinen Lebzeiten, auf dem HUST-Campus, habe ich PowerPoint bezwungen..."
+      }
+    }
   },
   {
     "date": "2024-10-04",
@@ -5210,7 +7996,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-10-04-11.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "(Today's illustration goes here.)"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "(L'illustration du jour va ici.)"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "(Hier kommt die Illustration des Tages hin.)"
+      }
+    }
   },
   {
     "date": "2024-10-01",
@@ -5244,7 +8044,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-10-01-video-2.mp4",
         "poster": "assets/images/2024-10-01-poster-2.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "\"What is a human life like? Like a wild goose leaving its print in the snow.\" The wild goose of life is gone in a flash, leaving us endless wistfulness and lingering aftertaste!"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "« Qu'est-ce donc que la vie ici-bas ? Comme l'oie sauvage qui laisse sa trace dans la neige. » L'oie sauvage de la vie s'efface en un instant, nous laissant une infinie tristesse et un long écho !"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "„Was gleicht des Menschen Dasein? Es gleicht einem Wildgans, der in den Schnee tritt.“ Die Wildgans des Lebens ist im Nu vorüber und hinterlässt uns endlose Wehmut und Nachklang!"
+      }
+    }
   },
   {
     "date": "2024-09-28",
@@ -5324,7 +8138,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-09-28-video-6.mp4",
         "poster": "assets/images/2024-09-28-poster-6.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "From East Lake to South Lake: an early-morning dash, yes, but none of the road's wearying toil."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Du lac de l'Est au lac du Sud : une course de bon matin, mais sans la fatigue harassante du voyage."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Vom Ostsee zum Südsee: zwar ein morgendliches Hetzen, doch keine mühsame Plackerei der Reise."
+      }
+    }
   },
   {
     "date": "2024-09-27",
@@ -5335,7 +8163,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-27.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Little HUST and the kitty,"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Le petit HUST et le minet,"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Klein-HUST und das Kätzchen,"
+      }
+    }
   },
   {
     "date": "2024-09-22",
@@ -5346,7 +8188,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-22.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "I beseech Confucius to grant me a smooth interview!"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Je supplie Maître Confucius de m'accorder un entretien sans accroc !"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Ich flehe Konfuzius an, mir ein reibungsloses Vorstellungsgespräch zu gewähren!"
+      }
+    }
   },
   {
     "date": "2024-09-21",
@@ -5357,7 +8213,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-09-21-1.webp"
       }
     ],
-    "location": "湖北省武汉市"
+    "location": "湖北省武汉市",
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2024-09-20",
@@ -5450,7 +8320,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-20-13.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Central Sports Field, HUST Main Campus, Hongshan District, Wuhan",
+        "excerpt": "Venue: Central Sports Field, HUST main campus, Hongshan District, Wuhan. An autumn troop review on the sandy field."
+      },
+      "fr": {
+        "location": "Terrain de sport central, campus principal de HUST, district de Hongshan, Wuhan",
+        "excerpt": "Lieu : terrain de sport central, campus principal de HUST, district de Hongshan, Wuhan. Revue d'automne sur le champ de sable."
+      },
+      "de": {
+        "location": "Zentralsportplatz, HUST-Hauptcampus, Bezirk Hongshan, Wuhan",
+        "excerpt": "Ort: Zentralsportplatz, HUST-Hauptcampus, Bezirk Hongshan, Wuhan. Herbstliche Truppenparade auf dem Sandfeld."
+      }
+    }
   },
   {
     "date": "2024-09-19",
@@ -5467,7 +8351,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-19-3.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "In the dusty heap of old papers I found a little slip. It's drawn rather cutely! 在  : I drew it 2024年9月20日 09:29 柴江赣北 回复在  : I'm a B … 2024年9月20日 09:38 柴江赣北……"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Dans un vieux tas de paperasses historiques, j'ai trouvé un petit billet. Il est plutôt mignon ! 在  : C'est moi qui l'ai dessiné 2024年9月20日 09:29 柴江赣北 回复在  : I'm a B … 2024年9月20日 09:38 柴江赣北……"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "In einem alten Papierstoß der Geschichte fand ich einen kleinen Zettel. Der ist recht niedlich gezeichnet! 在  : Ich hab ihn gemalt 2024年9月20日 09:29 柴江赣北 回复在  : I'm a B … 2024年9月20日 09:38 柴江赣北……"
+      }
+    }
   },
   {
     "date": "2024-09-18",
@@ -5505,7 +8403,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-18-10.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Roaming together at leisure by moonlight. Visiting Dai on a snowy night, visiting Cheng on a moonlit night. Set out on a whim, return when the whim is spent. From Forest No. 1037 to Forest No. 415. 漆同桌  : Stop going to the forest, go to Brokeback Mountain 2024年9月17日 22:36 柴江赣北 回复漆同桌  :……"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Flâner ensemble au clair de lune. Rendre visite à Dai par une nuit de neige, à Cheng par une nuit de lune. Partir sous l'élan, revenir l'élan épuisé. De la forêt no 1037 à la forêt no 415. 漆同桌  : Arrête la forêt, va plutôt à Brokeback Mountain 2024年9月17日 22:36 柴江赣北 回复漆同桌  :……"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "In der Muße gemeinsam im Mondlicht streifen. Dai in einer Schneenacht besuchen, Cheng in einer Mondnacht. Aus einer Laune hinaus, wenn die Laune verflogen ist, zurück. Von Wald Nr. 1037 zu Wald Nr. 415. 漆同桌  : Geh nicht in den Wald, geh auf Brokeback Mountain 2024年9月17日 22:36 柴江赣北 回复漆同桌  :……"
+      }
+    }
   },
   {
     "date": "2024-09-16",
@@ -5522,7 +8434,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-16-3.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Building 5, Zisong, HUST, Wuhan",
+        "excerpt": "Building 5, Zisong, HUST, Wuhan (this is the location). Truly the finest scenery of the south, meeting you again in falling-blossom season! Welcome the Wuhan alumni of Huanggang High School's class of 2024 into the fold!"
+      },
+      "fr": {
+        "location": "Bâtiment 5, Zisong, HUST, Wuhan",
+        "excerpt": "Bâtiment 5, Zisong, HUST, Wuhan (ceci est le lieu). Vraiment le plus beau paysage du Jiangnan, te retrouver à la saison des fleurs qui tombent ! Bienvenue aux anciens de Wuhan de la promotion 2024 du lycée de Huanggang dans l'organisation !"
+      },
+      "de": {
+        "location": "Gebäude 5, Zisong, HUST, Wuhan",
+        "excerpt": "Gebäude 5, Zisong, HUST, Wuhan (das ist der Ort). Wahrlich die schönste Landschaft des Südens, dich zur Zeit der fallenden Blüten wiederzusehen! Willkommen die Wuhan-Alumni des Huanggang-Gymnasiums Jahrgang 2024 in der Gemeinschaft!"
+      }
+    }
   },
   {
     "date": "2024-09-15",
@@ -5539,7 +8465,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-15-3.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "If kin and friends in Luoyang ask after me, a heart of pure ice in a vase of jade! 柴江赣北  : I've been impersonated by classmate Mei Gaowei…… 2024年9月15日 22:29"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Si parents et amis de Luoyang demandent de mes nouvelles, un cœur de glace pure dans un vase de jade ! 柴江赣北  : J'ai été usurpé par la camarade Mei Gaowei…… 2024年9月15日 22:29"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Wenn Verwandte und Freunde in Luoyang nach mir fragen: ein Herz aus reinem Eis in einer Jadevase! 柴江赣北  : Ich wurde von Kommilitonin Mei Gaowei nachgeahmt…… 2024年9月15日 22:29"
+      }
+    }
   },
   {
     "date": "2024-09-13",
@@ -5553,7 +8493,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-13-2.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Yujia Hill, Wuhan",
+        "excerpt": "Venue: Yujia Hill, Wuhan. 程老师  : [搓手得意][搓手得意][搓手得意] 2024年9月13日 11:53 柴江赣北 回复程老师  : I so want to photograph the wild boars 2024年9月13日 13:02"
+      },
+      "fr": {
+        "location": "Colline Yujia, Wuhan",
+        "excerpt": "Lieu : colline Yujia, Wuhan. 程老师  : [搓手得意][搓手得意][搓手得意] 2024年9月13日 11:53 柴江赣北 回复程老师  : J'aimerais tellement photographier les sangliers 2024年9月13日 13:02"
+      },
+      "de": {
+        "location": "Yujia-Hügel, Wuhan",
+        "excerpt": "Ort: Yujia-Hügel, Wuhan. 程老师  : [搓手得意][搓手得意][搓手得意] 2024年9月13日 11:53 柴江赣北 回复程老师  : Ich will so gern die Wildschweine fotografieren 2024年9月13日 13:02"
+      }
+    }
   },
   {
     "date": "2024-09-12",
@@ -5633,7 +8587,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-12-11.jpg"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "If from now I may roam at leisure by moonlight, I'll lean on my staff and knock at your gate any night. 噗叽红柿  : Why has Teacher Cheng's looks changed 2024年9月12日 20:33 柴江赣北 回复噗叽红柿  : This really is the original, Teacher Cheng took it 2024年9月12日 20:37 张悦……"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Si désormais je puis flâner au clair de lune, j'appuierai sur mon bâton et frapperai à ta porte quelque nuit. 噗叽红柿  : Pourquoi M. Cheng a-t-il changé de tête 2024年9月12日 20:33 柴江赣北 回复噗叽红柿  : C'est vraiment l'original, c'est M. Cheng qui l'a pris 2024年9月12日 20:37 张悦……"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Wenn ich künftig in Muße im Mondlicht streifen darf, stütze ich mich auf meinen Stock und klopfe nachts an deine Tür. 噗叽红柿  : Wieso sieht Lehrer Cheng anders aus 2024年9月12日 20:33 柴江赣北 回复噗叽红柿  : Das ist wirklich das Original, Lehrer Cheng hat es aufgenommen 2024年9月12日 20:37 张悦……"
+      }
+    }
   },
   {
     "date": "2024-09-11",
@@ -5663,7 +8631,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-11-2.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Optics Valley Gymnasium, Hongshan District, Wuhan, Hubei",
+        "excerpt": "Optics Valley Gymnasium. Inside the Optics Valley Gymnasium. A good rain knows its season, and tonight it falls. The whole military-training division got soaked!"
+      },
+      "fr": {
+        "location": "Gymnase de la Vallée optique, district de Hongshan, Wuhan, Hubei",
+        "excerpt": "Gymnase de la Vallée optique. À l'intérieur du gymnase de la Vallée optique. La bonne pluie connaît sa saison, et ce soir elle survient. Toute la division d'instruction militaire s'est fait tremper !"
+      },
+      "de": {
+        "location": "Optics-Valley-Halle, Bezirk Hongshan, Wuhan, Hubei",
+        "excerpt": "Optics-Valley-Halle. In der Optics-Valley-Halle. Ein guter Regen kennt seine Zeit, und heute Abend bricht er los. Die ganze Militärtrainings-Division wurde durchnässt!"
+      }
+    }
   },
   {
     "date": "2024-09-08",
@@ -5704,7 +8686,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-08-11.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Zisong Student Apartments, Huazhong University of Science and Technology",
+        "excerpt": "By the Xunyang River I received a maple leaf from the River City; and beneath Zisong I received the organization's offer. Hard to cross the barrier pass—who pities the traveler who has lost his way? Met by chance, yet all are teachers and friends of my homeland! 方是钰  : 2024年9月8日 13:35 柴江赣北  : This time it's really……"
+      },
+      "fr": {
+        "location": "Résidence étudiante Zisong, Université des sciences et technologies de Huazhong",
+        "excerpt": "Au bord de la rivière Xunyang, j'ai reçu une feuille d'érable de la Cité du Fleuve ; et sous Zisong, j'ai reçu l'offre de l'organisation. Dur à franchir le col de la Barrière — qui plaint le voyageur égaré ? Rencontrés par hasard, tous pourtant sont les maîtres et amis de mon pays ! 方是钰  : 2024年9月8日 13:35 柴江赣北  : Cette fois c'est vraiment……"
+      },
+      "de": {
+        "location": "Studierendenwohnheim Zisong, Huazhong-Universität für Wissenschaft und Technik",
+        "excerpt": "Am Xunyang-Fluss erhielt ich ein Ahornblatt aus der Flussstadt; und unter Zisong erreichte mich die Zusage der Gemeinschaft. Schwer ist der Grenzpass zu überqueren — wer bemitleidet den verirrten Wanderer? Nur zufällig getroffen, und doch sind sie alle Lehrer und Freunde meiner Heimat! 方是钰  : 2024年9月8日 13:35 柴江赣北  : Diesmal wirklich……"
+      }
+    }
   },
   {
     "date": "2024-09-06",
@@ -5715,7 +8711,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-06.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2024-09-02",
@@ -5726,7 +8736,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-09-02.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Tenet No. 58 of \"Xiong Studies\": life and death are fated; wealth and rank lie with Heaven."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Maxime no 58 de la « doctrine Xiong » : vie et mort relèvent du destin, richesse et noblesse du Ciel."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Lehrsatz Nr. 58 der „Xiong-Lehre“: Leben und Tod sind Schicksal, Reichtum und Rang liegen beim Himmel."
+      }
+    }
   },
   {
     "date": "2024-08-31",
@@ -5740,7 +8764,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-08-31-2.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Meeting hometown folks in a far land: Zhuogang and Xiaochi. 柴江赣北  : 2024年8月31日 12:13 黄炜  : When hometown folks meet, both eyes brim with tears 2024年8月31日 12:17 柴江赣北 回复黄炜  : Just moved, not enough to cry 2024……"
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Rencontrer des gens du pays en terre étrangère, Zhuogang et Xiaochi. 柴江赣北  : 2024年8月31日 12:13 黄炜  : Quand des gens du pays se retrouvent, les deux yeux se noient de larmes 2024年8月31日 12:17 柴江赣北 回复黄炜  : Juste ému, pas jusqu'à pleurer 2024……"
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "In der Fremde Landsleute treffen: Zhuogang und Xiaochi. 柴江赣北  : 2024年8月31日 12:13 黄炜  : Wenn Landsleute sich treffen, schießen einem die Tränen in die Augen 2024年8月31日 12:17 柴江赣北 回复黄炜  : Nur gerührt, zum Weinen reicht es nicht 2024……"
+      }
+    }
   },
   {
     "date": "2024-08-23",
@@ -5752,7 +8790,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-08-23-video.mp4",
         "poster": "assets/images/2024-08-23-poster.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Xi’an, Shaanxi",
+        "excerpt": "𝐗𝐈 𝐀𝐍 — Xi'an. \"Zhou, Qin, Han, Tang: Chang'an in its golden age.\" 夏佳一  : Beautiful city, handsome people! 2024年8月23日 02:49 柴江赣北 回复夏佳一  : Jiayi, thank you! 2024年8月23日 02:55 柴江赣北 回复夏……"
+      },
+      "fr": {
+        "location": "Xi’an, Shaanxi",
+        "excerpt": "𝐗𝐈 𝐀𝐍 — Xi'an. « Zhou, Qin, Han, Tang : Chang'an à son âge d'or. » 夏佳一  : Belle ville, beaux garçons ! 2024年8月23日 02:49 柴江赣北 回复夏佳一  : Jiayi, merci ! 2024年8月23日 02:55 柴江赣北 回复夏……"
+      },
+      "de": {
+        "location": "Xi’an, Shaanxi",
+        "excerpt": "𝐗𝐈 𝐀𝐍 — Xi'an. „Zhou, Qin, Han, Tang: Chang'an in seiner Blütezeit.“ 夏佳一  : Schöne Stadt, gutaussehende Leute! 2024年8月23日 02:49 柴江赣北 回复夏佳一  : Jiayi, danke! 2024年8月23日 02:55 柴江赣北 回复夏……"
+      }
+    }
   },
   {
     "date": "2024-08-21",
@@ -5823,7 +8875,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-08-20-9.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Lushan Airport, Chaisang District, Jiujiang, Jiangxi; Xincheng District, Xi’an, Shaanxi; Shengluoqi Hotel",
+        "excerpt": "By the Xunyang River the train heads north; looking back suddenly I realize... the world is so vast—I long to go to Chang'an!"
+      },
+      "fr": {
+        "location": "Aéroport de Lushan, district de Chaisang, Jiujiang, Jiangxi ; district de Xincheng, Xi’an, Shaanxi ; hôtel Shengluoqi",
+        "excerpt": "Au bord de la rivière Xunyang, le train file vers le nord ; en me retournant soudain, je comprends... le monde est si vaste, je veux aller à Chang'an !"
+      },
+      "de": {
+        "location": "Flughafen Lushan, Bezirk Chaisang, Jiujiang, Jiangxi; Bezirk Xincheng, Xi’an, Shaanxi; Shengluoqi-Hotel",
+        "excerpt": "Am Xunyang-Fluss fährt der Zug nach Norden; wenn ich plötzlich zurückblicke, wird mir klar ... die Welt ist so groß — ich will nach Chang'an!"
+      }
+    }
   },
   {
     "date": "2024-08-09",
@@ -5837,7 +8903,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2024-08-09-2.webp"
       }
     ],
-    "location": "湖北省武汉市"
+    "location": "湖北省武汉市",
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2024-08-08",
@@ -5857,7 +8937,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-08-08-4.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Huanggang, Hubei",
+        "excerpt": "(The first two illustrations precede this.) 梅语扬  : 666 2024年8月8日 16:48 夏佳一  : The editors and reviewers are all useless good-for-nothings, that's what you think 2024年8月8日 16:55 柴江赣北 回复夏佳一  : They really aren't good-for-nothings, ……"
+      },
+      "fr": {
+        "location": "Huanggang, Hubei",
+        "excerpt": "(Les deux premières illustrations sont avant.) 梅语扬  : 666 2024年8月8日 16:48 夏佳一  : Éditeurs et correcteurs sont tous des bons à rien, voilà ce que tu crois 2024年8月8日 16:55 柴江赣北 回复夏佳一  : Ils ne sont vraiment pas des bons à rien, ……"
+      },
+      "de": {
+        "location": "Huanggang, Hubei",
+        "excerpt": "(Die ersten zwei Illustrationen kommen davor.) 梅语扬  : 666 2024年8月8日 16:48 夏佳一  : Redakteure und Prüfer sind allesamt nutzlose Taugenichtse, das glaubst du doch 2024年8月8日 16:55 柴江赣北 回复夏佳一  : Sie sind wirklich keine Taugenichtse, ……"
+      }
+    }
   },
   {
     "date": "2024-07-27",
@@ -5886,7 +8980,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-07-27-3.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Xiaochi Town, Huangmei County, Huanggang, Hubei",
+        "excerpt": "Xiaochi Town · College-Admission Banquet, 2024.7.27 12:07, Chaisang, Qingjiang Bense KTV"
+      },
+      "fr": {
+        "location": "Bourg de Xiaochi, comté de Huangmei, Huanggang, Hubei",
+        "excerpt": "Bourg de Xiaochi · banquet de réussite aux examens, 27.7.2024 12:07, Chaisang, KTV Qingjiang Bense"
+      },
+      "de": {
+        "location": "Großgemeinde Xiaochi, Kreis Huangmei, Huanggang, Hubei",
+        "excerpt": "Xiaochi-Großgemeinde · Aufnahmefeier, 27.7.2024 12:07, Chaisang, Qingjiang-Bense-KTV"
+      }
+    }
   },
   {
     "date": "2024-07-22",
@@ -5904,7 +9012,21 @@ window.MMV_JOURNALS = [
       {
         "file": "assets/images/2024-07-22-1.webp"
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "From 寻阳 (Xunyang) to 浔阳 (Xunyang)."
+      },
+      "fr": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "De 寻阳 (Xunyang) à 浔阳 (Xunyang)."
+      },
+      "de": {
+        "location": "Jiujiang, Jiangxi",
+        "excerpt": "Von 寻阳 (Xunyang) nach 浔阳 (Xunyang)."
+      }
+    }
   },
   {
     "date": "2024-07-10",
@@ -5916,7 +9038,21 @@ window.MMV_JOURNALS = [
         "poster": "assets/images/2024-07-10-poster.webp"
       }
     ],
-    "location": "湖北省武汉市"
+    "location": "湖北省武汉市",
+    "locales": {
+      "en": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Wuhan, Hubei",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2024-07-04",
@@ -6034,7 +9170,21 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2023-01-15-1.webp"
       }
     ],
-    "location": "故纸堆一角"
+    "location": "故纸堆一角",
+    "locales": {
+      "en": {
+        "location": "A Corner of the Old Paper Pile",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Un coin du vieux papier",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Eine Ecke des alten Papierstoßes",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   },
   {
     "date": "2022-10-17",
@@ -6302,6 +9452,20 @@ window.MMV_JOURNALS = [
         "file": "assets/images/2021-01-24-1.webp"
       }
     ],
-    "location": "故纸堆一角"
+    "location": "故纸堆一角",
+    "locales": {
+      "en": {
+        "location": "A Corner of the Old Paper Pile",
+        "excerpt": "There is no written text for today's journal entry."
+      },
+      "fr": {
+        "location": "Un coin du vieux papier",
+        "excerpt": "L’entrée du jour ne contient pas de texte."
+      },
+      "de": {
+        "location": "Eine Ecke des alten Papierstoßes",
+        "excerpt": "Der heutige Tagebucheintrag enthält keinen Text."
+      }
+    }
   }
 ]
