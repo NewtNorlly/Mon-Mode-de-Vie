@@ -1,5 +1,36 @@
 window.MMV_JOURNALS = [
   {
+    "date": "2026-08-30",
+    "file": "2026-08-30.html",
+    "location": "湖北省武汉市洪山区",
+    "excerpt": "今天我又去学了外语，一门德语，一门法语。回来的路上，脑子里翻来覆去都是那些话，越想越兴奋，就想着一定要讲给你听。德语讲的是德国人一天三顿饭怎么吃；法语讲的是怎么问“这是什么”、怎么给一个人画画像、怎么去逛街买东西。",
+    "images": [
+      {
+        "file": "assets/images/2026-08-30-illustration-01.webp"
+      },
+      {
+        "file": "assets/images/2026-08-30-illustration-02.webp"
+      }
+    ],
+    "source": {
+      "label": "原创"
+    },
+    "locales": {
+      "en": {
+        "location": "Hongshan District, Wuhan, Hubei",
+        "excerpt": "Today I went to study foreign languages again — one German, one French. On the way back, those words kept turning over and over in my head; the more I thought, the more excited I grew, and I decided I simply had to tell them to you. German was about how Germans take their three meals of the day; French was about how to ask \"what is this?\", how to describe a person, and how to go shopping."
+      },
+      "fr": {
+        "location": "District de Hongshan, Wuhan, Hubei",
+        "excerpt": "Aujourd'hui, je suis encore allé étudier des langues étrangères : l'allemand et le français. Sur le chemin du retour, ces mots tournaient et retournaient dans ma tête ; plus j'y pensais, plus j'étais excité, et je me suis dit qu'il fallait absolument te les raconter. L'allemand parlait de la façon dont les Allemands prennent leurs trois repas de la journée ; le français, de comment demander « qu'est-ce que c'est ? », comment faire le portrait d'une personne et comment aller faire les courses."
+      },
+      "de": {
+        "location": "Hongshan, Wuhan, Hubei",
+        "excerpt": "Heute habe ich wieder Fremdsprachen gelernt — eine Deutsch, eine Französisch. Auf dem Rückweg kreisten mir diese Worte immer wieder im Kopf herum; je mehr ich darüber nachdachte, desto aufgeregter wurde ich, und ich beschloss, dass ich sie dir unbedingt erzählen muss. Im Deutschunterricht ging es darum, wie die Deutschen ihre drei Mahlzeiten am Tag einnehmen ; im Französischunterricht darum, wie man fragt „Was ist das?“, wie man eine Person beschreibt und wie man einkaufen geht."
+      }
+    }
+  },
+  {
     "date": "2026-08-28",
     "file": "2026-08-28.html",
     "location": "湖北省武汉市洪山区",
@@ -9468,4 +9499,4 @@ window.MMV_JOURNALS = [
       }
     }
   }
-]
+];
