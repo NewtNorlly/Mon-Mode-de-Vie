@@ -193,6 +193,20 @@
   background: hsl(var(--card) / 0.7);
   line-height: 1.5;
 }
+#calendarRoot .mmv-tui-schedule__teacher {
+  display: inline-block;
+  margin: 3px 5px 0 0;
+  padding: 1px 7px;
+  border-radius: 5px;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: var(--tracking-label);
+  color: hsl(var(--accent-foreground));
+  background: hsl(var(--accent) / 0.55);
+  line-height: 1.5;
+  white-space: nowrap;
+}
 #calendarRoot :where(.mmv-tui-schedule__time) {
   font-family: var(--font-sans);
   font-size: var(--text-sm);
