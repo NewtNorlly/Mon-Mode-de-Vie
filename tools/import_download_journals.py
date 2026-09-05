@@ -301,7 +301,7 @@ def page(date: str, location: str, raw: str, files: list[str]) -> str:
         '</head><body><article class="journal-article">'
         f'<header class="journal-header"><p class="kicker">Journal · {date}</p>'
         f'<h1><time datetime="{date}">{date}</time></h1><p class="subtitle">{html.escape(location)}</p></header>'
-        f'{body}</article></body></html>'
+        f'{body}</article><!-- Cloudflare Web Analytics --><script type=\'module\' src=\'https://static.cloudflareinsights.com/beacon.min.js\' data-cf-beacon=\'{{"token": "81b2a38d3fcc41db9b366d13662c628f"}}\'></script><!-- End Cloudflare Web Analytics --></body></html>'
     )
 
 

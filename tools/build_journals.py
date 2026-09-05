@@ -1633,6 +1633,7 @@ def render_article(entry: Journal, previous: Journal | None, following: Journal 
     </article>
   </main>
   <script id="journalI18n" type="application/json">{i18n_json}</script>
+  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "81b2a38d3fcc41db9b366d13662c628f"}}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
 """
@@ -1702,6 +1703,7 @@ def render_archive(journals: list[Journal]) -> str:
 {chr(10).join(group_html)}
   </main>
   <script id="journalArchiveI18n" type="application/json">{archive_i18n_json}</script>
+  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "81b2a38d3fcc41db9b366d13662c628f"}}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
 """
@@ -1799,7 +1801,7 @@ def write_output(output_dir: Path, journals: list[Journal], theme_source: Path) 
 <link rel="canonical" href="../index.html#journal">
 <title>Journal · Mon Mode de Vie</title>
 <style>body{visibility:hidden}</style><script>location.replace("../index.html#journal")</script>
-</head><body></body></html>
+</head><body><!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "81b2a38d3fcc41db9b366d13662c628f"}'></script><!-- End Cloudflare Web Analytics --></body></html>
 ''',
         encoding="utf-8",
         newline="\n",

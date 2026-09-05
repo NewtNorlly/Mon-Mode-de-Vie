@@ -50,6 +50,7 @@ def collapse(path: Path) -> None:
 <body>
 {article}
 {i18n}
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "81b2a38d3fcc41db9b366d13662c628f"}}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
 '''
