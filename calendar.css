@@ -228,7 +228,7 @@
 /* 星期表头 */
 .tui-full-calendar-weekday-header { border-bottom: 1px solid var(--cal-hairline-strong) !important; }
 .tui-full-calendar-weekday-header-title {
-  font-size: 12px !important;
+  font-size: 13px !important;
   font-weight: 600 !important;
   letter-spacing: .08em;
   color: var(--cal-muted) !important;
@@ -253,7 +253,7 @@
 
 /* 日期数字 */
 .tui-full-calendar-weekday-grid-date {
-  font-size: 13px !important;
+  font-size: 14px !important;
   font-weight: 600 !important;
   color: var(--cal-ink) !important;
   width: 24px !important;
@@ -287,7 +287,7 @@
 .tui-full-calendar-weekday-grid-more-schedules {
   color: var(--cal-muted) !important;
   font-weight: 500 !important;
-  font-size: 11px !important;
+  font-size: 12px !important;
   height: 20px !important;
   line-height: 20px !important;
   padding: 0 7px !important;
@@ -304,8 +304,8 @@
   border-radius: var(--cal-r-event) !important;  /* 替代 TUI 内联 2px 尖角 */
   border: 1px solid transparent !important;
   border-left-width: 1px !important;             /* 去掉 3px 深色左条 */
-  height: 24px !important;
-  line-height: 24px !important;
+  height: 26px !important;
+  line-height: 26px !important;
   margin: 0 6px 2px !important;
   overflow: hidden;
   cursor: pointer;
@@ -340,7 +340,7 @@
 /* ══════════ 周视图 / 日视图（时间网格） ═════════════════════════ */
 
 .tui-full-calendar-timegrid-hour span {
-  font-size: 11px !important;
+  font-size: 12px !important;
   font-weight: 500 !important;
   color: var(--cal-muted) !important;
   letter-spacing: .02em;
@@ -380,7 +380,7 @@
 /* 去掉内容层 3px 深色左条，用整块柔和填充 */
 .tui-full-calendar-time-schedule-content {
   border-left: 0 !important;
-  padding: 5px 8px !important;
+  padding: 7px 10px !important;
 }
 .tui-full-calendar-time-schedule-content-time { border-color: transparent !important; }
 
@@ -410,7 +410,7 @@
   line-height: 1.3;
 }
 .mmv-tui-schedule__title {
-  font-size: 12.5px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: .01em;
   white-space: nowrap;
@@ -421,7 +421,7 @@
 }
 .mmv-tui-schedule__teacher,
 .mmv-tui-schedule__location {
-  font-size: 11.5px;
+  font-size: 13px;
   font-weight: 450;
   color: var(--cal-muted);
   white-space: nowrap;
@@ -442,9 +442,9 @@
 .tui-full-calendar-time-schedule .mmv-tui-schedule {
   flex-direction: column;
   align-items: flex-start;
-  gap: 1px;
+  gap: 2px;
 }
-.tui-full-calendar-time-schedule .mmv-tui-schedule__title { font-size: 13.5px; flex-shrink: 1; width: 100%; }
+.tui-full-calendar-time-schedule .mmv-tui-schedule__title { font-size: 15.5px; flex-shrink: 1; width: 100%; }
 .tui-full-calendar-time-schedule .mmv-tui-schedule__teacher,
 .tui-full-calendar-time-schedule .mmv-tui-schedule__location { width: 100%; }
 .tui-full-calendar-time-schedule .mmv-tui-schedule__teacher::before,

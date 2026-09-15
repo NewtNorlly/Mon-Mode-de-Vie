@@ -1,7 +1,13 @@
 /* Mon Mode de Vie — styles.css (2026-07-29 v4) */
 
-/* ═══ @font-face — Google Fonts CDN ═══ */
-/* LXGW WenKai TC loaded via Google Fonts to avoid blocking FCP with 14MB local TTF */
+/* ═══ @font-face — 思源宋体（本地打包）+ Google Fonts CDN fallback ═══ */
+@font-face {
+  font-family: "Source Han Serif CN";
+  src: url("./assets/fonts/SourceHanSerifCN-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* ═══ Design Tokens ═══ */
 :root {
@@ -24,8 +30,8 @@
   --sidebar-border: 126 18% 78%;
   --story-accent: 173 58% 36%;
 
-  --font-serif: "LXGW WenKai TC", "Songti SC", "STSong", "Noto Serif CJK SC", serif;
-  --font-sans: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  --font-serif: "Source Han Serif CN", "Songti SC", "STSong", "Noto Serif CJK SC", serif;
+  --font-sans: "Source Han Serif CN", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
   --font-latin: "Times New Roman", Baskerville, serif;
   --font-display: var(--font-serif);
   --font-body: var(--font-serif);
