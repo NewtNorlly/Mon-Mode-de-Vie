@@ -72,10 +72,15 @@
 }
 
 .album-tab:hover,
-.album-tab:focus-visible,
-.album-tab[aria-selected="true"] {
+.album-tab:focus-visible {
   color: hsl(var(--foreground));
-  background: hsl(var(--accent) / 0.42);
+  background: hsl(var(--secondary) / 0.5);
+  outline: none;
+}
+.album-tab[aria-selected="true"] {
+  color: hsl(var(--accent-foreground));
+  background: transparent;
+  font-weight: 650;
   outline: none;
 }
 
@@ -96,38 +101,10 @@
   min-width: 0;
   aspect-ratio: 4 / 3;
   overflow: hidden;
-  border: 1px solid hsl(var(--border) / 0.82);
+  border: 1px solid hsl(var(--border) / 0.6);
   border-radius: var(--radius-md);
-  background:
-    linear-gradient(125deg, hsl(var(--card) / 0.16), transparent 58%),
-    linear-gradient(145deg, hsl(var(--secondary)), hsl(var(--accent) / 0.72));
-  box-shadow: inset 0 1px hsl(var(--card) / 0.9);
-}
-
-.album-v0-card::before {
-  position: absolute;
-  inset: 0;
-  background:
-    repeating-linear-gradient(
-      118deg,
-      transparent 0 9px,
-      hsl(var(--foreground) / 0.035) 9px 10px,
-      transparent 10px 15px
-    );
-  content: "";
-  mix-blend-mode: multiply;
-}
-
-.album-v0-card:nth-child(2n) {
-  background:
-    linear-gradient(155deg, hsl(var(--card) / 0.2), transparent 62%),
-    linear-gradient(135deg, hsl(var(--muted)), hsl(var(--secondary) / 0.7));
-}
-
-.album-v0-card:nth-child(3n) {
-  background:
-    linear-gradient(115deg, hsl(var(--card) / 0.18), transparent 54%),
-    linear-gradient(145deg, hsl(var(--accent) / 0.72), hsl(var(--muted)));
+  background: hsl(var(--secondary) / 0.42);
+  box-shadow: 0 1px 3px hsl(var(--foreground) / 0.04);
 }
 
 .album-v0-card__index,

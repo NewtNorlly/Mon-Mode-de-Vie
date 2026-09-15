@@ -82,6 +82,31 @@ const player = {
   grounded: true,
 };
 
+// 明 / 暗两套色板：canvas 由 JS 直接取 state.colors 绘制，无法只靠 CSS 变量切换，
+// 因此暗色必须在这里同步换板，数值与 game.css 的 :root[data-mode=dark] 保持一致。
+const LIGHT_COLORS = {
+  background: "hsl(43 19% 93%)",
+  foreground: "hsl(220 16% 16%)",
+  card: "hsl(40 28% 98%)",
+  secondary: "hsl(42 18% 89%)",
+  muted: "hsl(220 7% 42%)",
+  accent: "hsl(204 28% 88%)",
+  accentForeground: "hsl(202 37% 25%)",
+  border: "hsl(39 13% 80%)",
+  story: "hsl(18 48% 54%)",
+};
+const DARK_COLORS = {
+  background: "hsl(222 42% 9%)",
+  foreground: "hsl(214 26% 88%)",
+  card: "hsl(222 34% 15%)",
+  secondary: "hsl(222 26% 20%)",
+  muted: "hsl(215 16% 64%)",
+  accent: "hsl(213 58% 32%)",
+  accentForeground: "hsl(212 70% 93%)",
+  border: "hsl(220 22% 28%)",
+  story: "hsl(22 72% 68%)",
+};
+
 const state = {
   phase: "idle",
   language: "zh",
@@ -94,17 +119,7 @@ const state = {
   lastFrame: performance.now(),
   reducedMotion: window.matchMedia("(prefers-reduced-motion: reduce)").matches,
   parentActive: true,
-  colors: {
-    background: "hsl(43 19% 93%)",
-    foreground: "hsl(220 16% 16%)",
-    card: "hsl(40 28% 98%)",
-    secondary: "hsl(42 18% 89%)",
-    muted: "hsl(220 7% 42%)",
-    accent: "hsl(204 28% 88%)",
-    accentForeground: "hsl(202 37% 25%)",
-    border: "hsl(39 13% 80%)",
-    story: "hsl(18 48% 54%)",
-  },
+  colors: { ...LIGHT_COLORS },
 };
 
 function copy() {
@@ -130,8 +145,11 @@ function applyLanguage() {
 }
 
 function applyTheme(colors, mode) {
-  if (colors) state.colors = { ...state.colors, ...colors };
-  document.documentElement.dataset.mode = mode === "dark" ? "dark" : "light";
+  const dark = mode === "dark";
+  const palette = dark ? DARK_COLORS : LIGHT_COLORS;
+  // 显式传入的 colors 仍拥有最高优先级；否则整板切换，canvas 与 DOM 用同一套色
+  state.colors = { ...palette, ...(colors || {}) };
+  document.documentElement.dataset.mode = dark ? "dark" : "light";
   const root = document.documentElement.style;
   root.setProperty("--game-background", state.colors.background);
   root.setProperty("--game-foreground", state.colors.foreground);

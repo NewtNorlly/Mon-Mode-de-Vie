@@ -14,6 +14,16 @@
 
 :root[data-mode="dark"] {
   color-scheme: dark;
+  /* 与主站暗色（深蓝黑底 + 分层深表面）协调，保证文字对比、不残留白底 */
+  --game-background: hsl(222 42% 9%);
+  --game-foreground: hsl(214 26% 88%);
+  --game-card: hsl(222 34% 15%);
+  --game-secondary: hsl(222 26% 20%);
+  --game-muted: hsl(215 16% 64%);
+  --game-accent: hsl(213 58% 32%);
+  --game-accent-foreground: hsl(212 70% 93%);
+  --game-border: hsl(220 22% 28%);
+  --game-story: hsl(22 72% 68%);
 }
 
 * {

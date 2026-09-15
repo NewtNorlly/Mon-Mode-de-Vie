@@ -804,7 +804,7 @@ JOURNAL_JS = r"""(() => {
     mode: storedMode === "light" || storedMode === "dark"
       ? storedMode
       : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"),
-    theme: themes[storedTheme] ? storedTheme : "neko",
+    theme: themes[storedTheme] ? storedTheme : "cobalt",
   };
   const articleI18n = readJsonScript("journalI18n");
   const archiveI18n = readJsonScript("journalArchiveI18n");
@@ -823,7 +823,7 @@ JOURNAL_JS = r"""(() => {
   }
 
   function applyTheme() {
-    const theme = themes[state.theme] || themes.neko;
+    const theme = themes[state.theme] || themes.cobalt;
     if (theme) {
       state.theme = theme.id;
       const variant = theme[state.mode];

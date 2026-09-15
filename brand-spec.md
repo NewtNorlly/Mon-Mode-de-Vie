@@ -31,19 +31,19 @@ The central Home is a restrained, continuously growing social conversation rathe
 
 ## Default palette
 
-The default is the MMV `neko` theme: a low-saturation mint, aqua, leaf and lemon colour field inspired by the material language of the supplied Neko reference, without copying its cat identity or content.
+The default is the MMV `cobalt` theme (钴蓝): a clean, bright blue-and-white colour field. It is also the first swatch in the Cloud theme grid. The earlier `neko` mint palette remains selectable as an optional theme.
 
-- Brand mint: `#35BFAB`
-- Secondary aqua: `#1FC9E7`
-- Primary text: `#334F52`
-- Secondary text: `#7B888E`
-- Ambient lemon: `#EDDD62`
-- Ambient mint: `#9EE7D1`
-- Ambient leaf: `#84D68A`
-- Ambient aqua: `#88E6E5`
+- Brand blue: `#2563EB`
+- Sidebar blue: `#93C5FD`
+- Deep accent: `#1E3A5F`
+- Light background: `hsl(220 100% 98%)`
+- Card surface: pure white
+- Primary text: `hsl(224 40% 14%)`
+- Secondary text: `hsl(224 16% 28%)`
+- Hairline border: `hsl(218 34% 86%)`
 - Glass surfaces: translucent white at approximately 40–80%, depending on hierarchy
 
-New visitors start in Neko. A valid theme previously stored under `mmv-theme` remains respected. The original XiaDown-derived packs remain selectable and retain their semantic colour roles.
+New visitors start in Cobalt, and its swatch is ordered first in the Cloud settings. A valid theme previously stored under `mmv-theme` remains respected; an unknown or retired stored key falls back to Cobalt. The other retained packs remain selectable and keep their semantic colour roles.
 
 ## Typography
 

@@ -16,7 +16,7 @@
   font-family: var(--font-serif); font-size: var(--text-md); font-weight: 500; letter-spacing: var(--tracking-heading); cursor: pointer; scroll-snap-align: center;
   transition: color var(--motion-fast) ease, background var(--motion-fast) ease;
 }
-.album-tab[aria-selected="true"] { color: hsl(var(--accent-foreground)); background: linear-gradient(180deg, hsl(var(--accent)/0.16), hsl(var(--accent)/0.46)); }
+.album-tab[aria-selected="true"] { color: hsl(var(--accent-foreground)); background: hsl(var(--accent) / 0.26); font-weight: 650; }
 
 .album-grid {
   display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 18px;
@@ -27,8 +27,8 @@
 .album-grid.is-entering { opacity: 0; transform: translate3d(0, 4px, 0); }
 .album-card {
   position: relative; aspect-ratio: 4/3; padding: 0; overflow: hidden;
-  border: 1px solid hsl(var(--border) / 0.78); border-radius: var(--radius-md);
-  cursor: zoom-in; background: linear-gradient(145deg, hsl(var(--secondary)), hsl(var(--accent)/0.76));
+  border: 1px solid hsl(var(--border) / 0.6); border-radius: var(--radius-md);
+  cursor: zoom-in; background: hsl(var(--secondary) / 0.5);
   transition: transform var(--motion-fast) var(--ease-out), box-shadow var(--motion-fast) ease;
 }
 .album-card img { width: 100%; height: 100%; object-fit: cover; opacity: 0; filter: blur(4px) brightness(0.92); transition: opacity var(--motion-base), filter var(--motion-slow) var(--ease-out); }
@@ -70,7 +70,7 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .album-tab:hover { color: hsl(var(--foreground)); background: hsl(var(--accent) / 0.2); }
+  .album-tab:hover { color: hsl(var(--foreground)); background: hsl(var(--secondary) / 0.5); }
   .album-card:hover img { filter: blur(0) brightness(1); }
   .album-card:hover::after { opacity: 0; }
   .album-card:hover { transform: translateY(-2px); box-shadow: 0 12px 32px hsl(var(--foreground) / 0.12); }
