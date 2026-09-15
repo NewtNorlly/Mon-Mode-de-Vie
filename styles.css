@@ -30,8 +30,8 @@
   --sidebar-border: 126 18% 78%;
   --story-accent: 173 58% 36%;
 
-  --font-serif: "Source Han Serif CN", "Songti SC", "STSong", "Noto Serif CJK SC", serif;
-  --font-sans: "Source Han Serif CN", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  --font-serif: "Times New Roman", "Source Han Serif CN", "Songti SC", "STSong", "Noto Serif CJK SC", serif;
+  --font-sans: "Times New Roman", "Source Han Serif CN", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
   --font-latin: "Times New Roman", Baskerville, serif;
   --font-display: var(--font-serif);
   --font-body: var(--font-serif);

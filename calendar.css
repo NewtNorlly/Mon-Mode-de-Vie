@@ -380,7 +380,9 @@
 /* 去掉内容层 3px 深色左条，用整块柔和填充 */
 .tui-full-calendar-time-schedule-content {
   border-left: 0 !important;
-  padding: 7px 10px !important;
+  /* 上下留白取小值：早餐/放风这类半小时短块内容盒只有 26px，
+     padding 过大会把唯一一行标题垂直裁掉；左右收紧让长标题少截断 */
+  padding: 3px 8px !important;
 }
 .tui-full-calendar-time-schedule-content-time { border-color: transparent !important; }
 
@@ -444,9 +446,9 @@
   align-items: flex-start;
   gap: 2px;
 }
-.tui-full-calendar-time-schedule .mmv-tui-schedule__title { font-size: 15.5px; flex-shrink: 1; width: 100%; }
+.tui-full-calendar-time-schedule .mmv-tui-schedule__title { font-size: 15.5px; line-height: 1.25; flex-shrink: 1; width: 100%; }
 .tui-full-calendar-time-schedule .mmv-tui-schedule__teacher,
-.tui-full-calendar-time-schedule .mmv-tui-schedule__location { width: 100%; }
+.tui-full-calendar-time-schedule .mmv-tui-schedule__location { width: 100%; line-height: 1.25; }
 .tui-full-calendar-time-schedule .mmv-tui-schedule__teacher::before,
 .tui-full-calendar-time-schedule .mmv-tui-schedule__location::before { content: none; }
 
@@ -550,6 +552,7 @@
   gap: 2px;
 }
 .year-cell__grid i {
+  position: relative;
   font-style: normal;
   font-size: 9.5px;
   line-height: 16px;
@@ -558,6 +561,21 @@
   border-radius: 5px;
   font-variant-numeric: tabular-nums;
 }
+/* 有日程的日期：底部小圆点；hover 时弹当天清单卡 */
+.year-cell__grid i.has-schedule { font-weight: 600; color: var(--cal-ink); }
+.year-cell__grid i.has-schedule::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: hsl(var(--accent-foreground) / .6);
+}
+.year-cell__grid i.is-today.has-schedule::after { background: hsl(var(--accent)); }
+.year-cell__grid i.has-schedule:hover { background: hsl(var(--accent) / .55); }
 .year-cell__grid i.is-dow {
   font-size: 8.5px;
   font-weight: 650;
@@ -631,6 +649,146 @@
 #calendarRoot ::-webkit-scrollbar-thumb:hover,
 .year-view__scroll::-webkit-scrollbar-thumb { background: hsl(var(--muted-foreground) / .35); background-clip: content-box; }
 
+/* ══════════ 日程悬浮信息卡（hover 色块即显） ═══════════════════ */
+.mmv-cal-tip {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  min-width: 176px;
+  max-width: 300px;
+  padding: 11px 13px;
+  border-radius: 14px;
+  /* 卡片挂在 body 下，颜色只用 :root 全局 token，明暗双模自动适配 */
+  background: hsl(var(--card) / .96);
+  border: 1px solid hsl(var(--border) / .9);
+  box-shadow: 0 6px 18px hsl(224 40% 30% / .1), 0 18px 44px hsl(224 40% 30% / .14);
+  backdrop-filter: blur(20px) saturate(1.5);
+  -webkit-backdrop-filter: blur(20px) saturate(1.5);
+  font-family: var(--font-body);
+  color: hsl(var(--card-foreground));
+  line-height: 1.35;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(5px) scale(.98);
+  transform-origin: center bottom;
+  transition: opacity .16s var(--ease-out, ease-out),
+              transform .2s cubic-bezier(.16, 1, .3, 1),
+              visibility 0s linear .2s;
+}
+.mmv-cal-tip.is-on {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: opacity .16s var(--ease-out, ease-out),
+              transform .22s cubic-bezier(.16, 1, .3, 1);
+}
+.mmv-cal-tip.is-below { transform-origin: center top; }
+.mmv-cal-tip__head {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.mmv-cal-tip__dot {
+  flex: none;
+  width: 9px;
+  height: 9px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background: hsl(var(--ch, 220) var(--cs, 60%) 45%);
+  box-shadow: 0 0 0 2px hsl(var(--ch, 220) var(--cs, 60%) 45% / .18);
+}
+.mmv-cal-tip__title {
+  min-width: 0;
+  font-size: 14.5px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: hsl(var(--ch, 220) var(--cs, 60%) 34%);
+}
+.mmv-cal-tip__date {
+  margin-top: 5px;
+  padding-left: 17px;
+  font-size: 12.5px;
+  color: hsl(var(--muted-foreground) / .88);
+}
+.mmv-cal-tip__time {
+  margin-top: 1px;
+  padding-left: 17px;
+  font-size: 12.5px;
+  color: hsl(var(--muted-foreground) / .88);
+  font-variant-numeric: tabular-nums;
+}
+.mmv-cal-tip__row {
+  margin-top: 2px;
+  padding-left: 17px;
+  font-size: 12.5px;
+  color: hsl(var(--muted-foreground) / .88);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 260px;
+}
+/* 年视图：当天日程清单卡 */
+.mmv-cal-tip.is-year { min-width: 216px; max-width: 320px; }
+.mmv-cal-tip__yhead {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: hsl(var(--card-foreground));
+  padding-bottom: 7px;
+  margin-bottom: 7px;
+  border-bottom: 1px solid hsl(var(--border) / .7);
+}
+.mmv-cal-tip__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-height: 264px;
+  overflow: hidden;
+}
+.mmv-cal-tip__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  font-size: 12.5px;
+}
+.mmv-cal-tip__item .mmv-cal-tip__dot {
+  width: 7px;
+  height: 7px;
+  margin-top: 0;
+  box-shadow: none;
+}
+.mmv-cal-tip__item-time {
+  flex: none;
+  width: 42px;
+  color: hsl(var(--muted-foreground) / .85);
+  font-variant-numeric: tabular-nums;
+}
+.mmv-cal-tip__item-title {
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: hsl(var(--card-foreground));
+}
+.mmv-cal-tip__more {
+  margin-top: 7px;
+  font-size: 11.5px;
+  color: hsl(var(--muted-foreground) / .7);
+}
+/* 年视图列表色点：12 类别各自的色相 */
+.mmv-cal-tip__dot[data-cal="mmv-eat"]     { background: hsl(26 90% 45%); }
+.mmv-cal-tip__dot[data-cal="mmv-study"]   { background: hsl(242 64% 52%); }
+.mmv-cal-tip__dot[data-cal="mmv-teach"]   { background: hsl(166 60% 38%); }
+.mmv-cal-tip__dot[data-cal="mmv-play"]    { background: hsl(340 76% 50%); }
+.mmv-cal-tip__dot[data-cal="mmv-make"]    { background: hsl(272 56% 50%); }
+.mmv-cal-tip__dot[data-cal="mmv-rest"]    { background: hsl(205 72% 46%); }
+.mmv-cal-tip__dot[data-cal="mmv-sleep"]   { background: hsl(252 56% 52%); }
+.mmv-cal-tip__dot[data-cal="mmv-nap"]     { background: hsl(312 60% 50%); }
+.mmv-cal-tip__dot[data-cal="mmv-walk"]    { background: hsl(138 52% 40%); }
+.mmv-cal-tip__dot[data-cal="mmv-outlook"] { background: hsl(212 88% 48%); }
+.mmv-cal-tip__dot[data-cal="mmv-holiday"] { background: hsl(6 78% 50%); }
+.mmv-cal-tip__dot[data-cal="mmv-birthday"]{ background: hsl(325 70% 50%); }
+
 /* ══════════ 暗色模式：深色半透明类别色 ══════════════════════════ */
 [data-mode="dark"] .calendar-sheet {
   --cal-hairline: hsl(0 0% 100% / .09);
@@ -680,8 +838,16 @@
 [data-mode="dark"] .year-section { background: hsl(0 0% 100% / .04); }
 [data-mode="dark"] .view-switch button.is-selected { background: hsl(0 0% 100% / .14); }
 [data-mode="dark"] .tui-full-calendar-floating-layer { background: hsl(225 30% 14% / .96) !important; }
+[data-mode="dark"] .mmv-cal-tip {
+  box-shadow: 0 6px 18px rgb(0 0 0 / .4), 0 18px 44px rgb(0 0 0 / .5);
+}
+[data-mode="dark"] .mmv-cal-tip__title { color: hsl(var(--ch) var(--cs) 78%); }
 
 /* ══════════ 响应式 ═════════════════════════════════════════════ */
+@media (prefers-reduced-motion: reduce) {
+  .mmv-cal-tip,
+  .mmv-cal-tip.is-on { transition: none; transform: none; }
+}
 @media (max-width: 840px) {
   .calendar-sheet { padding: 14px 14px 22px; }
   .module-sheet.calendar-sheet { width: calc(100% - 28px); }

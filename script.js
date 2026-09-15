@@ -76,11 +76,12 @@ mr(document.getElementById("rightResize"),"right");
 
 var cal=null;
 function hcal(v){return String(v||"").replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+function hmCal(iso){var m=String(iso||"").match(/T(\d{2}:\d{2})/);return m?m[1]:"";}
 function calendarScheduleSource(){var y=cal?new Date(cal.getDate()).getFullYear():new Date().getFullYear();var rows=(window.MMV_CALENDAR_SCHEDULES||[]).slice();if(window.MMV_OUTLOOK_CALENDAR_SCHEDULES)rows=rows.concat(window.MMV_OUTLOOK_CALENDAR_SCHEDULES);if(typeof window.MMV_OUTLOOK_RECURRENCES_FOR_YEAR==="function")rows=rows.concat(window.MMV_OUTLOOK_RECURRENCES_FOR_YEAR(y));return rows;}
-function refreshCalendarSchedules(){if(!cal)return;var seen={};var sched=calendarScheduleSource().filter(function(s){var key=[s.title,s.start,s.end].join("\u0000");if(seen[key])return false;seen[key]=true;return true;}).map(function(s){return{id:s.id,calendarId:s.calendarId||"mmv-rest",title:tcal(s.title),raw:{teacher:s.teacher||""},start:s.start,end:s.end,category:s.category||"time",isReadOnly:true,location:s.location||""};});cal.clear();cal.createSchedules(sched,true);}
+function refreshCalendarSchedules(){if(!cal)return;var seen={};var sched=calendarScheduleSource().filter(function(s){var key=[s.title,s.start,s.end].join("\u0000");if(seen[key])return false;seen[key]=true;return true;}).map(function(s){var cat=s.category||"time";return{id:s.id,calendarId:s.calendarId||"mmv-rest",title:tcal(s.title),raw:{teacher:s.teacher||"",sd:(s.start||"").slice(0,10),ed:(s.end||"").slice(0,10),st:hmCal(s.start),et:hmCal(s.end),allday:cat==="allday"?1:""},start:s.start,end:s.end,category:cat,isReadOnly:true,location:s.location||"湖北省武汉市洪山区"};});cal.clear();cal.createSchedules(sched,true);if(typeof hideCalTipNow==="function")hideCalTipNow();}
 function updateCalendarRoute(replace){if(!cal||S.module!=="now")return;setRoute(["now",S.calView,isoDate(cal.getDate())],replace);}
 function applyCalendarRoute(parts){if(!parts||parts[0]!=="now")return;var view=/^(year|month|week|day)$/.test(parts[1]||"")?parts[1]:"month";var date=/^\d{4}-\d{2}-\d{2}$/.test(parts[2]||"")?parts[2]:isoDate(new Date());S.calView=view;S.calDate=date;if(!cal)return;cal.setDate(date);refreshCalendarSchedules();syncCalViewButtons();if(view==="year")showCalView("year");else{showCalView(view);cal.changeView(view,true);(function(){var n=0;var iv=setInterval(function(){var tg=document.querySelector("#calendarRoot .tui-full-calendar-timegrid-container");if(tg&&tg.scrollTop<60){tg.scrollTop=Math.round(tg.scrollHeight*7/24);}if(++n>=6)clearInterval(iv);},90);})();}updateCalPeriod();}
-function initCal(){var el=document.getElementById("calendarRoot");if(!el||cal)return;try{if(!window.tui||!window.tui.Calendar){document.getElementById("calendarFallback").hidden=false;return;}cal=new window.tui.Calendar(el,{defaultView:"month",usageStatistics:false,isReadOnly:true,taskView:false,scheduleView:["allday","time"],template:{time:function(s){return'<div class="mmv-tui-schedule"><span class="mmv-tui-schedule__title">'+hcal(s.title)+'</span>'+(s.raw&&s.raw.teacher?'<span class="mmv-tui-schedule__teacher">'+hcal(s.raw.teacher)+'</span>':'')+'<span class="mmv-tui-schedule__location">'+hcal(s.location||"")+'</span></div>';},allday:function(s){return'<div class="mmv-tui-schedule mmv-tui-schedule--allday"><span class="mmv-tui-schedule__title">'+hcal(s.title)+'</span>'+(s.raw&&s.raw.teacher?'<span class="mmv-tui-schedule__teacher">'+hcal(s.raw.teacher)+'</span>':'')+'<span class="mmv-tui-schedule__location">'+hcal(s.location||"")+'</span></div>';}},calendars:[{id:"mmv-eat",name:"吃",color:"hsl(26,80%,40%)",bgColor:"hsla(26,92%,93%,.72)",borderColor:"hsl(26,85%,82%)",dragBgColor:"hsla(26,92%,85%,.5)"},{id:"mmv-study",name:"学",color:"hsl(242,60%,42%)",bgColor:"hsla(242,80%,94%,.72)",borderColor:"hsl(242,70%,85%)",dragBgColor:"hsla(242,80%,88%,.5)"},{id:"mmv-teach",name:"教",color:"hsl(166,58%,30%)",bgColor:"hsla(166,66%,93%,.72)",borderColor:"hsl(166,55%,83%)",dragBgColor:"hsla(166,66%,87%,.5)"},{id:"mmv-play",name:"玩",color:"hsl(340,70%,42%)",bgColor:"hsla(340,90%,94%,.72)",borderColor:"hsl(340,80%,86%)",dragBgColor:"hsla(340,90%,88%,.5)"},{id:"mmv-make",name:"做",color:"hsl(272,52%,42%)",bgColor:"hsla(270,75%,94%,.72)",borderColor:"hsl(270,62%,86%)",dragBgColor:"hsla(270,75%,88%,.5)"},{id:"mmv-rest",name:"歇",color:"hsl(205,68%,38%)",bgColor:"hsla(202,85%,93%,.72)",borderColor:"hsl(202,70%,84%)",dragBgColor:"hsla(202,85%,88%,.5)"},{id:"mmv-sleep",name:"睡",color:"hsl(252,55%,44%)",bgColor:"hsla(250,75%,94%,.72)",borderColor:"hsl(250,62%,86%)",dragBgColor:"hsla(250,75%,88%,.5)"},{id:"mmv-nap",name:"憩",color:"hsl(312,58%,42%)",bgColor:"hsla(312,75%,94%,.72)",borderColor:"hsl(312,62%,86%)",dragBgColor:"hsla(312,75%,88%,.5)"},{id:"mmv-walk",name:"风",color:"hsl(138,50%,30%)",bgColor:"hsla(138,65%,93%,.72)",borderColor:"hsl(138,55%,83%)",dragBgColor:"hsla(138,65%,88%,.5)"},{id:"mmv-outlook",name:"Outlook",color:"hsl(212,82%,42%)",bgColor:"hsla(211,90%,94%,.72)",borderColor:"hsl(211,75%,85%)",dragBgColor:"hsla(211,90%,88%,.5)"},{id:"mmv-holiday",name:"节假日",color:"hsl(6,72%,44%)",bgColor:"hsla(8,85%,94%,.72)",borderColor:"hsl(8,75%,86%)",dragBgColor:"hsla(8,85%,88%,.5)"},{id:"mmv-birthday",name:"生日",color:"hsl(325,66%,42%)",bgColor:"hsla(322,85%,94%,.72)",borderColor:"hsl(322,72%,86%)",dragBgColor:"hsla(322,85%,88%,.5)"}]});cal.setDate(new Date());refreshCalendarSchedules();updateCalPeriod();applyCalendarRoute(routeParts());
+function initCal(){var el=document.getElementById("calendarRoot");if(!el||cal)return;try{if(!window.tui||!window.tui.Calendar){document.getElementById("calendarFallback").hidden=false;return;}cal=new window.tui.Calendar(el,{defaultView:"month",usageStatistics:false,isReadOnly:true,taskView:false,scheduleView:["allday","time"],template:{time:function(s){return'<div class="mmv-tui-schedule" data-sd="'+(s.raw.sd||"")+'" data-ed="'+(s.raw.ed||"")+'" data-st="'+(s.raw.st||"")+'" data-et="'+(s.raw.et||"")+'"><span class="mmv-tui-schedule__title">'+hcal(s.title)+'</span>'+(s.raw&&s.raw.teacher?'<span class="mmv-tui-schedule__teacher">'+hcal(s.raw.teacher)+'</span>':'')+'<span class="mmv-tui-schedule__location">'+hcal(s.location||"")+'</span></div>';},allday:function(s){return'<div class="mmv-tui-schedule mmv-tui-schedule--allday" data-allday="1" data-sd="'+(s.raw.sd||"")+'" data-ed="'+(s.raw.ed||"")+'"><span class="mmv-tui-schedule__title">'+hcal(s.title)+'</span>'+(s.raw&&s.raw.teacher?'<span class="mmv-tui-schedule__teacher">'+hcal(s.raw.teacher)+'</span>':'')+'<span class="mmv-tui-schedule__location">'+hcal(s.location||"")+'</span></div>';}},calendars:[{id:"mmv-eat",name:"吃",color:"hsl(26,80%,40%)",bgColor:"hsla(26,92%,93%,.72)",borderColor:"hsl(26,85%,82%)",dragBgColor:"hsla(26,92%,85%,.5)"},{id:"mmv-study",name:"学",color:"hsl(242,60%,42%)",bgColor:"hsla(242,80%,94%,.72)",borderColor:"hsl(242,70%,85%)",dragBgColor:"hsla(242,80%,88%,.5)"},{id:"mmv-teach",name:"教",color:"hsl(166,58%,30%)",bgColor:"hsla(166,66%,93%,.72)",borderColor:"hsl(166,55%,83%)",dragBgColor:"hsla(166,66%,87%,.5)"},{id:"mmv-play",name:"玩",color:"hsl(340,70%,42%)",bgColor:"hsla(340,90%,94%,.72)",borderColor:"hsl(340,80%,86%)",dragBgColor:"hsla(340,90%,88%,.5)"},{id:"mmv-make",name:"做",color:"hsl(272,52%,42%)",bgColor:"hsla(270,75%,94%,.72)",borderColor:"hsl(270,62%,86%)",dragBgColor:"hsla(270,75%,88%,.5)"},{id:"mmv-rest",name:"歇",color:"hsl(205,68%,38%)",bgColor:"hsla(202,85%,93%,.72)",borderColor:"hsl(202,70%,84%)",dragBgColor:"hsla(202,85%,88%,.5)"},{id:"mmv-sleep",name:"睡",color:"hsl(252,55%,44%)",bgColor:"hsla(250,75%,94%,.72)",borderColor:"hsl(250,62%,86%)",dragBgColor:"hsla(250,75%,88%,.5)"},{id:"mmv-nap",name:"憩",color:"hsl(312,58%,42%)",bgColor:"hsla(312,75%,94%,.72)",borderColor:"hsl(312,62%,86%)",dragBgColor:"hsla(312,75%,88%,.5)"},{id:"mmv-walk",name:"风",color:"hsl(138,50%,30%)",bgColor:"hsla(138,65%,93%,.72)",borderColor:"hsl(138,55%,83%)",dragBgColor:"hsla(138,65%,88%,.5)"},{id:"mmv-outlook",name:"Outlook",color:"hsl(212,82%,42%)",bgColor:"hsla(211,90%,94%,.72)",borderColor:"hsl(211,75%,85%)",dragBgColor:"hsla(211,90%,88%,.5)"},{id:"mmv-holiday",name:"节假日",color:"hsl(6,72%,44%)",bgColor:"hsla(8,85%,94%,.72)",borderColor:"hsl(8,75%,86%)",dragBgColor:"hsla(8,85%,88%,.5)"},{id:"mmv-birthday",name:"生日",color:"hsl(325,66%,42%)",bgColor:"hsla(322,85%,94%,.72)",borderColor:"hsl(322,72%,86%)",dragBgColor:"hsla(322,85%,88%,.5)"}]});cal.setDate(new Date());refreshCalendarSchedules();updateCalPeriod();applyCalendarRoute(routeParts());initCalTooltip();
 /* view navigation: click cells to drill down */
 el.addEventListener("click",function(ev){var t=ev.target;var v=S.calView;
 /* month view: click a day cell → day view */
@@ -89,11 +90,134 @@ if(v==="month"){var gl=t.closest(".tui-full-calendar-weekday-grid-line");if(!gl|
 if(v==="week"){var iso=null;var head=t.closest(".tui-full-calendar-dayname");if(head&&el.contains(head))iso=head.getAttribute("data-date");if(!iso){var col=t.closest(".tui-full-calendar-time-date");if(col&&el.contains(col)){var cols=el.querySelectorAll(".tui-full-calendar-time-date");var idx=Array.prototype.indexOf.call(cols,col);var names=el.querySelectorAll(".tui-full-calendar-dayname");if(idx>=0&&idx<names.length)iso=names[idx].getAttribute("data-date");}}if(!iso)return;cal.setDate(iso);refreshCalendarSchedules();cal.changeView("day",true);S.calView="day";syncCalViewButtons();updateCalPeriod();updateCalendarRoute();(function(){var n=0;var iv=setInterval(function(){var tg=document.querySelector("#calendarRoot .tui-full-calendar-timegrid-container");if(tg&&tg.scrollTop<60){tg.scrollTop=Math.round(tg.scrollHeight*7/24);}if(++n>=8)clearInterval(iv);},90);})();return;}
 });
 cal.render(true);}catch(e){document.getElementById("calendarFallback").hidden=false;}}
+/* ── 日程悬浮信息卡（年/月/周/日视图通用，纯展示、不拦截点击） ── */
+var calTipEl=null,calTipShowT=null,calTipHideT=null,calTipTarget=null;
+function initCalTooltip(){
+  if(calTipEl)return;
+  calTipEl=document.createElement("div");
+  calTipEl.className="mmv-cal-tip";
+  calTipEl.setAttribute("role","tooltip");
+  calTipEl.setAttribute("aria-hidden","true");
+  document.body.appendChild(calTipEl);
+  document.addEventListener("pointerover",function(e){
+    var hit=calTipHit(e.target);
+    if(!hit)return;
+    if(hit===calTipTarget)return;
+    calTipTarget=hit;
+    clearTimeout(calTipHideT);clearTimeout(calTipShowT);
+    stripNativeTitle(hit);
+    calTipShowT=setTimeout(function(){if(calTipTarget===hit)showCalTip(hit);},130);
+  });
+  document.addEventListener("pointerout",function(e){
+    var hit=calTipHit(e.target);
+    if(!hit)return;
+    var rel=e.relatedTarget;
+    if(rel&&hit.contains(rel))return;
+    if(calTipTarget===hit)calTipTarget=null;
+    clearTimeout(calTipShowT);
+    calTipHideT=setTimeout(hideCalTipNow,90);
+  });
+  window.addEventListener("scroll",hideCalTipNow,true);
+  window.addEventListener("resize",hideCalTipNow);
+  document.addEventListener("keydown",function(e){if(e.key==="Escape")hideCalTipNow();});
+}
+function stripNativeTitle(el){
+  if(el.hasAttribute&&el.hasAttribute("title")){el.setAttribute("data-orig-title",el.getAttribute("title"));el.removeAttribute("title");}
+  var n=el.querySelector&&el.querySelector("[title]");
+  if(n){n.setAttribute("data-orig-title",n.getAttribute("title"));n.removeAttribute("title");}
+}
+function calTipHit(el){
+  if(!el||!el.closest)return null;
+  return el.closest(".tui-full-calendar-time-schedule,.tui-full-calendar-weekday-schedule,.tui-full-calendar-month-more-schedule,.year-cell__grid i.has-schedule");
+}
+function calTipText(block,sel){var n=block.querySelector(sel);return n?n.textContent.trim():"";}
+var CAL_TIP_DOW=["周日","周一","周二","周三","周四","周五","周六"];
+function calTipDateObj(ds){var d=new Date(ds+"T12:00:00+08:00");return isNaN(d.getTime())?null:d;}
+function calTipFmtDate(ds,full){
+  var d=calTipDateObj(ds);
+  if(!d)return ds||"";
+  return (full?d.getFullYear()+"年":"")+(d.getMonth()+1)+"月"+d.getDate()+"日 "+CAL_TIP_DOW[d.getDay()];
+}
+function calTipShift(ds,n){var d=calTipDateObj(ds);if(!d)return ds;d.setDate(d.getDate()+n);return isoDate(d);}
+function showCalTip(hit){
+  if(!calTipEl)return;
+  var html,calId="",isYear=hit.hasAttribute("data-date")&&(" "+hit.className+" ").indexOf(" has-schedule ")>=0;
+  if(isYear){html=calTipYearHtml(hit);}
+  else{var r=calTipBlockHtml(hit);html=r.html;calId=r.calId;}
+  calTipEl.innerHTML=html;
+  if(calId)calTipEl.setAttribute("data-calendar-id",calId);else calTipEl.removeAttribute("data-calendar-id");
+  calTipEl.classList.toggle("is-year",!!isYear);
+  calTipEl.style.visibility="hidden";
+  calTipEl.classList.add("is-on");
+  positionCalTip(hit);
+  calTipEl.style.visibility="";
+  calTipEl.setAttribute("aria-hidden","false");
+}
+function calTipBlockHtml(block){
+  var inner=block.querySelector(".mmv-tui-schedule")||block;
+  var calId=block.getAttribute("data-calendar-id")||"";
+  var title=calTipText(inner,".mmv-tui-schedule__title")||calTipText(block,".tui-full-calendar-month-more-schedule-title");
+  var teacher=calTipText(inner,".mmv-tui-schedule__teacher");
+  var loc=calTipText(inner,".mmv-tui-schedule__location");
+  var sd=inner.getAttribute("data-sd")||"",ed=inner.getAttribute("data-ed")||"";
+  var st=inner.getAttribute("data-st")||"",et=inner.getAttribute("data-et")||"";
+  var allday=inner.hasAttribute&&inner.hasAttribute("data-allday");
+  var html='<div class="mmv-cal-tip__head"><span class="mmv-cal-tip__dot" aria-hidden="true"></span><span class="mmv-cal-tip__title">'+hcal(title)+"</span></div>";
+  if(sd)html+='<div class="mmv-cal-tip__date">'+hcal(calTipFmtDate(sd,true))+"</div>";
+  var timeLine="";
+  if(allday){
+    var endShow=ed?calTipShift(ed,-1):sd;
+    timeLine=endShow===sd?"全天":"全天 · "+calTipFmtDate(sd)+" 至 "+calTipFmtDate(endShow);
+  }else if(st){
+    var next=calTipShift(sd,1);
+    timeLine=(sd&&ed&&sd!==ed)?st+" — "+(ed===next?"次日 ":calTipFmtDate(ed)+" ")+et:st+" — "+et;
+  }
+  if(timeLine)html+='<div class="mmv-cal-tip__time">'+hcal(timeLine)+"</div>";
+  if(teacher)html+='<div class="mmv-cal-tip__row mmv-cal-tip__row--teacher">'+hcal(teacher)+"</div>";
+  if(loc)html+='<div class="mmv-cal-tip__row mmv-cal-tip__row--location">'+hcal(loc)+"</div>";
+  return {html:html,calId:calId};
+}
+function calTipYearHtml(i){
+  var ds=i.getAttribute("data-date");
+  var y=ds.slice(0,4);
+  var items=(calDayIndex(y)[ds]||[]).slice().sort(function(a,b){return String(a.start)<String(b.start)?-1:(String(a.start)>String(b.start)?1:0);});
+  var html='<div class="mmv-cal-tip__yhead">'+hcal(calTipFmtDate(ds,true))+'</div><div class="mmv-cal-tip__list">';
+  var max=12;
+  items.slice(0,max).forEach(function(s){
+    var ad=(s.category||"time")==="allday";
+    var t=ad?"全天":hmCal(s.start);
+    html+='<div class="mmv-cal-tip__item"><span class="mmv-cal-tip__dot" data-cal="'+hcal(s.calendarId||"mmv-rest")+'" aria-hidden="true"></span><span class="mmv-cal-tip__item-time">'+hcal(t)+'</span><span class="mmv-cal-tip__item-title">'+hcal(tcal(s.title))+"</span></div>";
+  });
+  html+="</div>";
+  if(items.length>max)html+='<div class="mmv-cal-tip__more">还有 '+(items.length-max)+" 项，点击月份进月视图查看</div>";
+  return html;
+}
+function positionCalTip(anchor){
+  var r=anchor.getBoundingClientRect();
+  var vw=document.documentElement.clientWidth,vh=document.documentElement.clientHeight;
+  var w=calTipEl.offsetWidth,h=calTipEl.offsetHeight,gap=9;
+  var left=Math.max(12,Math.min(vw-w-12,r.left+r.width/2-w/2));
+  var top=r.top-h-gap,below=top<8;
+  if(below)top=r.bottom+gap;
+  if(top+h>vh-8)top=Math.max(8,vh-h-8);
+  calTipEl.style.left=left+"px";
+  calTipEl.style.top=top+"px";
+  calTipEl.classList.toggle("is-below",below);
+}
+function hideCalTipNow(){
+  calTipTarget=null;
+  clearTimeout(calTipShowT);clearTimeout(calTipHideT);
+  if(!calTipEl)return;
+  calTipEl.classList.remove("is-on");
+  calTipEl.setAttribute("aria-hidden","true");
+}
+
 document.getElementById("calendarDateJump").onchange=function(){if(cal&&this.value){cal.setDate(this.value);refreshCalendarSchedules();cal.render(true);updateCalPeriod();updateCalendarRoute();}};
 document.querySelectorAll("[data-calendar-view]").forEach(function(b){b.onclick=function(){var v=this.dataset.calendarView;S.calView=v;syncCalViewButtons();if(v==="year"){showCalView("year");}else{showCalView(v);if(cal)cal.changeView(v,true);(function(){var n=0;var iv=setInterval(function(){var tg=document.querySelector("#calendarRoot .tui-full-calendar-timegrid-container");if(tg&&tg.scrollTop<60){tg.scrollTop=Math.round(tg.scrollHeight*7/24);}if(++n>=6)clearInterval(iv);},90);})();}updateCalPeriod();updateCalendarRoute();};});
 function updateCalPeriod(){var d=cal?new Date(cal.getDate()):new Date();var y=d.getFullYear(),m=d.getMonth();var p=document.getElementById("calendarPeriod");if(!p)return;var jump=document.getElementById("calendarDateJump");if(jump)jump.value=isoDate(d);var l=S.lang==="zh"?"zh-CN":S.lang;if(S.calView==="year")p.textContent=y;else if(S.calView==="day")p.textContent=d.toLocaleDateString(l,{year:"numeric",month:"long",day:"numeric"});else p.textContent=d.toLocaleDateString(l,{year:"numeric",month:"long"});}function syncCalViewButtons(){document.querySelectorAll("[data-calendar-view]").forEach(function(x){x.classList.toggle("is-selected",x.dataset.calendarView===S.calView);});}
 function showCalView(v){var vp=document.getElementById("calendarViewport"),yv=document.getElementById("calendarYearView");if(!vp||!yv)return;if(v==="year"){yv.removeAttribute("hidden");yv.classList.remove("is-hidden");vp.classList.add("is-hidden");setTimeout(function(){vp.setAttribute("hidden","");},320);renderYearView();}else{vp.removeAttribute("hidden");vp.classList.remove("is-hidden");yv.classList.add("is-hidden");setTimeout(function(){yv.setAttribute("hidden","");},320);}}
-function renderYearView(){var yv=document.getElementById("calendarYearView");if(!yv)return;var base=cal?new Date(cal.getDate()):new Date();var cy=base.getFullYear();var now=new Date();var dow="\u65e5\u4e00\u4e8c\u4e09\u56db\u4e94\u516d";var y=cy;var html='<div class="year-view__scroll"><section class="year-section"><h3 class="year-section__heading"><button type="button" class="year-nav" data-year-step="-1" aria-label="\u4e0a\u4e00\u5e74">\u2039</button><span class="year-section__title">'+y+'</span><button type="button" class="year-nav" data-year-step="1" aria-label="\u4e0b\u4e00\u5e74">\u203a</button></h3><div class="year-grid">';for(var m=0;m<12;m++){var first=new Date(y,m,1).getDay();var days=new Date(y,m+1,0).getDate();html+='<button type="button" class="year-cell" data-year="'+y+'" data-month="'+m+'"><span class="year-cell__name">'+(m+1)+'\u6708</span><span class="year-cell__grid">';for(var q=0;q<7;q++)html+='<i class="is-dow">'+dow.charAt(q)+'</i>';for(var b=0;b<first;b++)html+='<i></i>';for(var d=1;d<=days;d++){var it=now.getFullYear()===y&&now.getMonth()===m&&now.getDate()===d;html+='<i'+(it?' class="is-today"':'')+'>'+d+'</i>';}html+='</span></button>';}html+='</div></section></div>';yv.innerHTML=html;yv.scrollTop=0;}
+function calDayIndex(y){var map={};try{var seen={};calendarScheduleSource().forEach(function(s){var key=[s.title,s.start,s.end].join("\u0000");if(seen[key])return;seen[key]=1;var sd=(s.start||"").slice(0,10),ed=(s.end||"").slice(0,10);var add=function(d){(map[d]=map[d]||[]).push(s);};if((s.category||"time")==="allday"&&sd&&ed&&sd!==ed){var a=new Date(sd+"T00:00:00+08:00"),b=new Date(ed+"T00:00:00+08:00"),cur=new Date(a),guard=0;while(cur<b&&guard++<400){add(isoDate(cur));cur.setDate(cur.getDate()+1);}}else if(sd){add(sd);}});}catch(e){}return map;}
+function renderYearView(){var yv=document.getElementById("calendarYearView");if(!yv)return;var base=cal?new Date(cal.getDate()):new Date();var cy=base.getFullYear();var now=new Date();var dayIdx=calDayIndex(cy);var dow="\u65e5\u4e00\u4e8c\u4e09\u56db\u4e94\u516d";var y=cy;var html='<div class="year-view__scroll"><section class="year-section"><h3 class="year-section__heading"><button type="button" class="year-nav" data-year-step="-1" aria-label="\u4e0a\u4e00\u5e74">\u2039</button><span class="year-section__title">'+y+'</span><button type="button" class="year-nav" data-year-step="1" aria-label="\u4e0b\u4e00\u5e74">\u203a</button></h3><div class="year-grid">';for(var m=0;m<12;m++){var first=new Date(y,m,1).getDay();var days=new Date(y,m+1,0).getDate();html+='<button type="button" class="year-cell" data-year="'+y+'" data-month="'+m+'"><span class="year-cell__name">'+(m+1)+'\u6708</span><span class="year-cell__grid">';for(var q=0;q<7;q++)html+='<i class="is-dow">'+dow.charAt(q)+'</i>';for(var b=0;b<first;b++)html+='<i></i>';for(var d=1;d<=days;d++){var it=now.getFullYear()===y&&now.getMonth()===m&&now.getDate()===d;var ds=y+'-'+('0'+(m+1)).slice(-2)+'-'+('0'+d).slice(-2);var ycls=it?'is-today':'';if(dayIdx[ds])ycls=ycls?ycls+' has-schedule':'has-schedule';html+='<i data-date="'+ds+'"'+(ycls?' class="'+ycls+'"':'')+'>'+d+'</i>';}html+='</span></button>';}html+='</div></section></div>';yv.innerHTML=html;yv.scrollTop=0;}
 function renderOTD(){MMVJournalData.load().then(function(entries){if(!entries.length)return;var e=entries[0];var d=new Date(e.date+"T12:00:00");var m=d.getMonth()+1,day=d.getDate();document.getElementById("otdDate").textContent=m+"\u6708"+day+"\u65e5";var media=e.images&&e.images[0];var cov=document.getElementById("otdCover");var im=document.getElementById("otdImage");if(media&&media.file){var isVideo=/\.(?:mp4|m4v|webm)(?:$|[?#])/i.test(media.file);var p="journals/"+(isVideo?(media.poster||""):media.file.replace(/(\.\w+)$/,"_thumb$1"))+"?v=20260829";if(p!=="journals/"){im.src=p;im.alt=m+"\u6708"+day+"\u65e5";im.fetchPriority="high";cov.style.display="";}else{cov.style.display="none";im.src="";}}else{cov.style.display="none";im.src="";}fetch("journals/"+e.file).then(function(r){return r.text();}).then(function(html){var dp=new DOMParser();var doc=dp.parseFromString(html,"text/html");var langs=["zh","en","fr","de"];langs.forEach(function(lg){var sec=doc.querySelector('section[lang="'+lg+'-CN"], section[lang="'+lg+'"]');if(!sec)sec=doc.querySelector('section[data-journal-lang="'+lg+'"]');if(sec){var pg=sec.querySelector("p");if(pg){var txt=pg.textContent.trim();if(txt.length>35)txt=txt.slice(0,35)+"\u2026";_otdCache[lg]=txt;}}});showOTDExcerpt();}).catch(function(err){_otdCache.zh=e.excerpt||"";["en","fr","de"].forEach(function(lg){_otdCache[lg]=e.locales&&e.locales[lg]?e.locales[lg].excerpt:"";});showOTDExcerpt();});}).catch(function(err){_otdCache.zh="";["en","fr","de"].forEach(function(lg){_otdCache[lg]="";});showOTDExcerpt();});}
 var cyv=document.getElementById("calendarYearView");if(cyv)cyv.addEventListener("click",function(ev){var nav=ev.target.closest(".year-nav");if(nav){var step=parseInt(nav.dataset.yearStep,10);if(!isNaN(step)&&cal){var bd=new Date(cal.getDate());cal.setDate(new Date(bd.getFullYear()+step,bd.getMonth(),1));renderYearView();updateCalPeriod();updateCalendarRoute();}return;}var c=ev.target.closest(".year-cell");if(!c)return;var y=parseInt(c.dataset.year,10),m=parseInt(c.dataset.month,10);if(isNaN(y)||isNaN(m)||!cal)return;var dt=new Date(y,m,1);cal.setDate(dt);refreshCalendarSchedules();showCalView("month");cal.changeView("month",true);S.calView="month";syncCalViewButtons();updateCalPeriod();updateCalendarRoute();});
 
