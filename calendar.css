@@ -36,6 +36,11 @@
 [data-calendar-id="mmv-birthday"]{ --ch: 325; --cs: 70%; }
 
 /* ── 承载面板：单层表面，不再卡片套卡片 ─────────────────────────── */
+/* 日历是数据密集型网格（周视图 7 列 + 左侧时间列），比日记/聊天需要更宽的
+   画布；单独放宽面板上限，其它模块仍保持 .module-sheet 的 980px */
+.module-sheet.calendar-sheet {
+  width: min(1320px, calc(100% - 48px));
+}
 .calendar-sheet {
   padding: 18px 28px 30px;
   min-height: 560px;
@@ -130,7 +135,7 @@
   box-shadow: 0 1px 2px hsl(224 40% 30% / .08), 0 2px 6px hsl(224 40% 30% / .08);
 }
 
-#calendarRoot { width: 100%; height: clamp(680px, 75vh, 860px); min-height: 440px; position: relative; }
+#calendarRoot { width: 100%; height: clamp(720px, 78vh, 920px); min-height: 440px; position: relative; }
 #calendarRoot * { color: var(--cal-ink); }
 
 /* ── TUI 结构布局（几何必需，第三方 CSS 未提供，勿删） ──────────── */
@@ -223,8 +228,8 @@
 /* 星期表头 */
 .tui-full-calendar-weekday-header { border-bottom: 1px solid var(--cal-hairline-strong) !important; }
 .tui-full-calendar-weekday-header-title {
-  font-size: 11.5px !important;
-  font-weight: 650 !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
   letter-spacing: .08em;
   color: var(--cal-muted) !important;
   padding: 4px 10px 8px !important;
@@ -248,7 +253,7 @@
 
 /* 日期数字 */
 .tui-full-calendar-weekday-grid-date {
-  font-size: 12px !important;
+  font-size: 13px !important;
   font-weight: 600 !important;
   color: var(--cal-ink) !important;
   width: 24px !important;
@@ -281,8 +286,8 @@
 /* “N more” 链接 */
 .tui-full-calendar-weekday-grid-more-schedules {
   color: var(--cal-muted) !important;
-  font-weight: 600 !important;
-  font-size: 10.5px !important;
+  font-weight: 500 !important;
+  font-size: 11px !important;
   height: 20px !important;
   line-height: 20px !important;
   padding: 0 7px !important;
@@ -299,8 +304,8 @@
   border-radius: var(--cal-r-event) !important;  /* 替代 TUI 内联 2px 尖角 */
   border: 1px solid transparent !important;
   border-left-width: 1px !important;             /* 去掉 3px 深色左条 */
-  height: 22px !important;
-  line-height: 22px !important;
+  height: 24px !important;
+  line-height: 24px !important;
   margin: 0 6px 2px !important;
   overflow: hidden;
   cursor: pointer;
@@ -335,8 +340,8 @@
 /* ══════════ 周视图 / 日视图（时间网格） ═════════════════════════ */
 
 .tui-full-calendar-timegrid-hour span {
-  font-size: 10.5px !important;
-  font-weight: 600 !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
   color: var(--cal-muted) !important;
   letter-spacing: .02em;
 }
@@ -352,7 +357,7 @@
 /* 全天区域 */
 .tui-full-calendar-allday-left,
 .tui-full-calendar-allday-right { border-color: var(--cal-hairline-strong) !important; }
-.tui-full-calendar-allday-left { color: var(--cal-muted) !important; font-size: 11px !important; font-weight: 650 !important; }
+.tui-full-calendar-allday-left { color: var(--cal-muted) !important; font-size: 11.5px !important; font-weight: 600 !important; }
 
 /* 时间事件块 */
 .tui-full-calendar-time-schedule {
@@ -405,8 +410,8 @@
   line-height: 1.3;
 }
 .mmv-tui-schedule__title {
-  font-size: 11.5px;
-  font-weight: 650;
+  font-size: 12.5px;
+  font-weight: 600;
   letter-spacing: .01em;
   white-space: nowrap;
   overflow: hidden;
@@ -416,8 +421,8 @@
 }
 .mmv-tui-schedule__teacher,
 .mmv-tui-schedule__location {
-  font-size: 10.5px;
-  font-weight: 500;
+  font-size: 11.5px;
+  font-weight: 450;
   color: var(--cal-muted);
   white-space: nowrap;
   overflow: hidden;
@@ -439,7 +444,7 @@
   align-items: flex-start;
   gap: 1px;
 }
-.tui-full-calendar-time-schedule .mmv-tui-schedule__title { font-size: 12px; flex-shrink: 1; width: 100%; }
+.tui-full-calendar-time-schedule .mmv-tui-schedule__title { font-size: 13.5px; flex-shrink: 1; width: 100%; }
 .tui-full-calendar-time-schedule .mmv-tui-schedule__teacher,
 .tui-full-calendar-time-schedule .mmv-tui-schedule__location { width: 100%; }
 .tui-full-calendar-time-schedule .mmv-tui-schedule__teacher::before,
@@ -679,6 +684,7 @@
 /* ══════════ 响应式 ═════════════════════════════════════════════ */
 @media (max-width: 840px) {
   .calendar-sheet { padding: 14px 14px 22px; }
+  .module-sheet.calendar-sheet { width: calc(100% - 28px); }
   .calendar-toolbar { flex-wrap: wrap; gap: 10px; }
   #calendarPeriod { font-size: 18px; order: -1; flex-basis: 100%; text-align: center; }
   .view-switch button { padding: 6px 12px; font-size: 12px; }
