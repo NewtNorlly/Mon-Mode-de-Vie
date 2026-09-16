@@ -4220,7 +4220,7 @@ window.MMV_JOURNALS = [
         "imageCaptions": []
       },
       "fr": {
-        "location": "Route Panhu, bourg de Huangmei, district de Huangmei, Huanggang, province du Hubei",
+        "location": "Route Panhu, bourg de Huangmei, comté de Huangmei, Huanggang, province du Hubei",
         "excerpt": "Hier après-midi, j’ai cuit dehors en plein soleil. Je suis rentré très tard le soir et n’ai…",
         "sourceLabel": "PDF · pages 24 / 25",
         "imageCaptions": []
@@ -4255,7 +4255,7 @@ window.MMV_JOURNALS = [
         "imageCaptions": []
       },
       "fr": {
-        "location": "Lycée no 1 du district de Huangmei, province du Hubei",
+        "location": "Lycée no 1 du comté de Huangmei, province du Hubei",
         "excerpt": "Le lycée no 1 de Huangmei laisse-t-il entrer les visiteurs pour le découvrir ? Sinon…",
         "sourceLabel": "PDF · page 24",
         "imageCaptions": []
