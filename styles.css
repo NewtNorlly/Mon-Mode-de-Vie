@@ -1,6 +1,6 @@
 /* Mon Mode de Vie — styles.css (2026-07-29 v4) */
 
-/* ═══ @font-face — 思源宋体（本地打包）+ Google Fonts CDN fallback ═══ */
+/* ═══ @font-face — 思源宋体（本地打包，无外部字体 CDN） ═══ */
 @font-face {
   font-family: "Source Han Serif CN";
   src: url("./assets/fonts/SourceHanSerifCN-Regular.otf") format("opentype");
@@ -9,26 +9,28 @@
   font-display: swap;
 }
 
-/* ═══ Design Tokens ═══ */
+/* ═══ Design Tokens ═══
+   静态色板即默认主题「钴蓝 cobalt」，保证首帧直出最终色，不依赖 JS；
+   切换其他主题/明暗由 script.js 的 at() 以内联变量覆盖。 */
 :root {
   color-scheme: light;
-  --background: 70 49% 92%;
-  --foreground: 184 23% 26%;
-  --card: 66 60% 98%;
-  --card-foreground: 184 23% 26%;
-  --secondary: 56 52% 88%;
-  --secondary-foreground: 184 23% 26%;
-  --muted: 128 31% 89%;
-  --muted-foreground: 184 14% 34%;
-  --accent: 162 55% 86%;
-  --accent-foreground: 173 58% 36%;
-  --border: 110 18% 83%;
-  --sidebar-background: 132 35% 90%;
-  --sidebar-foreground: 184 23% 26%;
-  --sidebar-accent: 66 58% 96%;
-  --sidebar-accent-foreground: 173 58% 36%;
-  --sidebar-border: 126 18% 78%;
-  --story-accent: 173 58% 36%;
+  --background: 220 100% 98%;
+  --foreground: 224 40% 14%;
+  --card: 0 0% 100%;
+  --card-foreground: 224 40% 14%;
+  --secondary: 218 52% 93%;
+  --secondary-foreground: 224 40% 14%;
+  --muted: 218 40% 94%;
+  --muted-foreground: 224 16% 28%;
+  --accent: 223 71% 94%;
+  --accent-foreground: 223 63% 28%;
+  --border: 218 34% 86%;
+  --sidebar-background: 218 100% 93%;
+  --sidebar-foreground: 224 40% 14%;
+  --sidebar-accent: 0 0% 100%;
+  --sidebar-accent-foreground: 223 63% 28%;
+  --sidebar-border: 218 34% 82%;
+  --story-accent: 223 63% 28%;
 
   --font-serif: "Times New Roman", "Source Han Serif CN", "Songti SC", "STSong", "Noto Serif CJK SC", serif;
   --font-sans: "Times New Roman", "Source Han Serif CN", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
@@ -65,8 +67,8 @@
   --glass-panel-alpha: 0.48;
   --glass-border: rgb(255 255 255 / 0.72);
 
-  --shadow-float: 0 8px 26px hsl(170 32% 28% / 0.1);
-  --shadow-panel: 0 18px 50px hsl(170 32% 28% / 0.08);
+  --shadow-float: 0 8px 26px hsl(224 40% 22% / 0.1);
+  --shadow-panel: 0 18px 50px hsl(224 40% 22% / 0.08);
 
   --motion-press: 120ms;
   --motion-fast: 160ms;
@@ -83,9 +85,26 @@
 
 :root[data-mode="dark"] {
   color-scheme: dark;
-  --glass-rgb: 17 29 31;
+  /* 钴蓝暗色完整色板（与 script.js 主题表 cobalt.dark 一致），首帧即暗钴蓝 */
+  --background: 225 44% 8%;
+  --foreground: 220 35% 96%;
+  --card: 224 38% 12%;
+  --card-foreground: 220 35% 96%;
+  --secondary: 225 30% 17%;
+  --secondary-foreground: 220 35% 96%;
+  --muted: 225 28% 17%;
+  --muted-foreground: 220 17% 72%;
+  --accent: 223 44% 22%;
+  --accent-foreground: 220 35% 96%;
+  --border: 225 25% 23%;
+  --sidebar-background: 225 40% 10%;
+  --sidebar-foreground: 220 35% 96%;
+  --sidebar-accent: 225 30% 16%;
+  --sidebar-accent-foreground: 220 35% 96%;
+  --sidebar-border: 225 25% 23%;
+  --glass-rgb: 19 26 43;
   --glass-panel-alpha: 0.64;
-  --glass-border: rgb(224 255 247 / 0.14);
+  --glass-border: rgb(191 219 254 / 0.14);
   --shadow-float: 0 10px 32px rgb(0 0 0 / 0.3);
   --shadow-panel: 0 24px 60px rgb(0 0 0 / 0.24);
 }
@@ -322,8 +341,8 @@ a { color: inherit; text-decoration: none; }
   position: relative;
 }
 .module-sheet {
-  width: min(980px, calc(100% - 48px)); min-height: calc(100% - 64px);
-  margin: 32px auto; padding: 34px 38px;
+  width: min(1180px, calc(100% - 48px)); min-height: calc(100% - 64px);
+  margin: 32px auto; padding: 38px 44px;
   border: 1px solid hsl(var(--border) / 0.72); border-radius: var(--radius-lg);
   background: hsl(var(--card) / 0.62);
   box-shadow: 0 22px 70px hsl(var(--foreground) / 0.045);
@@ -331,35 +350,35 @@ a { color: inherit; text-decoration: none; }
 
 /* ═══ Home Chat ═══ */
 .home-chat {
-  width: min(680px, calc(100% - 48px));
-  margin: clamp(24px, 5vh, 48px) auto 0;
+  width: min(840px, calc(100% - 48px));
+  margin: clamp(28px, 5.5vh, 56px) auto 0;
   padding: 0 4px;
 }
-.chat-day { margin: 0 0 12px; color: hsl(var(--muted-foreground)); font-family: var(--font-serif); font-size: var(--text-lead); text-align: center; }
+.chat-day { margin: 0 0 14px; color: hsl(var(--muted-foreground)); font-family: var(--font-serif); font-size: var(--text-lead); text-align: center; }
 .chat-thread {
-  display: flex; flex-direction: column; gap: 16px;
+  display: flex; flex-direction: column; gap: 18px;
   padding-bottom: 33vh;
 }
 .chat-opening { display: contents; }
 
 .chat-message {
-  display: grid; grid-template-columns: 42px minmax(0, 1fr); align-items: start;
-  gap: 10px;
+  display: grid; grid-template-columns: 46px minmax(0, 1fr); align-items: start;
+  gap: 12px;
   animation: msg-enter var(--motion-base) var(--ease-enter) both;
 }
-.chat-avatar { width: 42px; height: 42px; border-radius: 50%; }
-.chat-name { display: block; margin-bottom: 4px; font-size: var(--text-sm); font-weight: 600; color: hsl(var(--muted-foreground)); }
+.chat-avatar { width: 46px; height: 46px; border-radius: 50%; }
+.chat-name { display: block; margin-bottom: 5px; font-size: 0.92rem; font-weight: 600; color: hsl(var(--muted-foreground)); }
 .chat-bubble {
-  padding: 12px 18px; border-radius: 18px;
+  padding: 13px 20px; border-radius: 18px;
   background: hsl(var(--card) / 0.72); border: 1px solid hsl(var(--border) / 0.3);
-  font-size: var(--text-lead); line-height: var(--leading-prose);
+  font-size: clamp(1.16rem, 0.6vw + 1.02rem, 1.28rem); line-height: var(--leading-prose);
   box-shadow: 0 1px 3px hsl(var(--foreground) / 0.03);
   display: inline-block; max-width: 72%;
 }
 .chat-bubble p { margin: 0; }
 .chat-bubble p + p { margin-top: 0.8em; }
 
-.chat-message--guest { grid-template-columns: minmax(0, 1fr) 42px; animation-name: msg-enter-guest; }
+.chat-message--guest { grid-template-columns: minmax(0, 1fr) 46px; animation-name: msg-enter-guest; }
 .chat-message--guest .chat-avatar { order: 2; }
 .chat-message--guest .chat-message__content { order: 1; display: flex; flex-direction: column; align-items: flex-end; }
 .chat-message--guest .chat-bubble { border-radius: 18px; background: hsl(var(--accent) / 0.18); }
@@ -369,10 +388,10 @@ a { color: inherit; text-decoration: none; }
   display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px;
 }
 .chat-choice {
-  display: inline-flex; align-items: center; gap: 8px;
-  min-height: 46px; padding: 10px 18px;
+  display: inline-flex; align-items: center; gap: 9px;
+  min-height: 50px; padding: 11px 20px;
   border: 1px solid hsl(var(--border) / 0.7); border-radius: var(--radius-pill);
-  background: hsl(var(--card) / 0.7); font-size: var(--text-md);
+  background: hsl(var(--card) / 0.7); font-size: 1.06rem;
   transition: border-color var(--motion-fast) ease, background var(--motion-fast) ease, transform var(--motion-fast) var(--ease-out);
 }
 .chat-choice:active { transform: scale(0.97); }
