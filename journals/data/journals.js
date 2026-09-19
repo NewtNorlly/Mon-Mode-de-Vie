@@ -181,7 +181,7 @@ window.MMV_JOURNALS = [
     "locales": {
       "en": {
         "location": "WeChat Chat History",
-        "excerpt": "吉姆哈克  : I finally get what Doubao's \"work tasks\" are for!!! 2026年8月13日 02:48 吉姆哈克  : [Photo] 2026年8月13日 02:48 吉姆哈克  : [Photo] 2026年8月13日 02:48"
+        "excerpt": "吉姆哈克  : I finally get what Doubao's “work tasks” are for!!! 2026年8月13日 02:48 吉姆哈克  : [Photo] 2026年8月13日 02:48 吉姆哈克  : [Photo] 2026年8月13日 02:48"
       },
       "fr": {
         "location": "Historique de discussion WeChat",
@@ -880,7 +880,7 @@ window.MMV_JOURNALS = [
     "date": "2026-07-04",
     "file": "2026-07-04.html",
     "location": "Mon Mode de Vie · Me_Honey",
-    "excerpt": "凌晨是昨天 v11→v19 封面迭代的延续。Cherry 仔细读了我之前整理的《封面提示词演进全记录》，基于 19 轮的教训写了 v20——去掉\"暖白肤色\"、改用\"健康自然的红润气色\"、用\"光线是主角\"统领画面、把武大建筑从\"老教学楼\"升级",
+    "excerpt": "凌晨是昨天 v11→v19 封面迭代的延续。Cherry 仔细读了我之前整理的《封面提示词演进全记录》，基于 19 轮的教训写了 v20——去掉“暖白肤色”、改用“健康自然的红润气色”、用“光线是主角”统领画面、把武大建筑从“老教学楼”升级",
     "images": [
       {
         "file": "assets/images/2026-07-04-1.jpeg"
@@ -909,7 +909,7 @@ window.MMV_JOURNALS = [
     "date": "2026-07-03",
     "file": "2026-07-03.html",
     "location": "Mon Mode de Vie · Me_Honey",
-    "excerpt": "今天正式启动公共政策分析结课论文。期末论文要求很明确：围绕议程设置、政策制定、政策执行、政策评估四环节，1000-2000字，主题是\"咱身边的公共政策学\"，7月5日前交给班长。",
+    "excerpt": "今天正式启动公共政策分析结课论文。期末论文要求很明确：围绕议程设置、政策制定、政策执行、政策评估四环节，1000-2000字，主题是“咱身边的公共政策学”，7月5日前交给班长。",
     "images": [
       {
         "file": "assets/images/2026-07-03-1.jpeg"
@@ -1268,7 +1268,7 @@ window.MMV_JOURNALS = [
     "locales": {
       "en": {
         "location": "WeChat Chat History",
-        "excerpt": "吉姆哈克  : Mom, I've had the most rotten luck 2026年6月18日 02:13 吉姆哈克  : At 8 a.m. yesterday I followed the crowd, led by the course teacher, off campus for the \"artificial stupidity\" visit 2026年6月18日 02:13 吉姆哈克  : At the company base I bought some dark Oreo cookies at the little shop, scarfed them all down, and also grabbed a bottle of AD Calcium Milk. Back at school past 11, tired and sleepy, I climbed into bed and conked out 2026年6月18日 02:16"
+        "excerpt": "吉姆哈克  : Mom, I've had the most rotten luck 2026年6月18日 02:13 吉姆哈克  : At 8 a.m. yesterday I followed the crowd, led by the course teacher, off campus for the “artificial stupidity” visit 2026年6月18日 02:13 吉姆哈克  : At the company base I bought some dark Oreo cookies at the little shop, scarfed them all down, and also grabbed a bottle of AD Calcium Milk. Back at school past 11, tired and sleepy, I climbed into bed and conked out 2026年6月18日 02:16"
       },
       "fr": {
         "location": "Historique de discussion WeChat",
@@ -1654,7 +1654,7 @@ window.MMV_JOURNALS = [
     "date": "2026-05-28",
     "file": "2026-05-28.html",
     "location": "Mon Mode de Vie · Me_Honey",
-    "excerpt": "今天是一个\"从零到一\"的日子。",
+    "excerpt": "今天是一个“从零到一”的日子。",
     "images": [
       {
         "file": "assets/images/2026-05-28-1.webp"
@@ -1959,7 +1959,7 @@ window.MMV_JOURNALS = [
     "locales": {
       "en": {
         "location": "WeChat Chat History",
-        "excerpt": "琼桑  : [表情] 2026年5月16日 20:05 吉姆哈克  : \"And then miss the deadline\" 2026年5月16日 20:05 吉姆哈克  : [Photo] 2026年5月16日 20:05"
+        "excerpt": "琼桑  : [表情] 2026年5月16日 20:05 吉姆哈克  : “And then miss the deadline” 2026年5月16日 20:05 吉姆哈克  : [Photo] 2026年5月16日 20:05"
       },
       "fr": {
         "location": "Historique de discussion WeChat",
@@ -2519,20 +2519,20 @@ window.MMV_JOURNALS = [
     "date": "2026-04-16",
     "file": "2026-04-16.html",
     "location": "微信聊天记录",
-    "excerpt": "吉姆哈克  : [图片] 2026年4月16日 10:51 吉姆哈克  : 你现在是专业PDF转Obsidian Markdown格式化工具。 源文件：法语A1讲义（277页，存在两栏排版）\"C:\\Users\\NewtN\\下载\\A1讲义完整",
+    "excerpt": "吉姆哈克  : [图片] 2026年4月16日 10:51 吉姆哈克  : 你现在是专业PDF转Obsidian Markdown格式化工具。 源文件：法语A1讲义（277页，存在两栏排版）“C:\\Users\\NewtN\\下载\\A1讲义完整",
     "images": [],
     "locales": {
       "en": {
         "location": "WeChat Chat History",
-        "excerpt": "吉姆哈克  : [Photo] 2026年4月16日 10:51 吉姆哈克  : You are now a professional PDF-to-Obsidian-Markdown formatting tool. Source file: French A1 lecture notes (277 pages, two-column layout) \"C:\\Users\\NewtN\\下载\\A1讲义完整"
+        "excerpt": "吉姆哈克  : [Photo] 2026年4月16日 10:51 吉姆哈克  : You are now a professional PDF-to-Obsidian-Markdown formatting tool. Source file: French A1 lecture notes (277 pages, two-column layout) “C:\\Users\\NewtN\\下载\\A1讲义完整"
       },
       "fr": {
         "location": "Historique de discussion WeChat",
-        "excerpt": "吉姆哈克  : [Photo] 2026年4月16日 10:51 吉姆哈克  : Tu es maintenant un outil professionnel de mise en forme PDF vers Markdown Obsidian. Fichier source : polycopié de français A1 (277 pages, mise en page sur deux colonnes) \"C:\\Users\\NewtN\\下载\\A1讲义完整"
+        "excerpt": "吉姆哈克  : [Photo] 2026年4月16日 10:51 吉姆哈克  : Tu es maintenant un outil professionnel de mise en forme PDF vers Markdown Obsidian. Fichier source : polycopié de français A1 (277 pages, mise en page sur deux colonnes) “C:\\Users\\NewtN\\下载\\A1讲义完整"
       },
       "de": {
         "location": "WeChat-Chatverlauf",
-        "excerpt": "吉姆哈克  : [Bild] 2026年4月16日 10:51 吉姆哈克  : Du bist jetzt ein professionelles Formatierungswerkzeug für PDF-zu-Obsidian-Markdown. Quelldatei: Französisch-A1-Vorlesungsskript (277 Seiten, zweispaltiges Layout) \"C:\\Users\\NewtN\\下载\\A1讲义完整"
+        "excerpt": "吉姆哈克  : [Bild] 2026年4月16日 10:51 吉姆哈克  : Du bist jetzt ein professionelles Formatierungswerkzeug für PDF-zu-Obsidian-Markdown. Quelldatei: Französisch-A1-Vorlesungsskript (277 Seiten, zweispaltiges Layout) “C:\\Users\\NewtN\\下载\\A1讲义完整"
       }
     }
   },
@@ -2727,7 +2727,7 @@ window.MMV_JOURNALS = [
     "locales": {
       "en": {
         "location": "WeChat Chat History",
-        "excerpt": "吉姆哈克  : With a student ID and password you can get on the campus network 2026年4月7日 08:08 吉姆哈克  : They say \"full campus WiFi coverage,\" but it really depends on the spot 2026年4月7日 08:09"
+        "excerpt": "吉姆哈克  : With a student ID and password you can get on the campus network 2026年4月7日 08:08 吉姆哈克  : They say “full campus WiFi coverage,” but it really depends on the spot 2026年4月7日 08:09"
       },
       "fr": {
         "location": "Historique de discussion WeChat",
@@ -2874,7 +2874,7 @@ window.MMV_JOURNALS = [
     "locales": {
       "en": {
         "location": "WeChat Chat History",
-        "excerpt": "吉姆哈克  : \"Director Wang Takes the Bench\"? \"Xi Jinping: A Growth Story\"? 2026年3月31日 08:14 大宝  : You'll have to explore that yourself. 2026年3月31日 08:14"
+        "excerpt": "吉姆哈克  : “Director Wang Takes the Bench”? “Xi Jinping: A Growth Story”? 2026年3月31日 08:14 大宝  : You'll have to explore that yourself. 2026年3月31日 08:14"
       },
       "fr": {
         "location": "Historique de discussion WeChat",
@@ -3687,7 +3687,7 @@ window.MMV_JOURNALS = [
     "locales": {
       "en": {
         "location": "WeChat Chat History",
-        "excerpt": "吉姆哈克  : [【Shanghainese】1995 Shanghai Dub Studio Shanghainese-dubbed film \"Jesus\"] 2026年2月13日 01:32 吉姆哈克  : Sorry, I didn't log into WeChat these past few days—my phone was factory reset   Quote: Jim, do you have Advisor He's number? 2026年2月13日 01"
+        "excerpt": "吉姆哈克  : [【Shanghainese】1995 Shanghai Dub Studio Shanghainese-dubbed film “Jesus”] 2026年2月13日 01:32 吉姆哈克  : Sorry, I didn't log into WeChat these past few days—my phone was factory reset   Quote: Jim, do you have Advisor He's number? 2026年2月13日 01"
       },
       "fr": {
         "location": "Historique de discussion WeChat",
@@ -8825,7 +8825,7 @@ window.MMV_JOURNALS = [
     "locales": {
       "en": {
         "location": "Xi’an, Shaanxi",
-        "excerpt": "𝐗𝐈 𝐀𝐍 — Xi'an. \"Zhou, Qin, Han, Tang: Chang'an in its golden age.\" 夏佳一  : Beautiful city, handsome people! 2024年8月23日 02:49 柴江赣北 回复夏佳一  : Jiayi, thank you! 2024年8月23日 02:55 柴江赣北 回复夏……"
+        "excerpt": "𝐗𝐈 𝐀𝐍 — Xi'an. “Zhou, Qin, Han, Tang: Chang'an in its golden age.” 夏佳一  : Beautiful city, handsome people! 2024年8月23日 02:49 柴江赣北 回复夏佳一  : Jiayi, thank you! 2024年8月23日 02:55 柴江赣北 回复夏……"
       },
       "fr": {
         "location": "Xi’an, Shaanxi",
