@@ -34,6 +34,7 @@
 [data-calendar-id="mmv-outlook"] { --ch: 212; --cs: 88%; }
 [data-calendar-id="mmv-holiday"] { --ch: 6;   --cs: 78%; }
 [data-calendar-id="mmv-birthday"]{ --ch: 325; --cs: 70%; }
+[data-calendar-id="mmv-event"]   { --ch: 44;  --cs: 88%; }
 
 /* ── 承载面板：单层表面，不再卡片套卡片 ─────────────────────────── */
 /* 日历是数据密集型网格（周视图 7 列 + 左侧时间列），比日记/聊天需要更宽的
@@ -788,6 +789,7 @@
 .mmv-cal-tip__dot[data-cal="mmv-outlook"] { background: hsl(212 88% 48%); }
 .mmv-cal-tip__dot[data-cal="mmv-holiday"] { background: hsl(6 78% 50%); }
 .mmv-cal-tip__dot[data-cal="mmv-birthday"]{ background: hsl(325 70% 50%); }
+.mmv-cal-tip__dot[data-cal="mmv-event"]   { background: hsl(44 88% 46%); }
 
 /* ══════════ 暗色模式：深色半透明类别色 ══════════════════════════ */
 [data-mode="dark"] .calendar-sheet {
@@ -860,4 +862,36 @@
   .mmv-tui-schedule__teacher { display: none; }
   .tui-full-calendar-time-schedule .mmv-tui-schedule__location,
   .tui-full-calendar-time-schedule .mmv-tui-schedule__teacher { display: block; }
+}
+
+
+/* ── 学院活动（mmv-event）：琥珀金 + 细斜纹，用于颁奖典礼等非课程日程 ── */
+.tui-full-calendar-weekday-schedule[data-calendar-id="mmv-event"],
+.tui-full-calendar-time-schedule[data-calendar-id="mmv-event"] {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    hsl(var(--ch) var(--cs) 54% / .12) 0 3px,
+    transparent 3px 8px
+  ) !important;
+}
+[data-mode="dark"] .tui-full-calendar-weekday-schedule[data-calendar-id="mmv-event"],
+[data-mode="dark"] .tui-full-calendar-time-schedule[data-calendar-id="mmv-event"] {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    hsl(var(--ch) var(--cs) 76% / .15) 0 3px,
+    transparent 3px 8px
+  ) !important;
+}
+
+/* hover 信息卡的活动备注正文 */
+.mmv-cal-tip__note {
+  margin-top: 9px;
+  padding-top: 9px;
+  border-top: 1px solid var(--border);
+  color: var(--muted-foreground);
+  font-size: 0.8rem;
+  line-height: 1.62;
+  letter-spacing: 0.01em;
+  max-width: 24rem;
+  text-align: justify;
 }

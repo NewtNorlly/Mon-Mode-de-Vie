@@ -75,6 +75,8 @@ CATEGORY_TO_UI: dict[str, str] = {
     "绿色类别": "mmv-walk",
     "蓝色类别": "mmv-outlook",
     "紫色类别": "mmv-sleep",
+    # 学院活动（颁奖典礼等非课程日程）→ 琥珀金细斜纹，色相在 calendar.css 收口
+    "学院活动": "mmv-event",
 }
 
 # 早期学期课程没有打 Outlook 分类，按课程名子串兜底为“学”，避免旧课表全部落入
