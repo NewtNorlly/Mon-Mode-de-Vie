@@ -34,7 +34,7 @@
 [data-calendar-id="mmv-outlook"] { --ch: 212; --cs: 88%; }
 [data-calendar-id="mmv-holiday"] { --ch: 6;   --cs: 78%; }
 [data-calendar-id="mmv-birthday"]{ --ch: 325; --cs: 70%; }
-[data-calendar-id="mmv-event"]   { --ch: 44;  --cs: 88%; }
+[data-calendar-id="mmv-event"]   { --ch: 352; --cs: 84%; }
 
 /* ── 承载面板：单层表面，不再卡片套卡片 ─────────────────────────── */
 /* 日历是数据密集型网格（周视图 7 列 + 左侧时间列），比日记/聊天需要更宽的
@@ -789,7 +789,7 @@
 .mmv-cal-tip__dot[data-cal="mmv-outlook"] { background: hsl(212 88% 48%); }
 .mmv-cal-tip__dot[data-cal="mmv-holiday"] { background: hsl(6 78% 50%); }
 .mmv-cal-tip__dot[data-cal="mmv-birthday"]{ background: hsl(325 70% 50%); }
-.mmv-cal-tip__dot[data-cal="mmv-event"]   { background: hsl(44 88% 46%); }
+.mmv-cal-tip__dot[data-cal="mmv-event"]   { background: hsl(352 84% 46%); }
 
 /* ══════════ 暗色模式：深色半透明类别色 ══════════════════════════ */
 [data-mode="dark"] .calendar-sheet {
@@ -865,22 +865,56 @@
 }
 
 
-/* ── 学院活动（mmv-event）：琥珀金 + 细斜纹，用于颁奖典礼等非课程日程 ── */
+/* ── 学院活动（mmv-event）：党政鲜红 + 深红细斜纹，用于颁奖典礼等非课程日程 ──
+   与其它类别"浅彩底+彩字"不同，这里用实心红横幅+白字，庄重醒目 */
 .tui-full-calendar-weekday-schedule[data-calendar-id="mmv-event"],
 .tui-full-calendar-time-schedule[data-calendar-id="mmv-event"] {
+  background-color: hsl(352 84% 45% / .96) !important;
+  border-color: hsl(352 82% 34% / .95) !important;
   background-image: repeating-linear-gradient(
     -45deg,
-    hsl(var(--ch) var(--cs) 54% / .12) 0 3px,
-    transparent 3px 8px
+    hsl(352 88% 32% / .22) 0 3px,
+    transparent 3px 9px
   ) !important;
+  box-shadow: 0 1px 3px hsl(352 80% 34% / .32),
+              inset 0 0 0 1px hsl(0 0% 100% / .06);
 }
+.tui-full-calendar-weekday-schedule[data-calendar-id="mmv-event"]:hover,
+.tui-full-calendar-time-schedule[data-calendar-id="mmv-event"]:hover {
+  background-color: hsl(351 86% 49% / .98) !important;
+  border-color: hsl(352 84% 38% / .95) !important;
+  filter: none;
+}
+/* 红横幅上的文字一律用白色，压过通用"类别色字"规则 */
+[data-calendar-id="mmv-event"] .mmv-tui-schedule__title {
+  color: #fff !important;
+  font-weight: 650;
+}
+[data-calendar-id="mmv-event"] .mmv-tui-schedule__teacher,
+[data-calendar-id="mmv-event"] .mmv-tui-schedule__location {
+  color: hsl(352 95% 94% / .92) !important;
+}
+[data-calendar-id="mmv-event"] .mmv-tui-schedule__teacher::before,
+[data-calendar-id="mmv-event"] .mmv-tui-schedule__location::before {
+  color: hsl(352 95% 88% / .75) !important;
+}
+/* 暗色模式：稍提亮的鲜红，保证深底上仍醒目 */
 [data-mode="dark"] .tui-full-calendar-weekday-schedule[data-calendar-id="mmv-event"],
 [data-mode="dark"] .tui-full-calendar-time-schedule[data-calendar-id="mmv-event"] {
+  background-color: hsl(352 82% 50% / .96) !important;
+  border-color: hsl(352 85% 64% / .9) !important;
   background-image: repeating-linear-gradient(
     -45deg,
-    hsl(var(--ch) var(--cs) 76% / .15) 0 3px,
-    transparent 3px 8px
+    hsl(352 90% 38% / .26) 0 3px,
+    transparent 3px 9px
   ) !important;
+}
+[data-mode="dark"] .tui-full-calendar-weekday-schedule[data-calendar-id="mmv-event"]:hover,
+[data-mode="dark"] .tui-full-calendar-time-schedule[data-calendar-id="mmv-event"]:hover {
+  background-color: hsl(351 85% 54% / .98) !important;
+}
+[data-mode="dark"] [data-calendar-id="mmv-event"] .mmv-tui-schedule__title {
+  color: #fff !important;
 }
 
 /* hover 信息卡的活动备注正文 */
