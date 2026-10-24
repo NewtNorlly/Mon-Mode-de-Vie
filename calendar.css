@@ -21,15 +21,14 @@
   --cal-shadow-pop: 0 4px 14px hsl(224 40% 30% / .08), 0 12px 32px hsl(224 40% 30% / .1);
 }
 
-/* ── 12 个日程类别的色相变量（Apple Calendar 式明亮色板） ───────── */
+/* ── 8 个日程类别的色相变量（Apple Calendar 式明亮色板） ───────── */
 [data-calendar-id="mmv-eat"]     { --ch: 26;  --cs: 90%; }
 [data-calendar-id="mmv-study"]   { --ch: 242; --cs: 64%; }
-[data-calendar-id="mmv-teach"]   { --ch: 166; --cs: 60%; }
 [data-calendar-id="mmv-play"]    { --ch: 340; --cs: 76%; }
 [data-calendar-id="mmv-make"]    { --ch: 272; --cs: 56%; }
-[data-calendar-id="mmv-rest"]    { --ch: 205; --cs: 72%; }
 [data-calendar-id="mmv-sleep"]   { --ch: 252; --cs: 56%; }
-[data-calendar-id="mmv-nap"]     { --ch: 312; --cs: 60%; }
+/* 憩：比已删的歇 hsl(205,72%) 更浅的晶蓝色（更青、更低饱和） */
+[data-calendar-id="mmv-nap"]     { --ch: 200; --cs: 60%; }
 [data-calendar-id="mmv-walk"]    { --ch: 138; --cs: 52%; }
 [data-calendar-id="mmv-birthday"]{ --ch: 325; --cs: 70%; }
 
@@ -773,15 +772,13 @@
   font-size: 11.5px;
   color: hsl(var(--muted-foreground) / .7);
 }
-/* 年视图列表色点：10 类别各自的色相 */
+/* 年视图列表色点：8 类别各自的色相 */
 .mmv-cal-tip__dot[data-cal="mmv-eat"]     { background: hsl(26 90% 45%); }
 .mmv-cal-tip__dot[data-cal="mmv-study"]   { background: hsl(242 64% 52%); }
-.mmv-cal-tip__dot[data-cal="mmv-teach"]   { background: hsl(166 60% 38%); }
 .mmv-cal-tip__dot[data-cal="mmv-play"]    { background: hsl(340 76% 50%); }
 .mmv-cal-tip__dot[data-cal="mmv-make"]    { background: hsl(272 56% 50%); }
-.mmv-cal-tip__dot[data-cal="mmv-rest"]    { background: hsl(205 72% 46%); }
 .mmv-cal-tip__dot[data-cal="mmv-sleep"]   { background: hsl(252 56% 52%); }
-.mmv-cal-tip__dot[data-cal="mmv-nap"]     { background: hsl(312 60% 50%); }
+.mmv-cal-tip__dot[data-cal="mmv-nap"]     { background: hsl(200 60% 55%); }
 .mmv-cal-tip__dot[data-cal="mmv-walk"]    { background: hsl(138 52% 40%); }
 .mmv-cal-tip__dot[data-cal="mmv-birthday"]{ background: hsl(325 70% 50%); }
 
