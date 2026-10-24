@@ -31,8 +31,6 @@
 [data-calendar-id="mmv-sleep"]   { --ch: 252; --cs: 56%; }
 [data-calendar-id="mmv-nap"]     { --ch: 312; --cs: 60%; }
 [data-calendar-id="mmv-walk"]    { --ch: 138; --cs: 52%; }
-[data-calendar-id="mmv-outlook"] { --ch: 212; --cs: 88%; }
-[data-calendar-id="mmv-holiday"] { --ch: 6;   --cs: 78%; }
 [data-calendar-id="mmv-birthday"]{ --ch: 325; --cs: 70%; }
 
 /* ── 承载面板：单层表面，不再卡片套卡片 ─────────────────────────── */
@@ -775,7 +773,7 @@
   font-size: 11.5px;
   color: hsl(var(--muted-foreground) / .7);
 }
-/* 年视图列表色点：12 类别各自的色相 */
+/* 年视图列表色点：10 类别各自的色相 */
 .mmv-cal-tip__dot[data-cal="mmv-eat"]     { background: hsl(26 90% 45%); }
 .mmv-cal-tip__dot[data-cal="mmv-study"]   { background: hsl(242 64% 52%); }
 .mmv-cal-tip__dot[data-cal="mmv-teach"]   { background: hsl(166 60% 38%); }
@@ -785,8 +783,6 @@
 .mmv-cal-tip__dot[data-cal="mmv-sleep"]   { background: hsl(252 56% 52%); }
 .mmv-cal-tip__dot[data-cal="mmv-nap"]     { background: hsl(312 60% 50%); }
 .mmv-cal-tip__dot[data-cal="mmv-walk"]    { background: hsl(138 52% 40%); }
-.mmv-cal-tip__dot[data-cal="mmv-outlook"] { background: hsl(212 88% 48%); }
-.mmv-cal-tip__dot[data-cal="mmv-holiday"] { background: hsl(6 78% 50%); }
 .mmv-cal-tip__dot[data-cal="mmv-birthday"]{ background: hsl(325 70% 50%); }
 
 /* ══════════ 暗色模式：深色半透明类别色 ══════════════════════════ */

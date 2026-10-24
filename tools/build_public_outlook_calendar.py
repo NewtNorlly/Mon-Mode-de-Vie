@@ -47,17 +47,20 @@ def normalized_datetime(value: str) -> str:
 
 
 def calendar_kind(name: str) -> tuple[str, str]:
+    # 节假日与生日统一归入「纪念日」mmv-birthday 桃玫瑰粉；
+    # 不再存在 mmv-holiday（朱红/橙红）与 mmv-outlook（蓝）两个分类。
     if "节假日" in name:
-        return "mmv-holiday", "holiday"
+        return "mmv-birthday", "holiday"
     if "生日" in name:
         return "mmv-birthday", "birthday"
-    return "mmv-outlook", "outlook"
+    return "mmv-rest", "rest"
 
 
 # Outlook 主分类（masterCategories）显示名 → 网站日历 calendarId。
 # 让网站配色忠实复刻 Outlook 里的“配色/花纹标记”：睡=紫、三餐=橙、课程=靛、
-# 午睡=粉、放风=绿；其余提醒/杂项归到做/玩/Outlook 中性色。色相由 calendar.css
+# 午睡=粉、放风=绿；其余提醒/杂项归到做/玩/歇。色相由 calendar.css
 # 的 [data-calendar-id] --ch/--cs 变量统一柔和化，明暗双模式在那里收口。
+# 白名单只有 10 个：吃/学/教/玩/做/歇/睡/憩/风 + 纪念日(生日)。
 CATEGORY_TO_UI: dict[str, str] = {
     "睡眠": "mmv-sleep",
     "三餐": "mmv-eat",
@@ -73,7 +76,7 @@ CATEGORY_TO_UI: dict[str, str] = {
     "Red Category": "mmv-play",
     "橙色类别": "mmv-eat",
     "绿色类别": "mmv-walk",
-    "蓝色类别": "mmv-outlook",
+    "蓝色类别": "mmv-rest",
     "紫色类别": "mmv-sleep",
     # 学院活动（颁奖典礼等非课程日程）→ 归入「教」青绿 mmv-teach
     "学院活动": "mmv-teach",
@@ -114,7 +117,7 @@ def ui_calendar_for_event(
     for keyword in COURSE_KEYWORDS:
         if keyword in (title or ""):
             return "mmv-study", "course-fallback"
-    return "mmv-outlook", "outlook"
+    return "mmv-rest", "rest"
 
 
 def normalized_schedule(calendar: dict[str, Any], event: dict[str, Any]) -> tuple[dict[str, Any], int]:
@@ -195,6 +198,11 @@ def build(private_export: Path) -> tuple[dict[str, Any], list[dict[str, Any]], l
     for row in singles + recurrences:
         ui_calendar_counts[row["calendarId"]] = ui_calendar_counts.get(row["calendarId"], 0) + 1
         source_kind_counts[row["source"]] = source_kind_counts.get(row["source"], 0) + 1
+    # 硬红线：网站日历只允许 10 个分类，mmv-event / mmv-outlook / mmv-holiday 一律不得出现。
+    FORBIDDEN_IDS = {"mmv-event", "mmv-outlook", "mmv-holiday"}
+    leaked = sorted(set(ui_calendar_counts) & FORBIDDEN_IDS)
+    if leaked:
+        raise ValueError(f"Forbidden calendar ids leaked into public data: {leaked}")
     audit = {
         "sourceEventEntities": expected,
         "publicSingleEvents": len(singles),
