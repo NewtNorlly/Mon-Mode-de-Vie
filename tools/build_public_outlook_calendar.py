@@ -62,6 +62,16 @@ def calendar_kind(name: str) -> tuple[str, str]:
 # 的 [data-calendar-id] --ch/--cs 变量统一柔和化，明暗双模式在那里收口。
 # 白名单只有 8 个：吃/学/玩/做/睡/憩/风 + 纪念日(生日)。歇/教已删除。
 CATEGORY_TO_UI: dict[str, str] = {
+    # 单字名（与 Outlook 主分类一致）
+    "吃": "mmv-eat",
+    "学": "mmv-study",
+    "玩": "mmv-play",
+    "做": "mmv-make",
+    "睡": "mmv-sleep",
+    "憩": "mmv-nap",
+    "风": "mmv-walk",
+    "纪念日": "mmv-birthday",
+    # 兼容旧长名
     "睡眠": "mmv-sleep",
     "三餐": "mmv-eat",
     "课程": "mmv-study",
@@ -74,16 +84,12 @@ CATEGORY_TO_UI: dict[str, str] = {
     "不容忽视": "mmv-play",
     "红色类别": "mmv-play",
     "Red Category": "mmv-play",
-    "玩": "mmv-play",
     "橙色类别": "mmv-eat",
     "绿色类别": "mmv-walk",
     "蓝色类别": "mmv-play",
     "紫色类别": "mmv-sleep",
-    # 学院活动（颁奖典礼等非课程日程）→ 归入「做」mmv-make（教已删除）
     "学院活动": "mmv-make",
-    # 生日事件（不在生日日历上而打了「生日/纪念日」分类的）→ 纪念日 mmv-birthday
     "生日": "mmv-birthday",
-    "纪念日": "mmv-birthday",
 }
 
 # 早期学期课程没有打 Outlook 分类，按课程名子串兜底为“学”，避免旧课表全部落入
