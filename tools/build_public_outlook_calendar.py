@@ -81,8 +81,9 @@ CATEGORY_TO_UI: dict[str, str] = {
     "紫色类别": "mmv-sleep",
     # 学院活动（颁奖典礼等非课程日程）→ 归入「做」mmv-make（教已删除）
     "学院活动": "mmv-make",
-    # 生日事件（不在生日日历上而打了「生日」分类的）→ 纪念日 mmv-birthday
+    # 生日事件（不在生日日历上而打了「生日/纪念日」分类的）→ 纪念日 mmv-birthday
     "生日": "mmv-birthday",
+    "纪念日": "mmv-birthday",
 }
 
 # 早期学期课程没有打 Outlook 分类，按课程名子串兜底为“学”，避免旧课表全部落入
