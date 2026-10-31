@@ -87,7 +87,7 @@ var cal=null;
 function hcal(v){return String(v||"").replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
 function hmCal(iso){var m=String(iso||"").match(/T(\d{2}:\d{2})/);return m?m[1]:"";}
 function calendarScheduleSource(){var y=cal?new Date(cal.getDate()).getFullYear():new Date().getFullYear();var rows=(window.MMV_CALENDAR_SCHEDULES||[]).slice();if(window.MMV_OUTLOOK_CALENDAR_SCHEDULES)rows=rows.concat(window.MMV_OUTLOOK_CALENDAR_SCHEDULES);if(typeof window.MMV_OUTLOOK_RECURRENCES_FOR_YEAR==="function")rows=rows.concat(window.MMV_OUTLOOK_RECURRENCES_FOR_YEAR(y));return rows;}
-function refreshCalendarSchedules(forView){if(!cal)return;var view=forView||S.calView||"month";if(view==="year")view="month";var seen={};var sched=calendarScheduleSource().filter(function(s){var key=[s.title,s.start,s.end].join("\u0000");if(seen[key])return false;seen[key]=true;return true;}).map(function(s){var cat=s.category||"time";var sd=(s.start||"").slice(0,10),ed=(s.end||"").slice(0,10),st=hmCal(s.start),et=hmCal(s.end);var night=cat==="time"&&sd&&ed&&sd!==ed;var raw={teacher:s.teacher||"",note:s.note||"",sd:sd,ed:ed,st:st,et:et,allday:cat==="allday"?1:""};var start=s.start,end=s.end;if(night&&view==="month"){raw.night=1;start=ed+"T00:00:00+08:00";end=ed+"T"+et+":00+08:00";}return{id:s.id,calendarId:s.calendarId||"mmv-rest",title:tcal(s.title),raw:raw,start:start,end:end,category:cat,isReadOnly:true,location:tcalLoc(s.location||"湖北省武汉市洪山区")};});cal.clear();cal.createSchedules(sched,true);if(typeof hideCalTipNow==="function")hideCalTipNow();}
+function refreshCalendarSchedules(forView){if(!cal)return;var view=forView||S.calView||"month";if(view==="year")view="month";var seen={};var sched=calendarScheduleSource().filter(function(s){var key=[s.title,s.start,s.end].join("\u0000");if(seen[key])return false;seen[key]=true;return true;}).map(function(s){var cat=s.category||"time";var sd=(s.start||"").slice(0,10),ed=(s.end||"").slice(0,10),st=hmCal(s.start),et=hmCal(s.end);var night=cat==="time"&&sd&&ed&&sd!==ed;var raw={teacher:s.teacher||"",note:s.note||"",sd:sd,ed:ed,st:st,et:et,allday:cat==="allday"?1:""};var start=s.start,end=s.end;if(night&&view==="month"){raw.night=1;start=ed+"T00:00:00+08:00";end=ed+"T"+et+":00+08:00";}return{id:s.id,calendarId:s.calendarId||"mmv-rest",title:tcal(s.title),raw:raw,start:start,end:end,category:cat,isReadOnly:true,location:tcalLoc(s.location||"湖北省武汉市洪山区")};});cal.clear();cal.createSchedules(sched,true);if(typeof localizeCalChrome==="function")setTimeout(localizeCalChrome,60);if(typeof hideCalTipNow==="function")hideCalTipNow();}
 function updateCalendarRoute(replace){if(!cal||S.module!=="now")return;setRoute(["now",S.calView,isoDate(cal.getDate())],replace);}
 function applyCalendarRoute(parts){if(!parts||parts[0]!=="now")return;var view=/^(year|month|week|day)$/.test(parts[1]||"")?parts[1]:"month";var date=/^\d{4}-\d{2}-\d{2}$/.test(parts[2]||"")?parts[2]:isoDate(new Date());S.calView=view;S.calDate=date;if(!cal)return;cal.setDate(date);refreshCalendarSchedules(view);syncCalViewButtons();if(view==="year")showCalView("year");else{showCalView(view);cal.changeView(view,true);(function(){var n=0;var iv=setInterval(function(){var tg=document.querySelector("#calendarRoot .tui-full-calendar-timegrid-container");if(tg&&tg.scrollTop<60){tg.scrollTop=Math.round(tg.scrollHeight*7/24);}if(++n>=6)clearInterval(iv);},90);})();}updateCalPeriod();}
 function initCal(){var el=document.getElementById("calendarRoot");if(!el||cal)return;try{if(!window.tui||!window.tui.Calendar){document.getElementById("calendarFallback").hidden=false;return;}cal=new window.tui.Calendar(el,{defaultView:"month",usageStatistics:false,isReadOnly:true,taskView:false,scheduleView:["allday","time"],template:{time:function(s){return'<div class="mmv-tui-schedule" data-sd="'+(s.raw.sd||"")+'" data-ed="'+(s.raw.ed||"")+'" data-st="'+(s.raw.st||"")+'" data-et="'+(s.raw.et||"")+'"'+(s.raw&&s.raw.note?' data-note="'+hcal(s.raw.note)+'"':"")+(s.raw&&s.raw.night?' data-night="1"':"")+'><span class="mmv-tui-schedule__title">'+hcal(s.title)+'</span>'+(s.raw&&s.raw.teacher?'<span class="mmv-tui-schedule__teacher">'+hcal(s.raw.teacher)+'</span>':'')+'<span class="mmv-tui-schedule__location">'+hcal(s.location||"")+'</span></div>';},allday:function(s){return'<div class="mmv-tui-schedule mmv-tui-schedule--allday" data-allday="1" data-sd="'+(s.raw.sd||"")+'" data-ed="'+(s.raw.ed||"")+'"'+(s.raw&&s.raw.note?' data-note="'+hcal(s.raw.note)+'"':"")+'"><span class="mmv-tui-schedule__title">'+hcal(s.title)+'</span>'+(s.raw&&s.raw.teacher?'<span class="mmv-tui-schedule__teacher">'+hcal(s.raw.teacher)+'</span>':'')+'<span class="mmv-tui-schedule__location">'+hcal(s.location||"")+'</span></div>';}},calendars:[{id:"mmv-eat",name:"吃",color:"hsl(26,80%,40%)",bgColor:"hsla(26,92%,93%,.72)",borderColor:"hsl(26,85%,82%)",dragBgColor:"hsla(26,92%,85%,.5)"},{id:"mmv-study",name:"学",color:"hsl(242,60%,42%)",bgColor:"hsla(242,80%,94%,.72)",borderColor:"hsl(242,70%,85%)",dragBgColor:"hsla(242,80%,88%,.5)"},{id:"mmv-play",name:"玩",color:"hsl(340,70%,42%)",bgColor:"hsla(340,90%,94%,.72)",borderColor:"hsl(340,80%,86%)",dragBgColor:"hsla(340,90%,88%,.5)"},{id:"mmv-make",name:"做",color:"hsl(272,52%,42%)",bgColor:"hsla(270,75%,94%,.72)",borderColor:"hsl(270,62%,86%)",dragBgColor:"hsla(270,75%,88%,.5)"},{id:"mmv-sleep",name:"睡",color:"hsl(252,55%,44%)",bgColor:"hsla(250,75%,94%,.72)",borderColor:"hsl(250,62%,86%)",dragBgColor:"hsla(250,75%,88%,.5)"},{id:"mmv-nap",name:"憩",color:"hsl(200,55%,42%)",bgColor:"hsla(200,75%,93%,.72)",borderColor:"hsl(200,60%,84%)",dragBgColor:"hsla(200,75%,88%,.5)"},{id:"mmv-walk",name:"风",color:"hsl(138,50%,30%)",bgColor:"hsla(138,65%,93%,.72)",borderColor:"hsl(138,55%,83%)",dragBgColor:"hsla(138,65%,88%,.5)"},{id:"mmv-birthday",name:"纪念日",color:"hsl(325,66%,42%)",bgColor:"hsla(322,85%,94%,.72)",borderColor:"hsl(322,72%,86%)",dragBgColor:"hsla(322,85%,88%,.5)"}]});cal.setDate(new Date());refreshCalendarSchedules();updateCalPeriod();applyCalendarRoute(routeParts());initCalTooltip();
@@ -151,6 +151,32 @@ var CAL_TIP={
 function calTipCopy(){return CAL_TIP[S.lang]||CAL_TIP.zh;}
 function calTipFill(tpl,vars){return String(tpl).replace(/\{(\w+)\}/g,function(m,k){return vars&&vars[k]!==undefined?vars[k]:m;});}
 function calTipLocale(){return S.lang==="zh"?"zh-CN":S.lang==="fr"?"fr-FR":S.lang==="de"?"de-DE":"en-GB";}
+/* tui.calendar 自带的英文碎片（Sun/Mon…、All Day、"6 more"）不随语言切换，这里按文本内容就地换掉，
+   保证整页文字都在同一种语言里。只改文本节点，不动结构。 */
+var CAL_CHROME={
+  zh:{days:["日","一","二","三","四","五","六"],allDay:"全天",more:"另 {n} 项"},
+  en:{days:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],allDay:"All day",more:"{n} more"},
+  fr:{days:["dim.","lun.","mar.","mer.","jeu.","ven.","sam."],allDay:"Toute la journée",more:"{n} de plus"},
+  de:{days:["So.","Mo.","Di.","Mi.","Do.","Fr.","Sa."],allDay:"Ganztägig",more:"{n} weitere"}
+};
+function localizeCalChrome(){
+  var root=document.getElementById("calendarRoot");
+  if(!root)return;
+  var target=CAL_CHROME[S.lang]||CAL_CHROME.en;
+  var dayLookup={};["zh","en","fr","de"].forEach(function(k){CAL_CHROME[k].days.forEach(function(name,i){dayLookup[name.trim().toLowerCase()]=i;});});
+  var allDayLookup={};["zh","en","fr","de"].forEach(function(k){allDayLookup[CAL_CHROME[k].allDay.toLowerCase()]=1;});
+  var walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,null,false);
+  var node,pending=[];
+  while((node=walker.nextNode()))pending.push(node);
+  pending.forEach(function(n){
+    var raw=n.nodeValue;var t=raw.trim();if(!t)return;
+    var m=/^(\d+)\s+(?:more|de plus|weitere)$/.exec(t)||/^另\s*(\d+)\s*项$/.exec(t)||/^还有\s*(\d+)\s*项$/.exec(t);
+    if(m){n.nodeValue=raw.replace(t,target.more.replace("{n}",m[1]));return;}
+    var idx=dayLookup[t.toLowerCase()];
+    if(idx!==undefined){n.nodeValue=raw.replace(t,target.days[idx]);return;}
+    if(allDayLookup[t.toLowerCase()]){n.nodeValue=raw.replace(t,target.allDay);}
+  });
+}
 function calTipDateObj(ds){var d=new Date(ds+"T12:00:00+08:00");return isNaN(d.getTime())?null:d;}
 function calTipFmtDate(ds,full){
   var d=calTipDateObj(ds);
