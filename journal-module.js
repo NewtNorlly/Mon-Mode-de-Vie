@@ -328,8 +328,39 @@
       applyProseLanguage(l);
       applyHeaderLanguage(l);
       applyBlockLanguage(l);
+      applyLeafLabels(l);
     }
     if (backBtn) backBtn.textContent = copy[l].back;
+  }
+
+  /* 非正文的成块中文：聊天记录标题、时光轴小标题、插图说明等，按语言替换；
+     只对已知文案生效，作者自己写的正文不动。 */
+  var LEAF_COPY = {
+    "微信聊天记录": ["WeChat chat history", "Historique de discussion WeChat", "WeChat-Chatverlauf"],
+    "时光轴记录": ["Timeline entry", "Entrée de la chronologie", "Zeitleisten-Eintrag"],
+    "时间线": ["Timeline", "Chronologie", "Zeitleiste"],
+    "三个 Agent": ["Three agents", "Trois agents", "Drei Agenten"],
+    "【影视推荐】": ["【Film & TV picks】", "【Sélection cinéma et séries】", "【Film- und Serientipps】"],
+    "今天的插图": ["Today’s illustration", "Illustration du jour", "Heutige Illustration"]
+  };
+  var LEAF_IDX = { en: 0, fr: 1, de: 2 };
+
+  function applyLeafLabels(l) {
+    if (!detailContent) return;
+    detailContent.querySelectorAll("h2, h3, figcaption").forEach(function (node) {
+      var key = node.dataset.zhLabel;
+      if (key === undefined) {
+        var text = node.textContent.trim();
+        if (!LEAF_COPY[text]) return;
+        node.dataset.zhLabel = text;
+        key = text;
+      }
+      if (!LEAF_COPY[key]) return;
+      node.textContent = l === "zh" ? key : LEAF_COPY[key][LEAF_IDX[l]];
+    });
+    detailContent.querySelectorAll(".journal-dialogue").forEach(function (node) {
+      node.hidden = l !== "zh";
+    });
   }
 
   /* ── lazy-load lightbox assets (idempotent) ── */
@@ -444,7 +475,7 @@
     showDetail();
 
     const articleUrl = new URL(assetUrl(entry.file));
-    articleUrl.searchParams.set("v", "20260813-september-media1");
+    articleUrl.searchParams.set("v", "20261101-i18n2");
     fetch(articleUrl.href, { cache: "no-store" })
       .then(r => { if (!r.ok) throw new Error("not found"); return r.text(); })
       .then(html => {

@@ -7,7 +7,7 @@
 
   function normalizeEntry(entry) {
     if (!entry || !/^\d{4}-\d{2}-\d{2}$/.test(entry.date || "")) return null;
-    if (!/^[\w-]+\.html$/i.test(entry.file || "")) return null;
+    if (!/^(?:data\/payloads\/)?[\w-]+\.html$/i.test(entry.file || "")) return null;
     return {
       ...entry,
       images: Array.isArray(entry.images)

@@ -295,13 +295,12 @@ def page(date: str, location: str, raw: str, files: list[str]) -> str:
         '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width,initial-scale=1">'
         '<meta name="robots" content="noindex,nofollow,noarchive">'
-        f'<link rel="canonical" href="../index.html#journal/{date}">'
+        f'<link rel="canonical" href="https://newtnorlly.xyz/#journal/{date}">'
         f'<title>{date} · Journal · Mon Mode de Vie</title>'
-        f'<style>body{{visibility:hidden}}</style><script>location.replace("../index.html#journal/{date}")</script>'
         '</head><body><article class="journal-article">'
         f'<header class="journal-header"><p class="kicker">Journal · {date}</p>'
         f'<h1><time datetime="{date}">{date}</time></h1><p class="subtitle">{html.escape(location)}</p></header>'
-        f'{body}</article><!-- Cloudflare Web Analytics --><script type=\'module\' src=\'https://static.cloudflareinsights.com/beacon.min.js\' data-cf-beacon=\'{{"token": "81b2a38d3fcc41db9b366d13662c628f"}}\'></script><!-- End Cloudflare Web Analytics --></body></html>'
+        f'{body}</article></body></html>'
     )
 
 
@@ -338,7 +337,9 @@ def main() -> None:
         rendered_page = page(date, location, raw_by_date[date], files)
         if date in FINAL_NEWLINE_DATES:
             rendered_page += "\n"
-        (JOURNALS / f"{date}.html").write_text(rendered_page, encoding="utf-8", newline="\n")
+        target = JOURNALS / "data" / "payloads" / f"{date}.html"
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(rendered_page, encoding="utf-8", newline="\n")
 
     js_path = JOURNALS / "data" / "journals.js"
     prefix = "window.MMV_JOURNALS = "
@@ -347,7 +348,7 @@ def main() -> None:
     for date, (location, files) in ENTRIES.items():
         entries.append({
             "date": date,
-            "file": date + ".html",
+            "file": "data/payloads/" + date + ".html",
             "location": location,
             "excerpt": excerpt_from(display_excerpt_text(date, raw_by_date[date])),
             "images": manifest_media(files),
