@@ -1,5 +1,33 @@
 window.MMV_JOURNALS = [
   {
+    "date": "2026-10-31",
+    "file": "2026-10-31.html",
+    "location": "华中科技大学西五楼",
+    "excerpt": "今晚是知识产权课。先把这门课的规矩交代清楚，否则后面那点委屈，你听不出分量。期末成绩分两块：平时分占四成，期末论文占六成。",
+    "images": [
+      {
+        "file": "assets/images/2026-10-31-illustration-01.webp"
+      }
+    ],
+    "source": {
+      "label": "原创"
+    },
+    "locales": {
+      "en": {
+        "location": "West Building 5, Huazhong University of Science and Technology",
+        "excerpt": "Tonight was the intellectual property class. Let me first make the rules of this course clear — otherwise that little grievance later on won’t carry its weight. The final grade has two parts: forty percent participation, sixty percent the final paper."
+      },
+      "fr": {
+        "location": "Bâtiment Ouest n° 5, Université des sciences et technologies de Huazhong",
+        "excerpt": "Ce soir, c’était le cours de propriété intellectuelle. Il faut d’abord que je pose clairement les règles de ce cours — sinon la petite injustice qui vient ensuite, tu n’en sentirais pas tout le poids. La note finale se divise en deux : quarante pour cent pour la participation, soixante pour cent pour le mémoire de fin de semestre."
+      },
+      "de": {
+        "location": "Westgebäude Nr. 5, Huazhong-Universität für Wissenschaft und Technologie",
+        "excerpt": "Heute Abend war die Vorlesung „Geistiges Eigentum“. Erst muss ich die Spielregeln dieses Kurses klarmachen — sonst spürst du das Gewicht der kleinen Kränkung, die danach kommt, gar nicht. Die Endnote besteht aus zwei Teilen: vierzig Prozent Mitarbeit, sechzig Prozent Abschlussarbeit."
+      }
+    }
+  },
+  {
     "date": "2026-08-30",
     "file": "2026-08-30.html",
     "location": "湖北省武汉市洪山区",
