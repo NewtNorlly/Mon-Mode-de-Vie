@@ -6,18 +6,27 @@ $python = $null
 $cmd = Get-Command python.exe -ErrorAction SilentlyContinue
 if ($cmd -and $cmd.Source -notmatch 'WindowsApps') {
   $python = $cmd.Source
-} else {
+}
+if (-not $python) {
+  # Windows 启动器 py.exe 优先于硬编码路径，最可靠
+  $py = Get-Command py.exe -ErrorAction SilentlyContinue
+  if ($py) { $python = $py.Source }
+}
+if (-not $python) {
   foreach ($p in @(
     "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe",
     "$env:LOCALAPPDATA\Programs\Python\Python311\python.exe",
-    "$env:LOCALAPPDATA\Programs\Python\Python310\python.exe",
-    "$env:APPDATA\uv\python"
+    "$env:LOCALAPPDATA\Programs\Python\Python310\python.exe"
   )) {
-    if ($p -and (Test-Path $p)) { $python = $p; break }
+    if ($p -and (Test-Path -LiteralPath $p -PathType Leaf)) { $python = $p; break }
   }
-  if (-not $python) {
-    $py = Get-Command py.exe -ErrorAction SilentlyContinue
-    if ($py) { $python = $py.Source }
+}
+if (-not $python) {
+  # uv 托管的 Python：目录下递归找真正的 python.exe（注意：$env:APPDATA\uv\python 本身是目录，不是可执行文件）
+  $uvRoot = "$env:APPDATA\uv\python"
+  if (Test-Path -LiteralPath $uvRoot -PathType Container) {
+    $uvPy = Get-ChildItem -LiteralPath $uvRoot -Recurse -Filter python.exe -ErrorAction SilentlyContinue | Select-Object -First 1
+    if ($uvPy) { $python = $uvPy.FullName }
   }
 }
 if (-not $python -or -not (Test-Path $python)) {

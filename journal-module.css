@@ -250,3 +250,78 @@
 /* 正文图片居中收束，与文字同宽，呼吸一致 */
 .journal-reader__content > p > img:only-child,
 .journal-reader__content .journal-article > img { display: block; margin: 1.8rem auto; }
+
+/* ── 德语词汇双栏卡片（自旧 vocab-card.css 迁入，token 对齐当前设计系统） ── */
+.vocab-card {
+  --vc-title: #6d59b8;
+  --vc-word: #4c3d91;
+  --vc-divider: #ede9fe;
+  --vc-row-line: #f3f0fc;
+  --vc-shadow: rgba(109, 89, 184, 0.08);
+}
+:root[data-mode="dark"] .vocab-card {
+  --vc-title: #b39ddb;
+  --vc-word: #9c8ad4;
+  --vc-divider: #3a3050;
+  --vc-row-line: #2a2540;
+  --vc-shadow: rgba(0, 0, 0, 0.18);
+}
+.vocab-card {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  margin: 28px auto;
+  background: hsl(var(--card));
+  border-radius: var(--radius-md);
+  padding: 24px 28px;
+  box-shadow: 0 4px 16px var(--vc-shadow);
+  border: 1px solid hsl(var(--border));
+}
+.vocab-card h2 {
+  text-align: center;
+  color: var(--vc-title);
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0 0 28px;
+  font-family: var(--font-sans);
+}
+.vocab-card .vc-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 24px;
+  width: 100%;
+}
+.vocab-card .vc-col { min-width: 0; }
+.vocab-card .vc-col h3 {
+  font-size: 0.95em;
+  color: var(--vc-title);
+  font-weight: 600;
+  margin: 0 0 12px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--vc-divider);
+  font-family: var(--font-sans);
+}
+.vocab-card .vc-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 0.9em;
+  table-layout: fixed;
+}
+.vocab-card .vc-table td {
+  padding: 9px 0;
+  border: none;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+.vocab-card .vc-table td:first-child { width: 55%; }
+.vocab-card .vc-table td:last-child { width: 45%; text-align: right; }
+.vocab-card .vc-table tr { border-bottom: 1px solid var(--vc-row-line); }
+.vocab-card .vc-table tr:last-child { border-bottom: none; }
+.vocab-card .vc-de { font-weight: 600; color: var(--vc-word); }
+.vocab-card .vc-de small { font-weight: 400; }
+.vocab-card .vc-zh { color: hsl(var(--muted-foreground)); }
+@media (max-width: 720px) {
+  .vocab-card { padding: 18px 14px; }
+  .vocab-card .vc-grid { grid-template-columns: 1fr !important; gap: 18px; }
+}

@@ -8,10 +8,10 @@
 
   /* ── i18n ── */
   const copy = {
-    zh: { loading:"正在把日记摆到桌面上…", error:"日记暂时没有摆好。", latest:"最新", textOnly:"纯文字", images:n=>`图片${n}张`, videos:n=>`视频${n}个`, open:d=>`打开 ${d} 的日记`, back:"← 返回日记主页", backLabel:"返回日记主页", articleBy:"作者", articleOn:"写于" },
-    en: { loading:"Loading journals…", error:"Could not load journals.", latest:"Latest", textOnly:"Text", images:n=>`${n} image${n===1?"":"s"}`, videos:n=>`${n} video${n===1?"":"s"}`, original:"Original text", open:d=>`Open journal for ${d}`, back:"← Back to Journal", backLabel:"Back to Journal", articleBy:"by", articleOn:"on" },
-    fr: { loading:"Chargement des journaux…", error:"Impossible de charger les journaux.", latest:"Nouveau", textOnly:"Texte seul", images:n=>`${n} image${n===1?"":"s"}`, videos:n=>`${n} vidéo${n===1?"":"s"}`, original:"Texte original", open:d=>`Ouvrir l’entrée du ${d}`, back:"← Retour au journal", backLabel:"Retour au journal", articleBy:"par", articleOn:"le" },
-    de: { loading:"Lade Tagebücher…", error:"Konnte nicht geladen werden.", latest:"Neu", textOnly:"Text", images:n=>`${n} Bild${n===1?"":"er"}`, videos:n=>`${n} Video${n===1?"":"s"}`, original:"Originaltext", open:d=>`Tagebuch vom ${d} öffnen`, back:"← Zurück zum Tagebuch", backLabel:"Zurück zum Tagebuch", articleBy:"von", articleOn:"am" },
+    zh: { loading:"正在把日记摆到桌面上…", error:"日记暂时没有摆好。", localOnly:"日记需要通过本地服务打开。请双击项目根目录的「启动网站.cmd」，等窗口显示网址后，用浏览器访问那个网址再看日记。直接用 file:// 打开网页时，浏览器会拦截日记文件的读取。", latest:"最新", textOnly:"纯文字", images:n=>`图片${n}张`, videos:n=>`视频${n}个`, open:d=>`打开 ${d} 的日记`, back:"← 返回日记主页", backLabel:"返回日记主页", articleBy:"作者", articleOn:"写于" },
+    en: { loading:"Loading journals…", error:"Could not load journals.", localOnly:"Journals must be opened through the local server. Double-click 启动网站.cmd in the project root, then visit the URL it prints. Opening this page via file:// makes the browser block journal file reads.", latest:"Latest", textOnly:"Text", images:n=>`${n} image${n===1?"":"s"}`, videos:n=>`${n} video${n===1?"":"s"}`, original:"Original text", open:d=>`Open journal for ${d}`, back:"← Back to Journal", backLabel:"Back to Journal", articleBy:"by", articleOn:"on" },
+    fr: { loading:"Chargement des journaux…", error:"Impossible de charger les journaux.", localOnly:"Les journaux doivent être ouverts via le serveur local. Double-cliquez sur 启动网站.cmd à la racine du projet, puis visitez l’URL affichée. Avec file://, le navigateur bloque la lecture des fichiers du journal.", latest:"Nouveau", textOnly:"Texte seul", images:n=>`${n} image${n===1?"":"s"}`, videos:n=>`${n} vidéo${n===1?"":"s"}`, original:"Texte original", open:d=>`Ouvrir l’entrée du ${d}`, back:"← Retour au journal", backLabel:"Retour au journal", articleBy:"par", articleOn:"le" },
+    de: { loading:"Lade Tagebücher…", error:"Konnte nicht geladen werden.", localOnly:"Tagebücher müssen über den lokalen Server geöffnet werden. Doppelklicken Sie auf 启动网站.cmd im Projektstamm und öffnen Sie die angezeigte URL. Über file:// blockiert der Browser das Lesen der Tagebuchdateien.", latest:"Neu", textOnly:"Text", images:n=>`${n} Bild${n===1?"":"er"}`, videos:n=>`${n} Video${n===1?"":"s"}`, original:"Originaltext", open:d=>`Tagebuch vom ${d} öffnen`, back:"← Zurück zum Tagebuch", backLabel:"Zurück zum Tagebuch", articleBy:"von", articleOn:"am" },
   };
 
   function lang() {
@@ -19,7 +19,11 @@
     return copy[l] ? l : "zh";
   }
 
-  function fmtDate(dateStr,l){var d=new Date(dateStr+'T00:00:00');if(isNaN(d.getTime())){var m=parseInt(dateStr.slice(5,7)),day=parseInt(dateStr.slice(8,10));if(l==='zh')return m+'月'+day+'日';if(l==='fr')return day+'/'+m;if(l==='de')return day+'.'+m+'.';return m+'/'+day;}if(l==='zh')return (d.getMonth()+1)+'月'+d.getDate()+'日';if(l==='fr')return d.getDate()+'/'+(d.getMonth()+1);if(l==='de')return d.getDate()+'.'+(d.getMonth()+1)+'.';return (d.getMonth()+1)+'/'+d.getDate();}
+  function isFileProtocol() {
+    return window.location.protocol === "file:";
+  }
+
+  function fmtDate(dateStr,l){var d=new Date(dateStr+'T00:00:00');if(isNaN(d.getTime())){var m=parseInt(dateStr.slice(5,7)),day=parseInt(dateStr.slice(8,10));if(l==='zh')return m+'月'+day+'日';if(l==='fr')return day+'/'+m;if(l==='de')return day+'.'+m+'.';return m+'/'+day;}if(l==='zh')return (d.getMonth()+1)+'月'+d.getDate()+'日';if(l==='fr')return d.getDate()+'/'+(d.getMonth()+1);if(l==='de')return d.getDate()+'/'+(d.getMonth()+1)+'.';return (d.getMonth()+1)+'/'+d.getDate();}
 
   function assetUrl(p) {
     try { return new URL(p, new URL("./journals/", window.location.href)).href; }
@@ -27,7 +31,7 @@
   }
 
   function layoutJournalMedia(root) {
-    root.querySelectorAll(".prose, .journal-media-prose").forEach(function(section) {
+    root.querySelectorAll(".prose, .journal-media-prose, .journal-body").forEach(function(section) {
       var figures = Array.from(section.children).filter(function(el) {
         return el.matches("figure") && el.querySelector("img") && !el.querySelector("video");
       });
@@ -68,6 +72,17 @@
         first.replaceWith(group);
         run.slice(1).forEach(function(figure) { figure.remove(); });
       });
+    });
+  }
+
+  /* PDF 来源载荷的图片包在 .figure-grid 里；先把 figure 提为 .journal-body 的直接子元素，
+     再交给 layoutJournalMedia 统一排版，保证与普通日记一致并接入灯箱。 */
+  function normalizeJournalBodyFigures(article) {
+    article.querySelectorAll(".journal-body .figure-grid").forEach(function(grid) {
+      var figures = Array.from(grid.children).filter(function(el) { return el.matches("figure"); });
+      if (!figures.length) { grid.remove(); return; }
+      figures.forEach(function(figure) { grid.parentNode.insertBefore(figure, grid); });
+      grid.remove();
     });
   }
 
@@ -123,10 +138,15 @@
       fr: "L’entrée du jour ne contient pas de texte.",
       de: "Der heutige Tagebucheintrag enthält keinen Text."
     };
-    var hasBody = Array.from(article.querySelectorAll(".prose[lang]")).some(function(section) {
+    var hasProseBody = Array.from(article.querySelectorAll(".prose[lang]")).some(function(section) {
       return section.textContent.trim().length > 0;
     });
-    if (hasBody) return;
+    /* PDF 来源载荷的正文在 .journal-body 的 data-journal-block-id 块（p/pre/aside）里，
+       没有 .prose 元素，也要算作有正文，避免错误插入占位句。 */
+    var hasJournalBody = Array.from(article.querySelectorAll(".journal-body [data-journal-block-id]")).some(function(el) {
+      return el.textContent.trim().length > 0;
+    });
+    if (hasProseBody || hasJournalBody) return;
     var anchor = article.querySelector(".journal-header");
     Object.keys(messages).reverse().forEach(function(code) {
       var section = document.createElement("section");
@@ -137,7 +157,8 @@
       var paragraph = document.createElement("p");
       paragraph.textContent = messages[code];
       section.appendChild(paragraph);
-      anchor.insertAdjacentElement("afterend", section);
+      if (anchor) anchor.insertAdjacentElement("afterend", section);
+      else article.appendChild(section);
     });
   }
 
@@ -311,6 +332,7 @@
 
         ensureJournalBody(article);
         formatOriginalParagraphs(article);
+        normalizeJournalBodyFigures(article);
         separateMixedMedia(article);
         layoutJournalMedia(article);
         layoutJournalVideos(article);
@@ -338,7 +360,10 @@
         /* update back button text */
         if (backBtn) backBtn.textContent = c.back;
       })
-      .catch(() => { detailContent.innerHTML = `<p class="journal-reader__error">${c.error}</p>`; });
+      .catch(() => {
+        var message = isFileProtocol() ? c.localOnly : c.error;
+        detailContent.innerHTML = `<p class="journal-reader__error">${message}</p>`;
+      });
   }
 
   /* ── render list ── */
@@ -351,10 +376,14 @@
     listView.classList.add("is-loading");
     if (!requestedBeforeRender) showList(false);
 
-    if (!window.MMVJournalData) { listView.classList.remove("is-loading"); listView.textContent = c.error; return; }
+    if (!window.MMVJournalData) {
+      listView.classList.remove("is-loading");
+      listView.textContent = isFileProtocol() ? c.localOnly : c.error;
+      return;
+    }
     window.MMVJournalData.load().then(entries => {
       listView.classList.remove("is-loading");
-      if (!entries.length) { listView.textContent = c.error; return; }
+      if (!entries.length) { listView.textContent = isFileProtocol() ? c.localOnly : c.error; return; }
 
       const grouped = new Map();
       entries.forEach(e => { const y = e.date.slice(0,4); if (!grouped.has(y)) grouped.set(y,[]); grouped.get(y).push(e); });
@@ -432,7 +461,10 @@
         const entry = entries.find(item => item.date === requested);
         if (entry && currentEntryDate !== requested) openJournal(entry);
       }
-    }).catch(() => { listView.classList.remove("is-loading"); listView.textContent = copy[lang()].error; });
+    }).catch(() => {
+      listView.classList.remove("is-loading");
+      listView.textContent = isFileProtocol() ? copy[lang()].localOnly : copy[lang()].error;
+    });
   }
 
   if (listView) { listView.textContent = copy[lang()].loading; }
