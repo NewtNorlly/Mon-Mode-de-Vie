@@ -193,7 +193,7 @@ def original_body(raw: str) -> str:
         escaped = re.sub(r" +(?=\n|$)", lambda match: "&#32;" * len(match.group()), escaped)
         rendered_paragraphs.append("<p>" + escaped + "</p>")
     return (
-        '<section class="prose journal-original-text" lang="zh-CN" data-journal-original>'
+        '<section class="prose journal-original-text" lang="zh-CN" data-journal-lang="zh">'
         + "".join(rendered_paragraphs)
         + '</section>'
     )

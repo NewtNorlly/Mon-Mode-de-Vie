@@ -8,10 +8,10 @@
 
   /* ── i18n ── */
   const copy = {
-    zh: { loading:"正在把日记摆到桌面上…", error:"日记暂时没有摆好。", localOnly:"日记需要通过本地服务打开。请双击项目根目录的「启动网站.cmd」，等窗口显示网址后，用浏览器访问那个网址再看日记。直接用 file:// 打开网页时，浏览器会拦截日记文件的读取。", latest:"最新", textOnly:"纯文字", images:n=>`图片${n}张`, videos:n=>`视频${n}个`, open:d=>`打开 ${d} 的日记`, back:"← 返回日记主页", backLabel:"返回日记主页", articleBy:"作者", articleOn:"写于" },
-    en: { loading:"Loading journals…", error:"Could not load journals.", localOnly:"Journals must be opened through the local server. Double-click 启动网站.cmd in the project root, then visit the URL it prints. Opening this page via file:// makes the browser block journal file reads.", latest:"Latest", textOnly:"Text", images:n=>`${n} image${n===1?"":"s"}`, videos:n=>`${n} video${n===1?"":"s"}`, original:"Original text", open:d=>`Open journal for ${d}`, back:"← Back to Journal", backLabel:"Back to Journal", articleBy:"by", articleOn:"on" },
-    fr: { loading:"Chargement des journaux…", error:"Impossible de charger les journaux.", localOnly:"Les journaux doivent être ouverts via le serveur local. Double-cliquez sur 启动网站.cmd à la racine du projet, puis visitez l’URL affichée. Avec file://, le navigateur bloque la lecture des fichiers du journal.", latest:"Nouveau", textOnly:"Texte seul", images:n=>`${n} image${n===1?"":"s"}`, videos:n=>`${n} vidéo${n===1?"":"s"}`, original:"Texte original", open:d=>`Ouvrir l’entrée du ${d}`, back:"← Retour au journal", backLabel:"Retour au journal", articleBy:"par", articleOn:"le" },
-    de: { loading:"Lade Tagebücher…", error:"Konnte nicht geladen werden.", localOnly:"Tagebücher müssen über den lokalen Server geöffnet werden. Doppelklicken Sie auf 启动网站.cmd im Projektstamm und öffnen Sie die angezeigte URL. Über file:// blockiert der Browser das Lesen der Tagebuchdateien.", latest:"Neu", textOnly:"Text", images:n=>`${n} Bild${n===1?"":"er"}`, videos:n=>`${n} Video${n===1?"":"s"}`, original:"Originaltext", open:d=>`Tagebuch vom ${d} öffnen`, back:"← Zurück zum Tagebuch", backLabel:"Zurück zum Tagebuch", articleBy:"von", articleOn:"am" },
+    zh: { loading:"正在把日记摆到桌面上…", error:"日记暂时没有摆好。", localOnly:"日记需要通过本地服务打开。请双击项目根目录的「启动网站.cmd」，等窗口显示网址后，用浏览器访问那个网址再看日记。直接用 file:// 打开网页时，浏览器会拦截日记文件的读取。", latest:"最新", textOnly:"纯文字", images:n=>`图片${n}张`, videos:n=>`视频${n}个`, open:d=>`打开 ${d} 的日记`, back:"← 返回日记主页", backLabel:"返回日记主页", articleBy:"作者", articleOn:"写于", locationLabel:"定位", noteLabel:"笔记", sourceNoteLabel:"原书注" },
+    en: { loading:"Loading journals…", error:"Could not load journals.", localOnly:"Journals must be opened through the local server. Double-click 启动网站.cmd in the project root, then visit the URL it prints. Opening this page via file:// makes the browser block journal file reads.", latest:"Latest", textOnly:"Text", images:n=>`${n} image${n===1?"":"s"}`, videos:n=>`${n} video${n===1?"":"s"}`, original:"Original text", open:d=>`Open journal for ${d}`, back:"← Back to Journal", backLabel:"Back to Journal", articleBy:"by", articleOn:"on", locationLabel:"Location", noteLabel:"Note", sourceNoteLabel:"Book note" },
+    fr: { loading:"Chargement des journaux…", error:"Impossible de charger les journaux.", localOnly:"Les journaux doivent être ouverts via le serveur local. Double-cliquez sur 启动网站.cmd à la racine du projet, puis visitez l’URL affichée. Avec file://, le navigateur bloque la lecture des fichiers du journal.", latest:"Nouveau", textOnly:"Texte seul", images:n=>`${n} image${n===1?"":"s"}`, videos:n=>`${n} vidéo${n===1?"":"s"}`, original:"Texte original", open:d=>`Ouvrir l’entrée du ${d}`, back:"← Retour au journal", backLabel:"Retour au journal", articleBy:"par", articleOn:"le", locationLabel:"Lieu", noteLabel:"Note", sourceNoteLabel:"Note de l’ouvrage" },
+    de: { loading:"Lade Tagebücher…", error:"Konnte nicht geladen werden.", localOnly:"Tagebücher müssen über den lokalen Server geöffnet werden. Doppelklicken Sie auf 启动网站.cmd im Projektstamm und öffnen Sie die angezeigte URL. Über file:// blockiert der Browser das Lesen der Tagebuchdateien.", latest:"Neu", textOnly:"Text", images:n=>`${n} Bild${n===1?"":"er"}`, videos:n=>`${n} Video${n===1?"":"s"}`, original:"Originaltext", open:d=>`Tagebuch vom ${d} öffnen`, back:"← Zurück zum Tagebuch", backLabel:"Zurück zum Tagebuch", articleBy:"von", articleOn:"am", locationLabel:"Ort", noteLabel:"Notiz", sourceNoteLabel:"Buchnotiz" },
   };
 
   function lang() {
@@ -21,6 +21,22 @@
 
   function isFileProtocol() {
     return window.location.protocol === "file:";
+  }
+
+  /* 正文标题的日期按界面语言显示；中文保持载荷里原有的排版（2026 年 10 月 31 日）。 */
+  function fmtLongDate(iso, l) {
+    var d = new Date(iso + "T12:00:00");
+    if (isNaN(d.getTime())) return "";
+    var locale = l === "fr" ? "fr-FR" : l === "de" ? "de-DE" : l === "en" ? "en-GB" : "zh-CN";
+    try {
+      return new Intl.DateTimeFormat(locale, { year: "numeric", month: "long", day: "numeric" }).format(d);
+    } catch (_) {
+      return "";
+    }
+  }
+
+  function sectionLangCode(value) {
+    return String(value || "").toLowerCase().split("-")[0];
   }
 
   function fmtDate(dateStr,l){var d=new Date(dateStr+'T00:00:00');if(isNaN(d.getTime())){var m=parseInt(dateStr.slice(5,7)),day=parseInt(dateStr.slice(8,10));if(l==='zh')return m+'月'+day+'日';if(l==='fr')return day+'/'+m;if(l==='de')return day+'.'+m+'.';return m+'/'+day;}if(l==='zh')return (d.getMonth()+1)+'月'+d.getDate()+'日';if(l==='fr')return d.getDate()+'/'+(d.getMonth()+1);if(l==='de')return d.getDate()+'/'+(d.getMonth()+1)+'.';return (d.getMonth()+1)+'/'+d.getDate();}
@@ -189,6 +205,133 @@
     });
   }
 
+  /* ═══ 语言切换（界面语言 → 正文只显示一种语言） ═══
+     一组正文 = 相邻的一串 .prose[lang] 兄弟节点（中文原文 + en/fr/de 译文）。
+     一篇日记里可能有好几组（相邻两组之间由媒体块或别的元素隔开，例如「正文 / 时光轴 / 媒体」三段），
+     所以必须按「相邻」分组，不能按父节点分组——否则多组日记只会显示一组、丢掉其余正文。
+     规则：每组命中当前界面语言就只显示那一个 section；该组没有对应译文时回退中文原文。
+     绝不把译文叠在中文原文下面（旧实现把 data-journal-original 强制 visible，导致「外文在中文底下」）。 */
+  function proseGroups(root) {
+    var groups = [];
+    root.querySelectorAll(".prose[lang]").forEach(function (section) {
+      var last = groups[groups.length - 1];
+      if (last && last.parent === section.parentNode && last.sections[last.sections.length - 1].nextElementSibling === section) {
+        last.sections.push(section);
+        return;
+      }
+      groups.push({ parent: section.parentNode, sections: [section] });
+    });
+    return groups;
+  }
+
+  /* 只在一个语言分组里存在媒体时（如 2026-10-31 的插图只写在中文 section 里），
+     把媒体提为一组之内所有语言 section 的共享兄弟节点，保证切换到英/法/德后图片不会消失。 */
+  function hoistUnsharedGroupMedia(root) {
+    proseGroups(root).forEach(function (group) {
+      var list = group.sections;
+      if (list.length < 2) return;
+      function mediaOf(section) {
+        return Array.from(section.children).filter(function (el) {
+          return el.matches("figure, .journal-media-prose, .journal-media-group, video");
+        });
+      }
+      var media = list.map(mediaOf);
+      var counts = media.map(function (nodes) { return nodes.length; });
+      var same = counts.every(function (n) { return n === counts[0]; });
+      if (same) return; /* 每个语言各带一份媒体，隐藏其他语言即自动去重 */
+      var anchor = list[0];
+      var seen = Object.create(null);
+      var wrapper = null;
+      media.forEach(function (nodes) {
+        nodes.forEach(function (node) {
+          var sig = Array.from(node.querySelectorAll("img,video")).map(function (m) {
+            return m.getAttribute("src") || m.getAttribute("data-hls") || "";
+          }).join("|") || node.className;
+          if (seen[sig]) { node.remove(); return; }
+          seen[sig] = true;
+          if (node.matches(".journal-media-prose")) {
+            anchor.parentNode.insertBefore(node, anchor);
+            return;
+          }
+          if (!wrapper) {
+            wrapper = document.createElement("div");
+            wrapper.className = "journal-media-prose";
+            anchor.parentNode.insertBefore(wrapper, anchor);
+          }
+          wrapper.appendChild(node);
+        });
+      });
+    });
+  }
+
+  function applyProseLanguage(l) {
+    if (!detailContent) return;
+    proseGroups(detailContent).forEach(function (group) {
+      var list = group.sections;
+      var match = null;
+      var fallback = null;
+      list.forEach(function (section) {
+        var code = sectionLangCode(section.getAttribute("lang"));
+        if (!fallback && (section.hasAttribute("data-journal-original") || code === "zh")) fallback = section;
+        if (!match && code === l) match = section;
+      });
+      var chosen = match || fallback || list[0];
+      list.forEach(function (section) { section.hidden = section !== chosen; });
+    });
+  }
+
+  function applyHeaderLanguage(l) {
+    var c = copy[l];
+    var header = detailContent && detailContent.querySelector(".journal-header");
+    if (!header) return;
+    var timeEl = header.querySelector("h1 time") || header.querySelector("time[data-journal-date]");
+    if (timeEl) {
+      if (timeEl.dataset.zhText === undefined) timeEl.dataset.zhText = timeEl.textContent;
+      var iso = (currentEntry && currentEntry.date) || timeEl.getAttribute("datetime") || "";
+      if (iso) timeEl.setAttribute("datetime", iso);
+      var localized = l === "zh" ? "" : fmtLongDate(iso, l);
+      timeEl.textContent = localized || timeEl.dataset.zhText;
+    }
+    var locationEl = header.querySelector("[data-journal-location]") || header.querySelector(".subtitle");
+    if (locationEl) {
+      if (locationEl.dataset.zhText === undefined) locationEl.dataset.zhText = locationEl.textContent;
+      var loc = currentEntry && currentEntry.locales && currentEntry.locales[l] && currentEntry.locales[l].location;
+      locationEl.textContent = (l !== "zh" && loc) ? loc : locationEl.dataset.zhText;
+    }
+    detailContent.querySelectorAll("[data-journal-copy]").forEach(function (node) {
+      var key = node.getAttribute("data-journal-copy");
+      var label = key === "location" ? c.locationLabel : key === "note" ? c.noteLabel : key === "sourceNote" ? c.sourceNoteLabel : "";
+      if (label) node.textContent = label;
+    });
+  }
+
+  /* PDF 来源载荷：正文块在 .journal-body[data-journal-block-index] 里，
+     四语文字存于 <script id="journalI18n"> 的 locales[lang].blocks（段落数一一对应）。 */
+  function applyBlockLanguage(l) {
+    if (!currentI18n || !detailContent) return;
+    var locale = currentI18n.locales && currentI18n.locales[l];
+    if (!locale || !Array.isArray(locale.blocks)) return;
+    detailContent.querySelectorAll("[data-journal-block-index]").forEach(function (block) {
+      var index = Number(block.getAttribute("data-journal-block-index"));
+      if (!isFinite(index)) return;
+      var target = block.querySelector("p") || block;
+      if (!target) return;
+      if (target.dataset.zhText === undefined) target.dataset.zhText = target.textContent;
+      var text = l === "zh" ? target.dataset.zhText : locale.blocks[index];
+      if (typeof text === "string") target.textContent = text;
+    });
+  }
+
+  function applyLanguage() {
+    var l = lang();
+    if (detailContent) {
+      applyProseLanguage(l);
+      applyHeaderLanguage(l);
+      applyBlockLanguage(l);
+    }
+    if (backBtn) backBtn.textContent = copy[l].back;
+  }
+
   /* ── lazy-load lightbox assets (idempotent) ── */
   var _lightboxLoaded = false;
   var _playerPromise = null;
@@ -227,6 +370,8 @@
   const backBtn = document.getElementById("journalBackBtn");
   let viewTransition = 0;
   let currentEntryDate = "";
+  let currentEntry = null;
+  let currentI18n = null;
 
   function routeDate() {
     const match = location.hash.match(/^#journal(?:\/|=)(\d{4}-\d{2}-\d{2})$/);
@@ -246,6 +391,8 @@
     if (!listView || !detailView) return;
     const transition = ++viewTransition;
     currentEntryDate = "";
+    currentEntry = null;
+    currentI18n = null;
     listView.classList.remove("is-leaving-back", "is-entering-back");
     if (updateRoute) setJournalRoute("", false);
     if (detailView.hidden) {
@@ -291,6 +438,7 @@
     if (!detailContent) return;
     if (window.MMVJournalPlayer) window.MMVJournalPlayer.destroyAll(detailContent);
     currentEntryDate = entry.date;
+    currentEntry = entry;
     setJournalRoute(entry.date, false);
     detailContent.innerHTML = `<p class="journal-reader__loading">${c.loading}</p>`;
     showDetail();
@@ -306,6 +454,14 @@
         /* extract article content */
         const article = doc.querySelector(".journal-article");
         if (!article) { detailContent.innerHTML = `<p class="journal-reader__error">${c.error}</p>`; return; }
+
+        /* PDF 来源载荷的四语正文存在 #journalI18n 里（它是 .journal-article 的兄弟节点）；
+           下面会把所有 script 移掉，先读出来备用。 */
+        const i18nScript = doc.querySelector("#journalI18n") || article.querySelector("#journalI18n");
+        currentI18n = null;
+        if (i18nScript) {
+          try { currentI18n = JSON.parse(i18nScript.textContent); } catch (_) { currentI18n = null; }
+        }
 
         /* strip unwanted elements */
         article.querySelectorAll(".language-switcher, .theme-toggle, .site-bar, script").forEach(el => el.remove());
@@ -336,6 +492,7 @@
         separateMixedMedia(article);
         layoutJournalMedia(article);
         layoutJournalVideos(article);
+        hoistUnsharedGroupMedia(article);
 
         /* Ensure the lightbox is ready before or just after the new article is injected. */
         ensureLightbox();
@@ -349,16 +506,8 @@
         else ensureLightbox();
         ensurePlayer(article);
 
-        /* switch prose sections to current language */
-        var proseSections = detailContent.querySelectorAll(".prose[lang]");
-        proseSections.forEach(function(sec){
-          if (sec.hasAttribute("data-journal-original")) { sec.hidden = false; return; }
-          var sectionLang = sec.getAttribute("lang") || "";
-          sec.hidden = sectionLang !== l && !sectionLang.startsWith(l);
-        });
-
-        /* update back button text */
-        if (backBtn) backBtn.textContent = c.back;
+        /* 只显示当前界面语言的正文（无译文时回退中文原文），并同步标题/地点/返回按钮 */
+        applyLanguage();
       })
       .catch(() => {
         var message = isFileProtocol() ? c.localOnly : c.error;
@@ -469,6 +618,8 @@
 
   if (listView) { listView.textContent = copy[lang()].loading; }
   window.renderJournals = render;
+  /* script.js 的 uil() 切换语言时调用，把已打开的阅读器一起换语（正文/标题/地点/返回按钮） */
+  window.MMVJournalLang = { apply: applyLanguage };
   render();
 
   window.addEventListener("hashchange", function() {
